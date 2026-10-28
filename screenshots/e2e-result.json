@@ -1,0 +1,282 @@
+{
+  "total": 55,
+  "failed": 0,
+  "results": [
+    {
+      "name": "文章正常渲染",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "点击单词弹出释义浮层",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "浮层显示\"已加入生词本\"",
+      "pass": true,
+      "detail": "已加入生词本"
+    },
+    {
+      "name": "显示音标",
+      "pass": true,
+      "detail": "2 条音标"
+    },
+    {
+      "name": "显示当前语境释义",
+      "pass": true,
+      "detail": "当前语境本文标注 维持 “A neighbour who nods in the"
+    },
+    {
+      "name": "显示固定搭配",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "已写入 localStorage 生词本",
+      "pass": true,
+      "detail": "maintain"
+    },
+    {
+      "name": "刷新后 maintain 仍在生词本",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "新文章自动标记已收藏单词",
+      "pass": true,
+      "detail": "2 处"
+    },
+    {
+      "name": "再次点击显示\"已在生词本\"",
+      "pass": true,
+      "detail": "已在生词本"
+    },
+    {
+      "name": "不重复创建词条",
+      "pass": true,
+      "detail": "1 条"
+    },
+    {
+      "name": "保留第二处上下文",
+      "pass": true,
+      "detail": "2 条上下文"
+    },
+    {
+      "name": "上下文记录不同文章",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "studies 被识别为已收藏（同一 lemma）",
+      "pass": true,
+      "detail": "1 处"
+    },
+    {
+      "name": "study 只产生一条记录",
+      "pass": true,
+      "detail": "1 条"
+    },
+    {
+      "name": "没有产生 studies 词条",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "study 有 2 处上下文",
+      "pass": true,
+      "detail": "2 处"
+    },
+    {
+      "name": "保留了实际点击的词形",
+      "pass": true,
+      "detail": "study,Studies"
+    },
+    {
+      "name": "复习页显示待复习统计",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "进入复习卡片",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "显示答案后出现释义",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "显示四个评分按钮",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "复习记录已保存",
+      "pass": true,
+      "detail": "1 条"
+    },
+    {
+      "name": "记录了评分与间隔",
+      "pass": true,
+      "detail": "maintain 0→1 天"
+    },
+    {
+      "name": "刷新后复习历史仍在",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "生词本列出已收藏单词",
+      "pass": true,
+      "detail": "3 条"
+    },
+    {
+      "name": "题目数量 3–5",
+      "pass": true,
+      "detail": "4 题"
+    },
+    {
+      "name": "未提交时不显示答案",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "提交后显示成绩",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "成绩为百分比",
+      "pass": true,
+      "detail": "75%"
+    },
+    {
+      "name": "显示原文依据",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "显示错误项分析",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "答题记录已保存",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "统计页同步理解正确率",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "统计页显示累计完成",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "统计页显示两个词数口径",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop/home 无横向溢出",
+      "pass": true,
+      "detail": "溢出 0px"
+    },
+    {
+      "name": "desktop/library 无横向溢出",
+      "pass": true,
+      "detail": "溢出 0px"
+    },
+    {
+      "name": "desktop/reader 无横向溢出",
+      "pass": true,
+      "detail": "溢出 0px"
+    },
+    {
+      "name": "ipad/home 无横向溢出",
+      "pass": true,
+      "detail": "溢出 0px"
+    },
+    {
+      "name": "ipad/library 无横向溢出",
+      "pass": true,
+      "detail": "溢出 0px"
+    },
+    {
+      "name": "ipad/reader 无横向溢出",
+      "pass": true,
+      "detail": "溢出 0px"
+    },
+    {
+      "name": "iphone/home 无横向溢出",
+      "pass": true,
+      "detail": "溢出 0px"
+    },
+    {
+      "name": "iphone/library 无横向溢出",
+      "pass": true,
+      "detail": "溢出 0px"
+    },
+    {
+      "name": "iphone/reader 无横向溢出",
+      "pass": true,
+      "detail": "溢出 0px"
+    },
+    {
+      "name": "移动端显示底部导航",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "移动端隐藏侧边栏",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "切换深色模式生效",
+      "pass": true,
+      "detail": "dark"
+    },
+    {
+      "name": "深色阅读背景为深灰而非纯黑",
+      "pass": true,
+      "detail": "rgb(31, 31, 33)"
+    },
+    {
+      "name": "段落译文开关展开译文",
+      "pass": true,
+      "detail": "0 → 3"
+    },
+    {
+      "name": "字号可调",
+      "pass": true,
+      "detail": "19px → 19.95px"
+    },
+    {
+      "name": "语法面板可展开",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "句子可通过键盘聚焦",
+      "pass": true,
+      "detail": "tabindex=0"
+    },
+    {
+      "name": "尊重 prefers-reduced-motion",
+      "pass": true,
+      "detail": "transition-duration=1e-06s"
+    },
+    {
+      "name": "浏览器控制台无报错",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "consoleErrors": []
+}

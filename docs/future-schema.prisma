@@ -1,0 +1,136 @@
+// 多用户 / 云同步版本的参考模型 —— 仅作设计参考，当前项目未接入构建。
+// 迁移路径见 docs/DATA-MODEL.md 第 6 节。
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  createdAt DateTime @default(now())
+
+  entries   VocabEntry[]
+  progress  ReadingProgress[]
+  attempts  QuizAttempt[]
+  settings  UserSettings?
+  activeDays ActiveDay[]
+}
+
+model UserSettings {
+  userId          String  @id
+  theme           String  @default("system")
+  readingTheme    String  @default("paper")
+  fontScale       Float   @default(1)
+  lineHeight      Float   @default(1.78)
+  readingFont     String  @default("serif")
+  showVocabMarks  Boolean @default(true)
+  markStyle       String  @default("underline")
+  translationMode String  @default("hidden")
+  speechRate      Float   @default(1)
+  speechVoice     String  @default("us")
+  dailyGoal       Int     @default(2)
+  onlineDictionary Boolean @default(false)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VocabEntry {
+  id            String   @id @default(cuid())
+  userId        String
+  lemma         String
+  partOfSpeech  String   @default("")
+  phoneticUk    String?
+  phoneticUs    String?
+  definitions   Json
+  contextualMeaning String?
+  masteryStatus String   @default("new")
+  masteredBy    String?
+  pendingGloss  Boolean  @default(false)
+  reps          Int      @default(0)
+  streak        Int      @default(0)
+  ease          Float    @default(2.5)
+  intervalDays  Int      @default(0)
+  lapses        Int      @default(0)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  lastReviewedAt DateTime?
+  nextReviewAt  DateTime?
+
+  occurrences VocabOccurrence[]
+  reviews     ReviewLog[]
+
+  // 与内存实现一致：一个用户的一个 lemma 只有一条记录
+  @@unique([userId, lemma])
+  @@index([userId, nextReviewAt])
+}
+
+model VocabOccurrence {
+  id          String   @id @default(cuid())
+  entryId     String
+  articleId   String
+  articleTitle String
+  surfaceForm String
+  sentence    String
+  sentenceHash String
+  contextualMeaning String?
+  encounteredAt DateTime @default(now())
+
+  entry VocabEntry @relation(fields: [entryId], references: [id], onDelete: Cascade)
+
+  // 与内存实现的去重键一致
+  @@unique([entryId, articleId, sentenceHash])
+  @@index([entryId])
+}
+
+model ReviewLog {
+  id          String   @id @default(cuid())
+  entryId     String
+  grade       String
+  prevIntervalDays Int
+  nextIntervalDays Int
+  reviewedAt  DateTime @default(now())
+
+  entry VocabEntry @relation(fields: [entryId], references: [id], onDelete: Cascade)
+  @@index([entryId, reviewedAt])
+}
+
+model ReadingProgress {
+  userId       String
+  articleId    String
+  sentenceIndex Int    @default(0)
+  ratio        Float   @default(0)
+  wordsRead    Int     @default(0)
+  startedAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  completedAt  DateTime?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  @@id([userId, articleId])
+}
+
+model QuizAttempt {
+  id           String   @id @default(cuid())
+  userId       String
+  articleId    String
+  answers      Json
+  correctCount Int
+  total        Int
+  wrongByType  Json
+  submittedAt  DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  @@index([userId, submittedAt])
+}
+
+model ActiveDay {
+  userId String
+  day    String   // 'YYYY-MM-DD'
+  user   User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  @@id([userId, day])
+}

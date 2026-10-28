@@ -1,0 +1,28 @@
+{
+  "name": "english-lab",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "English Lab — Apple 风格智能英语阅读学习平台",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --port 4173",
+    "validate:content": "node scripts/validate-articles.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "node scripts/e2e.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.9"
+  }
+}

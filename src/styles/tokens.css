@@ -1,0 +1,197 @@
+/* ==========================================================================
+   English Lab — Design Tokens
+   浅色为默认，深色跟随系统或手动切换；阅读区主题独立于界面主题
+   ========================================================================== */
+
+:root {
+  /* 字体 */
+  --font-ui: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', system-ui, sans-serif;
+  --font-reading: 'Iowan Old Style', 'Palatino Linotype', 'Source Serif Pro', Georgia,
+    'Songti SC', 'Noto Serif CJK SC', 'Times New Roman', serif;
+  --font-reading-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI',
+    'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+  --font-mono: 'SF Mono', ui-monospace, 'Cascadia Mono', Consolas, monospace;
+
+  /* 字号阶梯 */
+  --fs-11: 11px;
+  --fs-12: 12px;
+  --fs-13: 13px;
+  --fs-14: 14px;
+  --fs-15: 15px;
+  --fs-17: 17px;
+  --fs-20: 20px;
+  --fs-24: 24px;
+  --fs-28: 28px;
+  --fs-34: 34px;
+  --fs-44: 44px;
+
+  /* 间距 */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-7: 32px;
+  --sp-8: 40px;
+  --sp-9: 56px;
+  --sp-10: 72px;
+
+  /* 圆角 */
+  --r-xs: 6px;
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 16px;
+  --r-xl: 20px;
+  --r-2xl: 26px;
+  --r-full: 999px;
+
+  /* 动效 */
+  --ease-out: cubic-bezier(0.32, 0.72, 0, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --dur-1: 120ms;
+  --dur-2: 180ms;
+  --dur-3: 260ms;
+  --dur-4: 380ms;
+
+  /* 布局 */
+  --sidebar-w: 236px;
+  --sidebar-w-collapsed: 72px;
+  --panel-w: 340px;
+  --content-max: 940px;
+  --reading-max: 35em;
+  --topbar-h: 56px;
+
+  /* ---- 浅色主题 ---- */
+  --bg: #f5f5f7;
+  --bg-elevated: #ffffff;
+  --surface: #ffffff;
+  --surface-2: #fbfbfd;
+  --surface-3: #f0f0f3;
+  --text-1: #1d1d1f;
+  --text-2: #6e6e73;
+  --text-3: #86868b;
+  --text-inverse: #ffffff;
+  --accent: #007aff;
+  --accent-hover: #0071e3;
+  --accent-soft: rgba(0, 122, 255, 0.1);
+  --accent-soft-2: rgba(0, 122, 255, 0.16);
+  --separator: #e5e5ea;
+  --separator-strong: #d2d2d7;
+  --fill-quaternary: rgba(120, 120, 128, 0.08);
+  --fill-tertiary: rgba(120, 120, 128, 0.12);
+  --fill-secondary: rgba(120, 120, 128, 0.16);
+  --glass-bg: rgba(255, 255, 255, 0.72);
+  --glass-solid: rgba(255, 255, 255, 0.965);
+  --glass-border: rgba(255, 255, 255, 0.6);
+  --glass-blur: saturate(180%) blur(22px);
+
+  /* 语义色 */
+  --green: #34c759;
+  --green-soft: rgba(52, 199, 89, 0.12);
+  --orange: #ff9500;
+  --orange-soft: rgba(255, 149, 0, 0.12);
+  --red: #ff3b30;
+  --red-soft: rgba(255, 59, 48, 0.1);
+  --purple: #af52de;
+  --purple-soft: rgba(175, 82, 222, 0.12);
+  --teal: #30b0c7;
+  --teal-soft: rgba(48, 176, 199, 0.12);
+  --yellow: #ffcc00;
+
+  /* 阴影 */
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.02);
+  --shadow-2: 0 2px 8px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-3: 0 8px 24px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.05);
+  --shadow-4: 0 18px 48px rgba(0, 0, 0, 0.16), 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-inset: inset 0 0 0 0.5px rgba(0, 0, 0, 0.06);
+
+  /* 阅读区（默认纸张） */
+  --reader-bg: #fdfcfa;
+  --reader-text: #1f1f21;
+  --reader-text-soft: #6b6b70;
+  --reader-accent: #007aff;
+  --reader-size: 19px;
+  --reader-lh: 1.78;
+  --reader-font: var(--font-reading);
+  --reader-measure: 34em;
+}
+
+[data-theme='dark'] {
+  --bg: #1c1c1e;
+  --bg-elevated: #242426;
+  --surface: #242426;
+  --surface-2: #2c2c2e;
+  --surface-3: #333336;
+  --text-1: #f5f5f7;
+  --text-2: #a1a1a6;
+  --text-3: #8e8e93;
+  --text-inverse: #1d1d1f;
+  --accent: #0a84ff;
+  --accent-hover: #409cff;
+  --accent-soft: rgba(10, 132, 255, 0.16);
+  --accent-soft-2: rgba(10, 132, 255, 0.24);
+  --separator: #3a3a3c;
+  --separator-strong: #48484a;
+  --fill-quaternary: rgba(120, 120, 128, 0.14);
+  --fill-tertiary: rgba(120, 120, 128, 0.2);
+  --fill-secondary: rgba(120, 120, 128, 0.28);
+  --glass-bg: rgba(36, 36, 38, 0.72);
+  --glass-solid: rgba(38, 38, 40, 0.97);
+  --glass-border: rgba(255, 255, 255, 0.08);
+
+  --green: #30d158;
+  --green-soft: rgba(48, 209, 88, 0.16);
+  --orange: #ff9f0a;
+  --orange-soft: rgba(255, 159, 10, 0.16);
+  --red: #ff453a;
+  --red-soft: rgba(255, 69, 58, 0.16);
+  --purple: #bf5af2;
+  --purple-soft: rgba(191, 90, 242, 0.16);
+  --teal: #40c8e0;
+  --teal-soft: rgba(64, 200, 224, 0.16);
+
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-2: 0 2px 8px rgba(0, 0, 0, 0.36), 0 1px 2px rgba(0, 0, 0, 0.24);
+  --shadow-3: 0 8px 28px rgba(0, 0, 0, 0.48), 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-4: 0 20px 56px rgba(0, 0, 0, 0.6), 0 6px 16px rgba(0, 0, 0, 0.4);
+  --shadow-inset: inset 0 0 0 0.5px rgba(255, 255, 255, 0.08);
+
+  --reader-bg: #1f1f21;
+  --reader-text: #ececee;
+  --reader-text-soft: #9b9ba1;
+}
+
+/* 阅读主题（覆盖阅读区局部变量） */
+.reader[data-reader-theme='paper'] {
+  --reader-bg: #fdfcfa;
+  --reader-text: #1f1f21;
+  --reader-text-soft: #6b6b70;
+}
+.reader[data-reader-theme='plain'] {
+  --reader-bg: #ffffff;
+  --reader-text: #1d1d1f;
+  --reader-text-soft: #6e6e73;
+}
+.reader[data-reader-theme='sepia'] {
+  --reader-bg: #f7efdf;
+  --reader-text: #43382c;
+  --reader-text-soft: #7c6b58;
+}
+.reader[data-reader-theme='night'] {
+  --reader-bg: #16181c;
+  --reader-text: #e3e5e8;
+  --reader-text-soft: #9aa0a8;
+}
+[data-theme='dark'] .reader[data-reader-theme='paper'],
+[data-theme='dark'] .reader[data-reader-theme='plain'] {
+  --reader-bg: #1f1f21;
+  --reader-text: #ececee;
+  --reader-text-soft: #9b9ba1;
+}
+[data-theme='dark'] .reader[data-reader-theme='sepia'] {
+  --reader-bg: #26221c;
+  --reader-text: #e8e0d2;
+  --reader-text-soft: #a99e8b;
+}

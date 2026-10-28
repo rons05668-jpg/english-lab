@@ -1,0 +1,1947 @@
+[
+  {
+    "id": "l4-01",
+    "title": "The Hidden Bill of Instant Delivery",
+    "titleZh": "即时配送的隐性账单",
+    "level": 4,
+    "category": "经济",
+    "tags": [
+      "零工经济",
+      "平台",
+      "消费成本"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "A decade ago, having a hot meal delivered to one's door was an occasional indulgence; today it is a routine that many urban households perform several times a week.",
+            "zh": "十年前，让人把热饭菜送到家门口还只是偶尔的享受；如今，这已是许多城市家庭每周重复数次的日常。"
+          },
+          {
+            "en": "The convenience is genuine, and the sum printed on the screen is modest.",
+            "zh": "便利是实实在在的，屏幕上显示的价格也并不高。"
+          },
+          {
+            "en": "Yet the ease of the transaction conceals a set of costs that never appear on the receipt, and those costs fall on people who were never asked to agree to them.",
+            "zh": "然而，交易的轻松掩盖了一系列从不出现在账单上的成本，而这些成本由从未被征询意见的人承担。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The prevailing view among consumers is that delivery platforms have merely eliminated waste by matching idle kitchens with hungry customers.",
+            "zh": "消费者中流行的看法是，配送平台不过是通过把闲置的厨房和饥饿的顾客对接起来，消除了浪费。"
+          },
+          {
+            "en": "On this account, the rider is a flexible entrepreneur who selects his own hours, the restaurant reaches a market it could never have served alone, and the customer saves an hour of cooking.",
+            "zh": "按这种说法，骑手是自由选择工作时间的灵活创业者，餐馆得以进入它单靠自己永远无法服务的市场，顾客则省下一小时的做饭时间。"
+          },
+          {
+            "en": "Efficiency, in this telling, benefits everyone involved.",
+            "zh": "在这样的叙述里，效率让所有参与者都受益。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Closer inspection complicates that story.",
+            "zh": "再仔细看一层，这个说法就站不住了。"
+          },
+          {
+            "en": "Although platforms advertise flexible schedules, the same algorithm that assigns orders also determines income, and a rider who declines too many requests is quietly ranked lower and offered fewer jobs.",
+            "zh": "尽管平台宣传时间灵活，但派单的算法同时也决定了收入，拒绝订单过多的骑手会被悄悄降低评级，接到的活儿也随之减少。"
+          },
+          {
+            "en": "What presents itself as freedom of choice is often a narrow corridor of acceptable behaviour, monitored in real time.",
+            "zh": "看似自由的选择，往往只是一条被实时监控的、容许行为的狭窄通道。"
+          },
+          {
+            "en": "Restaurants, meanwhile, surrender a substantial share of each order to commission, so a dish that looks profitable on paper may leave the kitchen with less than it would have earned from a customer who walked in and paid full price.",
+            "zh": "与此同时，餐馆要为每笔订单交出相当大比例的佣金，于是一道账面上赚钱的菜，最后给厨房留下的收入可能还不如一位进店按原价付钱的客人。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The environmental ledger is no cleaner.",
+            "zh": "环境这本账同样不干净。"
+          },
+          {
+            "en": "A single journey that once carried twenty dinners from one kitchen is now split into twenty separate trips, each wrapped in its own packaging.",
+            "zh": "过去一趟车能从一家厨房送出二十份晚餐，如今这被拆成二十趟独立的行程，每份都裹着自己的包装。"
+          },
+          {
+            "en": "Cities inherit the congestion, the fumes and the plastic, while the bill is settled by residents who never placed an order.",
+            "zh": "城市承接了拥堵、废气和塑料垃圾，而账单由从未下过单的居民来结。"
+          },
+          {
+            "en": "These costs are not hidden because they are trivial; they are hidden because no one at the point of sale is required to count them.",
+            "zh": "这些成本被隐藏，并不是因为它们微不足道，而是因为在交易发生的那一刻，没有人被要求把它们计算进去。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "None of this argues for abandoning a service that has real value for the elderly, the ill and the time-poor.",
+            "zh": "这一切都不构成放弃这项服务的理由——它对老人、病人和没有时间的人确有价值。"
+          },
+          {
+            "en": "It argues for pricing honesty.",
+            "zh": "它要求的是定价上的诚实。"
+          },
+          {
+            "en": "If convenience is worth what it costs, consumers should be able to see the cost and decide whether they still want it, and riders should be able to see the rules that govern their income.",
+            "zh": "如果便利确实值这个代价，消费者就应当看得见代价，再决定是否还要它；骑手也应当看得见支配自己收入的规则。"
+          },
+          {
+            "en": "A market that conceals its bill does not allocate resources more efficiently; it merely postpones an argument that will eventually have to be held.",
+            "zh": "隐瞒账单的市场并没有更有效地配置资源，它只是把一场终究要进行的争论往后推。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "conceal",
+        "pos": "v.",
+        "gloss": "隐藏；隐瞒",
+        "note": "常与 cost、truth、fact 等抽象名词搭配，语气比 hide 更正式"
+      },
+      {
+        "word": "prevailing",
+        "pos": "adj.",
+        "gloss": "流行的；占主导地位的",
+        "note": "prevailing view / prevailing opinion 是议论文常见搭配"
+      },
+      {
+        "word": "commission",
+        "pos": "n.",
+        "gloss": "佣金；抽成",
+        "note": "平台经济语境中常指按订单比例收取的费用"
+      },
+      {
+        "word": "surrender",
+        "pos": "v.",
+        "gloss": "交出；让出",
+        "note": "surrender A to B，此处为被迫让出利润份额"
+      },
+      {
+        "word": "allocate",
+        "pos": "v.",
+        "gloss": "分配；配置",
+        "note": "经济学固定说法 allocate resources 配置资源"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "Although platforms advertise flexible schedules, the same algorithm that assigns orders also determines income, and a rider who declines too many requests is quietly ranked lower and offered fewer jobs.",
+        "main": "the algorithm determines income, and a rider is ranked lower and offered fewer jobs",
+        "subject": "the same algorithm / a rider who declines too many requests",
+        "predicate": "determines / is ranked and offered",
+        "object": "income / (a rider) a lower rank and fewer jobs",
+        "modifiers": "Although 引导让步状语从句；that assigns orders 为定语从句修饰 algorithm；who declines too many requests 为定语从句修饰 rider；quietly 为方式状语",
+        "logic": "先用 Although 让步承认平台的宣传，再用 and 并列第二个分句给出反证，形成'表面如此、实则相反'的转折结构",
+        "zh": "尽管平台宣传时间灵活，但派单的算法同时也决定了收入，拒绝订单过多的骑手会被悄悄降低评级，接到的活儿也随之减少。"
+      },
+      {
+        "en": "Restaurants, meanwhile, surrender a substantial share of each order to commission, so a dish that looks profitable on paper may leave the kitchen with less than it would have earned from a customer who walked in and paid full price.",
+        "main": "Restaurants surrender a share to commission, so a dish may leave the kitchen with less",
+        "subject": "Restaurants / a dish that looks profitable on paper",
+        "predicate": "surrender / may leave",
+        "object": "a substantial share of each order / the kitchen with less",
+        "modifiers": "meanwhile 为插入副词；that looks profitable on paper 为定语从句修饰 dish；than 引导比较状语从句，其中 it 指 the kitchen，who walked in and paid full price 为定语从句修饰 customer",
+        "logic": "so 引出结果，比较结构 less than 把'外卖订单'与'堂食客人'两种收入放在同一尺度上对照",
+        "zh": "与此同时，餐馆要为每笔订单交出相当大比例的佣金，于是一道账面上赚钱的菜，最后给厨房留下的收入可能还不如一位进店按原价付钱的客人。"
+      },
+      {
+        "en": "A market that conceals its bill does not allocate resources more efficiently; it merely postpones an argument that will eventually have to be held.",
+        "main": "A market does not allocate resources more efficiently; it postpones an argument",
+        "subject": "A market that conceals its bill / it",
+        "predicate": "does not allocate / postpones",
+        "object": "resources / an argument",
+        "modifiers": "that conceals its bill 为定语从句修饰 market；more efficiently 为比较状语；that will eventually have to be held 为定语从句修饰 argument，被动语态",
+        "logic": "分号连接两个独立分句，先否定流行判断（not ... more efficiently），再给出作者的替代判断（merely postpones），是典型的'否定—重述'论证",
+        "zh": "隐瞒账单的市场并没有更有效地配置资源，它只是把一场终究要进行的争论往后推。"
+      }
+    ],
+    "glossary": {
+      "decade": "n. 十年",
+      "occasional": "adj. 偶尔的",
+      "indulgence": "n. 放纵；享受",
+      "routine": "n. 常规；惯例",
+      "household": "n. 家庭；住户",
+      "convenience": "n. 便利",
+      "genuine": "adj. 真实的；名副其实的",
+      "modest": "adj. 不大的；适度的",
+      "transaction": "n. 交易",
+      "conceal": "v. 隐藏；隐瞒",
+      "receipt": "n. 收据；账单",
+      "prevailing": "adj. 流行的；占主导的",
+      "platform": "n. 平台",
+      "merely": "adv. 仅仅；只不过",
+      "eliminate": "v. 消除",
+      "waste": "n. 浪费；损耗",
+      "idle": "adj. 闲置的",
+      "entrepreneur": "n. 创业者；个体经营者",
+      "efficiency": "n. 效率",
+      "inspection": "n. 检查；审视",
+      "complicate": "v. 使复杂化",
+      "advertise": "v. 宣传；标榜",
+      "flexible": "adj. 灵活的",
+      "schedule": "n. 时间安排",
+      "algorithm": "n. 算法",
+      "assign": "v. 分配；派发",
+      "determine": "v. 决定",
+      "decline": "v. 拒绝",
+      "rank": "v. 评级；排序",
+      "freedom": "n. 自由",
+      "narrow": "adj. 狭窄的；有限的",
+      "corridor": "n. 走廊；狭长通道",
+      "acceptable": "adj. 可接受的",
+      "behaviour": "n. 行为；举止",
+      "monitor": "v. 监控",
+      "surrender": "v. 交出；让出",
+      "substantial": "adj. 相当大的",
+      "share": "n. 份额",
+      "commission": "n. 佣金；抽成",
+      "profitable": "adj. 有利可图的",
+      "ledger": "n. 账本；账簿",
+      "split": "v. 分割；拆分",
+      "packaging": "n. 包装",
+      "inherit": "v. 继承；承受",
+      "congestion": "n. 拥堵",
+      "fume": "n. 废气；烟尘",
+      "resident": "n. 居民",
+      "abandon": "v. 放弃",
+      "elderly": "adj. 年长的",
+      "honesty": "n. 诚实",
+      "govern": "v. 支配；管理",
+      "allocate": "v. 分配；配置",
+      "resource": "n. 资源",
+      "postpone": "v. 推迟",
+      "argument": "n. 争论；论证",
+      "eventually": "adv. 最终"
+    },
+    "quiz": [
+      {
+        "id": "l4-01-q1",
+        "type": "主旨大意",
+        "question": "Which of the following best states the author's main point?",
+        "options": [
+          "Delivery platforms should be banned because they exploit riders.",
+          "The costs of instant delivery are real but concealed, and should be made visible.",
+          "Restaurants earn more from delivery orders than from customers who dine in.",
+          "Consumers order delivery mainly because it is cheaper than cooking at home."
+        ],
+        "answer": 1,
+        "evidence": "Yet the ease of the transaction conceals a set of costs that never appear on the receipt, and those costs fall on people who were never asked to agree to them.",
+        "explain": "全文先承认便利，再逐层揭示骑手、餐馆、环境三方被隐藏的成本，最后落在'定价要诚实'，故主旨是成本真实却被隐藏、应当显性化。",
+        "whyWrong": [
+          "作者明确说不主张放弃这项服务，'should be banned'属于绝对化。",
+          "第三段说的是外卖订单可能不如堂食收入，方向与选项相反。",
+          "文中未把'更便宜'作为下单原因，价格只是'并不高'。"
+        ]
+      },
+      {
+        "id": "l4-01-q2",
+        "type": "细节理解",
+        "question": "According to the passage, what happens to a rider who turns down too many orders?",
+        "options": [
+          "He is offered fewer jobs because his ranking is lowered.",
+          "He is paid a higher rate to compensate for lost income.",
+          "He is removed from the platform permanently.",
+          "He is reassigned to restaurants with more orders."
+        ],
+        "answer": 0,
+        "evidence": "Although platforms advertise flexible schedules, the same algorithm that assigns orders also determines income, and a rider who declines too many requests is quietly ranked lower and offered fewer jobs.",
+        "explain": "原文直说拒单过多者被悄悄降低评级、派单减少，即'评级下降导致活儿变少'。",
+        "whyWrong": [
+          "原文说的是收入由算法决定，没有提补偿性加价。",
+          "原文是'降级减单'，不是永久封禁，属于程度夸大。",
+          "原文没有调换配送区域的说法，属于无中生有。"
+        ]
+      },
+      {
+        "id": "l4-01-q3",
+        "type": "词义推断",
+        "question": "What does the phrase 'a narrow corridor of acceptable behaviour' most probably mean?",
+        "options": [
+          "a wide range of choices that riders may freely make",
+          "a small set of actions that the system effectively permits",
+          "a physical route that riders must follow between restaurants",
+          "a training programme that teaches riders good manners"
+        ],
+        "answer": 1,
+        "evidence": "What presents itself as freedom of choice is often a narrow corridor of acceptable behaviour, monitored in real time.",
+        "explain": "corridor 本义是走廊，与 narrow 连用取'狭窄空间'的隐喻义，指系统容许的行为范围很小，与前半句'看似自由'形成反差。",
+        "whyWrong": [
+          "narrow 与 wide 直接矛盾，且与'被监控'的语境不合。",
+          "这是字面义误读，本句讨论的是行为自由度而非路线。",
+          "原文无培训之意，属于把 corridor 联想成'课堂'的臆测。"
+        ]
+      },
+      {
+        "id": "l4-01-q4",
+        "type": "逻辑推断",
+        "question": "What can be inferred about a restaurant whose delivery orders look profitable?",
+        "options": [
+          "It must raise its menu prices in order to survive.",
+          "It earns more per order than from a customer who dines in.",
+          "It may in fact earn less than it would from a walk-in customer.",
+          "It has no choice but to leave the delivery platform."
+        ],
+        "answer": 2,
+        "evidence": "Restaurants, meanwhile, surrender a substantial share of each order to commission, so a dish that looks profitable on paper may leave the kitchen with less than it would have earned from a customer who walked in and paid full price.",
+        "explain": "账面盈利与实得收入被佣金切开，作者用 may ... less than 提示：看似赚钱的订单实际可能不如堂食，这需要读者把'佣金'这一中间环节补上。",
+        "whyWrong": [
+          "提价是文中未提的对策，属于过度推断。",
+          "与原文比较方向相反，原文说外卖可能更少。",
+          "'no choice but'为绝对化表述，文中未作此断言。"
+        ]
+      },
+      {
+        "id": "l4-01-q5",
+        "type": "作者观点",
+        "question": "Which of the following best describes the author's attitude towards delivery platforms?",
+        "options": [
+          "wholly hostile, favouring their abolition",
+          "uncritically enthusiastic about their efficiency",
+          "indifferent, since the costs fall on other people",
+          "critical of concealed costs but accepting of the service itself"
+        ],
+        "answer": 3,
+        "evidence": "None of this argues for abandoning a service that has real value for the elderly, the ill and the time-poor.",
+        "explain": "作者先否定'放弃服务'，再要求'定价诚实'，态度是批评成本隐藏、但承认服务价值，属于有保留的批评。",
+        "whyWrong": [
+          "作者明确排除放弃服务的结论，'wholly hostile'过强。",
+          "全文核心正是反驳'效率人人受益'的说法。",
+          "作者通篇在为承担成本的人发声，并非漠不关心。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l4-02",
+    "title": "When Algorithms Do the Hiring",
+    "titleZh": "当算法负责招人",
+    "level": 4,
+    "category": "科技",
+    "tags": [
+      "人工智能",
+      "招聘",
+      "偏见"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "Few employers now sift through applications by hand.",
+            "zh": "如今很少有雇主还用手工方式逐份翻看求职申请。"
+          },
+          {
+            "en": "Software screens the pile before a human being sees it, ranking candidates by patterns learned from the decisions of the past.",
+            "zh": "在人看到之前，软件已经筛过这一堆材料，按从过往决策中学到的模式给候选人排序。"
+          },
+          {
+            "en": "The practice is defended as faster, cheaper and, above all, more objective than the tired manager who once trusted his instinct.",
+            "zh": "为这种做法辩护的理由是：它更快、更省钱，而且最重要的是，比那位凭直觉做判断的疲惫经理更客观。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "That defence rests on an assumption worth examining: that a model trained on past hires has learned what a good employee looks like.",
+            "zh": "这一辩护建立在一个值得推敲的假设之上：在过往录用记录上训练出来的模型，已经学会了'好员工'是什么样子。"
+          },
+          {
+            "en": "In reality it has learned what a good employee looked like, in one company, during a particular period, under the preferences of whoever did the hiring then.",
+            "zh": "实际上，它学到的是：在某一家公司、某一段时期内、在当年负责招聘者的偏好之下，好员工曾经是什么样子。"
+          },
+          {
+            "en": "If those preferences excluded a group of applicants, the model will reproduce the exclusion, and it will do so without malice, which makes the result harder to challenge.",
+            "zh": "如果那些偏好曾把某一类申请者排除在外，模型就会复制这种排除，而且是不带任何恶意地复制，这反而让结果更难被质疑。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Advocates reply that a machine cannot be biased because it ignores names and photographs.",
+            "zh": "支持者反驳说，机器不会带偏见，因为它不看姓名和照片。"
+          },
+          {
+            "en": "But bias rarely announces itself through the fields one has remembered to delete.",
+            "zh": "但偏见很少会通过那些人们记得删除的字段暴露自己。"
+          },
+          {
+            "en": "A postal code, a gap in employment, the name of a school or the wording of a hobby can carry the same information, and a model is very good at finding a proxy that a human reviewer would never have thought to use.",
+            "zh": "邮政编码、职业空档、学校名称乃至一项爱好的措辞，都能携带同样的信息，而模型非常擅长找到人类审核者根本想不到去使用的替代指标。"
+          },
+          {
+            "en": "Removing the label does not remove the pattern.",
+            "zh": "删掉标签，并不等于删掉模式。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "There is a second, quieter cost.",
+            "zh": "还有第二重代价，它更安静。"
+          },
+          {
+            "en": "A system that ranks people teaches them how to be ranked.",
+            "zh": "一个给人排序的系统，也在教人如何被排序。"
+          },
+          {
+            "en": "Applicants learn to repeat keywords, to flatten their experience into the vocabulary the software rewards, and to present a version of themselves that the model can read.",
+            "zh": "申请者学会重复关键词，学会把经历压平成软件所奖励的那套词汇，学会呈现一个模型读得懂的自己。"
+          },
+          {
+            "en": "The result may be a more uniform workforce, which is efficient for the employer and impoverishing for everyone else.",
+            "zh": "结果可能是一支更加同质化的员工队伍——这对雇主有效率，对其他人却是贫乏化。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "None of this means that human judgement was reliable; the old interviews were arbitrary in their own way.",
+            "zh": "这一切并不意味着人的判断就可靠；从前的面试也有它自己的一套随意。"
+          },
+          {
+            "en": "It means that automation does not remove judgement but relocates it, from a manager who can be questioned to a model that cannot explain itself.",
+            "zh": "它意味着自动化并没有取消判断，而是把判断挪了位置：从一位可以被追问的经理，挪到一个无法解释自己的模型。"
+          },
+          {
+            "en": "Until such systems can account for their decisions, the reasonable position is neither rejection nor surrender but supervision: treat the ranking as advice, keep a human answerable for the outcome, and audit the results for the patterns that no one intended to encode.",
+            "zh": "在这类系统能够为自己的决定给出说明之前，合理的立场既不是拒斥也不是投降，而是监督：把排序当作建议，让某个人对结果负责，并定期审查结果中那些无人有意写入的模式。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "sift",
+        "pos": "v.",
+        "gloss": "筛选；细查",
+        "note": "sift through applications 逐份翻查申请，比 check 更有'过滤'意味"
+      },
+      {
+        "word": "reproduce",
+        "pos": "v.",
+        "gloss": "复制；重现",
+        "note": "社会科学常用语，指系统性地再现某种社会结果"
+      },
+      {
+        "word": "proxy",
+        "pos": "n.",
+        "gloss": "替代指标；代理变量",
+        "note": "统计与算法语境中指间接代表某特征的变量"
+      },
+      {
+        "word": "arbitrary",
+        "pos": "adj.",
+        "gloss": "随意的；任意的",
+        "note": "含'缺乏客观依据'的贬义，常用于批评程序或标准"
+      },
+      {
+        "word": "relocate",
+        "pos": "v.",
+        "gloss": "迁移；转移位置",
+        "note": "此处为隐喻用法：把判断权挪到别处"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "In reality it has learned what a good employee looked like, in one company, during a particular period, under the preferences of whoever did the hiring then.",
+        "main": "it has learned what a good employee looked like",
+        "subject": "it",
+        "predicate": "has learned",
+        "object": "what a good employee looked like",
+        "modifiers": "what 引导宾语从句作 learned 的宾语；in one company / during a particular period / under the preferences 为三个并列介词短语作状语，层层限定范围；of whoever did the hiring then 中 whoever 引导宾语从句作 of 的宾语",
+        "logic": "三个并列状语把'学到了什么'逐层缩小到具体公司、具体时期、具体招聘者的偏好，从而瓦解'客观'这一前提",
+        "zh": "实际上，它学到的是：在某一家公司、某一段时期内、在当年负责招聘者的偏好之下，好员工曾经是什么样子。"
+      },
+      {
+        "en": "A postal code, a gap in employment, the name of a school or the wording of a hobby can carry the same information, and a model is very good at finding a proxy that a human reviewer would never have thought to use.",
+        "main": "A postal code, a gap, the name of a school or the wording of a hobby can carry the information, and a model is good at finding a proxy",
+        "subject": "A postal code, a gap in employment, the name of a school or the wording of a hobby / a model",
+        "predicate": "can carry / is",
+        "object": "the same information / proxies",
+        "modifiers": "四个并列名词短语作主语；that a human reviewer would never have thought to use 为定语从句修饰 proxies；would never have thought to 为虚拟语气结构",
+        "logic": "and 连接两个并列分句：前句列举可替代的字段，后句指出模型寻找替代指标的能力更强，共同支撑'删标签不等于删模式'",
+        "zh": "邮政编码、职业空档、学校名称乃至一项爱好的措辞，都能携带同样的信息，而模型非常擅长找到人类审核者根本想不到去使用的替代指标。"
+      },
+      {
+        "en": "Until such systems can account for their decisions, the reasonable position is neither rejection nor surrender but supervision: treat the ranking as advice, keep a human answerable for the outcome, and audit the results for the patterns that no one intended to encode.",
+        "main": "the reasonable position is neither rejection nor surrender but supervision",
+        "subject": "the reasonable position",
+        "predicate": "is",
+        "object": "neither rejection nor surrender but supervision",
+        "modifiers": "Until 引导时间状语从句；冒号后三个祈使句为 supervision 的同位解释；that no one intended to encode 为定语从句修饰 patterns",
+        "logic": "neither ... nor ... but ... 三重对照先排除两个极端，再给出中间立场；冒号后把抽象立场落成三条可执行动作",
+        "zh": "在这类系统能够为自己的决定给出说明之前，合理的立场既不是拒斥也不是投降，而是监督：把排序当作建议，让某个人对结果负责，并定期审查结果中那些无人有意写入的模式。"
+      }
+    ],
+    "glossary": {
+      "employer": "n. 雇主",
+      "sift": "v. 筛选；细查",
+      "application": "n. 申请；申请书",
+      "screen": "v. 筛查；过滤",
+      "pile": "n. 一堆；大量",
+      "candidate": "n. 候选人；应聘者",
+      "pattern": "n. 模式；规律",
+      "defence": "n. 辩护；防御",
+      "assumption": "n. 假设；前提",
+      "instinct": "n. 本能；直觉",
+      "train": "v. 训练",
+      "hire": "n. 录用；雇用",
+      "preference": "n. 偏好",
+      "exclude": "v. 排除；排斥",
+      "applicant": "n. 申请人",
+      "reproduce": "v. 复制；重现",
+      "exclusion": "n. 排除；排斥",
+      "malice": "n. 恶意",
+      "challenge": "v. 质疑；挑战",
+      "advocate": "n. 支持者；拥护者",
+      "biased": "adj. 有偏见的",
+      "announce": "v. 显露；宣布",
+      "field": "n. 字段；项",
+      "delete": "v. 删除",
+      "postal": "adj. 邮政的",
+      "code": "n. 编码；代码",
+      "gap": "n. 空档；间隔",
+      "employment": "n. 就业；受雇",
+      "wording": "n. 措辞；用词",
+      "hobby": "n. 业余爱好",
+      "information": "n. 信息",
+      "proxy": "n. 替代指标；代理变量",
+      "reviewer": "n. 审核者；评审人",
+      "label": "n. 标签",
+      "rank": "v. 排序；评级",
+      "keyword": "n. 关键词",
+      "flatten": "v. 压平；使扁平化",
+      "vocabulary": "n. 词汇；用语",
+      "reward": "v. 奖励；回报",
+      "uniform": "adj. 一致的；同质的",
+      "workforce": "n. 劳动力；员工队伍",
+      "efficient": "adj. 高效的",
+      "impoverish": "v. 使贫乏；使枯竭",
+      "judgement": "n. 判断力；判断",
+      "reliable": "adj. 可靠的",
+      "arbitrary": "adj. 随意的；武断的",
+      "automation": "n. 自动化",
+      "relocate": "v. 迁移；转移",
+      "answerable": "adj. 需负责的；应作解释的",
+      "account": "v. 说明；解释",
+      "supervision": "n. 监督；监管",
+      "audit": "v. 审查；稽核",
+      "intend": "v. 打算；有意",
+      "encode": "v. 编码；写入",
+      "rejection": "n. 拒绝；否决",
+      "surrender": "n. 投降；放弃",
+      "outcome": "n. 结果"
+    },
+    "quiz": [
+      {
+        "id": "l4-02-q1",
+        "type": "主旨大意",
+        "question": "Which of the following best summarises the passage?",
+        "options": [
+          "Algorithmic hiring is more objective than human hiring and should therefore replace it.",
+          "Hiring software reproduces past bias and moves judgement beyond scrutiny, so it needs oversight.",
+          "Applicants should refuse to apply to companies that use screening software.",
+          "Human interviewers are so unreliable that no hiring method can be fair."
+        ],
+        "answer": 1,
+        "evidence": "It means that automation does not remove judgement but relocates it, from a manager who can be questioned to a model that cannot explain itself.",
+        "explain": "全文先摆出'更客观'的辩护，再拆解其假设、指出偏见以替代指标形式残留，最后落在'监督'，主旨即偏见被复制、判断被转移，因而需要监管。",
+        "whyWrong": [
+          "这正是作者要反驳的流行观点，方向相反。",
+          "作者并未号召申请者抵制，属于把批评升级为行动号召。",
+          "'no method can be fair'为绝对化，作者仍提出可行方案。"
+        ]
+      },
+      {
+        "id": "l4-02-q2",
+        "type": "细节理解",
+        "question": "According to the passage, what has a hiring model actually learned from?",
+        "options": [
+          "From an abstract definition of professional competence.",
+          "From interviews conducted by independent experts.",
+          "From hiring decisions made in one firm at one time.",
+          "From the performance reviews of current employees."
+        ],
+        "answer": 2,
+        "evidence": "In reality it has learned what a good employee looked like, in one company, during a particular period, under the preferences of whoever did the hiring then.",
+        "explain": "原文用三个限定状语强调模型学的是特定公司、特定时期、特定招聘者偏好下的'样子'，而非普遍的能力标准。",
+        "whyWrong": [
+          "原文恰恰否定存在这种抽象定义，模型只学到具体样本。",
+          "模型训练数据是过往录用决策，不是专家面试记录。",
+          "绩效评估在文中未出现，属于无中生有。"
+        ]
+      },
+      {
+        "id": "l4-02-q3",
+        "type": "词义推断",
+        "question": "In paragraph 3, what does the word 'proxies' most nearly mean?",
+        "options": [
+          "variables that indirectly stand in for a characteristic",
+          "official certificates of professional training",
+          "colleagues who recommend an applicant",
+          "software errors that distort a candidate's score"
+        ],
+        "answer": 0,
+        "evidence": "A postal code, a gap in employment, the name of a school or the wording of a hobby can carry the same information, and a model is very good at finding a proxy that a human reviewer would never have thought to use.",
+        "explain": "前句列举邮编、空档、校名等字段，说它们'携带同样的信息'，故 proxies 指间接代表某一特征的替代变量。",
+        "whyWrong": [
+          "证书是正式资质，与'间接携带信息'的语境不符。",
+          "推荐人是有意为之的人际关系，不是数据字段。",
+          "此处谈的是模型找变量，不是程序出错。"
+        ]
+      },
+      {
+        "id": "l4-02-q4",
+        "type": "逻辑推断",
+        "question": "Why does the author insist that removing names and photographs is not enough?",
+        "options": [
+          "Because such fields are rarely stored in the database.",
+          "Because other fields can carry the same information indirectly.",
+          "Because models are trained mainly on names and photographs.",
+          "Because applicants frequently misreport their personal details."
+        ],
+        "answer": 1,
+        "evidence": "Removing the label does not remove the pattern.",
+        "explain": "作者先承认删字段的做法，再用邮编、校名等例子说明信息可以从别的字段泄漏，因此'删标签'不等于'删模式'，这正是他坚持的理由。",
+        "whyWrong": [
+          "原文未讨论字段是否被存储，属于转移话题。",
+          "与原文相反，模型正是被要求忽略这些字段。",
+          "申请者是否虚报与论证无关，属于无关项。"
+        ]
+      },
+      {
+        "id": "l4-02-q5",
+        "type": "作者观点",
+        "question": "What does the author recommend as the proper response?",
+        "options": [
+          "Abandoning all forms of automated screening.",
+          "Leaving hiring entirely to experienced managers.",
+          "Using rankings as advice while keeping humans accountable.",
+          "Requiring companies to publish the source code of their algorithms."
+        ],
+        "answer": 2,
+        "evidence": "Until such systems can account for their decisions, the reasonable position is neither rejection nor surrender but supervision: treat the ranking as advice, keep a human answerable for the outcome, and audit the results for the patterns that no one intended to encode.",
+        "explain": "作者用 neither ... nor ... but 排除拒斥与投降，提出 supervision，并在冒号后具体化为'当建议用、有人负责、定期审查'。",
+        "whyWrong": [
+          "rejection 正是作者明确排除的极端之一。",
+          "作者承认旧面试同样随意，并未主张回到过去。",
+          "公开源代码是文中未提的措施，属于过度推断。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l4-03",
+    "title": "Living Alone, Together",
+    "titleZh": "独居，却并非孤岛",
+    "level": 4,
+    "category": "社会",
+    "tags": [
+      "城市化",
+      "独居",
+      "社会连接"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "In most large cities the single-person household is no longer an anomaly; it is the fastest-growing kind of home.",
+            "zh": "在多数大城市，单人户不再是个例外，而是增长最快的一类家庭。"
+          },
+          {
+            "en": "Rising rents, later marriages and longer lives have produced millions of apartments occupied by one person, and the trend shows little sign of reversing.",
+            "zh": "房租上涨、婚龄推迟与寿命延长，造就了数以百万计由一个人居住的公寓，而这一趋势几乎没有逆转的迹象。"
+          },
+          {
+            "en": "Commentators describe this as an epidemic of loneliness, a generation retreating from one another behind closed doors.",
+            "zh": "评论者把这描述为一场孤独的流行病，一整代人退回各自紧闭的门后，彼此疏远。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The loneliness story contains truth, but it treats solitude and isolation as the same condition, and they are not.",
+            "zh": "孤独叙事有其真实成分，但它把独处与孤立当成同一种处境，而两者并不相同。"
+          },
+          {
+            "en": "Solitude is the experience of being alone; isolation is the absence of anyone to call.",
+            "zh": "独处是独自一人的体验；孤立则是无人可打电话求助。"
+          },
+          {
+            "en": "A person can live by herself and remain deeply connected, while a person surrounded by colleagues can be entirely alone.",
+            "zh": "一个人可以独自生活却与他人紧密相连，也可以在同事环绕之中彻底孤单。"
+          },
+          {
+            "en": "Confusing the two leads to policies that count apartments instead of relationships.",
+            "zh": "混淆这两者，会导致政策去统计公寓的数量，而不是关系的质量。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "What has actually changed is not the desire for company but the way it is organised.",
+            "zh": "真正改变的并不是人们对陪伴的渴望，而是陪伴的组织方式。"
+          },
+          {
+            "en": "Earlier generations met because they had to: the same street, the same union, the same parish, the same queue at the same shop.",
+            "zh": "上一辈人相遇是因为不得不相遇：同一条街、同一个工会、同一个教区、同一家店门前的同一支队伍。"
+          },
+          {
+            "en": "Those structures have thinned, and what replaced them is voluntary, scheduled and often paid for, from the running club to the co-working desk to the supper club.",
+            "zh": "这些结构已经变得稀薄，取而代之的是自愿参加、需要预约、往往还要付费的场合，从跑步俱乐部到共享办公桌再到晚餐社群。"
+          },
+          {
+            "en": "Connection has become something one arranges rather than something one inherits, which is at once more free and more fragile.",
+            "zh": "连接从一种继承而来的东西，变成一种需要自己去安排的东西，这既更自由，也更脆弱。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The fragility is unevenly distributed.",
+            "zh": "这种脆弱性分布得并不均匀。"
+          },
+          {
+            "en": "For the young and the affluent, living alone is a stage, a preference, even a luxury.",
+            "zh": "对年轻人和富裕者而言，独居是一个阶段、一种偏好，甚至是一种奢侈。"
+          },
+          {
+            "en": "For the old, the poorly paid and the newly arrived, it is often a trap, because the networks that once caught them have been withdrawn along with the services that sustained them.",
+            "zh": "对老人、低收入者和新到城市的人而言，独居往往是一个陷阱，因为曾经接住他们的网络，已随着支撑它们的服务一同撤走。"
+          },
+          {
+            "en": "A housing market that rewards smaller units makes the first group comfortable and the second group invisible.",
+            "zh": "一个奖励小户型的住房市场，让第一群人过得舒适，却让第二群人变得不可见。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The sensible response is not to mourn the household of the past, which was often less warm than nostalgia suggests.",
+            "zh": "明智的回应不是哀悼过去的家庭形态——它往往没有怀旧情绪所暗示的那样温暖。"
+          },
+          {
+            "en": "It is to build the infrastructure of voluntary connection: public rooms that cost nothing to enter, streets that make an accidental meeting likely, and services that reach the people who cannot arrange their own company.",
+            "zh": "而是去建设自愿连接所需的基础设施：免费进入的公共空间、让偶遇更可能发生的街道，以及能够触达那些无力自行安排陪伴者的服务。"
+          },
+          {
+            "en": "A city can be dense with people and still be lonely; density is a precondition of community, never a substitute for it.",
+            "zh": "一座城市可以人烟稠密却依然孤独；密度是共同体的前提条件，却从不是它的替代品。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "anomaly",
+        "pos": "n.",
+        "gloss": "异常现象；例外",
+        "note": "常用于描述偏离常规的社会现象"
+      },
+      {
+        "word": "solitude",
+        "pos": "n.",
+        "gloss": "独处；独居",
+        "note": "中性词，与贬义的 isolation 形成对照"
+      },
+      {
+        "word": "fragile",
+        "pos": "adj.",
+        "gloss": "脆弱的",
+        "note": "常与 relationship、connection、system 搭配"
+      },
+      {
+        "word": "affluent",
+        "pos": "adj.",
+        "gloss": "富裕的",
+        "note": "书面语，比 rich 更正式"
+      },
+      {
+        "word": "infrastructure",
+        "pos": "n.",
+        "gloss": "基础设施",
+        "note": "此处由物理设施引申为社会支持条件"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "Confusing the two leads to policies that count apartments instead of relationships.",
+        "main": "Confusing the two leads to policies",
+        "subject": "Confusing the two",
+        "predicate": "leads to",
+        "object": "policies",
+        "modifiers": "动名词短语 Confusing the two 作主语；that count apartments instead of relationships 为定语从句修饰 policies；instead of 引出被舍弃的对照项",
+        "logic": "动名词作主语使批评显得客观；instead of 把'数公寓'与'数关系'并置，点明政策错位的实质",
+        "zh": "混淆这两者，会导致政策去统计公寓的数量，而不是关系的质量。"
+      },
+      {
+        "en": "Connection has become something one arranges rather than something one inherits, which is at once more free and more fragile.",
+        "main": "Connection has become something rather than something",
+        "subject": "Connection",
+        "predicate": "has become",
+        "object": "something one arranges / something one inherits",
+        "modifiers": "两个 something 后各接省略 that 的定语从句 one arranges / one inherits；rather than 表取舍对照；which 引导非限制性定语从句，指代整个主句内容",
+        "logic": "rather than 构成'安排 vs 继承'的对立；which 从句对前文作整体评价，用 at once ... and ... 给出双重判断，避免单向褒贬",
+        "zh": "连接从一种继承而来的东西，变成一种需要自己去安排的东西，这既更自由，也更脆弱。"
+      },
+      {
+        "en": "It is to build the infrastructure of voluntary connection: public rooms that cost nothing to enter, streets that make an accidental meeting likely, and services that reach the people who cannot arrange their own company.",
+        "main": "It is to build the infrastructure",
+        "subject": "It",
+        "predicate": "is",
+        "object": "to build the infrastructure of voluntary connection",
+        "modifiers": "冒号后三个并列名词短语（public rooms / streets / services）各带一个 that 定语从句作解释；最后一个从句中又嵌套 who cannot arrange their own company 修饰 the people",
+        "logic": "主句给出抽象主张，冒号后用三个具体设施落地，形成'主张—例证'结构；末句从句嵌套体现层层限定的书面语特征",
+        "zh": "而是去建设自愿连接所需的基础设施：免费进入的公共空间、让偶遇更可能发生的街道，以及能够触达那些无力自行安排陪伴者的服务。"
+      }
+    ],
+    "glossary": {
+      "household": "n. 家庭；住户",
+      "anomaly": "n. 异常现象；例外",
+      "rent": "n. 租金",
+      "apartment": "n. 公寓",
+      "trend": "n. 趋势",
+      "sign": "n. 迹象；征兆",
+      "commentator": "n. 评论者",
+      "epidemic": "n. 流行病；蔓延之势",
+      "generation": "n. 一代人",
+      "retreat": "v. 退却；退缩",
+      "solitude": "n. 独处；独居",
+      "isolation": "n. 孤立；隔离",
+      "condition": "n. 状况；处境",
+      "absence": "n. 缺乏；不存在",
+      "connected": "adj. 有联系的；有归属的",
+      "surround": "v. 围绕；包围",
+      "lead": "v. 导致；通向",
+      "count": "v. 计数；统计",
+      "relationship": "n. 关系",
+      "desire": "n. 渴望",
+      "organise": "v. 组织；安排",
+      "union": "n. 工会；联合会",
+      "parish": "n. 教区",
+      "queue": "n. 队列",
+      "structure": "n. 结构",
+      "thin": "v. 变稀薄；减少",
+      "voluntary": "adj. 自愿的",
+      "schedule": "v. 安排时间",
+      "desk": "n. 桌子；工位",
+      "supper": "n. 晚餐",
+      "connection": "n. 连接；人际联系",
+      "arrange": "v. 安排",
+      "inherit": "v. 继承",
+      "fragile": "adj. 脆弱的",
+      "fragility": "n. 脆弱性",
+      "unevenly": "adv. 不均衡地",
+      "distribute": "v. 分布；分配",
+      "affluent": "adj. 富裕的",
+      "preference": "n. 偏好",
+      "luxury": "n. 奢侈；奢侈品",
+      "trap": "n. 陷阱",
+      "network": "n. 网络；关系网",
+      "withdraw": "v. 撤回；撤销",
+      "sustain": "v. 支撑；维持",
+      "housing": "n. 住房",
+      "reward": "v. 奖励；回报",
+      "unit": "n. 单元；住宅单元",
+      "invisible": "adj. 看不见的；被忽视的",
+      "sensible": "adj. 明智的；合理的",
+      "mourn": "v. 哀悼；惋惜",
+      "nostalgia": "n. 怀旧",
+      "infrastructure": "n. 基础设施",
+      "accidental": "adj. 偶然的",
+      "dense": "adj. 稠密的",
+      "density": "n. 密度",
+      "precondition": "n. 前提条件",
+      "substitute": "n. 替代品",
+      "community": "n. 共同体；社区"
+    },
+    "quiz": [
+      {
+        "id": "l4-03-q1",
+        "type": "主旨大意",
+        "question": "Which of the following best captures the author's argument?",
+        "options": [
+          "Single-person households are the main cause of urban loneliness.",
+          "Living alone is neither inherently lonely nor socially harmless, and cities should support voluntary connection.",
+          "Older people should not be allowed to live on their own.",
+          "The traditional household was warmer and should be restored."
+        ],
+        "answer": 1,
+        "evidence": "The loneliness story contains truth, but it treats solitude and isolation as the same condition, and they are not.",
+        "explain": "作者先区分独处与孤立，再指出连接方式的改变与脆弱性的不均分布，最后提出建设'自愿连接的基础设施'，故答案为既非天然孤独、也非无害，需要公共支持。",
+        "whyWrong": [
+          "作者明确反对把独居直接等同于孤独，因果关系被简化。",
+          "文中没有主张限制老人独居，属于过度干预的推断。",
+          "作者说旧式家庭'往往没有怀旧所暗示的那样温暖'，并未主张恢复。"
+        ]
+      },
+      {
+        "id": "l4-03-q2",
+        "type": "细节理解",
+        "question": "What does the author say replaced the older structures of social contact?",
+        "options": [
+          "Neighbourhood institutions such as unions and parishes.",
+          "Family arrangements inherited from earlier generations.",
+          "Voluntary, scheduled and often paid-for gatherings.",
+          "Government programmes that assign people to communities."
+        ],
+        "answer": 2,
+        "evidence": "Those structures have thinned, and what replaced them is voluntary, scheduled and often paid for, from the running club to the co-working desk to the supper club.",
+        "explain": "原文直接给出替代形态的三个特征：自愿、需预约、常需付费，并举例跑步俱乐部、共享办公、晚餐社群。",
+        "whyWrong": [
+          "工会与教区正是'变稀薄'的旧结构，方向相反。",
+          "继承是作者用来描述过去的方式，不是替代物。",
+          "政府项目在文中未提及，属于无中生有。"
+        ]
+      },
+      {
+        "id": "l4-03-q3",
+        "type": "词义推断",
+        "question": "Which of the following is closest in meaning to the word 'thinned' in paragraph 3?",
+        "options": [
+          "became less numerous and less effective",
+          "became physically narrower",
+          "were formally abolished by law",
+          "grew more exclusive and selective"
+        ],
+        "answer": 0,
+        "evidence": "Those structures have thinned, and what replaced them is voluntary, scheduled and often paid for, from the running club to the co-working desk to the supper club.",
+        "explain": "thinned 与后文'被别的东西取代'呼应，指这些社会结构在数量与作用上都被削弱，而非物理变窄。",
+        "whyWrong": [
+          "此处是隐喻用法，谈社会结构而非实体宽度。",
+          "文中未提法律废除，程度与性质都不符。",
+          "排他性提高意味着影响力增强，与'被取代'矛盾。"
+        ]
+      },
+      {
+        "id": "l4-03-q4",
+        "type": "逻辑推断",
+        "question": "Why does the author say that a housing market rewarding smaller units makes the second group invisible?",
+        "options": [
+          "Because small units are more expensive to build than large ones.",
+          "Because people in small units are less likely to be counted in surveys.",
+          "Because the housing they can afford separates them from the support they need.",
+          "Because they prefer to live alone rather than with relatives."
+        ],
+        "answer": 2,
+        "evidence": "A housing market that rewards smaller units makes the first group comfortable and the second group invisible.",
+        "explain": "前一句已说明第二群人的网络'随服务一同撤走'，独居小户型使他们更缺乏支撑，于是需求在公共视野中消失，这是'不可见'的实质。",
+        "whyWrong": [
+          "建造成本与'不可见'的论证无关。",
+          "文中谈的是社会支持的缺失，不是统计口径问题。",
+          "作者说对老人和低收入者独居常是'陷阱'，并非偏好。"
+        ]
+      },
+      {
+        "id": "l4-03-q5",
+        "type": "作者观点",
+        "question": "What is the author's attitude towards the traditional household?",
+        "options": [
+          "Nostalgic, regarding it as a model worth restoring.",
+          "Dismissive, seeing no value in it at all.",
+          "Balanced, recognising its limits while not idealising it.",
+          "Indifferent, since it has no bearing on the argument."
+        ],
+        "answer": 2,
+        "evidence": "The sensible response is not to mourn the household of the past, which was often less warm than nostalgia suggests.",
+        "explain": "作者承认不该为旧式家庭哀悼，理由是它'往往没有怀旧所暗示的那样温暖'，态度是承认其局限、拒绝理想化，属平衡评价。",
+        "whyWrong": [
+          "作者明确说不应哀悼，与'视为范本'相反。",
+          "作者只是指出其不完美，并未全盘否定。",
+          "旧式家庭是论证的对照项，作者有明确判断，并非漠然。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l4-04",
+    "title": "The Credential Arms Race",
+    "titleZh": "文凭的军备竞赛",
+    "level": 4,
+    "category": "教育",
+    "tags": [
+      "学历",
+      "就业",
+      "教育成本"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "Every few years a new qualification is declared essential for a job that previously required none.",
+            "zh": "每隔几年，就会有一项新的资质被宣布为某项工作必不可少，而这项工作此前并不要求任何资质。"
+          },
+          {
+            "en": "A profession that once accepted experience now asks for a certificate; a certificate that once sufficed now asks for a degree; a degree that once opened doors now asks for a further year of study.",
+            "zh": "曾经认可经验的行业现在要证书；曾经够用的证书现在要学位；曾经能敲开门的学位现在要再读一年。"
+          },
+          {
+            "en": "Each step is defensible on its own, and the sum of the steps is a queue that grows longer for no reason anyone can name.",
+            "zh": "每一步单独看都站得住脚，可把这些步加起来，就成了一条没人说得清为何越来越长的队伍。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Employers explain the trend as a response to complexity.",
+            "zh": "雇主把这一趋势解释为对复杂性的回应。"
+          },
+          {
+            "en": "If the work is more demanding, the argument runs, the entry requirements must rise to match it, and a certificate is a cheap way to be confident that a stranger has at least been taught the basics.",
+            "zh": "这种说法认为，如果工作要求更高，准入门槛就必须相应提高，而证书是一种廉价的办法，可以确信一个陌生人至少被教过基础。"
+          },
+          {
+            "en": "On this view credentials are a signal of competence, and the market is simply paying for better information.",
+            "zh": "按这种看法，文凭是能力的信号，市场不过是在为更好的信息付费。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The signal, however, is only as good as the thing it signals.",
+            "zh": "然而，信号的好坏，取决于它所标示的东西。"
+          },
+          {
+            "en": "When a qualification becomes common, it stops distinguishing anyone, and employers begin to demand the next one up the ladder.",
+            "zh": "当一种资质变得普遍，它就不再能区分任何人，雇主于是开始要求梯子上更高一级的那一个。"
+          },
+          {
+            "en": "The result is inflation: the same job, the same pay, a longer and more expensive preparation, and a heavier debt carried by the people with the least capital to absorb it.",
+            "zh": "结果是通货膨胀：同样的工作、同样的薪酬，却要更漫长更昂贵的准备，以及由最没有本钱承受的人背负的更重的债务。"
+          },
+          {
+            "en": "Those who cannot afford the extra year are not less able; they are simply screened out earlier, and the labour market reads their absence as a lack of ability.",
+            "zh": "负担不起那多出来一年的人并非能力更差；他们只是更早被筛掉，而劳动力市场把他们的缺席读成了能力不足。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "There is a further cost that rarely enters the calculation.",
+            "zh": "还有一项代价很少被纳入计算。"
+          },
+          {
+            "en": "Years spent acquiring credentials are years not spent learning a craft, and the skills that matter most in most jobs are acquired by doing the work badly at first under someone who notices.",
+            "zh": "用来取得文凭的那些年，就是没用来学一门手艺的那些年；而多数工作中最重要的技能，是在一个会留意你的人手下先把活干得很糟才学到的。"
+          },
+          {
+            "en": "A system that delays the first day of real practice may produce applicants who are better at being selected and worse at being useful.",
+            "zh": "一个把真正实践的第一天不断往后推的体系，可能培养出更擅长被选中、却更不擅长有用的申请者。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Reform is difficult because no single employer can safely lower its standards while its rivals do not.",
+            "zh": "改革之所以困难，是因为没有哪一家雇主能在对手不降标准时安全地降低自己的标准。"
+          },
+          {
+            "en": "That is the structure of a collective action problem, and it will not be solved by exhortation.",
+            "zh": "这是集体行动难题的典型结构，靠呼吁是解决不了的。"
+          },
+          {
+            "en": "What can change is the alternative route: apprenticeships that pay while they teach, professional examinations that test practice rather than memory, and hiring that asks what a candidate has made rather than which certificate she holds.",
+            "zh": "能够改变的是另一条路径：边教边付薪的学徒制、考实践而非考记忆的职业考试，以及询问候选人做过什么、而非持有什么证书的招聘。"
+          },
+          {
+            "en": "A labour market that can only read certificates will keep demanding longer ones; one that can read work will need fewer.",
+            "zh": "一个只读得懂证书的劳动力市场会不断要求更长的证书；而一个读得懂工作实际的市场，需要的会少得多。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "credential",
+        "pos": "n.",
+        "gloss": "资历证明；文凭",
+        "note": "常指学位、证书等用以证明资格的凭证"
+      },
+      {
+        "word": "defensible",
+        "pos": "adj.",
+        "gloss": "站得住脚的；可辩护的",
+        "note": "常用于评价论点、决定是否经得起质疑"
+      },
+      {
+        "word": "inflation",
+        "pos": "n.",
+        "gloss": "膨胀；通货膨胀",
+        "note": "此处为隐喻，指资格贬值、门槛虚高"
+      },
+      {
+        "word": "screen out",
+        "pos": "phr.",
+        "gloss": "筛选掉；淘汰",
+        "note": "招聘语境中指在初筛阶段被排除"
+      },
+      {
+        "word": "exhortation",
+        "pos": "n.",
+        "gloss": "劝告；呼吁",
+        "note": "含'只动嘴、无实效'的暗示"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "A profession that once accepted experience now asks for a certificate; a certificate that once sufficed now asks for a degree; a degree that once opened doors now asks for a further year of study.",
+        "main": "A profession asks for a certificate; a certificate asks for a degree; a degree asks for a further year",
+        "subject": "A profession / a certificate / a degree",
+        "predicate": "asks for / asks for / asks for",
+        "object": "a certificate / a degree / a further year of study",
+        "modifiers": "三个 that 引导的定语从句分别修饰 profession、certificate、degree，且均由 once 引出过去与现在的对比",
+        "logic": "三个分句用分号排比，前一句的宾语成为后一句的主语，形成链条式递进，直观呈现门槛不断上移的过程",
+        "zh": "曾经认可经验的行业现在要证书；曾经够用的证书现在要学位；曾经能敲开门的学位现在要再读一年。"
+      },
+      {
+        "en": "The result is inflation: the same job, the same pay, a longer and more expensive preparation, and a heavier debt carried by the people with the least capital to absorb it.",
+        "main": "The result is inflation",
+        "subject": "The result",
+        "predicate": "is",
+        "object": "inflation",
+        "modifiers": "冒号后为四个并列名词短语作同位解释；carried by the people 为过去分词短语作后置定语修饰 debt；with the least capital to absorb it 为介词短语修饰 the people，其中 to absorb it 为不定式作定语",
+        "logic": "先用一个抽象名词 inflation 定性，再用'同、同、更长、更重'的并列对照把抽象概念具体化，末项把负担指向最弱势者，暗含评价",
+        "zh": "结果是通货膨胀：同样的工作、同样的薪酬，却要更漫长更昂贵的准备，以及由最没有本钱承受的人背负的更重的债务。"
+      },
+      {
+        "en": "A labour market that can only read certificates will keep demanding longer ones; one that can read work will need fewer.",
+        "main": "A labour market will keep demanding longer ones; one will need fewer",
+        "subject": "A labour market that can only read certificates / one that can read work",
+        "predicate": "will keep demanding / will need",
+        "object": "longer ones / fewer",
+        "modifiers": "两个 that 定语从句分别修饰 a labour market 与 one（替代词，指 a labour market）；ones 替代 certificates，fewer 后省略 certificates",
+        "logic": "分号连接两个结构对称的分句，用 read 一词的双关（读证书 / 读工作实际）构成对照，末句以省略收束，语气克制而结论明确",
+        "zh": "一个只读得懂证书的劳动力市场会不断要求更长的证书；而一个读得懂工作实际的市场，需要的会少得多。"
+      }
+    ],
+    "glossary": {
+      "qualification": "n. 资格；资质",
+      "essential": "adj. 必不可少的",
+      "previously": "adv. 先前；此前",
+      "profession": "n. 行业；职业",
+      "certificate": "n. 证书",
+      "suffice": "v. 足够；满足需要",
+      "degree": "n. 学位",
+      "defensible": "adj. 站得住脚的",
+      "queue": "n. 队列；排队",
+      "employer": "n. 雇主",
+      "trend": "n. 趋势",
+      "complexity": "n. 复杂性",
+      "demanding": "adj. 要求高的；费力的",
+      "requirement": "n. 要求；条件",
+      "confident": "adj. 确信的",
+      "stranger": "n. 陌生人",
+      "basics": "n. 基础知识",
+      "view": "n. 观点；看法",
+      "credential": "n. 资历证明；文凭",
+      "signal": "n. 信号",
+      "competence": "n. 能力；胜任",
+      "distinguish": "v. 区分；辨别",
+      "demand": "v. 要求",
+      "ladder": "n. 梯子；等级阶梯",
+      "inflation": "n. 膨胀；通货膨胀",
+      "preparation": "n. 准备",
+      "debt": "n. 债务",
+      "capital": "n. 资本；本钱",
+      "absorb": "v. 承受；吸收",
+      "screen": "v. 筛选；淘汰",
+      "labour": "n. 劳动力",
+      "absence": "n. 缺席；不存在",
+      "ability": "n. 能力",
+      "calculation": "n. 计算；盘算",
+      "acquire": "v. 获得；取得",
+      "craft": "n. 手艺；技艺",
+      "badly": "adv. 糟糕地",
+      "notice": "v. 注意到",
+      "delay": "v. 推迟；延误",
+      "practice": "n. 实践；练习",
+      "applicant": "n. 申请人",
+      "select": "v. 挑选；选拔",
+      "reform": "n. 改革",
+      "safely": "adv. 安全地",
+      "standard": "n. 标准",
+      "rival": "n. 竞争对手",
+      "collective": "adj. 集体的",
+      "exhortation": "n. 劝告；呼吁",
+      "alternative": "adj. 替代的；另一条路的",
+      "apprenticeship": "n. 学徒期；学徒制",
+      "examination": "n. 考试；检验",
+      "memory": "n. 记忆",
+      "candidate": "n. 候选人；应聘者"
+    },
+    "quiz": [
+      {
+        "id": "l4-04-q1",
+        "type": "主旨大意",
+        "question": "Which of the following best states the author's main argument?",
+        "options": [
+          "Employers are right to raise entry requirements as work becomes more complex.",
+          "Credential requirements keep rising without making workers more capable, and alternative routes should be developed.",
+          "Universities should shorten their degree programmes to reduce student debt.",
+          "Apprenticeships are always superior to formal education."
+        ],
+        "answer": 1,
+        "evidence": "A labour market that can only read certificates will keep demanding longer ones; one that can read work will need fewer.",
+        "explain": "全文先呈现门槛层层上移的现象，再拆解'能力信号'的说法，指出文凭膨胀与技能获得的错位，最后提出学徒制等替代路径，故答案为门槛虚高且需另辟路径。",
+        "whyWrong": [
+          "这正是作者在第二段引出、随后逐层反驳的观点。",
+          "作者批评的是门槛膨胀，并未主张缩短学制，属于另提对策。",
+          "'always superior'为绝对化，作者只说是'另一条路径'。"
+        ]
+      },
+      {
+        "id": "l4-04-q2",
+        "type": "细节理解",
+        "question": "According to the passage, what happens when a qualification becomes common?",
+        "options": [
+          "It becomes a more reliable signal of competence.",
+          "Employers stop using qualifications in hiring.",
+          "It loses its power to distinguish applicants, so a higher one is demanded.",
+          "It raises the pay of those who hold it."
+        ],
+        "answer": 2,
+        "evidence": "When a qualification becomes common, it stops distinguishing anyone, and employers begin to demand the next one up the ladder.",
+        "explain": "原文用 stops distinguishing 与 demand the next one 直接说明：普及即失去区分力，门槛随之上移。",
+        "whyWrong": [
+          "普及恰恰削弱其信号价值，与原文相反。",
+          "原文说雇主转而要求更高一级，而非放弃使用。",
+          "原文强调'同样的薪酬'，并未提涨薪。"
+        ]
+      },
+      {
+        "id": "l4-04-q3",
+        "type": "词义推断",
+        "question": "What does the word 'inflation' in paragraph 3 mean as used in the passage?",
+        "options": [
+          "a general rise in prices across the economy",
+          "an expansion of qualifications that devalues them",
+          "an increase in the number of available jobs",
+          "a growth in government spending on education"
+        ],
+        "answer": 1,
+        "evidence": "The result is inflation: the same job, the same pay, a longer and more expensive preparation, and a heavier debt carried by the people with the least capital to absorb it.",
+        "explain": "冒号后的解释是关键：工作与薪酬不变，准备却更长更贵，说明'膨胀'发生在资格本身，导致其贬值，这是经济学词义的隐喻移植。",
+        "whyWrong": [
+          "这是经济学本义，但冒号后的解释指向资格而非物价。",
+          "岗位数量增加不会造成'同样的工作、同样的薪酬'。",
+          "教育支出在冒号后未被提及，属于无关项。"
+        ]
+      },
+      {
+        "id": "l4-04-q4",
+        "type": "逻辑推断",
+        "question": "What does the author imply about those who cannot afford the extra year of study?",
+        "options": [
+          "They are genuinely less capable than those who can.",
+          "They are excluded by cost rather than by ability, yet judged as lacking ability.",
+          "They will eventually be hired because employers value experience.",
+          "They are better prepared for practical work than graduates."
+        ],
+        "answer": 1,
+        "evidence": "Those who cannot afford the extra year are not less able; they are simply screened out earlier, and the labour market reads their absence as a lack of ability.",
+        "explain": "作者用 not less able 与 reads their absence as a lack of ability 构成对照：被排除的原因是支付能力，而市场却误读为能力不足，这正是隐含的批评。",
+        "whyWrong": [
+          "原文明确说他们'并非能力更差'，方向相反。",
+          "文中未给任何'最终会被录用'的乐观预期。",
+          "作者虽推崇实践，但未断言这些人实践准备更好。"
+        ]
+      },
+      {
+        "id": "l4-04-q5",
+        "type": "作者观点",
+        "question": "Why does the author think reform will not be achieved by exhortation?",
+        "options": [
+          "Because employers do not understand the problem.",
+          "Because no single employer can lower standards alone without being disadvantaged.",
+          "Because governments refuse to regulate hiring practices.",
+          "Because applicants prefer to collect more certificates."
+        ],
+        "answer": 1,
+        "evidence": "Reform is difficult because no single employer can safely lower its standards while its rivals do not.",
+        "explain": "作者把问题定性为集体行动难题：单方降标准会让该雇主在竞争中吃亏，因此劝说无效，需要改变路径而非靠呼吁。",
+        "whyWrong": [
+          "文中说雇主'把趋势解释为对复杂性的回应'，是立场不同而非不理解。",
+          "政府监管在文中未讨论，属于无中生有。",
+          "申请者是被动适应规则者，文中未说他们偏好如此。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l4-05",
+    "title": "The Second Life of Clothes",
+    "titleZh": "衣物的第二次生命",
+    "level": 4,
+    "category": "环境",
+    "tags": [
+      "二手消费",
+      "可持续",
+      "反弹效应"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "Second-hand clothing was once a marker of poverty; it is now a category with its own marketing budget.",
+            "zh": "二手衣曾经是贫穷的标志，如今却成了一个拥有独立营销预算的品类。"
+          },
+          {
+            "en": "Resale platforms report double-digit growth, charity shops have acquired a fashionable vocabulary, and a generation raised to buy less has discovered that buying used feels like a compromise nobody has to apologise for.",
+            "zh": "转售平台报出两位数增长，慈善商店也换上了一套时髦的说辞，而被教导要少买的一代人发现，买二手像是一种无需道歉的妥协。"
+          },
+          {
+            "en": "The environmental case is easy to state: every garment worn again is a garment not manufactured, and manufacturing is the expensive part.",
+            "zh": "环保方面的理由很容易讲清楚：每件被再穿一次的衣服，就是一件没有被新造出来的衣服，而制造才是最费资源的那一环。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "That case is weaker than it appears.",
+            "zh": "这个理由比看上去要弱。"
+          },
+          {
+            "en": "Resale does not necessarily reduce production; it can subsidise it.",
+            "zh": "转售未必减少生产，它可能是在补贴生产。"
+          },
+          {
+            "en": "A seller who recovers part of the price of last season's coat has more money, and often more justification, to buy this season's.",
+            "zh": "一个收回上季大衣部分价钱的卖家，手里有了更多钱，往往也有了更多理由去买本季的新款。"
+          },
+          {
+            "en": "Economists call this a rebound effect, and in fashion it is not a technicality but the business model: platforms profit from turnover, not from thrift.",
+            "zh": "经济学家称之为反弹效应，而在时尚业，它不是无关紧要的细节，而是商业模式本身：平台靠周转获利，而不是靠节俭。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Nor is the logistics free.",
+            "zh": "物流也不是免费的。"
+          },
+          {
+            "en": "Each item must be photographed, listed, stored, shipped, inspected, sometimes returned, and shipped again.",
+            "zh": "每件物品都要拍照、上架、仓储、运输、检验，有时还要被退回，然后再运一次。"
+          },
+          {
+            "en": "For a cheap shirt, the emissions of that second journey can approach those of making a new one, and the parcel that arrives at the door carries packaging the original purchase never required.",
+            "zh": "对一件廉价衬衫来说，这第二趟行程的排放可能接近新造一件的水平，而送到门口的那个包裹还带着原购时根本不需要的包装。"
+          },
+          {
+            "en": "The gains are real for durable goods such as coats and furniture; they shrink quickly at the disposable end of the market.",
+            "zh": "对大衣、家具这类耐用品，收益是真实的；在市场的一次性低价端，这些收益会迅速缩水。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "None of this makes resale a fraud.",
+            "zh": "这一切并不使转售成为一场骗局。"
+          },
+          {
+            "en": "It does mean that the environmental benefit belongs to a specific behaviour, wearing an item for years, rather than to a general habit, buying it second-hand.",
+            "zh": "它确实意味着，环保收益属于一种具体行为——把一件东西穿用好多年，而不属于一种笼统的习惯——买二手。"
+          },
+          {
+            "en": "The distinction matters because the first is a change in how people relate to things and the second is a change in where they buy them, and only the first survives contact with a growing economy.",
+            "zh": "这个区别很重要，因为前者改变的是人与物品的关系，后者改变的只是购买地点，而只有前者能在经济增长的冲击下站得住。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The uncomfortable conclusion is that the most sustainable garment is not the resold one but the boring one: bought once, repaired twice, worn until it is unfashionable and then worn a little longer.",
+            "zh": "令人不适的结论是：最可持续的那件衣服不是被转售的那件，而是那件无聊的——买一次，修两次，穿到它过时，然后再多穿一阵。"
+          },
+          {
+            "en": "That behaviour has no advertising budget, no growth story and nothing to sell, which is precisely why it is unlikely to be promoted by the industry that would have to live on it.",
+            "zh": "这种行为没有广告预算，没有增长故事，也没有东西可卖，而这恰恰是它不太可能被那个不得不靠它生存的行业所推广的原因。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "resale",
+        "pos": "n.",
+        "gloss": "转售；二次销售",
+        "note": "二手经济核心词，与 resell 同源"
+      },
+      {
+        "word": "subsidise",
+        "pos": "v.",
+        "gloss": "补贴；资助",
+        "note": "此处指转售收入间接为新购买提供资金"
+      },
+      {
+        "word": "rebound effect",
+        "pos": "n.",
+        "gloss": "反弹效应",
+        "note": "能效或环保措施带来的节省被新增消费抵消的现象"
+      },
+      {
+        "word": "technicality",
+        "pos": "n.",
+        "gloss": "技术性细节；无关紧要的细节",
+        "note": "常用于贬低某问题只是细枝末节"
+      },
+      {
+        "word": "durable",
+        "pos": "adj.",
+        "gloss": "耐用的；持久的",
+        "note": "durable goods 耐用品，经济学固定搭配"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "Resale platforms report double-digit growth, charity shops have acquired a fashionable vocabulary, and a generation raised to buy less has discovered that buying used feels like a compromise nobody has to apologise for.",
+        "main": "platforms report growth, charity shops have acquired a vocabulary, and a generation has discovered that ...",
+        "subject": "Resale platforms / charity shops / a generation raised to buy less",
+        "predicate": "report / have acquired / has discovered",
+        "object": "double-digit growth / a fashionable vocabulary / that buying used feels like a compromise",
+        "modifiers": "三个并列分句由 and 连接；raised to buy less 为过去分词短语作后置定语修饰 a generation；that 引导宾语从句；nobody has to apologise for 为省略关系词的定语从句修饰 compromise",
+        "logic": "三项并列由商业数据到话语再到心态，层层推进，把'二手变时髦'这一现象铺陈完整，为下段转折蓄势",
+        "zh": "转售平台报出两位数增长，慈善商店也换上了一套时髦的说辞，而被教导要少买的一代人发现，买二手像是一种无需道歉的妥协。"
+      },
+      {
+        "en": "Economists call this a rebound effect, and in fashion it is not a technicality but the business model: platforms profit from turnover, not from thrift.",
+        "main": "Economists call this a rebound effect, and it is not a technicality but the business model",
+        "subject": "Economists / it",
+        "predicate": "call / is",
+        "object": "this a rebound effect / not a technicality but the business model",
+        "modifiers": "in fashion 为范围状语；not ... but ... 为并列否定结构；冒号后 platforms profit from turnover, not from thrift 为解释性分句",
+        "logic": "先引学术术语，再用 not ... but ... 把术语的分量抬高，冒号后给出机制说明，完成从'概念'到'商业实质'的推进",
+        "zh": "经济学家称之为反弹效应，而在时尚业，它不是无关紧要的细节，而是商业模式本身：平台靠周转获利，而不是靠节俭。"
+      },
+      {
+        "en": "It does mean that the environmental benefit belongs to a specific behaviour, wearing an item for years, rather than to a general habit, buying it second-hand.",
+        "main": "It does mean that the benefit belongs to a behaviour rather than to a habit",
+        "subject": "It",
+        "predicate": "does mean",
+        "object": "that the environmental benefit belongs to a specific behaviour",
+        "modifiers": "does 为强调助动词；that 引导宾语从句；wearing an item for years 与 buying it second-hand 均为同位语，分别解释 behaviour 与 habit；rather than 连接两个 to 短语",
+        "logic": "does 强调作者确实要下这个判断；rather than 把'长期穿用'与'买二手'两种行为严格区分，是全文论证的关键分界",
+        "zh": "它确实意味着，环保收益属于一种具体行为——把一件东西穿用好多年，而不属于一种笼统的习惯——买二手。"
+      }
+    ],
+    "glossary": {
+      "cheap": "adj. 廉价的",
+      "marker": "n. 标志；标记",
+      "poverty": "n. 贫穷",
+      "category": "n. 类别",
+      "budget": "n. 预算",
+      "resale": "n. 转售",
+      "platform": "n. 平台",
+      "growth": "n. 增长",
+      "charity": "n. 慈善；慈善机构",
+      "acquire": "v. 获得；习得",
+      "fashionable": "adj. 时髦的",
+      "vocabulary": "n. 词汇；说辞",
+      "generation": "n. 一代人",
+      "compromise": "n. 妥协；折中",
+      "apologise": "v. 道歉",
+      "environmental": "adj. 环境的",
+      "garment": "n. 衣服；服装",
+      "manufacture": "v. 制造；生产",
+      "production": "n. 生产",
+      "subsidise": "v. 补贴；资助",
+      "recover": "v. 收回；挽回",
+      "justification": "n. 理由；正当性",
+      "economist": "n. 经济学家",
+      "rebound": "n. 反弹；回升",
+      "technicality": "n. 技术性细节",
+      "turnover": "n. 周转；营业额",
+      "thrift": "n. 节俭",
+      "profit": "v. 获利；得益",
+      "logistics": "n. 物流",
+      "photograph": "v. 拍摄",
+      "list": "v. 上架；列出",
+      "store": "v. 储存",
+      "ship": "v. 运输；发货",
+      "inspect": "v. 检查",
+      "emission": "n. 排放；排放物",
+      "journey": "n. 行程；运输过程",
+      "approach": "v. 接近",
+      "parcel": "n. 包裹",
+      "packaging": "n. 包装",
+      "purchase": "n. 购买",
+      "gain": "n. 收益；好处",
+      "durable": "adj. 耐用的",
+      "shrink": "v. 缩小；减少",
+      "disposable": "adj. 一次性的；可抛弃的",
+      "fraud": "n. 骗局；欺诈",
+      "specific": "adj. 具体的；特定的",
+      "habit": "n. 习惯",
+      "distinction": "n. 区别；差异",
+      "survive": "v. 经受住；存活",
+      "sustainable": "adj. 可持续的",
+      "uncomfortable": "adj. 令人不适的",
+      "conclusion": "n. 结论",
+      "repair": "v. 修补",
+      "unfashionable": "adj. 过时的",
+      "promote": "v. 推广；宣传",
+      "industry": "n. 行业"
+    },
+    "quiz": [
+      {
+        "id": "l4-05-q1",
+        "type": "主旨大意",
+        "question": "Which of the following best expresses the author's main point?",
+        "options": [
+          "Second-hand shopping is a fraud invented by resale platforms.",
+          "Resale reduces emissions in every segment of the clothing market.",
+          "The green benefit of resale depends on wearing things longer, not on buying used as such.",
+          "Consumers should stop buying clothes altogether."
+        ],
+        "answer": 2,
+        "evidence": "It does mean that the environmental benefit belongs to a specific behaviour, wearing an item for years, rather than to a general habit, buying it second-hand.",
+        "explain": "全文承认转售的价值，但指出反弹效应与物流成本，最终把环保收益定位在'长期穿用'这一具体行为上，故答案为区分行为与习惯。",
+        "whyWrong": [
+          "作者明说'这一切并不使转售成为一场骗局'，与选项矛盾。",
+          "第三段指出廉价一次性商品端的收益会迅速缩水，'every segment'过于绝对。",
+          "作者主张少买长穿，而非完全不买，属于极端化。"
+        ]
+      },
+      {
+        "id": "l4-05-q2",
+        "type": "细节理解",
+        "question": "What is the rebound effect as described in the passage?",
+        "options": [
+          "Money recovered from resale makes further buying easier.",
+          "Second-hand goods are resold several times before disposal.",
+          "Platforms raise prices when demand for used items rises.",
+          "Cheap clothes wear out faster than expensive ones."
+        ],
+        "answer": 0,
+        "evidence": "A seller who recovers part of the price of last season's coat has more money, and often more justification, to buy this season's.",
+        "explain": "原文用大衣的例子说明：转售收回的钱与心理上的正当感，都促成了新的购买，这就是反弹效应的具体机制。",
+        "whyWrong": [
+          "多次转手不是原文所讲的机制，属于概念替换。",
+          "提价问题文中未涉及，属于无中生有。",
+          "耐穿与否是另一话题，与反弹效应无关。"
+        ]
+      },
+      {
+        "id": "l4-05-q3",
+        "type": "词义推断",
+        "question": "In paragraph 2, what does it mean to say that the rebound effect 'is not a technicality'?",
+        "options": [
+          "a minor detail that can safely be ignored",
+          "a central feature of how the business actually works",
+          "a rule that applies only to luxury goods",
+          "a term that economists cannot agree on"
+        ],
+        "answer": 1,
+        "evidence": "Economists call this a rebound effect, and in fashion it is not a technicality but the business model: platforms profit from turnover, not from thrift.",
+        "explain": "not ... but ... 结构中，technicality 与 business model 对立，冒号后'平台靠周转获利'进一步说明它不是细枝末节，而是核心机制。",
+        "whyWrong": [
+          "这正是 technicality 的含义，却被 not 否定。",
+          "原文以'时尚业'整体为范围，未限定奢侈品。",
+          "学术争议与句意无关，属于望文生义。"
+        ]
+      },
+      {
+        "id": "l4-05-q4",
+        "type": "逻辑推断",
+        "question": "Why does the author claim that only the first kind of change survives contact with a growing economy?",
+        "options": [
+          "Because buying second-hand depends on continued high production.",
+          "Because changing where people buy does not alter how much they consume.",
+          "Because durable goods are exempt from economic cycles.",
+          "Because consumers distrust platforms during downturns."
+        ],
+        "answer": 1,
+        "evidence": "The distinction matters because the first is a change in how people relate to things and the second is a change in where they buy them, and only the first survives contact with a growing economy.",
+        "explain": "作者把'人与物的关系'与'购买地点'对举：只换地点，消费总量仍随经济增长而上升；改变关系才可能真正减少消费，这是隐含推理。",
+        "whyWrong": [
+          "原文说转售'可能补贴生产'，并非依赖高生产才能成立。",
+          "耐用品是收益较真实的品类，不是免疫经济周期。",
+          "消费者信任问题文中未讨论，属于无关项。"
+        ]
+      },
+      {
+        "id": "l4-05-q5",
+        "type": "作者观点",
+        "question": "What does the author suggest about the fashion industry's promotion of resale?",
+        "options": [
+          "It is sincere, because platforms earn less when clothes are resold.",
+          "It is unlikely, because the behaviour that truly helps has nothing to sell.",
+          "It is inevitable once consumers understand the emissions data.",
+          "It is harmful mainly because it misleads young buyers."
+        ],
+        "answer": 1,
+        "evidence": "That behaviour has no advertising budget, no growth story and nothing to sell, which is precisely why it is unlikely to be promoted by the industry that would have to live on it.",
+        "explain": "作者指出真正有效的行为'没有广告预算、没有增长故事、没有东西可卖'，因此不会被依赖增长而生存的行业推广，语气是克制的讽刺。",
+        "whyWrong": [
+          "原文说平台靠周转获利，转售越多周转越快，'earn less'与原文相反。",
+          "作者恰恰认为行业结构使这种推广难以发生。",
+          "作者未把主要危害归为误导年轻买家，属于转移论点。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l4-06",
+    "title": "Why Brands Are Learning to Say Less",
+    "titleZh": "品牌为何学会少说话",
+    "level": 4,
+    "category": "商业",
+    "tags": [
+      "营销",
+      "注意力",
+      "可信度"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "For thirty years the dominant language of marketing was volume: more claims, more channels, more adjectives.",
+            "zh": "三十年来，营销的主导语言是'量'：更多的宣称、更多的渠道、更多的形容词。"
+          },
+          {
+            "en": "The assumption was that attention is scarce and that the brand which speaks loudest and most often will be the one remembered.",
+            "zh": "其假设是：注意力是稀缺的，喊得最响、出现最频繁的品牌才会被记住。"
+          },
+          {
+            "en": "That assumption is now being quietly abandoned by some of the most successful companies in the world, which have discovered that a shorter message can be worth more than a longer one.",
+            "zh": "如今，世界上一些最成功的公司正在悄悄放弃这一假设，因为它们发现，更短的信息可能比更长的信息更值钱。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The change is usually explained as a matter of taste, a reaction against the noise of the previous decade.",
+            "zh": "这种变化通常被解释为审美问题，是对上一个十年喧嚣的反动。"
+          },
+          {
+            "en": "A more plausible explanation is that the economics of attention have shifted.",
+            "zh": "一个更合理的解释是：注意力的经济学已经变了。"
+          },
+          {
+            "en": "When every competitor can produce content at almost no marginal cost, content stops being scarce and credibility becomes the scarce thing instead.",
+            "zh": "当每个竞争者都能以几乎为零的边际成本生产内容时，内容就不再稀缺，取而代之稀缺的是可信度。"
+          },
+          {
+            "en": "A brand that claims everything is believed about nothing.",
+            "zh": "一个什么都敢宣称的品牌，什么都不会被相信。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Restraint, in this reading, is a signal.",
+            "zh": "按这种解读，克制本身就是一种信号。"
+          },
+          {
+            "en": "A company that says one thing and says it consistently is making a costly commitment: it gives up the option of appealing to everyone, and it accepts that the claim can be tested.",
+            "zh": "一家只说一件事并始终如一地说的公司，是在做出一项代价高昂的承诺：它放弃了讨好所有人的选项，也接受了这句话可以被检验。"
+          },
+          {
+            "en": "The narrower the promise, the easier it is for a customer to check, and the more expensive it is for the firm to break.",
+            "zh": "承诺越窄，顾客越容易核对，企业违背它的代价也越高。"
+          },
+          {
+            "en": "This is why a slogan about a single ingredient can outperform a page of superlatives: the first can be verified and the second can only be endured.",
+            "zh": "这就是为什么一句只讲某一种成分的标语，能胜过一整页的溢美之词：前者可以被验证，后者只能被忍受。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The strategy has obvious limits.",
+            "zh": "这一策略有明显的局限。"
+          },
+          {
+            "en": "Restraint works when there is something specific to be restrained about; a company with an ordinary product and no particular strength will simply become invisible more efficiently.",
+            "zh": "克制之所以有效，前提是有具体的东西可克制；一家产品平平、没有特别长处的公司，只会更高效地变得无人看见。"
+          },
+          {
+            "en": "It also demands internal discipline, because the temptation to add one more claim is constant and the cost of adding it is invisible in the quarter in which it is added.",
+            "zh": "它还要求内部的纪律，因为'再加一句宣称'的诱惑始终存在，而加上它的代价在当季是看不见的。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "What is being tested, in the end, is whether a firm trusts its own product enough to describe it accurately.",
+            "zh": "归根结底，被检验的是一家公司是否足够信任自己的产品，从而能准确地描述它。"
+          },
+          {
+            "en": "Marketing that exaggerates is usually a symptom rather than a cause; it appears when the thing being sold cannot survive an honest sentence.",
+            "zh": "夸大的营销通常是症状而非病因；当被卖的东西经不起一句诚实的描述时，它就会出现。"
+          },
+          {
+            "en": "The brands that are learning to say less are not being modest. They are being precise, and precision is what a crowded market rewards.",
+            "zh": "那些学会少说话的品牌并不谦虚。它们只是更精确，而精确正是拥挤市场所奖励的东西。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "volume",
+        "pos": "n.",
+        "gloss": "量；大量",
+        "note": "此处指信息投放的数量，与 precision 相对"
+      },
+      {
+        "word": "plausible",
+        "pos": "adj.",
+        "gloss": "看似合理的；可信的",
+        "note": "学术写作常用，表示'有一定说服力但未经证实'"
+      },
+      {
+        "word": "marginal",
+        "pos": "adj.",
+        "gloss": "边际的；微小的",
+        "note": "marginal cost 边际成本，经济学核心术语"
+      },
+      {
+        "word": "restraint",
+        "pos": "n.",
+        "gloss": "克制；节制",
+        "note": "商业语境中指主动减少宣称与投放"
+      },
+      {
+        "word": "superlative",
+        "pos": "n.",
+        "gloss": "夸张的赞美之词；最高级",
+        "note": "广告中常见'最好、第一'一类用语"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "That assumption is now being quietly abandoned by some of the most successful companies in the world, which have discovered that a shorter message can be worth more than a longer one.",
+        "main": "That assumption is being abandoned by companies",
+        "subject": "That assumption",
+        "predicate": "is being abandoned",
+        "object": "(被动语态，无宾语) 动作发出者为 some of the most successful companies",
+        "modifiers": "is being abandoned 为现在进行时的被动语态；quietly 为方式状语；which 引导非限制性定语从句，指代 companies；that 引导宾语从句作 discovered 的宾语",
+        "logic": "主句用被动语态把'假设被放弃'作为客观事实呈现，which 从句补充原因，使转折显得有据可依而非作者臆断",
+        "zh": "如今，世界上一些最成功的公司正在悄悄放弃这一假设，因为它们发现，更短的信息可能比更长的信息更值钱。"
+      },
+      {
+        "en": "This is why a slogan about a single ingredient can outperform a page of superlatives: the first can be verified and the second can only be endured.",
+        "main": "This is why a slogan can outperform a page",
+        "subject": "This / a slogan about a single ingredient",
+        "predicate": "is / can outperform",
+        "object": "why 从句 / a page of superlatives",
+        "modifiers": "why 引导表语从句；about a single ingredient 为介词短语作后置定语；冒号后两个并列分句用 the first / the second 指代前文两项",
+        "logic": "冒号后的对照句给出原因：可验证与被忍受的对立，解释了为什么具体的标语更有效，属'结论—理由'结构",
+        "zh": "这就是为什么一句只讲某一种成分的标语，能胜过一整页的溢美之词：前者可以被验证，后者只能被忍受。"
+      },
+      {
+        "en": "Marketing that exaggerates is usually a symptom rather than a cause; it appears when the thing being sold cannot survive an honest sentence.",
+        "main": "Marketing is a symptom rather than a cause; it appears",
+        "subject": "Marketing that exaggerates / it",
+        "predicate": "is / appears",
+        "object": "a symptom / (无宾语)",
+        "modifiers": "that exaggerates 为定语从句修饰 Marketing；rather than 引出被否定的对照项；when 引导时间状语从句；being sold 为现在分词被动式作后置定语修饰 the thing",
+        "logic": "rather than 把'症状'与'病因'区分开，when 从句给出条件，暗示问题出在产品而非传播，是全文的价值判断所在",
+        "zh": "夸大的营销通常是症状而非病因；当被卖的东西经不起一句诚实的描述时，它就会出现。"
+      }
+    ],
+    "glossary": {
+      "dominant": "adj. 主导的；占优势的",
+      "volume": "n. 量；大量",
+      "claim": "n. 宣称；主张",
+      "channel": "n. 渠道",
+      "adjective": "n. 形容词",
+      "assumption": "n. 假设",
+      "scarce": "adj. 稀缺的",
+      "abandon": "v. 放弃",
+      "message": "n. 信息；讯息",
+      "taste": "n. 品味；审美",
+      "reaction": "n. 反应；反动",
+      "noise": "n. 噪音；喧嚣",
+      "plausible": "adj. 看似合理的",
+      "economics": "n. 经济学；经济逻辑",
+      "shift": "v. 转变；移动",
+      "competitor": "n. 竞争者",
+      "content": "n. 内容",
+      "marginal": "adj. 边际的；微小的",
+      "credibility": "n. 可信度",
+      "instead": "adv. 取而代之",
+      "restraint": "n. 克制；节制",
+      "reading": "n. 解读；理解",
+      "signal": "n. 信号",
+      "consistently": "adv. 一贯地",
+      "commitment": "n. 承诺；投入",
+      "appeal": "v. 吸引；迎合",
+      "accept": "v. 接受；承认",
+      "test": "v. 检验；测试",
+      "narrow": "adj. 狭窄的；范围小的",
+      "promise": "n. 承诺",
+      "firm": "n. 公司；企业",
+      "break": "v. 违背；破坏",
+      "slogan": "n. 标语；广告语",
+      "ingredient": "n. 成分；原料",
+      "outperform": "v. 胜过；表现优于",
+      "superlative": "n. 溢美之词；最高级",
+      "page": "n. 页面；一整页",
+      "endure": "v. 忍受；持续",
+      "obvious": "adj. 明显的",
+      "limit": "n. 局限；界限",
+      "ordinary": "adj. 普通的",
+      "strength": "n. 长处；优势",
+      "invisible": "adj. 看不见的",
+      "efficiently": "adv. 高效地",
+      "demand": "v. 要求",
+      "internal": "adj. 内部的",
+      "discipline": "n. 纪律；自律",
+      "temptation": "n. 诱惑",
+      "constant": "adj. 持续不断的",
+      "quarter": "n. 季度",
+      "trust": "v. 信任",
+      "accurately": "adv. 准确地",
+      "exaggerate": "v. 夸大",
+      "symptom": "n. 症状；征兆",
+      "cause": "n. 原因；病因",
+      "modest": "adj. 谦虚的",
+      "precise": "adj. 精确的",
+      "precision": "n. 精确",
+      "crowded": "adj. 拥挤的；竞争激烈的"
+    },
+    "quiz": [
+      {
+        "id": "l4-06-q1",
+        "type": "主旨大意",
+        "question": "Which of the following best states the author's main point?",
+        "options": [
+          "Advertising has become less important as consumers ignore marketing.",
+          "Short messages work because credibility, not content, is now scarce, so precision pays.",
+          "Brands should avoid making any claims about their products.",
+          "Consumers today prefer fashionable design to product quality."
+        ],
+        "answer": 1,
+        "evidence": "When every competitor can produce content at almost no marginal cost, content stops being scarce and credibility becomes the scarce thing instead.",
+        "explain": "全文从'注意力稀缺'的旧假设转向'可信度稀缺'的新解释，并说明克制与精确为何成为有效信号，故答案为稀缺性转移导致精确更有价值。",
+        "whyWrong": [
+          "作者说的是营销语言改变，而非营销本身不再重要。",
+          "'avoid making any claims'是绝对化，作者主张少而精确。",
+          "设计与品味只是作者引出的表层解释，非主旨。"
+        ]
+      },
+      {
+        "id": "l4-06-q2",
+        "type": "细节理解",
+        "question": "According to the passage, why is a narrow promise valuable?",
+        "options": [
+          "It appeals to a wider range of customers.",
+          "It is cheaper to produce than a long campaign.",
+          "It can be checked by customers and is costly for the firm to break.",
+          "It allows the firm to change its message more often."
+        ],
+        "answer": 2,
+        "evidence": "The narrower the promise, the easier it is for a customer to check, and the more expensive it is for the firm to break.",
+        "explain": "原文用 the more ... the more ... 的比较结构直接给出两点：易被顾客核对、企业违背成本高，二者共同构成可信信号。",
+        "whyWrong": [
+          "原文说克制意味着'放弃讨好所有人'，方向相反。",
+          "成本问题文中指违背承诺的代价，不是制作费用。",
+          "原文强调'始终如一地说'，与频繁改口相反。"
+        ]
+      },
+      {
+        "id": "l4-06-q3",
+        "type": "词义推断",
+        "question": "Which of the following is closest in meaning to the word 'restraint' in paragraph 3?",
+        "options": [
+          "the deliberate choice to claim less",
+          "the inability to afford wider advertising",
+          "the legal limits on what may be claimed",
+          "the habit of changing a message frequently"
+        ],
+        "answer": 0,
+        "evidence": "Restraint, in this reading, is a signal.",
+        "explain": "上文说'内容不再稀缺、可信度稀缺'，下文说'只说一件事并始终如一'，故 restraint 指主动少宣称，是一种刻意选择而非被迫。",
+        "whyWrong": [
+          "原文把它描述为'代价高昂的承诺'，说明是主动选择而非无力承担。",
+          "法律限制在文中完全未提，属于无中生有。",
+          "频繁改口与'始终如一'直接冲突。"
+        ]
+      },
+      {
+        "id": "l4-06-q4",
+        "type": "逻辑推断",
+        "question": "What does the author imply about a company with an ordinary product that adopts this strategy?",
+        "options": [
+          "It will gain credibility by saying less.",
+          "It will simply become less visible without gaining trust.",
+          "It will be forced to improve its product first.",
+          "It will benefit as much as stronger competitors do."
+        ],
+        "answer": 1,
+        "evidence": "Restraint works when there is something specific to be restrained about; a company with an ordinary product and no particular strength will simply become invisible more efficiently.",
+        "explain": "作者用 more efficiently 这一带讽刺意味的说法指出：克制的前提是确有可讲之处，否则只是更快地消失，说明策略有适用条件。",
+        "whyWrong": [
+          "原文说这类公司'更高效地变得无人看见'，并未获得信任。",
+          "'forced to improve'是文中没有的因果，属于过度推断。",
+          "原文明确区分了有无'具体可讲之处'的两类公司。"
+        ]
+      },
+      {
+        "id": "l4-06-q5",
+        "type": "作者观点",
+        "question": "What is the author's view of brands that are learning to say less?",
+        "options": [
+          "They are genuinely modest about their achievements.",
+          "They are being precise rather than modest, which suits a crowded market.",
+          "They are hiding weak products behind short slogans.",
+          "They are following a fashion that will soon pass."
+        ],
+        "answer": 1,
+        "evidence": "The brands that are learning to say less are not being modest. They are being precise, and precision is what a crowded market rewards.",
+        "explain": "作者用 not ... 直接否定'谦虚'的解读，改判为'精确'，并指出这正是竞争激烈的市场所奖励的品质。",
+        "whyWrong": [
+          "作者开篇即否定 modest 这一解释，方向相反。",
+          "作者认为夸大才是产品虚弱的表现，短标语恰恰相反。",
+          "作者把这一变化归因于注意力经济学的转变，而非一时风气。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  }
+]

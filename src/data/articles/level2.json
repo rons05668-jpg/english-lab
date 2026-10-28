@@ -1,0 +1,2122 @@
+[
+  {
+    "id": "l2-01",
+    "title": "The Student at the Front",
+    "titleZh": "站在前面的学生",
+    "level": 2,
+    "category": "教育",
+    "tags": [
+      "学习方法",
+      "课堂",
+      "记忆"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "Every Friday afternoon, the last class in Room 302 looks a little strange.",
+            "zh": "每周五下午，302 教室的最后一节课看起来有点奇怪。"
+          },
+          {
+            "en": "The teacher sits at the back, and a student stands at the front holding a piece of chalk.",
+            "zh": "老师坐在后面，一名学生站在前面，手里拿着一支粉笔。"
+          },
+          {
+            "en": "For twenty minutes, that student explains a lesson that the class studied earlier in the week.",
+            "zh": "有二十分钟，这名学生讲解全班这周早些时候学过的一课。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "This practice began two years ago, when a teacher noticed something that surprised her.",
+            "zh": "这个做法始于两年前，当时一位老师注意到了一件让她吃惊的事。"
+          },
+          {
+            "en": "Students who could answer questions in class often failed to explain the same idea to a friend.",
+            "zh": "那些能在课堂上回答问题的学生，常常无法把同样的内容讲给朋友听。"
+          },
+          {
+            "en": "They recognized the words but could not rebuild the logic behind them.",
+            "zh": "他们认得那些词，却无法重建词背后的逻辑。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Researchers call this the teaching effect, and it has been tested many times.",
+            "zh": "研究者称之为教学效应，这一效应已被多次检验。"
+          },
+          {
+            "en": "In one experiment, students who prepared a lesson for others remembered far more than those who studied for a test.",
+            "zh": "在一项实验中，为他人准备课程的学生，记住的内容远多于为考试而学习的学生。"
+          },
+          {
+            "en": "The reason is simple: teaching forces you to find the gaps in your own understanding.",
+            "zh": "原因很简单：教学迫使你发现自己理解中的空白。"
+          },
+          {
+            "en": "When you try to explain a rule, you quickly discover which part you never really learned.",
+            "zh": "当你试着解释一条规则时，你会很快发现哪一部分自己从未真正学会。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The method is not perfect, of course.",
+            "zh": "当然，这个方法并不完美。"
+          },
+          {
+            "en": "It takes time, and shy students may feel nervous at first.",
+            "zh": "它需要时间，害羞的学生一开始可能会紧张。"
+          },
+          {
+            "en": "But most of them say that standing at the front taught them more than listening ever did.",
+            "zh": "但他们中的大多数人说，站在前面讲课教给他们的，比一直听讲要多。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "practice",
+        "pos": "n.",
+        "gloss": "做法；惯常活动",
+        "note": "此处不是练习，而是指一种固定做法"
+      },
+      {
+        "word": "recognize",
+        "pos": "v.",
+        "gloss": "认出；识别",
+        "note": "强调见过、认得，不等于理解"
+      },
+      {
+        "word": "gap",
+        "pos": "n.",
+        "gloss": "缺口；空白",
+        "note": "gaps in understanding 指理解上的漏洞"
+      },
+      {
+        "word": "force",
+        "pos": "v.",
+        "gloss": "迫使",
+        "note": "force sb to do sth"
+      },
+      {
+        "word": "nervous",
+        "pos": "adj.",
+        "gloss": "紧张的；不安的",
+        "note": "feel nervous at first 一开始会紧张"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "For twenty minutes, that student explains a lesson that the class studied earlier in the week.",
+        "main": "that student explains a lesson",
+        "subject": "that student",
+        "predicate": "explains",
+        "object": "a lesson",
+        "modifiers": "For twenty minutes 是时间状语；that the class studied earlier in the week 是定语从句修饰 a lesson，关系词 that 在从句中作 studied 的宾语",
+        "logic": "主句用一般现在时描述每周固定的安排，定语从句补充说明这堂课是本周早些时候学过的内容",
+        "zh": "有二十分钟，这名学生讲解全班这周早些时候学过的一课。"
+      },
+      {
+        "en": "This practice began two years ago, when a teacher noticed something that surprised her.",
+        "main": "This practice began two years ago",
+        "subject": "This practice",
+        "predicate": "began",
+        "object": "无（began 在此为不及物动词）",
+        "modifiers": "two years ago 是时间状语；when 引导非限制性定语从句修饰 two years ago；从句里 that surprised her 又是定语从句修饰 something",
+        "logic": "用 when 从句交代做法产生的时间和起因，把上一段的观察与这一段的由来连起来",
+        "zh": "这个做法始于两年前，当时一位老师注意到了一件让她吃惊的事。"
+      },
+      {
+        "en": "When you try to explain a rule, you quickly discover which part you never really learned.",
+        "main": "you quickly discover which part you never really learned",
+        "subject": "you",
+        "predicate": "discover",
+        "object": "which part you never really learned（宾语从句）",
+        "modifiers": "When you try to explain a rule 是时间状语从句；quickly 是方式状语",
+        "logic": "时间状语从句设定情境，主句用宾语从句说明发现的具体内容",
+        "zh": "当你试着解释一条规则时，你会很快发现哪一部分自己从未真正学会。"
+      }
+    ],
+    "glossary": {
+      "practice": "n. 做法；惯常活动",
+      "notice": "v. 注意到",
+      "surprise": "v. 使惊讶",
+      "fail": "v. 未能做到",
+      "explain": "v. 解释；讲解",
+      "recognize": "v. 认出；认得",
+      "rebuild": "v. 重建；重新构建",
+      "logic": "n. 逻辑；道理",
+      "researcher": "n. 研究者",
+      "experiment": "n. 实验",
+      "prepare": "v. 准备",
+      "remember": "v. 记得",
+      "force": "v. 迫使",
+      "discover": "v. 发现",
+      "understanding": "n. 理解",
+      "rule": "n. 规则；规律",
+      "method": "n. 方法",
+      "perfect": "adj. 完美的",
+      "shy": "adj. 害羞的",
+      "nervous": "adj. 紧张的",
+      "chalk": "n. 粉笔",
+      "gap": "n. 缺口；空白",
+      "earlier": "adv. 早些时候",
+      "own": "adj. 自己的",
+      "front": "n. 前面",
+      "back": "n. 后面",
+      "hold": "v. 拿着；握住",
+      "strange": "adj. 奇怪的",
+      "test": "n. 测验；考试",
+      "reason": "n. 原因",
+      "quickly": "adv. 迅速地",
+      "listen": "v. 听",
+      "teach": "v. 教",
+      "class": "n. 班级；课",
+      "lesson": "n. 课；一课内容"
+    },
+    "quiz": [
+      {
+        "id": "l2-01-q1",
+        "type": "主旨大意",
+        "question": "What is the passage mainly about?",
+        "options": [
+          "A class where students take turns teaching a lesson",
+          "Why Friday classes are shorter than other classes",
+          "How to prepare for a written test",
+          "The design of a new school building"
+        ],
+        "answer": 0,
+        "evidence": "The teacher sits at the back, and a student stands at the front holding a piece of chalk.",
+        "explain": "全文围绕周五由学生上台讲课这一做法展开，先描述场景，再说明原理，最后指出局限，主旨是这种课堂形式。",
+        "whyWrong": [
+          "文中没有比较周五与其他日子的课时长短。",
+          "为考试而学习只是实验中的对照组，并非介绍备考方法。",
+          "全文没有涉及教学楼的设计。"
+        ]
+      },
+      {
+        "id": "l2-01-q2",
+        "type": "细节理解",
+        "question": "What problem did the teacher notice?",
+        "options": [
+          "Students forgot everything during the weekend.",
+          "Students could repeat an idea but not explain it.",
+          "Students refused to answer questions in class.",
+          "Students preferred writing to speaking."
+        ],
+        "answer": 1,
+        "evidence": "They recognized the words but could not rebuild the logic behind them.",
+        "explain": "原文说学生认得词却重建不了背后的逻辑，即能复述、不能讲解，与选项中的 repeat 与 not explain 对应。",
+        "whyWrong": [
+          "文中没有提到周末遗忘的问题。",
+          "学生是能回答课堂提问的，并不是拒绝回答。",
+          "文中没有比较写作与口语的偏好。"
+        ]
+      },
+      {
+        "id": "l2-01-q3",
+        "type": "词义推断",
+        "question": "The word 'gaps' in paragraph 3 is closest in meaning to ___?",
+        "options": [
+          "long silences",
+          "holes in a wall",
+          "parts you have not understood",
+          "marks left by chalk"
+        ],
+        "answer": 2,
+        "evidence": "The reason is simple: teaching forces you to find the gaps in your own understanding.",
+        "explain": "gaps 与 understanding 搭配，指理解中缺失的部分，下一句的 which part you never really learned 正是解释。",
+        "whyWrong": [
+          "文中讨论的是理解，不是沉默的时间长短。",
+          "这里是比喻用法，不是指墙上的洞。",
+          "粉笔痕迹与理解缺失无关。"
+        ]
+      },
+      {
+        "id": "l2-01-q4",
+        "type": "作者观点",
+        "question": "What is the author's attitude towards the Friday class?",
+        "options": [
+          "Completely opposed to it",
+          "Uncertain about its value",
+          "Supportive but aware of its limits",
+          "Interested only in the time it saves"
+        ],
+        "answer": 2,
+        "evidence": "The method is not perfect, of course.",
+        "explain": "作者承认方法不完美、费时间、会让害羞的学生紧张，但结尾说它教得更多，态度是支持而清醒。",
+        "whyWrong": [
+          "作者列举了不足，但整体是肯定的，并非完全反对。",
+          "作者态度明确，没有表现出犹豫。",
+          "文中没有提到这种方法节省时间，反而说它费时间。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l2-02",
+    "title": "The Cost of Being Guided",
+    "titleZh": "被导航的代价",
+    "level": 2,
+    "category": "科技",
+    "tags": [
+      "导航",
+      "记忆",
+      "习惯"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "Ten years ago, most drivers in a new city had to stop and ask for directions.",
+            "zh": "十年前，在陌生的城市里，大多数司机都得停下车问路。"
+          },
+          {
+            "en": "Today they simply follow a voice that tells them when to turn.",
+            "zh": "如今他们只需跟着一个声音走，那个声音会告诉他们什么时候转弯。"
+          },
+          {
+            "en": "Navigation apps have made travel easier, but they have also changed the way our brains work.",
+            "zh": "导航应用让出行更方便，但也改变了我们大脑的工作方式。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "A study at a university in London asked volunteers to travel through an imaginary neighborhood.",
+            "zh": "伦敦一所大学的研究让志愿者在一个想象中的街区里行走。"
+          },
+          {
+            "en": "Those who followed step-by-step instructions found their way back easily, but remembered very little of the streets.",
+            "zh": "那些按一步步指示行走的人很容易找回原路，却几乎记不住街道的样子。"
+          },
+          {
+            "en": "Those who explored without help made mistakes, yet they built a mental map that stayed with them for weeks.",
+            "zh": "那些独自摸索的人会走错路，却在大脑中建起了一张能保留数周的地图。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The difference matters because a mental map does more than guide us home.",
+            "zh": "这种差别很重要，因为大脑中的地图不只是把我们带回家。"
+          },
+          {
+            "en": "It helps us notice when a route is blocked and decide what to do next.",
+            "zh": "它帮我们察觉某条路线被阻断，并决定下一步怎么办。"
+          },
+          {
+            "en": "When we always follow instructions, we practise following rather than thinking.",
+            "zh": "当我们总是照着指示走时，我们练习的是服从，而不是思考。"
+          },
+          {
+            "en": "In other words, the app learns the city while we forget it.",
+            "zh": "换句话说，应用学会了这座城市，而我们把它忘了。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "This does not mean we should throw away our phones.",
+            "zh": "这并不意味着我们该把手机扔掉。"
+          },
+          {
+            "en": "A simple habit may be enough: check the map before you leave, then put the phone away for the first few streets.",
+            "zh": "一个简单的习惯也许就够了：出发前看一眼地图，然后在前几条街上把手机收起来。"
+          },
+          {
+            "en": "You will probably get lost once or twice, and that is exactly when your brain starts to build the map.",
+            "zh": "你可能会迷路一两次，而正是在那时，你的大脑才开始绘制地图。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "navigation",
+        "pos": "n.",
+        "gloss": "导航",
+        "note": "navigation app 导航应用"
+      },
+      {
+        "word": "instruction",
+        "pos": "n.",
+        "gloss": "指示；说明",
+        "note": "常用复数 instructions"
+      },
+      {
+        "word": "mental",
+        "pos": "adj.",
+        "gloss": "头脑中的；心理的",
+        "note": "mental map 脑中的地图"
+      },
+      {
+        "word": "blocked",
+        "pos": "adj.",
+        "gloss": "被阻塞的",
+        "note": "来自动词 block"
+      },
+      {
+        "word": "practise",
+        "pos": "v.",
+        "gloss": "练习",
+        "note": "英式拼写，美式为 practice（动词）"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "Those who followed step-by-step instructions found their way back easily, but remembered very little of the streets.",
+        "main": "Those found their way back easily, but remembered very little of the streets",
+        "subject": "Those（后接 who 定语从句）",
+        "predicate": "found / remembered",
+        "object": "their way back / very little of the streets",
+        "modifiers": "who followed step-by-step instructions 是定语从句修饰 Those；easily 是方式状语",
+        "logic": "but 连接两个并列谓语，构成对比：找路轻松，但对街道几乎没有记忆",
+        "zh": "那些按一步步指示行走的人很容易找回原路，却几乎记不住街道的样子。"
+      },
+      {
+        "en": "Those who explored without help made mistakes, yet they built a mental map that stayed with them for weeks.",
+        "main": "Those made mistakes, yet they built a mental map",
+        "subject": "Those / they",
+        "predicate": "made / built",
+        "object": "mistakes / a mental map",
+        "modifiers": "who explored without help 修饰 Those；that stayed with them for weeks 是定语从句修饰 a mental map",
+        "logic": "yet 表转折，与上一句形成对照：会犯错的人反而记住了城市",
+        "zh": "那些独自摸索的人会走错路，却在大脑中建起了一张能保留数周的地图。"
+      },
+      {
+        "en": "When we always follow instructions, we practise following rather than thinking.",
+        "main": "we practise following rather than thinking",
+        "subject": "we",
+        "predicate": "practise",
+        "object": "following rather than thinking（动名词短语作宾语）",
+        "modifiers": "When we always follow instructions 是时间状语从句；rather than 引出被否定的对比项",
+        "logic": "从句给出条件，主句点明后果：总是照做，练的其实是服从",
+        "zh": "当我们总是照着指示走时，我们练习的是服从，而不是思考。"
+      }
+    ],
+    "glossary": {
+      "driver": "n. 司机",
+      "direction": "n. 方向；指路",
+      "simply": "adv. 仅仅；只需",
+      "follow": "v. 跟随；按照",
+      "voice": "n. 声音；语音",
+      "navigation": "n. 导航",
+      "brain": "n. 大脑",
+      "volunteer": "n. 志愿者；受试者",
+      "imaginary": "adj. 想象中的",
+      "neighborhood": "n. 街区；社区",
+      "instruction": "n. 指示；说明",
+      "explore": "v. 探索；摸索",
+      "mistake": "n. 错误",
+      "mental": "adj. 头脑中的",
+      "map": "n. 地图",
+      "difference": "n. 差别",
+      "matter": "v. 要紧；有关系",
+      "guide": "v. 引导",
+      "notice": "v. 察觉；注意到",
+      "route": "n. 路线",
+      "blocked": "adj. 被阻断的",
+      "decide": "v. 决定",
+      "practise": "v. 练习",
+      "habit": "n. 习惯",
+      "probably": "adv. 大概；很可能",
+      "exactly": "adv. 正是；恰好",
+      "build": "v. 建造；构建",
+      "forget": "v. 忘记",
+      "travel": "v. 行进；旅行",
+      "turn": "v. 转弯",
+      "learn": "v. 学会",
+      "street": "n. 街道",
+      "easily": "adv. 容易地",
+      "throw": "v. 扔掉"
+    },
+    "quiz": [
+      {
+        "id": "l2-02-q1",
+        "type": "主旨大意",
+        "question": "What is the passage mainly about?",
+        "options": [
+          "How navigation apps affect the maps in our minds",
+          "Why paper maps are more accurate than apps",
+          "How to choose the best navigation app",
+          "The history of road building in London"
+        ],
+        "answer": 0,
+        "evidence": "Navigation apps have made travel easier, but they have also changed the way our brains work.",
+        "explain": "文章先摆出导航带来的便利，再用实验说明它对脑中地图的影响，最后给出折中建议，主题是导航与空间记忆的关系。",
+        "whyWrong": [
+          "文中没有比较纸质地图与应用的准确度。",
+          "全文没有提供挑选应用的方法。",
+          "伦敦只是实验地点，不是文章主题。"
+        ]
+      },
+      {
+        "id": "l2-02-q2",
+        "type": "细节理解",
+        "question": "What happened to the volunteers who explored without help?",
+        "options": [
+          "They never found their way back.",
+          "They remembered the streets for a long time.",
+          "They refused to join the study.",
+          "They drew a map on paper."
+        ],
+        "answer": 1,
+        "evidence": "Those who explored without help made mistakes, yet they built a mental map that stayed with them for weeks.",
+        "explain": "原文说他们虽然会走错，却在脑中建起了能保留数周的地图，即长时间记得街道。",
+        "whyWrong": [
+          "他们只是走错路，最终是能找回方向的。",
+          "他们是自愿参加实验的志愿者，没有拒绝。",
+          "文中说的是脑中的地图，不是画在纸上的。"
+        ]
+      },
+      {
+        "id": "l2-02-q3",
+        "type": "词义推断",
+        "question": "The word 'blocked' in paragraph 3 probably means ___?",
+        "options": [
+          "closed off",
+          "made wider",
+          "newly painted",
+          "carefully measured"
+        ],
+        "answer": 0,
+        "evidence": "It helps us notice when a route is blocked and decide what to do next.",
+        "explain": "路线被 blocked 之后才需要决定下一步怎么走，可见意思是走不通、被封闭。",
+        "whyWrong": [
+          "made wider 是变宽，与需要改道的语境相反。",
+          "newly painted 指新刷的漆，与路线能否通行无关。",
+          "carefully measured 指仔细测量，不能解释为何要另想办法。"
+        ]
+      },
+      {
+        "id": "l2-02-q4",
+        "type": "逻辑推断",
+        "question": "What can be inferred from the last paragraph?",
+        "options": [
+          "People should stop using navigation apps completely.",
+          "Getting lost can be part of learning a city.",
+          "Phones are useless when you travel.",
+          "Maps should be printed before every trip."
+        ],
+        "answer": 1,
+        "evidence": "You will probably get lost once or twice, and that is exactly when your brain starts to build the map.",
+        "explain": "作者说迷路一两次正是大脑开始绘图的时候，说明走错路本身有学习价值。",
+        "whyWrong": [
+          "作者明确说不必扔掉手机，只是建议偶尔收起来。",
+          "作者承认应用让出行更方便，并没有否定手机。",
+          "文中建议出发前查看地图，没有要求打印。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l2-03",
+    "title": "Why the Small Bookshop Still Stands",
+    "titleZh": "小书店为什么还开着",
+    "level": 2,
+    "category": "商业",
+    "tags": [
+      "小生意",
+      "体验",
+      "社区"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "When a large online seller opened a warehouse outside the town, everyone expected the small bookshop on Bridge Street to close within a year.",
+            "zh": "当一家大型网络卖家在镇外建起仓库时，所有人都以为桥街那家小书店一年之内就会关门。"
+          },
+          {
+            "en": "Five years later, it is still there, and its Saturday reading club has a waiting list.",
+            "zh": "五年过去，它还在那里，周六读书会甚至要排队等名额。"
+          },
+          {
+            "en": "Its owner, a quiet woman named Chen, says the secret is not cheaper books.",
+            "zh": "店主是一位安静的女性，姓陈，她说秘诀不是更便宜的书。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Large sellers win on price because they buy in huge amounts and deliver quickly.",
+            "zh": "大型卖家在价格上占优势，因为它们大批量进货，而且送货很快。"
+          },
+          {
+            "en": "A small shop cannot match that, so Chen stopped trying.",
+            "zh": "小店比不了这一点，于是陈不再去比。"
+          },
+          {
+            "en": "Instead, she turned the shop into a place where people come to talk about what they read.",
+            "zh": "她转而把书店变成了一个人们来谈论所读之书的地方。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Every Thursday she invites a local teacher to lead a discussion for an hour.",
+            "zh": "每周四她请一位本地老师带领一小时的讨论。"
+          },
+          {
+            "en": "Customers who arrive early can borrow a chair and a cup of tea.",
+            "zh": "早到的顾客可以借一把椅子和一杯茶。"
+          },
+          {
+            "en": "Some of them buy nothing that evening, yet they return the following week with friends.",
+            "zh": "有些人那晚什么也没买，但下周会带着朋友再来。"
+          },
+          {
+            "en": "Those friends often become the customers who pay full price without complaining.",
+            "zh": "这些朋友往往成了不抱怨、按全价付钱的顾客。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Business experts describe this as selling an experience rather than a product.",
+            "zh": "商业专家把这称为卖体验，而不是卖产品。"
+          },
+          {
+            "en": "It works only when the experience is real, because customers can feel the difference immediately.",
+            "zh": "只有体验是真实的，这招才管用，因为顾客立刻就能感觉到差别。"
+          },
+          {
+            "en": "For Chen, the lesson is simple: a shop that people want to keep will usually find a way to survive.",
+            "zh": "对陈来说，道理很简单：一家人们愿意留住的书店，通常总能找到活下去的办法。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "warehouse",
+        "pos": "n.",
+        "gloss": "仓库",
+        "note": "大型电商常靠仓库压低成本"
+      },
+      {
+        "word": "match",
+        "pos": "v.",
+        "gloss": "比得上；与……相当",
+        "note": "cannot match that 比不过"
+      },
+      {
+        "word": "experience",
+        "pos": "n.",
+        "gloss": "体验；经历",
+        "note": "与 product 对举"
+      },
+      {
+        "word": "survive",
+        "pos": "v.",
+        "gloss": "存活；生存下来",
+        "note": "商业语境中指企业活下来"
+      },
+      {
+        "word": "complain",
+        "pos": "v.",
+        "gloss": "抱怨",
+        "note": "complain about sth"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "When a large online seller opened a warehouse outside the town, everyone expected the small bookshop on Bridge Street to close within a year.",
+        "main": "everyone expected the small bookshop to close within a year",
+        "subject": "everyone",
+        "predicate": "expected",
+        "object": "the small bookshop ... to close（宾语 + 不定式构成的复合宾语）",
+        "modifiers": "When 引导时间状语从句；on Bridge Street 是后置定语修饰 bookshop；within a year 是时间状语",
+        "logic": "从句交代背景，主句用 expect sb to do 表达当时普遍的预期，为后文的转折做铺垫",
+        "zh": "当一家大型网络卖家在镇外建起仓库时，所有人都以为桥街那家小书店一年之内就会关门。"
+      },
+      {
+        "en": "Instead, she turned the shop into a place where people come to talk about what they read.",
+        "main": "she turned the shop into a place",
+        "subject": "she",
+        "predicate": "turned ... into",
+        "object": "the shop",
+        "modifiers": "where people come to talk about what they read 是定语从句修饰 a place；其中 what they read 是宾语从句作 about 的宾语",
+        "logic": "Instead 承接上文放弃比价的做法，where 从句说明这个场所的具体功能",
+        "zh": "她转而把书店变成了一个人们来谈论所读之书的地方。"
+      },
+      {
+        "en": "It works only when the experience is real, because customers can feel the difference immediately.",
+        "main": "It works",
+        "subject": "It",
+        "predicate": "works",
+        "object": "无（works 为不及物动词）",
+        "modifiers": "only 限定条件；when the experience is real 是时间状语从句；because 从句说明原因",
+        "logic": "when 从句给出成立条件，because 从句解释为什么必须真实，两句构成条件与原因的双重限制",
+        "zh": "只有体验是真实的，这招才管用，因为顾客立刻就能感觉到差别。"
+      }
+    ],
+    "glossary": {
+      "seller": "n. 卖家",
+      "warehouse": "n. 仓库",
+      "expect": "v. 预料；期待",
+      "within": "prep. 在……之内",
+      "owner": "n. 所有者；店主",
+      "secret": "n. 秘诀；秘密",
+      "amount": "n. 数量",
+      "deliver": "v. 送货；递送",
+      "quickly": "adv. 迅速地",
+      "match": "v. 比得上",
+      "instead": "adv. 转而；代替",
+      "invite": "v. 邀请",
+      "local": "adj. 本地的",
+      "discussion": "n. 讨论",
+      "customer": "n. 顾客",
+      "arrive": "v. 到达",
+      "borrow": "v. 借入",
+      "return": "v. 返回；再来",
+      "following": "adj. 接下来的",
+      "complain": "v. 抱怨",
+      "expert": "n. 专家",
+      "describe": "v. 描述；把……称为",
+      "experience": "n. 体验",
+      "product": "n. 产品",
+      "real": "adj. 真实的",
+      "difference": "n. 差别",
+      "immediately": "adv. 立刻",
+      "lesson": "n. 教训；道理",
+      "survive": "v. 存活下来",
+      "cheap": "adj. 便宜的",
+      "price": "n. 价格",
+      "huge": "adj. 巨大的",
+      "turn": "v. 转变",
+      "place": "n. 地方；场所",
+      "chair": "n. 椅子"
+    },
+    "quiz": [
+      {
+        "id": "l2-03-q1",
+        "type": "主旨大意",
+        "question": "What is the passage mainly about?",
+        "options": [
+          "How a small bookshop survives by selling an experience",
+          "Why online sellers are losing customers",
+          "How to open a reading club in a town",
+          "The history of Bridge Street"
+        ],
+        "answer": 0,
+        "evidence": "Five years later, it is still there, and its Saturday reading club has a waiting list.",
+        "explain": "文章从书店没有倒闭写起，分析它放弃比价、改卖体验的做法，主旨是小店的生存策略。",
+        "whyWrong": [
+          "文中说大型卖家在价格上占优势，并未说它们流失顾客。",
+          "读书会只是书店的具体做法之一，不是全文主题。",
+          "桥街只是地点，文章没有讲它的历史。"
+        ]
+      },
+      {
+        "id": "l2-03-q2",
+        "type": "细节理解",
+        "question": "What do some customers do on Thursday evenings?",
+        "options": [
+          "They buy several books at a discount.",
+          "They stay without buying and return with friends.",
+          "They complain about the price.",
+          "They lead the discussion themselves."
+        ],
+        "answer": 1,
+        "evidence": "Some of them buy nothing that evening, yet they return the following week with friends.",
+        "explain": "原文说有些人当晚什么都不买，下周却带朋友回来，正是选项所描述的行为。",
+        "whyWrong": [
+          "文中没有提到打折，反而强调有人按全价付款。",
+          "不抱怨、付全价的是后来成为顾客的朋友，不是周四的听众。",
+          "主持讨论的是受邀的本地老师。"
+        ]
+      },
+      {
+        "id": "l2-03-q3",
+        "type": "词义推断",
+        "question": "The word 'match' in paragraph 2 is closest in meaning to ___?",
+        "options": [
+          "be equal to",
+          "light a fire",
+          "find a pair",
+          "compete in a game"
+        ],
+        "answer": 0,
+        "evidence": "A small shop cannot match that, so Chen stopped trying.",
+        "explain": "前一句讲大型卖家的价格与送货优势，小店无法 match，即无法与之相当。",
+        "whyWrong": [
+          "light a fire 是点火，与价格竞争无关。",
+          "find a pair 指配成一对，不符合此处比较的语境。",
+          "compete in a game 指参加比赛，文中说的是经营条件。"
+        ]
+      },
+      {
+        "id": "l2-03-q4",
+        "type": "逻辑推断",
+        "question": "Why can large sellers offer lower prices?",
+        "options": [
+          "They sell better books.",
+          "They buy in large amounts and deliver fast.",
+          "They receive money from the town.",
+          "They have no workers."
+        ],
+        "answer": 1,
+        "evidence": "Large sellers win on price because they buy in huge amounts and deliver quickly.",
+        "explain": "原文直接用 because 说明原因：大批量进货、送货快，成本因此更低。",
+        "whyWrong": [
+          "文中没有评价书的质量高低。",
+          "文中没有提到任何来自镇上的补贴。",
+          "送货快说明它们有完整的物流和人力，并非没有员工。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l2-04",
+    "title": "Exercise in Small Pieces",
+    "titleZh": "把运动拆成小块",
+    "level": 2,
+    "category": "健康与运动",
+    "tags": [
+      "运动",
+      "习惯",
+      "研究"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "Many people believe that exercise only counts if it lasts at least thirty minutes.",
+            "zh": "很多人相信，一次运动至少要持续三十分钟才算数。"
+          },
+          {
+            "en": "This idea comes from old fitness advice, and it has made millions of people give up before they start.",
+            "zh": "这个观念来自过去的健身建议，它让无数人还没开始就放弃了。"
+          },
+          {
+            "en": "Recent research suggests that short bursts of movement, spread through the day, can be just as useful.",
+            "zh": "近期研究表明，把短时间的活动分散到一天中，效果可能同样好。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "In one study, office workers were asked to climb three floors of stairs four times a day.",
+            "zh": "在一项研究中，办公室职员被要求每天爬四次三层楼梯。"
+          },
+          {
+            "en": "After twelve weeks, their blood pressure and resting heart rate had improved noticeably.",
+            "zh": "十二周后，他们的血压和静息心率都有明显改善。"
+          },
+          {
+            "en": "None of them changed their diet, and none of them visited a gym.",
+            "zh": "他们中没有一个人改变饮食，也没有一个人去过健身房。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The reason is that the body does not ask how long a movement lasts.",
+            "zh": "原因在于，身体并不问你的一次动作持续多久。"
+          },
+          {
+            "en": "It responds to how often the muscles are used and how hard they work.",
+            "zh": "它回应的是肌肉被使用的频率，以及用力有多大。"
+          },
+          {
+            "en": "Climbing stairs, carrying shopping, or walking fast to catch a bus all count.",
+            "zh": "爬楼梯、提着购物袋，或者快走去赶公交，都算。"
+          },
+          {
+            "en": "What matters is that the effort happens regularly, not that it happens in one long block.",
+            "zh": "关键在于这种用力经常发生，而不是集中在一大段时间里。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "There is one caution, however.",
+            "zh": "不过，有一点需要注意。"
+          },
+          {
+            "en": "Short bursts cannot replace training for a marathon, and they do not build strength on their own.",
+            "zh": "短时活动无法替代马拉松训练，也不能单独练出力量。"
+          },
+          {
+            "en": "But for people who sit for most of the day, a few minutes of movement every hour may be the easiest change they will ever make.",
+            "zh": "但对一天中大部分时间都坐着的人来说，每小时动几分钟，也许是最容易做出的改变。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "burst",
+        "pos": "n.",
+        "gloss": "一阵；短促的一段",
+        "note": "short bursts of movement 短时活动"
+      },
+      {
+        "word": "spread",
+        "pos": "v.",
+        "gloss": "分散；散布",
+        "note": "此处用过去分词 spread 表被动"
+      },
+      {
+        "word": "noticeably",
+        "pos": "adv.",
+        "gloss": "明显地",
+        "note": "来自 noticeable"
+      },
+      {
+        "word": "respond",
+        "pos": "v.",
+        "gloss": "作出反应",
+        "note": "respond to sth"
+      },
+      {
+        "word": "caution",
+        "pos": "n.",
+        "gloss": "谨慎；注意事项",
+        "note": "此处指需要提醒的一点"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "Recent research suggests that short bursts of movement, spread through the day, can be just as useful.",
+        "main": "Recent research suggests that short bursts can be just as useful",
+        "subject": "Recent research",
+        "predicate": "suggests",
+        "object": "that 引导的宾语从句",
+        "modifiers": "宾语从句的主干是 short bursts of movement can be useful；spread through the day 是过去分词短语作后置定语，修饰 bursts",
+        "logic": "suggests 后的宾语从句承载全文论点，插入的过去分词短语补充说明活动的分布方式",
+        "zh": "近期研究表明，把短时间的活动分散到一天中，效果可能同样好。"
+      },
+      {
+        "en": "In one study, office workers were asked to climb three floors of stairs four times a day.",
+        "main": "office workers were asked to climb three floors of stairs",
+        "subject": "office workers",
+        "predicate": "were asked",
+        "object": "to climb three floors of stairs（不定式作主语补足语）",
+        "modifiers": "In one study 是状语；four times a day 是频率状语",
+        "logic": "被动语态把受试者放在句首，重点落在他们被要求做什么，而不强调是谁提出的要求",
+        "zh": "在一项研究中，办公室职员被要求每天爬四次三层楼梯。"
+      },
+      {
+        "en": "What matters is that the effort happens regularly, not that it happens in one long block.",
+        "main": "What matters is that ...",
+        "subject": "What matters（主语从句）",
+        "predicate": "is",
+        "object": "that the effort happens regularly（表语从句）",
+        "modifiers": "not that it happens in one long block 是与前一个表语从句并列的否定项，形成对比",
+        "logic": "主语从句加两个表语从句，构成重要的是甲、而不是乙的判断句式",
+        "zh": "关键在于这种用力经常发生，而不是集中在一大段时间里。"
+      }
+    ],
+    "glossary": {
+      "count": "v. 算数；有价值",
+      "last": "v. 持续",
+      "fitness": "n. 健身；健康",
+      "advice": "n. 建议",
+      "recent": "adj. 近期的",
+      "research": "n. 研究",
+      "suggest": "v. 表明；暗示",
+      "burst": "n. 一阵；短促的一段",
+      "movement": "n. 活动；动作",
+      "spread": "v. 分散；分布",
+      "office": "n. 办公室",
+      "climb": "v. 攀爬",
+      "stairs": "n. 楼梯",
+      "improve": "v. 改善",
+      "noticeably": "adv. 明显地",
+      "diet": "n. 饮食",
+      "gym": "n. 健身房",
+      "reason": "n. 原因",
+      "respond": "v. 作出反应",
+      "muscle": "n. 肌肉",
+      "effort": "n. 用力；努力",
+      "regularly": "adv. 经常地；有规律地",
+      "block": "n. 一大块（时间）",
+      "caution": "n. 注意事项；谨慎",
+      "replace": "v. 替代",
+      "training": "n. 训练",
+      "marathon": "n. 马拉松",
+      "strength": "n. 力量",
+      "sit": "v. 坐",
+      "easiest": "adj. 最容易的",
+      "carry": "v. 提；搬",
+      "catch": "v. 赶上（车）",
+      "fast": "adv. 快速地",
+      "hour": "n. 小时",
+      "change": "n. 改变"
+    },
+    "quiz": [
+      {
+        "id": "l2-04-q1",
+        "type": "主旨大意",
+        "question": "What is the main idea of the passage?",
+        "options": [
+          "Short bursts of movement can be as useful as long workouts.",
+          "Everyone should run a marathon once a year.",
+          "Gyms are the only place to build strength.",
+          "Office workers should stop using stairs."
+        ],
+        "answer": 0,
+        "evidence": "Recent research suggests that short bursts of movement, spread through the day, can be just as useful.",
+        "explain": "全文围绕短时活动同样有效这一观点展开，用实验和研究解释原因，最后补充局限。",
+        "whyWrong": [
+          "文中说短时活动不能替代马拉松训练，并非鼓励人人跑马拉松。",
+          "实验中没有人去健身房，文章也没有说健身房是唯一选择。",
+          "爬楼梯恰恰是文中推荐的短时活动。"
+        ]
+      },
+      {
+        "id": "l2-04-q2",
+        "type": "细节理解",
+        "question": "What happened to the office workers in the study?",
+        "options": [
+          "Their diet changed completely.",
+          "Their blood pressure and heart rate improved.",
+          "They joined a gym nearby.",
+          "They stopped climbing stairs."
+        ],
+        "answer": 1,
+        "evidence": "After twelve weeks, their blood pressure and resting heart rate had improved noticeably.",
+        "explain": "原文明确说十二周后血压和静息心率明显改善，与选项对应。",
+        "whyWrong": [
+          "原文说没有人改变饮食。",
+          "原文说没有人去过健身房。",
+          "他们正是被要求每天爬楼梯的。"
+        ]
+      },
+      {
+        "id": "l2-04-q3",
+        "type": "词义推断",
+        "question": "The word 'bursts' in paragraph 1 probably means ___?",
+        "options": [
+          "short periods",
+          "loud noises",
+          "long journeys",
+          "heavy meals"
+        ],
+        "answer": 0,
+        "evidence": "Recent research suggests that short bursts of movement, spread through the day, can be just as useful.",
+        "explain": "bursts 由 short 修饰，又与 spread through the day 搭配，指分散在全天的短时段活动。",
+        "whyWrong": [
+          "loud noises 是响声，与运动无关。",
+          "long journeys 指长途旅行，与 short 矛盾。",
+          "heavy meals 指油腻的一餐，与 movement 搭配不上。"
+        ]
+      },
+      {
+        "id": "l2-04-q4",
+        "type": "逻辑推断",
+        "question": "What can be inferred about short bursts of exercise?",
+        "options": [
+          "They are enough for marathon training.",
+          "They are helpful but have limits.",
+          "They only work for young people.",
+          "They replace the need for any other activity."
+        ],
+        "answer": 1,
+        "evidence": "Short bursts cannot replace training for a marathon, and they do not build strength on their own.",
+        "explain": "文章肯定短时活动的价值，同时指出它不能替代专项训练、也无法单独增力，说明有效但有边界。",
+        "whyWrong": [
+          "原文明确说不能替代马拉松训练。",
+          "文中没有提到年龄差异。",
+          "原文说它不能单独练出力量，可见不能取代一切活动。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l2-05",
+    "title": "Museums Without Glass Cases",
+    "titleZh": "没有玻璃柜的博物馆",
+    "level": 2,
+    "category": "文化",
+    "tags": [
+      "博物馆",
+      "历史",
+      "体验"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "In most museums, the most important objects sit behind glass, and visitors are told not to touch them.",
+            "zh": "在大多数博物馆里，最重要的物件都摆在玻璃后面，参观者被告知不要触摸。"
+          },
+          {
+            "en": "A new kind of museum is reversing that rule.",
+            "zh": "一种新型博物馆正在颠覆这条规矩。"
+          },
+          {
+            "en": "At these places, touching is not a mistake but the whole point.",
+            "zh": "在这些地方，触摸不是错误，而是全部意义所在。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "One example is a small museum in the north of the country that displays copies of ancient tools.",
+            "zh": "一个例子是该国北部的一家小博物馆，它展出古代工具的复制品。"
+          },
+          {
+            "en": "Visitors can hold a stone knife, weigh a clay pot, or try to start a fire with a wooden stick.",
+            "zh": "参观者可以握一握石刀，掂一掂陶罐，或者试着用木棍取火。"
+          },
+          {
+            "en": "The real objects remain in a locked room upstairs, safe from damage.",
+            "zh": "真正的物件被锁在楼上的一间屋子里，以免受损。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The museum's director explains that glass protects objects but also creates distance.",
+            "zh": "馆长解释说，玻璃保护了物件，却也制造了距离。"
+          },
+          {
+            "en": "A child who sees a tool through a window learns its name; a child who holds it learns what it was for.",
+            "zh": "隔着窗看工具的孩子学到的是名称；把工具握在手里的孩子学到的是它的用途。"
+          },
+          {
+            "en": "This matters because understanding the past requires imagination, and imagination needs something to work with.",
+            "zh": "这很重要，因为理解过去需要想象力，而想象力需要有东西可依托。"
+          },
+          {
+            "en": "A smooth handle or a heavy pot gives the mind a starting point.",
+            "zh": "一个光滑的把手或一只沉重的罐子，给了头脑一个起点。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Critics warn that such museums may turn history into entertainment.",
+            "zh": "批评者警告说，这类博物馆可能把历史变成娱乐。"
+          },
+          {
+            "en": "The director accepts the risk but argues that a visitor who remembers the weight of a pot will read about it later.",
+            "zh": "馆长接受这一风险，但认为记住罐子重量的参观者，之后会去读相关的书。"
+          },
+          {
+            "en": "Curiosity, she says, is a better teacher than a warning sign.",
+            "zh": "她说，好奇心比警告牌是更好的老师。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "reverse",
+        "pos": "v.",
+        "gloss": "颠倒；扭转",
+        "note": "reverse a rule 把一条规矩反过来"
+      },
+      {
+        "word": "display",
+        "pos": "v.",
+        "gloss": "展出；陈列",
+        "note": "display copies 展出复制品"
+      },
+      {
+        "word": "ancient",
+        "pos": "adj.",
+        "gloss": "古代的",
+        "note": "ancient tools 古代工具"
+      },
+      {
+        "word": "damage",
+        "pos": "n.",
+        "gloss": "损坏",
+        "note": "safe from damage 免受损坏"
+      },
+      {
+        "word": "curiosity",
+        "pos": "n.",
+        "gloss": "好奇心",
+        "note": "不可数名词"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "A child who sees a tool through a window learns its name; a child who holds it learns what it was for.",
+        "main": "A child learns its name; a child learns what it was for",
+        "subject": "A child / a child",
+        "predicate": "learns / learns",
+        "object": "its name / what it was for（宾语从句）",
+        "modifiers": "who sees a tool through a window 与 who holds it 都是定语从句，分别修饰两个 a child",
+        "logic": "分号连接两个结构对称的分句，用看与摸的对照说明体验的价值",
+        "zh": "隔着窗看工具的孩子学到的是名称；把工具握在手里的孩子学到的是它的用途。"
+      },
+      {
+        "en": "This matters because understanding the past requires imagination, and imagination needs something to work with.",
+        "main": "This matters",
+        "subject": "This",
+        "predicate": "matters",
+        "object": "无（matters 为不及物动词）",
+        "modifiers": "because 引导原因状语从句；从句内部 understanding the past 是动名词短语作主语，and 连接两个并列分句",
+        "logic": "because 从句给出理由，and 把需要想象力与想象力需要依托两层意思串起来",
+        "zh": "这很重要，因为理解过去需要想象力，而想象力需要有东西可依托。"
+      },
+      {
+        "en": "The director accepts the risk but argues that a visitor who remembers the weight of a pot will read about it later.",
+        "main": "The director accepts the risk but argues that ...",
+        "subject": "The director",
+        "predicate": "accepts / argues",
+        "object": "the risk / that 引导的宾语从句",
+        "modifiers": "that a visitor ... will read about it later 是宾语从句；其中 who remembers the weight of a pot 是定语从句修饰 a visitor",
+        "logic": "but 表示先让步再转折：承认风险，仍坚持自己的判断",
+        "zh": "馆长接受这一风险，但认为记住罐子重量的参观者，之后会去读相关的书。"
+      }
+    ],
+    "glossary": {
+      "museum": "n. 博物馆",
+      "object": "n. 物品；物件",
+      "visitor": "n. 参观者",
+      "touch": "v. 触摸",
+      "rule": "n. 规矩；规则",
+      "mistake": "n. 错误",
+      "display": "v. 展出",
+      "ancient": "adj. 古代的",
+      "tool": "n. 工具",
+      "hold": "v. 握住；拿",
+      "weigh": "v. 掂重量；称重",
+      "clay": "n. 黏土",
+      "pot": "n. 罐；陶罐",
+      "stick": "n. 棍子",
+      "locked": "adj. 锁着的",
+      "upstairs": "adv. 在楼上",
+      "damage": "n. 损坏",
+      "director": "n. 馆长；负责人",
+      "protect": "v. 保护",
+      "distance": "n. 距离",
+      "imagination": "n. 想象力",
+      "require": "v. 需要；要求",
+      "smooth": "adj. 光滑的",
+      "handle": "n. 把手",
+      "heavy": "adj. 沉重的",
+      "critic": "n. 批评者",
+      "warn": "v. 警告",
+      "entertainment": "n. 娱乐",
+      "accept": "v. 接受",
+      "risk": "n. 风险",
+      "argue": "v. 主张；论证",
+      "weight": "n. 重量",
+      "curiosity": "n. 好奇心",
+      "warning": "n. 警告",
+      "real": "adj. 真正的",
+      "safe": "adj. 安全的",
+      "child": "n. 孩子",
+      "learn": "v. 学到",
+      "history": "n. 历史",
+      "example": "n. 例子"
+    },
+    "quiz": [
+      {
+        "id": "l2-05-q1",
+        "type": "主旨大意",
+        "question": "What is the passage mainly about?",
+        "options": [
+          "A museum that lets visitors touch copies of old objects",
+          "Why glass cases are expensive to build",
+          "How to start a fire with a wooden stick",
+          "The rules children must follow in museums"
+        ],
+        "answer": 0,
+        "evidence": "At these places, touching is not a mistake but the whole point.",
+        "explain": "文章介绍一类允许触摸复制品的博物馆，说明其理由，也提到争议，主题是这种新的展陈方式。",
+        "whyWrong": [
+          "文中没有讨论玻璃柜的造价。",
+          "取火只是参观者可以尝试的活动之一，不是主题。",
+          "文章恰恰在讲打破不许触摸的旧规矩。"
+        ]
+      },
+      {
+        "id": "l2-05-q2",
+        "type": "细节理解",
+        "question": "Where are the real objects kept?",
+        "options": [
+          "In the main hall",
+          "In a locked room upstairs",
+          "In a local school",
+          "Outside in the garden"
+        ],
+        "answer": 1,
+        "evidence": "The real objects remain in a locked room upstairs, safe from damage.",
+        "explain": "原文直接说明真品锁在楼上的房间里，以免损坏，展厅里供触摸的是复制品。",
+        "whyWrong": [
+          "主展厅里摆放的是供触摸的复制品。",
+          "文中没有提到学校参与存放。",
+          "文中没有提到把真品放在室外。"
+        ]
+      },
+      {
+        "id": "l2-05-q3",
+        "type": "词义推断",
+        "question": "The word 'reversing' in paragraph 1 is closest in meaning to ___?",
+        "options": [
+          "turning the other way",
+          "writing down again",
+          "repairing carefully",
+          "explaining in detail"
+        ],
+        "answer": 0,
+        "evidence": "A new kind of museum is reversing that rule.",
+        "explain": "上句说不许触摸，下句说触摸才是重点，可见 reversing 是把规矩反过来。",
+        "whyWrong": [
+          "writing down again 指重新抄写，与规矩的改变无关。",
+          "repairing carefully 指修缮，文中没有提到修理。",
+          "explaining in detail 指详细解释，不能解释规矩被打破。"
+        ]
+      },
+      {
+        "id": "l2-05-q4",
+        "type": "作者观点",
+        "question": "What is the author's attitude towards such museums?",
+        "options": [
+          "Strongly critical",
+          "Generally favourable",
+          "Completely uninterested",
+          "Worried only about money"
+        ],
+        "answer": 1,
+        "evidence": "A child who sees a tool through a window learns its name; a child who holds it learns what it was for.",
+        "explain": "作者用对称的对比句强调触摸更能带来理解，末段虽引出批评，但以馆长的回应收尾，整体态度是肯定的。",
+        "whyWrong": [
+          "批评意见只是转述，作者本人并未持强烈否定态度。",
+          "作者花了大量篇幅解释其价值，并非漠不关心。",
+          "文中没有讨论经费问题。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l2-06",
+    "title": "The River That Came Back",
+    "titleZh": "重新活过来的河",
+    "level": 2,
+    "category": "环境",
+    "tags": [
+      "河流治理",
+      "城市",
+      "恢复"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "Thirty years ago, the river that runs through the industrial district was the color of weak tea.",
+            "zh": "三十年前，流经工业区的那条河颜色像淡茶。"
+          },
+          {
+            "en": "Factory waste poured into it, and residents kept their windows closed on hot days.",
+            "zh": "工厂废料被倒进去，居民在热天也关着窗。"
+          },
+          {
+            "en": "Fish had disappeared, and children were warned never to go near the water.",
+            "zh": "鱼消失了，孩子们被警告绝不要靠近河水。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The change began in 2005, when the city government closed the pipes that carried untreated water into the river.",
+            "zh": "变化始于 2005 年，市政府封堵了把未处理的水排入河中的管道。"
+          },
+          {
+            "en": "Engineers then built small wetlands along the banks, where plants could filter the water slowly.",
+            "zh": "工程师随后在两岸建起小型湿地，植物可以在那里慢慢过滤水质。"
+          },
+          {
+            "en": "At first, few people believed it would work.",
+            "zh": "起初，很少有人相信这能行。"
+          },
+          {
+            "en": "The river was too polluted, they said, and the cost was too high.",
+            "zh": "他们说，这条河污染太严重，代价也太高。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Ten years later, the results were visible to anyone who walked past.",
+            "zh": "十年后，任何路过的人都能看到结果。"
+          },
+          {
+            "en": "Water birds returned first, followed by fish that had not been seen since the 1980s.",
+            "zh": "水鸟先回来了，接着是从 20 世纪 80 年代以来就没见过的鱼。"
+          },
+          {
+            "en": "Today the banks are a park, and on summer evenings the paths are full of families.",
+            "zh": "如今两岸是一座公园，夏天的傍晚，小路上满是家庭。"
+          },
+          {
+            "en": "Property prices near the river have risen, which has pushed some old residents further away.",
+            "zh": "河边的房价上涨了，这也把一些老居民挤到了更远的地方。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The lesson is not that pollution can always be undone cheaply.",
+            "zh": "这个教训并不是说污染总能被廉价地修复。"
+          },
+          {
+            "en": "It is that a river, like most living systems, can recover if the source of harm is removed and time is allowed for healing.",
+            "zh": "而是说，一条河和大多数生命系统一样，只要切断伤害的来源并给予时间，就能恢复。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "industrial",
+        "pos": "adj.",
+        "gloss": "工业的",
+        "note": "industrial district 工业区"
+      },
+      {
+        "word": "untreated",
+        "pos": "adj.",
+        "gloss": "未经处理的",
+        "note": "untreated water 未经处理的水"
+      },
+      {
+        "word": "filter",
+        "pos": "v.",
+        "gloss": "过滤",
+        "note": "植物与湿地可以自然过滤水质"
+      },
+      {
+        "word": "visible",
+        "pos": "adj.",
+        "gloss": "看得见的",
+        "note": "be visible to sb"
+      },
+      {
+        "word": "recover",
+        "pos": "v.",
+        "gloss": "恢复；康复",
+        "note": "主语可以是人，也可以是生态系统"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "Thirty years ago, the river that runs through the industrial district was the color of weak tea.",
+        "main": "the river was the color of weak tea",
+        "subject": "the river",
+        "predicate": "was",
+        "object": "the color of weak tea（表语）",
+        "modifiers": "that runs through the industrial district 是定语从句修饰 the river；Thirty years ago 是时间状语",
+        "logic": "定语从句插在主语和谓语之间，先限定是哪一条河，再给出它当时的状态",
+        "zh": "三十年前，流经工业区的那条河颜色像淡茶。"
+      },
+      {
+        "en": "Engineers then built small wetlands along the banks, where plants could filter the water slowly.",
+        "main": "Engineers built small wetlands",
+        "subject": "Engineers",
+        "predicate": "built",
+        "object": "small wetlands",
+        "modifiers": "along the banks 是地点状语；where plants could filter the water slowly 是非限制性定语从句修饰 wetlands",
+        "logic": "where 从句补充说明湿地的功能，解释上句所说的治理办法为什么有效",
+        "zh": "工程师随后在两岸建起小型湿地，植物可以在那里慢慢过滤水质。"
+      },
+      {
+        "en": "Property prices near the river have risen, which has pushed some old residents further away.",
+        "main": "Property prices have risen",
+        "subject": "Property prices",
+        "predicate": "have risen",
+        "object": "无（rise 为不及物动词）",
+        "modifiers": "near the river 是后置定语修饰 prices；which 引导非限制性定语从句，指代前面整句的内容",
+        "logic": "which 从句引出前面事实带来的意外后果，为末段的辩证结论做铺垫",
+        "zh": "河边的房价上涨了，这也把一些老居民挤到了更远的地方。"
+      }
+    ],
+    "glossary": {
+      "industrial": "adj. 工业的",
+      "district": "n. 区域；区",
+      "factory": "n. 工厂",
+      "pour": "v. 倾倒",
+      "waste": "n. 废料；废物",
+      "resident": "n. 居民",
+      "disappear": "v. 消失",
+      "warn": "v. 警告",
+      "government": "n. 政府",
+      "pipe": "n. 管道",
+      "untreated": "adj. 未经处理的",
+      "engineer": "n. 工程师",
+      "wetland": "n. 湿地",
+      "bank": "n. 河岸",
+      "plant": "n. 植物",
+      "filter": "v. 过滤",
+      "polluted": "adj. 被污染的",
+      "cost": "n. 成本；代价",
+      "visible": "adj. 可见的",
+      "path": "n. 小路",
+      "property": "n. 房产；财产",
+      "price": "n. 价格",
+      "rise": "v. 上涨",
+      "push": "v. 推；挤走",
+      "recover": "v. 恢复",
+      "source": "n. 来源",
+      "harm": "n. 伤害",
+      "remove": "v. 去除；清除",
+      "healing": "n. 愈合；恢复",
+      "allow": "v. 给予；允许",
+      "bird": "n. 鸟",
+      "return": "v. 回来",
+      "family": "n. 家庭",
+      "summer": "n. 夏天",
+      "weak": "adj. 淡的；弱的",
+      "color": "n. 颜色",
+      "river": "n. 河流",
+      "believe": "v. 相信",
+      "change": "n. 变化"
+    },
+    "quiz": [
+      {
+        "id": "l2-06-q1",
+        "type": "主旨大意",
+        "question": "What is the passage mainly about?",
+        "options": [
+          "How a polluted river was brought back to life",
+          "Why factories should be closed permanently",
+          "How to build a park along a river",
+          "The history of the industrial district"
+        ],
+        "answer": 0,
+        "evidence": "It is that a river, like most living systems, can recover if the source of harm is removed and time is allowed for healing.",
+        "explain": "文章按时间顺序写一条河从污染到恢复的过程，结尾点明主旨：切断污染源并给予时间，河流可以恢复。",
+        "whyWrong": [
+          "文中只提到工厂停止排污，没有主张永久关闭所有工厂。",
+          "建公园是恢复后的结果，不是文章要讲的方法。",
+          "工业区只是背景，文章重点在河流的变化。"
+        ]
+      },
+      {
+        "id": "l2-06-q2",
+        "type": "细节理解",
+        "question": "What did the city government do in 2005?",
+        "options": [
+          "It built new factories.",
+          "It closed the pipes carrying untreated water.",
+          "It moved residents away from the river.",
+          "It planted trees along the banks."
+        ],
+        "answer": 1,
+        "evidence": "The change began in 2005, when the city government closed the pipes that carried untreated water into the river.",
+        "explain": "原文说市政府封堵了输送未处理污水的管道，这是治理的起点。",
+        "whyWrong": [
+          "文中没有新建工厂，反而在减少排污。",
+          "居民是被房价推走的，不是政府迁走的。",
+          "工程师建的是湿地，文中没有说种树。"
+        ]
+      },
+      {
+        "id": "l2-06-q3",
+        "type": "词义推断",
+        "question": "The word 'filter' in paragraph 2 probably means ___?",
+        "options": [
+          "clean by passing through something",
+          "carry away quickly",
+          "freeze in cold weather",
+          "measure with a tool"
+        ],
+        "answer": 0,
+        "evidence": "Engineers then built small wetlands along the banks, where plants could filter the water slowly.",
+        "explain": "植物让水慢慢流过，从而去除杂质，这就是 filter 的意思，slowly 也提示了净化的过程。",
+        "whyWrong": [
+          "carry away quickly 是快速冲走，与 slowly 和净化的目的不符。",
+          "freeze 指结冰，与水质改善无关。",
+          "measure 指测量，不能解释水为何变清。"
+        ]
+      },
+      {
+        "id": "l2-06-q4",
+        "type": "逻辑推断",
+        "question": "What does the rise in property prices suggest?",
+        "options": [
+          "The cleanup brought benefits and also problems.",
+          "The river is still heavily polluted.",
+          "No one wants to live near the river.",
+          "The government has stopped the project."
+        ],
+        "answer": 0,
+        "evidence": "Property prices near the river have risen, which has pushed some old residents further away.",
+        "explain": "房价上涨说明环境变好、地价上升，但老居民被迫搬远，可见治理同时带来了新的社会问题。",
+        "whyWrong": [
+          "房价上涨恰恰说明环境改善，不是仍在污染。",
+          "房价上涨说明人们愿意住在河边。",
+          "文中没有任何项目停止的信息。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l2-07",
+    "title": "Why a Tomato Costs More in Winter",
+    "titleZh": "冬天的番茄为什么更贵",
+    "level": 2,
+    "category": "经济",
+    "tags": [
+      "价格",
+      "供求",
+      "生活成本"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "In summer, tomatoes fill the market and prices fall so low that sellers almost give them away.",
+            "zh": "夏天，番茄堆满市场，价格低到卖家几乎是白送。"
+          },
+          {
+            "en": "In January, the same tomato may cost three times as much.",
+            "zh": "到了一月，同样的番茄可能要贵上三倍。"
+          },
+          {
+            "en": "The difference is not greed; it is a simple lesson in supply and demand.",
+            "zh": "差别不在贪婪，而在一条关于供求的简单道理。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "When local fields stop producing, shops must buy from regions hundreds of kilometers away.",
+            "zh": "当本地田地停止产出，商店只能从数百公里外的地区进货。"
+          },
+          {
+            "en": "Transport adds fuel, labor and cooling costs to every box.",
+            "zh": "运输会给每一箱加上燃料、人工和冷藏成本。"
+          },
+          {
+            "en": "Some tomatoes travel by ship and truck for more than a week, and a few are damaged on the way.",
+            "zh": "有些番茄要坐船和卡车走上一个多星期，路上还会损坏一些。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Demand, meanwhile, does not fall in winter.",
+            "zh": "与此同时，需求在冬天并没有下降。"
+          },
+          {
+            "en": "People still want salad, and restaurants still put tomato in their dishes.",
+            "zh": "人们仍然想吃沙拉，餐馆仍然往菜里放番茄。"
+          },
+          {
+            "en": "When supply drops and demand stays the same, the price rises.",
+            "zh": "当供给下降而需求不变，价格就会上涨。"
+          },
+          {
+            "en": "Economists call this elasticity, and it explains why some goods become expensive while others stay cheap.",
+            "zh": "经济学家称之为弹性，它解释了为什么有些商品变贵，而另一些仍然便宜。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "There are ways to soften the effect.",
+            "zh": "有办法可以缓和这种影响。"
+          },
+          {
+            "en": "Greenhouses can grow vegetables near the city, and better storage can keep fruit fresh for longer.",
+            "zh": "温室可以在城市附近种菜，更好的储存能让果蔬保鲜更久。"
+          },
+          {
+            "en": "Both cost money, so the winter tomato will never be as cheap as the summer one.",
+            "zh": "两者都要花钱，所以冬天的番茄永远不会像夏天那么便宜。"
+          },
+          {
+            "en": "Understanding why may at least stop us from putting the blame on the shopkeeper.",
+            "zh": "明白其中原因，至少能让我们不再把责任推到店主身上。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "greed",
+        "pos": "n.",
+        "gloss": "贪婪",
+        "note": "不可数名词"
+      },
+      {
+        "word": "supply",
+        "pos": "n.",
+        "gloss": "供给",
+        "note": "supply and demand 供求"
+      },
+      {
+        "word": "transport",
+        "pos": "n.",
+        "gloss": "运输",
+        "note": "此处作名词"
+      },
+      {
+        "word": "elasticity",
+        "pos": "n.",
+        "gloss": "弹性",
+        "note": "经济学中指价格对供求变化的敏感程度"
+      },
+      {
+        "word": "blame",
+        "pos": "n.",
+        "gloss": "责任；责备",
+        "note": "put the blame on sb 把责任推到某人身上"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "In summer, tomatoes fill the market and prices fall so low that sellers almost give them away.",
+        "main": "tomatoes fill the market and prices fall",
+        "subject": "tomatoes / prices",
+        "predicate": "fill / fall",
+        "object": "the market / 无",
+        "modifiers": "so low that sellers almost give them away 是 so...that 结果状语从句，修饰 low；In summer 是时间状语",
+        "logic": "and 连接两个并列分句，第二句用 so...that 引出结果：价格低到几乎白送",
+        "zh": "夏天，番茄堆满市场，价格低到卖家几乎是白送。"
+      },
+      {
+        "en": "When local fields stop producing, shops must buy from regions hundreds of kilometers away.",
+        "main": "shops must buy from regions",
+        "subject": "shops",
+        "predicate": "must buy",
+        "object": "无（from regions 是地点状语）",
+        "modifiers": "When local fields stop producing 是时间状语从句；hundreds of kilometers away 是名词短语作后置定语修饰 regions",
+        "logic": "从句交代季节条件，主句说明由此产生的采购行为，两者构成因果",
+        "zh": "当本地田地停止产出，商店只能从数百公里外的地区进货。"
+      },
+      {
+        "en": "Economists call this elasticity, and it explains why some goods become expensive while others stay cheap.",
+        "main": "Economists call this elasticity, and it explains why ...",
+        "subject": "Economists / it",
+        "predicate": "call / explains",
+        "object": "this elasticity / why 引导的宾语从句",
+        "modifiers": "why 从句中 while others stay cheap 是对比状语从句，与 some goods become expensive 形成对照",
+        "logic": "and 承接前句，用 why 从句把经济学术语落到具体现象上",
+        "zh": "经济学家称之为弹性，它解释了为什么有些商品变贵，而另一些仍然便宜。"
+      }
+    ],
+    "glossary": {
+      "market": "n. 市场",
+      "price": "n. 价格",
+      "fall": "v. 下降",
+      "seller": "n. 卖家",
+      "greed": "n. 贪婪",
+      "supply": "n. 供给",
+      "demand": "n. 需求",
+      "local": "adj. 本地的",
+      "field": "n. 田地",
+      "region": "n. 地区",
+      "kilometer": "n. 公里",
+      "transport": "n. 运输",
+      "fuel": "n. 燃料",
+      "labor": "n. 人工；劳动力",
+      "cool": "v. 冷藏；冷却",
+      "box": "n. 箱子",
+      "ship": "n. 船",
+      "truck": "n. 卡车",
+      "damage": "v. 损坏",
+      "salad": "n. 沙拉",
+      "restaurant": "n. 餐馆",
+      "dish": "n. 菜肴",
+      "drop": "v. 下降",
+      "economist": "n. 经济学家",
+      "elasticity": "n. 弹性",
+      "explain": "v. 解释",
+      "goods": "n. 商品",
+      "cheap": "adj. 便宜的",
+      "expensive": "adj. 昂贵的",
+      "soften": "v. 缓和；减轻",
+      "effect": "n. 影响；效果",
+      "greenhouse": "n. 温室",
+      "vegetable": "n. 蔬菜",
+      "storage": "n. 储存",
+      "fresh": "adj. 新鲜的",
+      "blame": "n. 责任；责备",
+      "shopkeeper": "n. 店主",
+      "winter": "n. 冬天",
+      "cost": "v. 花费"
+    },
+    "quiz": [
+      {
+        "id": "l2-07-q1",
+        "type": "主旨大意",
+        "question": "What is the passage mainly about?",
+        "options": [
+          "Why tomato prices change with the seasons",
+          "How to grow tomatoes in a greenhouse",
+          "Why shopkeepers are often dishonest",
+          "The best way to store fresh fruit"
+        ],
+        "answer": 0,
+        "evidence": "The difference is not greed; it is a simple lesson in supply and demand.",
+        "explain": "文章以番茄为例，用供给、运输和需求解释季节性价差，主题是价格随季节变动的原因。",
+        "whyWrong": [
+          "温室只是末段提到的一种缓解办法，不是主题。",
+          "文章明确说差别不在贪婪，也没有指责店主。",
+          "储存只是缓解手段之一，全文重点在价格。"
+        ]
+      },
+      {
+        "id": "l2-07-q2",
+        "type": "细节理解",
+        "question": "Why do winter tomatoes cost more?",
+        "options": [
+          "They taste better than summer ones.",
+          "They must be brought from far away.",
+          "Fewer people want to buy them.",
+          "Shops refuse to sell them cheaply."
+        ],
+        "answer": 1,
+        "evidence": "When local fields stop producing, shops must buy from regions hundreds of kilometers away.",
+        "explain": "本地田地在冬天停产，商店只能远距离采购，运输和损耗推高了成本。",
+        "whyWrong": [
+          "文中没有比较冬天与夏天番茄的味道。",
+          "文中说需求在冬天并没有下降。",
+          "价格由供求与成本决定，不是店主故意不卖便宜。"
+        ]
+      },
+      {
+        "id": "l2-07-q3",
+        "type": "词义推断",
+        "question": "The word 'soften' in paragraph 4 probably means ___?",
+        "options": [
+          "make less severe",
+          "make completely disappear",
+          "make louder",
+          "make more expensive"
+        ],
+        "answer": 0,
+        "evidence": "There are ways to soften the effect.",
+        "explain": "后文举温室和储存两个办法，都是让涨价的影响变小，故 soften 是减弱、缓和。",
+        "whyWrong": [
+          "make completely disappear 指彻底消失，而末句说冬天番茄永远不会和夏天一样便宜。",
+          "make louder 指声音变大，与价格影响无关。",
+          "make more expensive 与缓和影响的意思相反。"
+        ]
+      },
+      {
+        "id": "l2-07-q4",
+        "type": "逻辑推断",
+        "question": "What can be inferred about greenhouse vegetables?",
+        "options": [
+          "They are always cheaper than field vegetables.",
+          "They cost more but reduce the seasonal gap.",
+          "They are impossible to grow near cities.",
+          "They damage the soil in winter."
+        ],
+        "answer": 1,
+        "evidence": "Both cost money, so the winter tomato will never be as cheap as the summer one.",
+        "explain": "温室能在城市附近种菜，缓解冬季缺货，但成本高，所以只能缩小价差而不能消除。",
+        "whyWrong": [
+          "末句说冬天番茄永远不会像夏天那么便宜。",
+          "文中明确说温室可以在城市附近种菜。",
+          "文中没有提到温室破坏土壤。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l2-08",
+    "title": "The Sunday Reset",
+    "titleZh": "周日重启",
+    "level": 2,
+    "category": "生活",
+    "tags": [
+      "时间管理",
+      "心理",
+      "习惯"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "For a long time, my Sunday evenings were the worst part of my week.",
+            "zh": "很长一段时间里，我的周日晚上是一周中最糟的部分。"
+          },
+          {
+            "en": "I would lie on the sofa, think about the work waiting for me, and feel the weekend slipping away.",
+            "zh": "我会躺在沙发上，想着等着我的工作，感觉周末正在溜走。"
+          },
+          {
+            "en": "Then a friend suggested something so simple that I almost ignored it.",
+            "zh": "后来一个朋友提了个简单到我差点忽略的建议。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "She told me to use thirty minutes on Sunday afternoon to prepare for Monday, not to worry about it.",
+            "zh": "她让我在周日下午用三十分钟为周一做准备，而不是为它发愁。"
+          },
+          {
+            "en": "I chose three small tasks: washing clothes, cooking rice for two days, and writing a short list of what I had to finish.",
+            "zh": "我选了三件小事：洗衣服、煮好两天的米饭、写一张要完成事项的短清单。"
+          },
+          {
+            "en": "None of these tasks was difficult, and together they took less than half an hour.",
+            "zh": "这些事都不难，加起来不到半小时。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The effect was surprising.",
+            "zh": "效果令人意外。"
+          },
+          {
+            "en": "Because the boring jobs were already done, Monday morning no longer felt heavy.",
+            "zh": "因为那些乏味的活儿已经做完，周一早晨不再显得沉重。"
+          },
+          {
+            "en": "Because the list was short, I could see exactly where to begin.",
+            "zh": "因为清单很短，我一眼就能看到从哪里开始。"
+          },
+          {
+            "en": "The worry did not disappear, but it stopped growing in the dark.",
+            "zh": "担忧没有消失，但它不再在黑暗里长大。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Psychologists explain that unfinished tasks take up space in the mind.",
+            "zh": "心理学家解释说，未完成的任务会占据心里的空间。"
+          },
+          {
+            "en": "Writing them down tells the brain that they are recorded, so it can let go for a while.",
+            "zh": "把它们写下来，等于告诉大脑它们已被记录，于是它可以暂时放下。"
+          },
+          {
+            "en": "My Sunday reset is not a cure for a busy life, but it has given me back one quiet evening each week.",
+            "zh": "我的周日重启不是忙碌生活的解药，但它每周还给我一个安静的晚上。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "ignore",
+        "pos": "v.",
+        "gloss": "忽视；不理会",
+        "note": "almost ignored it 差点没当回事"
+      },
+      {
+        "word": "task",
+        "pos": "n.",
+        "gloss": "任务；事情",
+        "note": "可数名词"
+      },
+      {
+        "word": "effect",
+        "pos": "n.",
+        "gloss": "效果；影响",
+        "note": "affect 是动词，effect 是名词"
+      },
+      {
+        "word": "record",
+        "pos": "v.",
+        "gloss": "记录",
+        "note": "此处用被动 be recorded"
+      },
+      {
+        "word": "cure",
+        "pos": "n.",
+        "gloss": "疗法；解药",
+        "note": "a cure for sth"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "Then a friend suggested something so simple that I almost ignored it.",
+        "main": "a friend suggested something",
+        "subject": "a friend",
+        "predicate": "suggested",
+        "object": "something",
+        "modifiers": "so simple that I almost ignored it 中，so simple 作后置定语修饰 something，that 从句是结果状语从句",
+        "logic": "so...that 结构把简单和差点忽略连成因果关系，为下文的转折蓄势",
+        "zh": "后来一个朋友提了个简单到我差点忽略的建议。"
+      },
+      {
+        "en": "Because the boring jobs were already done, Monday morning no longer felt heavy.",
+        "main": "Monday morning no longer felt heavy",
+        "subject": "Monday morning",
+        "predicate": "felt",
+        "object": "heavy（表语）",
+        "modifiers": "Because the boring jobs were already done 是原因状语从句，从句用被动语态；no longer 是否定意义的频度状语",
+        "logic": "原因在前、结果在后，直接点明周日准备与周一心情之间的因果",
+        "zh": "因为那些乏味的活儿已经做完，周一早晨不再显得沉重。"
+      },
+      {
+        "en": "Writing them down tells the brain that they are recorded, so it can let go for a while.",
+        "main": "Writing them down tells the brain that ...",
+        "subject": "Writing them down（动名词短语作主语）",
+        "predicate": "tells",
+        "object": "the brain（间接宾语）+ that 从句（直接宾语）",
+        "modifiers": "so it can let go for a while 是 so 引导的结果状语从句",
+        "logic": "动名词作主语提出做法，that 从句说明告知的内容，so 从句给出结果",
+        "zh": "把它们写下来，等于告诉大脑它们已被记录，于是它可以暂时放下。"
+      }
+    ],
+    "glossary": {
+      "sofa": "n. 沙发",
+      "slip": "v. 溜走；滑走",
+      "suggest": "v. 建议",
+      "simple": "adj. 简单的",
+      "ignore": "v. 忽视",
+      "task": "n. 事情；任务",
+      "difficult": "adj. 困难的",
+      "half": "n. 一半",
+      "effect": "n. 效果",
+      "boring": "adj. 乏味的",
+      "heavy": "adj. 沉重的",
+      "list": "n. 清单",
+      "exactly": "adv. 确切地",
+      "begin": "v. 开始",
+      "worry": "v. 担忧",
+      "disappear": "v. 消失",
+      "grow": "v. 生长；变大",
+      "dark": "n. 黑暗",
+      "psychologist": "n. 心理学家",
+      "unfinished": "adj. 未完成的",
+      "space": "n. 空间",
+      "mind": "n. 头脑；心思",
+      "record": "v. 记录",
+      "cure": "n. 疗法；解药",
+      "busy": "adj. 忙碌的",
+      "quiet": "adj. 安静的",
+      "evening": "n. 晚上",
+      "week": "n. 星期；一周",
+      "wash": "v. 洗",
+      "cook": "v. 煮；做饭",
+      "rice": "n. 米饭",
+      "minute": "n. 分钟",
+      "finish": "v. 完成",
+      "prepare": "v. 准备",
+      "weekend": "n. 周末"
+    },
+    "quiz": [
+      {
+        "id": "l2-08-q1",
+        "type": "主旨大意",
+        "question": "What is the passage mainly about?",
+        "options": [
+          "A small Sunday routine that made Mondays easier",
+          "How to cook rice for a whole week",
+          "Why weekends are shorter than weekdays",
+          "The best way to clean a flat"
+        ],
+        "answer": 0,
+        "evidence": "My Sunday reset is not a cure for a busy life, but it has given me back one quiet evening each week.",
+        "explain": "文章讲作者周日花半小时做几件小事，从而让周一不再沉重，主旨是这个小习惯带来的改变。",
+        "whyWrong": [
+          "煮饭只是三件小事之一，不是主题。",
+          "文章没有比较周末与工作日的长短。",
+          "打扫只是其中一项，全文重点在心理上的变化。"
+        ]
+      },
+      {
+        "id": "l2-08-q2",
+        "type": "细节理解",
+        "question": "What did the writer do on Sunday afternoon?",
+        "options": [
+          "She met a friend for coffee.",
+          "She finished three small tasks.",
+          "She wrote a long report.",
+          "She cleaned the whole flat."
+        ],
+        "answer": 1,
+        "evidence": "I chose three small tasks: washing clothes, cooking rice for two days, and writing a short list of what I had to finish.",
+        "explain": "原文列出三件小事：洗衣服、煮饭、写清单，与选项中的 three small tasks 对应。",
+        "whyWrong": [
+          "朋友只是提建议的人，文中没有写周日见面喝咖啡。",
+          "她写的是短清单，不是长报告。",
+          "文中只说洗衣服，没有说打扫整个房子。"
+        ]
+      },
+      {
+        "id": "l2-08-q3",
+        "type": "词义推断",
+        "question": "The word 'reset' in the title probably means ___?",
+        "options": [
+          "a fresh start before the week begins",
+          "a broken machine",
+          "a long holiday",
+          "a difficult exam"
+        ],
+        "answer": 0,
+        "evidence": "She told me to use thirty minutes on Sunday afternoon to prepare for Monday, not to worry about it.",
+        "explain": "标题中的 reset 指在周日前花半小时整理状态，为新一周重新开始做准备。",
+        "whyWrong": [
+          "文中讲的是人的状态调整，不是机器故障。",
+          "只有半小时，谈不上长假。",
+          "文中没有提到考试。"
+        ]
+      },
+      {
+        "id": "l2-08-q4",
+        "type": "逻辑推断",
+        "question": "Why does writing tasks down help?",
+        "options": [
+          "It makes the tasks shorter.",
+          "It tells the mind the tasks are recorded.",
+          "It removes all the work.",
+          "It helps the writer sleep longer."
+        ],
+        "answer": 1,
+        "evidence": "Writing them down tells the brain that they are recorded, so it can let go for a while.",
+        "explain": "原文说写下来等于告诉大脑事情已被记录，大脑因此可以暂时放下，焦虑就不再累积。",
+        "whyWrong": [
+          "写下来只是记录，不会让事情本身变少或变短。",
+          "任务依然存在，只是不再占据心思。",
+          "文中谈的是心理负担，没有提到睡眠时长。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  }
+]

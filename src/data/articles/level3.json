@@ -1,0 +1,2453 @@
+[
+  {
+    "id": "l3-01",
+    "title": "The Neighbours We Never Meet",
+    "titleZh": "我们从不相识的邻居",
+    "level": 3,
+    "category": "社会",
+    "tags": [
+      "城市生活",
+      "社区",
+      "社会信任"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "In the apartment blocks where a large share of urban families now live, neighbours are people who share a wall but almost nothing else.",
+            "zh": "在如今大量城市家庭居住的公寓楼里，邻居只是与自己共用一堵墙、除此之外几乎毫无交集的人。"
+          },
+          {
+            "en": "Commentators often describe this as a loss, and they are partly right.",
+            "zh": "评论者常把这种状况说成一种损失，而他们说的有一部分是对的。"
+          },
+          {
+            "en": "Yet the quiet distance between neighbours is less a moral failure than a predictable outcome of how modern housing is built and how often people move.",
+            "zh": "然而，邻里之间那种安静的疏远，与其说是道德上的失败，不如说是现代住宅的建造方式与人们搬迁频率共同造成的可预见结果。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "A corridor in a tall building is a passage, not a meeting place; it is designed for movement, and people cross it at speed with their eyes on a phone.",
+            "zh": "高层住宅里的走廊是通道，而不是会面的场所；它专为通行而设计，人们低头看着手机匆匆穿过。"
+          },
+          {
+            "en": "Sociologists have long argued that weak ties, the acquaintances we barely know, matter more than we expect, because they carry information that never travels inside our closest circle.",
+            "zh": "社会学家长期以来一直认为，弱关系——那些我们几乎不了解的熟人——比我们以为的更重要，因为它们承载着在最亲密圈子里永远不会流传的信息。"
+          },
+          {
+            "en": "A neighbour who nods in the lift is a weak tie of exactly this kind: cheap to maintain, occasionally useful, and easily lost when the building gives nobody a reason to stop.",
+            "zh": "在电梯里向你点头的邻居正是这样一种弱关系：维护成本很低，偶尔有用，而当楼里没有任何理由让人停下脚步时，它又极易消失。"
+          },
+          {
+            "en": "At the same time, the number of years a family spends in one flat has fallen, and the kind of trust that survives a borrowed ladder takes a long time to grow.",
+            "zh": "与此同时，一个家庭在同一套公寓里居住的年数在减少，而那种经得起“借一把梯子”的信任需要很长时间才能生长。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "None of this means that neighbours have stopped mattering.",
+            "zh": "这一切并不意味着邻居已经不再重要。"
+          },
+          {
+            "en": "In a power cut, a flood or a sudden illness, the person two doors away is the only help that can arrive in minutes.",
+            "zh": "在停电、水灾或突发疾病时，隔两户门的那个人是唯一能在几分钟内赶到的帮手。"
+          },
+          {
+            "en": "Where residents share a garden, a stairwell or a corner for sorting rubbish, they tend to learn names, and once a name is known, small obligations follow.",
+            "zh": "当居民共用一处花园、一段楼梯间或一个垃圾分类角时，他们往往会知道彼此的名字；而一旦知道了名字，小小的责任也就随之而来。"
+          },
+          {
+            "en": "The lesson is not that people have grown colder, but that shared space, rather than shared feeling, is what produces contact.",
+            "zh": "这里要说明的并不是人变得更冷漠了，而是产生接触的是共享的空间，而非共享的情感。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Nostalgia for the old courtyard is a poor guide to policy, since the courtyard also carried gossip, surveillance and very little privacy.",
+            "zh": "对旧日大院的怀念并不是好的政策指南，因为大院同时也带来了闲言碎语、彼此监视和极少的隐私。"
+          },
+          {
+            "en": "A better aim is to build the modern equivalent of the well: a bench, a workshop, a laundry room, some ordinary place where the same faces appear at the same hour.",
+            "zh": "更好的目标是建造现代版的“水井”：一条长椅、一间工具房、一个洗衣房，某个普通的地方，让同样的面孔在同样的时间出现。"
+          },
+          {
+            "en": "Neighbourliness, in other words, is less a virtue to be preached than an opportunity to be designed.",
+            "zh": "换言之，邻里之情与其说是一种需要宣扬的美德，不如说是一个需要被设计出来的机会。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "nostalgia",
+        "pos": "n.",
+        "gloss": "怀旧；乡愁",
+        "note": "常与 for 连用，nostalgia for the old courtyard 表示对旧日大院的怀念"
+      },
+      {
+        "word": "surveillance",
+        "pos": "n.",
+        "gloss": "监视；监控",
+        "note": "不可数名词，指持续的、带审视意味的观察"
+      },
+      {
+        "word": "obligation",
+        "pos": "n.",
+        "gloss": "义务；责任",
+        "note": "比 duty 更强调由关系、承诺带来的约束"
+      },
+      {
+        "word": "equivalent",
+        "pos": "n./adj.",
+        "gloss": "等价物；相当的",
+        "note": "the modern equivalent of ... 表示“相当于……的现代版本”"
+      },
+      {
+        "word": "preach",
+        "pos": "v.",
+        "gloss": "宣扬；说教",
+        "note": "a virtue to be preached 指停留在口头倡导层面的美德"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "Yet the quiet distance between neighbours is less a moral failure than a predictable outcome of how modern housing is built and how often people move.",
+        "main": "the quiet distance is less a moral failure than a predictable outcome",
+        "subject": "the quiet distance between neighbours",
+        "predicate": "is",
+        "object": "less a moral failure than a predictable outcome",
+        "modifiers": "between neighbours 是介词短语作后置定语修饰 distance；of how modern housing is built and how often people move 是介词 of 引导的两个并列宾语从句，共同修饰 outcome",
+        "logic": "less ... than ... 是比较结构，否定前者、肯定后者，把解释从道德层面转到结构与行为层面，Yet 承接上句的让步",
+        "zh": "然而，邻里之间的疏远与其说是道德失败，不如说是住宅建造方式与搬迁频率带来的可预见结果。"
+      },
+      {
+        "en": "Sociologists have long argued that weak ties, the acquaintances we barely know, matter more than we expect, because they carry information that never travels inside our closest circle.",
+        "main": "Sociologists have long argued that weak ties matter more than we expect",
+        "subject": "Sociologists",
+        "predicate": "have long argued",
+        "object": "that 引导的宾语从句",
+        "modifiers": "the acquaintances we barely know 是 weak ties 的同位语，其中 we barely know 是省略关系词的定语从句；more than we expect 是比较状语；because 引导原因状语从句，其中 that never travels inside our closest circle 修饰 information",
+        "logic": "主句＋同位语定义＋比较＋原因从句四层叠加，先把抽象概念说清，再解释它为何重要",
+        "zh": "社会学家一直认为，弱关系（我们几乎不认识的熟人）比我们以为的更重要，因为它们承载着最亲密圈子里不会流传的信息。"
+      },
+      {
+        "en": "Where residents share a garden, a stairwell or a corner for sorting rubbish, they tend to learn names, and once a name is known, small obligations follow.",
+        "main": "they tend to learn names, and small obligations follow",
+        "subject": "they / small obligations",
+        "predicate": "tend to learn / follow",
+        "object": "names（第一个分句）",
+        "modifiers": "Where 引导地点条件状语从句，其中 for sorting rubbish 修饰 corner；once a name is known 是时间状语从句，用被动表示“名字被知晓之后”",
+        "logic": "条件—结果链条：共享空间带来相识，相识带来责任；and 把两步结果并列推进",
+        "zh": "当居民共用花园、楼梯间或垃圾分类角时，他们往往会知道彼此的名字；一旦知道了名字，小小的责任也随之而来。"
+      }
+    ],
+    "glossary": {
+      "apartment": "n. 公寓",
+      "block": "n. 街区；楼栋",
+      "urban": "adj. 城市的",
+      "neighbour": "n. 邻居",
+      "commentator": "n. 评论者",
+      "loss": "n. 损失；丧失",
+      "partly": "adv. 部分地",
+      "distance": "n. 距离；疏远",
+      "moral": "adj. 道德的",
+      "failure": "n. 失败",
+      "predictable": "adj. 可预见的",
+      "outcome": "n. 结果",
+      "housing": "n. 住房；住宅供给",
+      "corridor": "n. 走廊",
+      "passage": "n. 通道",
+      "movement": "n. 移动；通行",
+      "speed": "n. 速度",
+      "sociologist": "n. 社会学家",
+      "argue": "v. 论证；主张",
+      "weak": "adj. 弱的",
+      "tie": "n. 联系；纽带",
+      "acquaintance": "n. 熟人",
+      "barely": "adv. 几乎不",
+      "information": "n. 信息",
+      "circle": "n. 圈子",
+      "nod": "v. 点头",
+      "lift": "n. 电梯",
+      "maintain": "v. 维持",
+      "occasionally": "adv. 偶尔",
+      "building": "n. 建筑物",
+      "reason": "n. 理由",
+      "move": "v. 搬迁；移动",
+      "flat": "n. 公寓套房",
+      "trust": "n. 信任",
+      "survive": "v. 经受住；存活",
+      "borrow": "v. 借",
+      "ladder": "n. 梯子",
+      "flood": "n. 洪水",
+      "sudden": "adj. 突然的",
+      "illness": "n. 疾病",
+      "resident": "n. 居民",
+      "garden": "n. 花园",
+      "stairwell": "n. 楼梯间",
+      "rubbish": "n. 垃圾",
+      "tend": "v. 倾向于",
+      "obligation": "n. 义务",
+      "lesson": "n. 教训；启示",
+      "shared": "adj. 共享的",
+      "space": "n. 空间",
+      "produce": "v. 产生",
+      "contact": "n. 接触；往来",
+      "nostalgia": "n. 怀旧",
+      "courtyard": "n. 院子；大院",
+      "policy": "n. 政策",
+      "gossip": "n. 闲言碎语",
+      "surveillance": "n. 监视",
+      "privacy": "n. 隐私",
+      "equivalent": "n. 对应物",
+      "bench": "n. 长椅",
+      "workshop": "n. 工坊",
+      "laundry": "n. 洗衣；洗衣房",
+      "ordinary": "adj. 普通的",
+      "virtue": "n. 美德",
+      "preach": "v. 宣扬",
+      "opportunity": "n. 机会",
+      "design": "v. 设计"
+    },
+    "quiz": [
+      {
+        "id": "l3-01-q1",
+        "type": "主旨大意",
+        "question": "What is the passage mainly about?",
+        "options": [
+          "Why contact between neighbours has weakened and how design could restore it",
+          "Why old courtyards were better places to raise children",
+          "How to complain effectively about noisy neighbours",
+          "Why villages are friendlier than large cities"
+        ],
+        "answer": 0,
+        "evidence": "Yet the quiet distance between neighbours is less a moral failure than a predictable outcome of how modern housing is built and how often people move.",
+        "explain": "全文先提出邻里疏远源于住宅设计与流动性，再分析弱关系的价值，最后落到“共享空间需要被设计”这一主张，故主旨是疏远的原因与补救方向。",
+        "whyWrong": [
+          "文中明确说大院也带来闲言碎语和监视，并未主张它更适合养育孩子。",
+          "全文没有涉及投诉或噪音处理的具体做法。",
+          "文章讨论的是城市公寓楼，没有比较城乡差别。"
+        ]
+      },
+      {
+        "id": "l3-01-q2",
+        "type": "词义推断",
+        "question": "What does the author mean by 'the modern equivalent of the well'?",
+        "options": [
+          "A shared everyday place that brings the same people together regularly",
+          "A water supply system installed in new apartment buildings",
+          "An online group where residents exchange information",
+          "A traditional custom that young people should learn"
+        ],
+        "answer": 0,
+        "evidence": "A better aim is to build the modern equivalent of the well: a bench, a workshop, a laundry room, some ordinary place where the same faces appear at the same hour.",
+        "explain": "冒号后的列举（长椅、工具房、洗衣房）和“同样的面孔在同样时间出现”说明，作者指的是能让人反复相遇的日常共享场所，水井只是比喻。",
+        "whyWrong": [
+          "冒号后列举的是长椅、工具房、洗衣房，不是供水设施。",
+          "作者强调的是物理空间里的重复相遇，不是线上群组。",
+          "作者恰恰反对以怀旧和传统作为政策依据。"
+        ]
+      },
+      {
+        "id": "l3-01-q3",
+        "type": "细节理解",
+        "question": "According to the passage, what often leads neighbours to learn each other's names?",
+        "options": [
+          "Sharing a garden, a stairwell or a rubbish-sorting corner",
+          "Living in the same flat for many years",
+          "Meeting in the corridor every morning",
+          "Attending the same school or workplace"
+        ],
+        "answer": 0,
+        "evidence": "Where residents share a garden, a stairwell or a corner for sorting rubbish, they tend to learn names, and once a name is known, small obligations follow.",
+        "explain": "原文直接指出，共用花园、楼梯间或垃圾分类角时，居民往往会知道彼此的名字。",
+        "whyWrong": [
+          "原文说居住年数在下降，且长住本身不等于互相认识。",
+          "走廊被描述为通道，人们匆匆穿过，不会因此认识彼此。",
+          "文中未提及学校或工作单位。"
+        ]
+      },
+      {
+        "id": "l3-01-q4",
+        "type": "作者观点",
+        "question": "What is the author's attitude towards nostalgia for the old courtyard?",
+        "options": [
+          "Sympathetic but doubtful as a basis for policy",
+          "Fully supportive, since courtyards created strong trust",
+          "Completely dismissive, since courtyards no longer exist",
+          "Neutral, since the passage does not judge courtyards"
+        ],
+        "answer": 0,
+        "evidence": "Nostalgia for the old courtyard is a poor guide to policy, since the courtyard also carried gossip, surveillance and very little privacy.",
+        "explain": "作者承认怀念可以理解，但用 since 从句指出大院的代价，从而否定它作为政策依据的可靠性，态度是理解而保留。",
+        "whyWrong": [
+          "作者承认怀念可以理解，但明确指出它不是好的政策指南。",
+          "作者没有全盘否定，只是指出大院也有代价。",
+          "文中对大院作出了明确评价，并非中立。"
+        ]
+      },
+      {
+        "id": "l3-01-q5",
+        "type": "逻辑推断",
+        "question": "Why does the author describe a corridor as a poor place for meeting people?",
+        "options": [
+          "Because it is designed for passing through rather than for staying",
+          "Because it is usually too dark and narrow to talk in",
+          "Because residents are forbidden to gather there",
+          "Because people in tall buildings dislike strangers"
+        ],
+        "answer": 0,
+        "evidence": "A corridor in a tall building is a passage, not a meeting place; it is designed for movement, and people cross it at speed with their eyes on a phone.",
+        "explain": "原文用 passage 与 meeting place 的对比、designed for movement 以及人们匆匆穿过来说明：空间的功能决定了它无法成为交往场所。",
+        "whyWrong": [
+          "文中没有提到光线或宽窄的问题。",
+          "文中没有说物业禁止居民在走廊聚集。",
+          "作者反对“人变冷漠”的解释，把原因归于空间设计。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l3-02",
+    "title": "The Myth of the Efficient Multitasker",
+    "titleZh": "高效多任务的神话",
+    "level": 3,
+    "category": "心理",
+    "tags": [
+      "注意力",
+      "效率",
+      "认知"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "Few beliefs about work are as stubborn as the idea that a busy person can do two things at once.",
+            "zh": "关于工作，很少有哪种看法比“忙碌的人能同时做两件事”这个想法更顽固。"
+          },
+          {
+            "en": "The claim sounds modest enough: answer a message during a lecture, follow a recipe while talking on the phone.",
+            "zh": "这个说法听起来并不算大胆：听讲座时回条消息，打电话时照着菜谱做菜。"
+          },
+          {
+            "en": "Research on attention suggests, however, that what we call multitasking is usually rapid switching, and that every switch carries a cost.",
+            "zh": "然而，关于注意力的研究表明，我们所说的多任务通常是快速的切换，而每一次切换都有代价。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "When a person moves from one task to another, part of the mind stays behind on the first one, still rehearsing the sentence that was half finished.",
+            "zh": "当一个人从一项任务转向另一项时，一部分心思会留在前一项上，仍在反复琢磨那句没说完的话。"
+          },
+          {
+            "en": "Psychologists call this residue attention residue, and they have measured its effects: a task done in fragments takes longer and is done worse than the same task done in one stretch.",
+            "zh": "心理学家把这种残留称为“注意力残留”，并且测量过它的影响：被切成碎片完成的任务，比一次做完的同样任务耗时更长、质量更差。"
+          },
+          {
+            "en": "The cost is not the few seconds of the switch itself, but the minutes required to rebuild the mental picture that the switch destroyed.",
+            "zh": "代价并不在于切换本身那几秒钟，而在于重建被切换摧毁的那幅心理图景所需的几分钟。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "There is an important limit to this argument, and it is worth stating plainly.",
+            "zh": "这个论点有一个重要的限度，值得明说。"
+          },
+          {
+            "en": "Some pairings are genuinely cheap: walking while talking, folding laundry while listening to a podcast, stirring a pot while planning tomorrow.",
+            "zh": "有些搭配确实成本很低：边走边聊、叠衣服时听播客、搅锅时盘算明天的事。"
+          },
+          {
+            "en": "The difference lies in whether the two activities compete for the same mental resource; speech and reading both demand language, while walking and talking do not.",
+            "zh": "差别在于这两件事是否争夺同一种心理资源：说话和阅读都需要语言能力，而走路和说话并不冲突。"
+          },
+          {
+            "en": "So the enemy is not doing two things at once, but doing two things that use the same part of the brain at once.",
+            "zh": "所以真正的敌人不是同时做两件事，而是同时做两件占用大脑同一部位的事。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The practical lesson is therefore narrower than the slogan suggests.",
+            "zh": "因此，实际的启示比那句口号要窄。"
+          },
+          {
+            "en": "It is not that we should abandon all simultaneity, but that we should stop treating attention as a resource with no price.",
+            "zh": "这并不是说我们要放弃所有同时进行的活动，而是说我们不该再把注意力当成一种没有价格的资源。"
+          },
+          {
+            "en": "The next time a task feels slow, the honest question may be not how to work faster but what else is quietly running in the background.",
+            "zh": "下次当一项任务显得进展缓慢时，该问的也许不是怎样做得更快，而是后台还有什么在悄悄运行。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "residue",
+        "pos": "n.",
+        "gloss": "残留；残余",
+        "note": "本指物质残留，此处引申为心思仍停留在前一任务上的状态"
+      },
+      {
+        "word": "rehearse",
+        "pos": "v.",
+        "gloss": "默诵；反复练习",
+        "note": "still rehearsing the sentence 指脑子里反复过那句话"
+      },
+      {
+        "word": "simultaneity",
+        "pos": "n.",
+        "gloss": "同时发生；共时性",
+        "note": "抽象名词，来自 simultaneous，指多件事同时进行"
+      },
+      {
+        "word": "fragment",
+        "pos": "n.",
+        "gloss": "碎片；片段",
+        "note": "in fragments 表示“被切成碎片地”，与 in one stretch 对照"
+      },
+      {
+        "word": "stretch",
+        "pos": "n.",
+        "gloss": "连续的一段时间",
+        "note": "in one stretch 意为“一口气、不间断地”"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "Research on attention suggests, however, that what we call multitasking is usually rapid switching, and that every switch carries a cost.",
+        "main": "Research suggests that ... and that ...",
+        "subject": "Research on attention",
+        "predicate": "suggests",
+        "object": "两个 that 引导的并列宾语从句",
+        "modifiers": "however 是插入语，插在主谓之间；第一个宾语从句的主语本身又是一个主语从句 what we call multitasking",
+        "logic": "两个并列宾语从句分别给出“是什么”和“有何代价”，插入语 however 标示与前文流行看法相反",
+        "zh": "然而，关于注意力的研究表明，我们所说的多任务通常是快速切换，而每次切换都有代价。"
+      },
+      {
+        "en": "Psychologists call this residue attention residue, and they have measured its effects: a task done in fragments takes longer and is done worse than the same task done in one stretch.",
+        "main": "Psychologists call this residue attention residue, and they have measured its effects",
+        "subject": "Psychologists / they",
+        "predicate": "call / have measured",
+        "object": "this residue attention residue / its effects",
+        "modifiers": "冒号后是解释 effects 的分句；done in fragments 与 done in one stretch 都是过去分词短语作后置定语，分别修饰两个 task",
+        "logic": "先下定义，再用冒号引出实测结果，构成“术语—证据”结构；than 引出对照项",
+        "zh": "心理学家把这种残留称为注意力残留，并测量了它的影响：碎片化完成的任务比一次做完的同一任务更慢、更差。"
+      },
+      {
+        "en": "The difference lies in whether the two activities compete for the same mental resource; speech and reading both demand language, while walking and talking do not.",
+        "main": "The difference lies in ...; speech and reading demand language",
+        "subject": "The difference / speech and reading",
+        "predicate": "lies in / demand",
+        "object": "whether 引导的宾语从句 / language",
+        "modifiers": "whether 从句作介词 in 的宾语；while 引导对比状语从句，do not 后省略了 demand language",
+        "logic": "分号连接“判断”与“例证”，while 把两类活动并置对照，省略结构使对比更紧凑",
+        "zh": "差别在于这两项活动是否争夺同一种心理资源；说话和阅读都需要语言，而走路和说话则不然。"
+      }
+    ],
+    "glossary": {
+      "belief": "n. 看法；信念",
+      "stubborn": "adj. 顽固的",
+      "claim": "n. 说法；主张",
+      "modest": "adj. 不大的；适度的",
+      "lecture": "n. 讲座；课",
+      "recipe": "n. 菜谱",
+      "attention": "n. 注意力",
+      "suggest": "v. 表明；暗示",
+      "multitask": "v. 同时处理多项任务",
+      "rapid": "adj. 快速的",
+      "switch": "v./n. 切换",
+      "cost": "n. 代价",
+      "picture": "n. 图景；画面",
+      "residue": "n. 残留",
+      "psychologist": "n. 心理学家",
+      "measure": "v. 测量",
+      "fragment": "n. 碎片",
+      "stretch": "n. 连续的一段时间",
+      "require": "v. 需要",
+      "rebuild": "v. 重建",
+      "destroy": "v. 摧毁",
+      "limit": "n. 限度",
+      "argument": "n. 论点；论证",
+      "plainly": "adv. 直白地",
+      "genuinely": "adv. 确实地",
+      "fold": "v. 折叠",
+      "laundry": "n. 待洗的衣物",
+      "podcast": "n. 播客",
+      "stir": "v. 搅动",
+      "pot": "n. 锅",
+      "compete": "v. 争夺；竞争",
+      "mental": "adj. 心理的；心智的",
+      "resource": "n. 资源",
+      "speech": "n. 言语；说话",
+      "demand": "v. 需要；要求",
+      "enemy": "n. 敌人",
+      "brain": "n. 大脑",
+      "practical": "adj. 实际的",
+      "slogan": "n. 口号",
+      "abandon": "v. 放弃",
+      "simultaneity": "n. 同时进行",
+      "treat": "v. 对待",
+      "price": "n. 价格；代价",
+      "honest": "adj. 诚实的",
+      "quietly": "adv. 悄悄地",
+      "background": "n. 后台；背景"
+    },
+    "quiz": [
+      {
+        "id": "l3-02-q1",
+        "type": "主旨大意",
+        "question": "What is the passage mainly about?",
+        "options": [
+          "What multitasking really involves and when it becomes costly",
+          "How to become faster at answering messages",
+          "Why lectures are less effective than podcasts",
+          "How psychologists measure intelligence"
+        ],
+        "answer": 0,
+        "evidence": "Research on attention suggests, however, that what we call multitasking is usually rapid switching, and that every switch carries a cost.",
+        "explain": "全文围绕“多任务其实是快速切换、切换有代价”展开，并进一步区分哪些搭配代价低，因此主旨是机制与适用边界。",
+        "whyWrong": [
+          "文章没有给出回消息提速的技巧，反而建议减少切换。",
+          "播客只是低成本搭配的例子，并未与讲座比较效果。",
+          "文中讨论注意力资源，不涉及智力测量。"
+        ]
+      },
+      {
+        "id": "l3-02-q2",
+        "type": "词义推断",
+        "question": "What does 'attention residue' refer to in the passage?",
+        "options": [
+          "The part of the mind still occupied by the task just left",
+          "The tiredness felt after a long period of concentration",
+          "The notes left over from an unfinished piece of work",
+          "The habit of checking a phone without noticing"
+        ],
+        "answer": 0,
+        "evidence": "Psychologists call this residue attention residue, and they have measured its effects: a task done in fragments takes longer and is done worse than the same task done in one stretch.",
+        "explain": "上文说“一部分心思留在前一项任务上，仍琢磨那句没说完的话”，this residue 回指的就是这种心理上的滞留。",
+        "whyWrong": [
+          "文中说的是心思留在前一个任务上，不是长时间集中后的疲倦。",
+          "residue 在此指心理残留，不是纸面上的笔记。",
+          "无意识看手机是表现之一，但不是该术语的定义。"
+        ]
+      },
+      {
+        "id": "l3-02-q3",
+        "type": "细节理解",
+        "question": "Which pairing does the author treat as genuinely cheap?",
+        "options": [
+          "Walking while talking",
+          "Reading while listening to a lecture",
+          "Answering messages while writing a report",
+          "Planning tomorrow while reading an article"
+        ],
+        "answer": 0,
+        "evidence": "Some pairings are genuinely cheap: walking while talking, folding laundry while listening to a podcast, stirring a pot while planning tomorrow.",
+        "explain": "原文明确把 walking while talking 列入 genuinely cheap 的例子，因为走路与说话不争夺同一种心理资源。",
+        "whyWrong": [
+          "讲座与阅读都需要语言加工，属于争夺同一资源。",
+          "两者都需要语言与工作记忆，是文中批评的典型切换。",
+          "读文章与规划都要占用工作记忆，作者未列为低成本搭配。"
+        ]
+      },
+      {
+        "id": "l3-02-q4",
+        "type": "作者观点",
+        "question": "What is the author's view of the idea that a busy person can do two things at once?",
+        "options": [
+          "It oversimplifies, though not every combination is harmful",
+          "It is entirely false and should be abandoned",
+          "It is true for talented people but not for others",
+          "It is a harmless slogan with no practical effect"
+        ],
+        "answer": 0,
+        "evidence": "The practical lesson is therefore narrower than the slogan suggests.",
+        "explain": "作者既指出切换有代价，又承认部分搭配确实便宜，因此认为该说法过于笼统，而非全错。",
+        "whyWrong": [
+          "作者承认有些搭配成本很低，并未说它全错。",
+          "文中没有按天赋区分人群。",
+          "作者认为它有实际代价，并非无害口号。"
+        ]
+      },
+      {
+        "id": "l3-02-q5",
+        "type": "逻辑推断",
+        "question": "Why does a task done in fragments take longer?",
+        "options": [
+          "Because the mental picture has to be rebuilt after each switch",
+          "Because fragmented work is usually harder work",
+          "Because people forget the instructions they were given",
+          "Because switching uses up the battery of the device"
+        ],
+        "answer": 0,
+        "evidence": "The cost is not the few seconds of the switch itself, but the minutes required to rebuild the mental picture that the switch destroyed.",
+        "explain": "原文把代价定位在“重建被摧毁的心理图景所需的几分钟”，这正是碎片化任务更慢的原因。",
+        "whyWrong": [
+          "文中归因于切换后的重建，而非任务本身更难。",
+          "文中说的是重建心理图景，不是忘记指令。",
+          "把心理成本误解为设备耗电，属明显曲解。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l3-03",
+    "title": "Who Chooses What You See?",
+    "titleZh": "是谁决定了你看到什么",
+    "level": 3,
+    "category": "科技",
+    "tags": [
+      "算法",
+      "信息流",
+      "媒介素养"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "When you open a short-video app, the first clip has already been chosen for you, by a system that has watched your behaviour more closely than any friend has.",
+            "zh": "当你打开一个短视频应用，第一个视频已经替你选好了——选它的是一个比任何朋友都更仔细地观察过你行为的系统。"
+          },
+          {
+            "en": "Critics call this manipulation, and argue that the algorithm narrows what we meet and quietly shapes what we want.",
+            "zh": "批评者称之为操纵，认为算法缩小了我们能接触到的东西，并在悄悄塑造我们的欲望。"
+          },
+          {
+            "en": "The charge is serious, but it is also incomplete, because it treats the viewer as a purely passive object.",
+            "zh": "这个指控很严肃，但也不完整，因为它把观看者当成了完全被动的对象。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "There is real evidence behind the worry.",
+            "zh": "这种担忧背后确有真实的证据。"
+          },
+          {
+            "en": "A system trained to maximise watch time learns that familiar and emotionally charged content holds attention, and it will supply more of whatever works.",
+            "zh": "一个以最大化观看时长为训练目标的系统会学到：熟悉且情绪强烈的内容更能留住注意力，于是它会更多地提供任何有效的东西。"
+          },
+          {
+            "en": "Over months a feed can drift towards the narrow and the loud, and from the inside the drift is almost invisible.",
+            "zh": "几个月下来，信息流可能逐渐偏向狭窄和喧闹的一端，而从内部看，这种偏移几乎不可见。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Yet the picture of a helpless audience is too simple.",
+            "zh": "然而，把受众描绘成无助的样子，未免过于简单。"
+          },
+          {
+            "en": "Every recommendation is also a test: the system offers, the viewer responds, and the response becomes data for the next offer.",
+            "zh": "每一次推荐同时也是一次测试：系统提供内容，观看者作出反应，而这一反应又成为下一次提供内容的数据。"
+          },
+          {
+            "en": "The system proposes, but every proposal is judged by a thumb that keeps scrolling or stops.",
+            "zh": "系统提出建议，但每个建议都由那根继续滑动或停下的拇指来评判。"
+          },
+          {
+            "en": "A user who skips, searches and follows deliberately is, in effect, teaching the system what to value.",
+            "zh": "一个有意跳过、搜索和关注内容的用户，实际上是在教这个系统该看重什么。"
+          },
+          {
+            "en": "Studies of online news find that the strongest predictor of what people read is still what they already believe, not what the platform pushes.",
+            "zh": "对网络新闻的研究发现，预测人们读什么最强的因素仍然是他们原本相信什么，而不是平台推送了什么。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The reasonable conclusion is that influence runs in both directions, and that responsibility is therefore shared.",
+            "zh": "合理的结论是：影响是双向的，因此责任也是共担的。"
+          },
+          {
+            "en": "That is a less satisfying answer than blaming the machine, and a more accurate one.",
+            "zh": "这个答案不像把责任推给机器那样令人痛快，却更准确。"
+          },
+          {
+            "en": "Regulation can demand transparency about how a feed is assembled; users can cultivate the small habit of asking why a particular clip appeared.",
+            "zh": "监管可以要求平台公开信息流是如何组装的；用户也可以养成一个小习惯，追问某个视频为什么会出现在眼前。"
+          },
+          {
+            "en": "Neither will rescue anyone on its own, but together they turn a hidden process into a visible one, and visibility is where choice begins.",
+            "zh": "两者单独都无法拯救任何人，但合在一起，它们能把一个隐藏的过程变得可见，而可见正是选择的起点。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "manipulation",
+        "pos": "n.",
+        "gloss": "操纵；操控",
+        "note": "语气较重，指在不被察觉的情况下影响他人判断"
+      },
+      {
+        "word": "algorithm",
+        "pos": "n.",
+        "gloss": "算法",
+        "note": "此处特指内容推荐的分发规则"
+      },
+      {
+        "word": "drift",
+        "pos": "v./n.",
+        "gloss": "逐渐偏移；漂移",
+        "note": "强调缓慢、无意识的变化，而非突然转向"
+      },
+      {
+        "word": "predictor",
+        "pos": "n.",
+        "gloss": "预测因素",
+        "note": "the strongest predictor of ... 表示“对……最有预测力的因素”"
+      },
+      {
+        "word": "transparency",
+        "pos": "n.",
+        "gloss": "透明度",
+        "note": "不可数名词，常与 demand、require 搭配"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "When you open a short-video app, the first clip has already been chosen for you, by a system that has watched your behaviour more closely than any friend has.",
+        "main": "the first clip has already been chosen",
+        "subject": "the first clip",
+        "predicate": "has been chosen",
+        "object": "无（被动语态，无宾语）",
+        "modifiers": "When 引导时间状语从句；by a system 引出施动者；that has watched your behaviour 是定语从句修饰 system；more closely than any friend has 是比较状语，has 后省略 watched your behaviour",
+        "logic": "时间从句先设场景，被动语态把焦点从“谁操作”移到“你已被安排”，比较结构强化系统对你的了解程度",
+        "zh": "当你打开短视频应用时，第一个视频已经替你选好了，选它的是一个比任何朋友都更密切关注你行为的系统。"
+      },
+      {
+        "en": "A system trained to maximise watch time learns that familiar and emotionally charged content holds attention, and it will supply more of whatever works.",
+        "main": "A system learns that ..., and it will supply more",
+        "subject": "A system / it",
+        "predicate": "learns / will supply",
+        "object": "that 引导的宾语从句 / more of whatever works",
+        "modifiers": "trained to maximise watch time 是过去分词短语作后置定语修饰 system；whatever works 是宾语从句作介词 of 的宾语",
+        "logic": "and 连接因果链两端：系统先学到规律，再按规律供给，说明偏向是机制的自然结果",
+        "zh": "一个被训练成追求观看时长的系统会学到：熟悉且情绪化的内容能抓住注意力，于是它会更多地提供任何奏效的东西。"
+      },
+      {
+        "en": "Regulation can demand transparency about how a feed is assembled; users can cultivate the small habit of asking why a particular clip appeared.",
+        "main": "Regulation can demand transparency; users can cultivate the habit",
+        "subject": "Regulation / users",
+        "predicate": "can demand / can cultivate",
+        "object": "transparency / the habit",
+        "modifiers": "about how a feed is assembled 修饰 transparency；of asking why a particular clip appeared 修饰 habit，其中 why 从句作 asking 的宾语",
+        "logic": "分号并列两条对策，一条针对平台、一条针对用户，直接呼应上一句“责任共担”",
+        "zh": "监管可以要求公开信息流是如何组装的；用户也可以养成追问某个视频为何出现的习惯。"
+      }
+    ],
+    "glossary": {
+      "clip": "n. 短片；片段",
+      "system": "n. 系统",
+      "behaviour": "n. 行为",
+      "closely": "adv. 密切地",
+      "critic": "n. 批评者",
+      "manipulation": "n. 操纵",
+      "algorithm": "n. 算法",
+      "narrow": "v./adj. 使变窄；狭窄的",
+      "quietly": "adv. 悄悄地",
+      "shape": "v. 塑造",
+      "charge": "n. 指控",
+      "serious": "adj. 严重的",
+      "incomplete": "adj. 不完整的",
+      "purely": "adv. 完全地",
+      "passive": "adj. 被动的",
+      "evidence": "n. 证据",
+      "worry": "n. 担忧",
+      "train": "v. 训练",
+      "maximise": "v. 使最大化",
+      "familiar": "adj. 熟悉的",
+      "emotionally": "adv. 情绪上地",
+      "charged": "adj. 充满情绪的",
+      "content": "n. 内容",
+      "supply": "v. 提供",
+      "feed": "n. 信息流",
+      "drift": "v. 逐渐偏移",
+      "invisible": "adj. 不可见的",
+      "helpless": "adj. 无助的",
+      "audience": "n. 受众",
+      "recommendation": "n. 推荐",
+      "respond": "v. 作出反应",
+      "response": "n. 反应",
+      "data": "n. 数据",
+      "skip": "v. 跳过",
+      "deliberately": "adv. 有意地",
+      "effect": "n. 效果；影响",
+      "value": "v. 重视",
+      "online": "adj. 在线的",
+      "predictor": "n. 预测因素",
+      "platform": "n. 平台",
+      "push": "v. 推送",
+      "reasonable": "adj. 合理的",
+      "influence": "n. 影响",
+      "direction": "n. 方向",
+      "responsibility": "n. 责任",
+      "shared": "adj. 共担的",
+      "accurate": "adj. 准确的",
+      "regulation": "n. 监管",
+      "demand": "v. 要求",
+      "transparency": "n. 透明度",
+      "assemble": "v. 组装；编排",
+      "cultivate": "v. 培养",
+      "habit": "n. 习惯",
+      "particular": "adj. 特定的",
+      "rescue": "v. 拯救",
+      "visible": "adj. 可见的",
+      "visibility": "n. 可见性",
+      "choice": "n. 选择"
+    },
+    "quiz": [
+      {
+        "id": "l3-03-q1",
+        "type": "主旨大意",
+        "question": "What is the passage mainly about?",
+        "options": [
+          "How recommendation systems shape attention and why viewers are not merely passive",
+          "How to make short videos that attract more viewers",
+          "Why algorithms are more accurate than human editors",
+          "Why young people should spend less time on their phones"
+        ],
+        "answer": 0,
+        "evidence": "The reasonable conclusion is that influence runs in both directions, and that responsibility is therefore shared.",
+        "explain": "文章先承认算法确实收窄视野，再论证用户的选择同样在训练系统，最后落到双向影响与共担责任，故主旨是机制与双方角色。",
+        "whyWrong": [
+          "文章没有提供制作视频的方法。",
+          "文中未比较算法与人工编辑的准确度。",
+          "文章讨论机制与责任，不是使用时长建议。"
+        ]
+      },
+      {
+        "id": "l3-03-q2",
+        "type": "词义推断",
+        "question": "What does 'the drift' refer to in the third sentence of the second paragraph?",
+        "options": [
+          "The gradual shift of a feed towards narrow, emotionally charged content",
+          "The physical movement of a user's finger on the screen",
+          "The decline in the number of videos a platform offers",
+          "The change of a platform's ownership over time"
+        ],
+        "answer": 0,
+        "evidence": "Over months a feed can drift towards the narrow and the loud, and from the inside the drift is almost invisible.",
+        "explain": "drift 在此为名词，回指前半句所述“信息流在数月间逐渐偏向狭窄和喧闹”，强调缓慢而难以察觉的变化。",
+        "whyWrong": [
+          "drift 在此指内容倾向的变化，不是手指动作。",
+          "文中说的是内容变窄，不是数量减少。",
+          "文中未涉及平台所有权变更。"
+        ]
+      },
+      {
+        "id": "l3-03-q3",
+        "type": "细节理解",
+        "question": "According to the passage, what is the strongest predictor of what people read online?",
+        "options": [
+          "What they already believe",
+          "What the platform pushes",
+          "How emotional the headline is",
+          "How many friends shared the article"
+        ],
+        "answer": 0,
+        "evidence": "Studies of online news find that the strongest predictor of what people read is still what they already believe, not what the platform pushes.",
+        "explain": "原文用 not what the platform pushes 明确排除平台推送，指出最强的预测因素是人们原本的信念。",
+        "whyWrong": [
+          "原文明确说不是平台推送。",
+          "情绪化标题是算法偏好的内容特征，不是最强的预测因素。",
+          "文中未提及分享数量。"
+        ]
+      },
+      {
+        "id": "l3-03-q4",
+        "type": "作者观点",
+        "question": "What is the author's position on responsibility for what people see?",
+        "options": [
+          "It is shared between platforms and users",
+          "It lies entirely with the platforms",
+          "It lies entirely with individual users",
+          "It cannot be assigned, since the process is invisible"
+        ],
+        "answer": 0,
+        "evidence": "The reasonable conclusion is that influence runs in both directions, and that responsibility is therefore shared.",
+        "explain": "therefore shared 直接表明作者主张责任共担，既承认算法的作用，也强调用户反馈的作用。",
+        "whyWrong": [
+          "作者批评把观看者当作完全被动的看法，因此不是全在平台。",
+          "作者承认算法确有影响，因此不是全在用户。",
+          "作者认为提高可见性之后责任可以分配。"
+        ]
+      },
+      {
+        "id": "l3-03-q5",
+        "type": "逻辑推断",
+        "question": "Why does the author mention skipping, searching and following?",
+        "options": [
+          "To show that users feed information back into the system",
+          "To suggest that users should delete their accounts",
+          "To prove that algorithms cannot learn from behaviour",
+          "To explain why short videos are popular among students"
+        ],
+        "answer": 0,
+        "evidence": "A user who skips, searches and follows deliberately is, in effect, teaching the system what to value.",
+        "explain": "这些动作被视为“教学”行为，说明用户的选择会作为数据回流，从而支撑“影响是双向的”这一判断。",
+        "whyWrong": [
+          "文中没有建议注销账号。",
+          "恰恰相反，作者强调这些行为会被系统学习。",
+          "文中未讨论学生群体的偏好。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l3-04",
+    "title": "What a Grade Cannot Measure",
+    "titleZh": "分数无法衡量的东西",
+    "level": 3,
+    "category": "教育",
+    "tags": [
+      "评价",
+      "考试",
+      "学习"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "A single number at the end of a term carries remarkable weight in a student's life, deciding scholarships, internships and sometimes self-respect.",
+            "zh": "学期末的一个数字在学生的生活中分量惊人，它决定着奖学金、实习机会，有时还决定着自尊。"
+          },
+          {
+            "en": "Grades are not worthless; they are simply narrow.",
+            "zh": "分数并非毫无价值，它只是狭窄。"
+          },
+          {
+            "en": "The trouble begins when a narrow instrument is asked to answer a broad question.",
+            "zh": "当一件狭窄的工具被要求回答一个宽泛的问题时，麻烦就开始了。"
+          },
+          {
+            "en": "Parents, teachers and employers all read the same figure and draw very different conclusions from it.",
+            "zh": "家长、教师和雇主读到的是同一个数字，却从中得出很不相同的结论。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "A grade records performance on a particular set of tasks, on a particular day, marked against a particular standard.",
+            "zh": "分数记录的是某一天、在某一套特定任务上的表现，并且是按照某一特定标准评定的。"
+          },
+          {
+            "en": "What it rewards most reliably is the ability to produce the expected answer within the time allowed.",
+            "zh": "它最稳定地奖励的，是在规定时间内给出预期答案的能力。"
+          },
+          {
+            "en": "It rewards the answer, not the question that produced it.",
+            "zh": "它奖励的是答案，而不是产生这个答案的那个问题。"
+          },
+          {
+            "en": "It says something about preparation and something about speed, and it says almost nothing about curiosity, persistence, or the willingness to rewrite a first draft.",
+            "zh": "它能说明一些关于准备程度的事，也能说明一些关于速度的事，却几乎说不出好奇心、坚持，或愿意重写初稿的任何东西。"
+          },
+          {
+            "en": "Two students with the same mark may have arrived by very different routes: one by steady work, the other by talent and a lucky set of questions.",
+            "zh": "两个拿到同样分数的学生，可能是沿着完全不同的路径走到这里的：一个靠稳定的努力，另一个靠天赋和一套运气不错的题目。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Defenders of grading answer, reasonably, that the alternative is worse.",
+            "zh": "为评分辩护的人会给出一个合理的回答：替代方案更糟。"
+          },
+          {
+            "en": "Judgement without evidence slides easily into favouritism, and a system that cannot be explained to a parent or an employer soon loses its legitimacy.",
+            "zh": "没有证据支撑的判断很容易滑向偏袒，而一个无法向家长或雇主解释的制度很快就会失去正当性。"
+          },
+          {
+            "en": "The problem, then, is not the existence of grades but the assumption that they exhaust what there is to know.",
+            "zh": "那么问题不在于分数本身的存在，而在于一种假定：分数已经穷尽了所有值得了解的东西。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Schools that take this seriously keep the number and add to it.",
+            "zh": "认真对待这一点的学校会保留这个数字，并在它之外增加别的东西。"
+          },
+          {
+            "en": "The number becomes a beginning rather than a summary.",
+            "zh": "这个数字于是成为起点，而不是总结。"
+          },
+          {
+            "en": "A short written comment, a portfolio of revised work, a record of a project that failed and was rebuilt, none of these replaces the exam, but each restores a dimension the exam cannot see.",
+            "zh": "一段简短的书面评语、一份经过修改的作品集、一份记录某个项目如何失败又被重建的档案，这些都不能取代考试，但每一样都补回了考试看不见的一个维度。"
+          },
+          {
+            "en": "Measurement is a tool for looking, not a verdict on a person, and that distinction is worth teaching early.",
+            "zh": "测量是用于观察的工具，而不是对人的判决，而这个区别值得早早教给学生。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "instrument",
+        "pos": "n.",
+        "gloss": "工具；手段",
+        "note": "此处把分数比作一件测量工具，强调其适用范围有限"
+      },
+      {
+        "word": "legitimacy",
+        "pos": "n.",
+        "gloss": "正当性；合法性",
+        "note": "指制度被接受、被认可的基础"
+      },
+      {
+        "word": "exhaust",
+        "pos": "v.",
+        "gloss": "穷尽；用尽",
+        "note": "此处不是“使疲惫”，而是“把……全部涵盖”"
+      },
+      {
+        "word": "portfolio",
+        "pos": "n.",
+        "gloss": "作品集",
+        "note": "教育语境中指学生一段时间内作品的汇编"
+      },
+      {
+        "word": "verdict",
+        "pos": "n.",
+        "gloss": "裁决；定论",
+        "note": "原为法庭用语，此处强调“对人的最终判定”"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "It says something about preparation and something about speed, and it says almost nothing about curiosity, persistence, or the willingness to rewrite a first draft.",
+        "main": "It says something ... and it says almost nothing about ...",
+        "subject": "It / it",
+        "predicate": "says / says",
+        "object": "something / almost nothing",
+        "modifiers": "about preparation、about speed、about curiosity... 是并列介词短语，说明“说了什么”；to rewrite a first draft 是不定式作定语修饰 willingness",
+        "logic": "and 连接正反两面，almost nothing 与 something 形成对照，用对照凸显分数的局限",
+        "zh": "它能说明准备情况，也能说明速度，却几乎说不出好奇心、坚持或愿意重写初稿。"
+      },
+      {
+        "en": "Judgement without evidence slides easily into favouritism, and a system that cannot be explained to a parent or an employer soon loses its legitimacy.",
+        "main": "Judgement slides into favouritism, and a system loses its legitimacy",
+        "subject": "Judgement / a system",
+        "predicate": "slides / loses",
+        "object": "into favouritism / its legitimacy",
+        "modifiers": "without evidence 是介词短语作后置定语修饰 Judgement；that cannot be explained to a parent or an employer 是定语从句修饰 system",
+        "logic": "两个并列分句分别说明“无证据的判断”与“不可解释的制度”的后果，构成递进式论证，支撑上一句“替代方案更糟”",
+        "zh": "没有证据的判断容易滑向偏袒，而无法向家长或雇主解释的制度很快会失去正当性。"
+      },
+      {
+        "en": "A short written comment, a portfolio of revised work, a record of a project that failed and was rebuilt, none of these replaces the exam, but each restores a dimension the exam cannot see.",
+        "main": "none of these replaces the exam, but each restores a dimension",
+        "subject": "none of these / each",
+        "predicate": "replaces / restores",
+        "object": "the exam / a dimension",
+        "modifiers": "句首三个名词短语是外位成分，由 none of these 复指；that failed and was rebuilt 是定语从句修饰 project；the exam cannot see 是省略关系词的定语从句修饰 dimension",
+        "logic": "先并列列举，再用 none ... but ... 构成让步转折：先否认替代，再肯定补充作用",
+        "zh": "一段简短评语、一份修改后的作品集、一份记录项目失败与重建的档案，这些都不能取代考试，但每一样都补回了考试看不见的维度。"
+      }
+    ],
+    "glossary": {
+      "term": "n. 学期",
+      "remarkable": "adj. 显著的",
+      "weight": "n. 分量",
+      "scholarship": "n. 奖学金",
+      "internship": "n. 实习",
+      "worthless": "adj. 毫无价值的",
+      "narrow": "adj. 狭窄的",
+      "instrument": "n. 工具",
+      "broad": "adj. 宽泛的",
+      "record": "v. 记录",
+      "performance": "n. 表现",
+      "particular": "adj. 特定的",
+      "standard": "n. 标准",
+      "mark": "v. 评分",
+      "reliably": "adv. 可靠地",
+      "produce": "v. 产出",
+      "expected": "adj. 预期的",
+      "preparation": "n. 准备",
+      "curiosity": "n. 好奇心",
+      "persistence": "n. 坚持",
+      "willingness": "n. 意愿",
+      "rewrite": "v. 重写",
+      "draft": "n. 初稿",
+      "route": "n. 路径",
+      "steady": "adj. 稳定的",
+      "talent": "n. 天赋",
+      "lucky": "adj. 幸运的",
+      "defender": "n. 辩护者",
+      "reasonably": "adv. 合理地",
+      "alternative": "n. 替代方案",
+      "judgement": "n. 判断",
+      "slide": "v. 滑向",
+      "favouritism": "n. 偏袒",
+      "employer": "n. 雇主",
+      "legitimacy": "n. 正当性",
+      "existence": "n. 存在",
+      "assumption": "n. 假定",
+      "exhaust": "v. 穷尽",
+      "seriously": "adv. 认真地",
+      "portfolio": "n. 作品集",
+      "revised": "adj. 修改过的",
+      "project": "n. 项目",
+      "replace": "v. 取代",
+      "restore": "v. 恢复；补回",
+      "dimension": "n. 维度",
+      "measurement": "n. 测量",
+      "verdict": "n. 裁决",
+      "distinction": "n. 区别"
+    },
+    "quiz": [
+      {
+        "id": "l3-04-q1",
+        "type": "主旨大意",
+        "question": "What is the passage mainly about?",
+        "options": [
+          "Why grades are useful but cannot capture everything that matters",
+          "Why examinations should be abolished altogether",
+          "How students can obtain higher marks",
+          "Why employers no longer trust universities"
+        ],
+        "answer": 0,
+        "evidence": "Grades are not worthless; they are simply narrow.",
+        "explain": "全文承认分数的必要，同时论证它无法覆盖好奇心、坚持等维度，最后主张在分数之外补充材料，故主旨是“有用但有限”。",
+        "whyWrong": [
+          "作者主张在分数之外补充材料，而非取消考试。",
+          "文章没有提供提分方法。",
+          "雇主只是作为需要解释的对象被提及。"
+        ]
+      },
+      {
+        "id": "l3-04-q2",
+        "type": "词义推断",
+        "question": "What does the author mean by saying that grades 'exhaust what there is to know'?",
+        "options": [
+          "That grades are assumed to capture everything worth knowing",
+          "That grades make students physically tired",
+          "That grades use up all the evidence available",
+          "That grades are the last thing teachers produce"
+        ],
+        "answer": 0,
+        "evidence": "The problem, then, is not the existence of grades but the assumption that they exhaust what there is to know.",
+        "explain": "exhaust 在此取“穷尽、涵盖全部”之义，作者批评的是“分数已涵盖一切”的假定，而非分数让人疲惫。",
+        "whyWrong": [
+          "exhaust 在此是“穷尽”，不是“使疲惫”。",
+          "文中说的是认知范围，不是证据用量。",
+          "这与学期末发放的先后顺序无关。"
+        ]
+      },
+      {
+        "id": "l3-04-q3",
+        "type": "细节理解",
+        "question": "What does a grade mainly record, according to the passage?",
+        "options": [
+          "Performance on particular tasks on a particular day",
+          "A student's curiosity and persistence",
+          "The quality of a student's revised work",
+          "A student's family background"
+        ],
+        "answer": 0,
+        "evidence": "A grade records performance on a particular set of tasks, on a particular day, marked against a particular standard.",
+        "explain": "原文用三个 particular 强调分数只反映特定任务、特定日期、特定标准下的表现。",
+        "whyWrong": [
+          "文中明确说分数几乎反映不出好奇心和坚持。",
+          "修改后的作品属于作者建议补充的材料。",
+          "文中未提及家庭背景。"
+        ]
+      },
+      {
+        "id": "l3-04-q4",
+        "type": "作者观点",
+        "question": "How does the author regard the defenders of grading?",
+        "options": [
+          "Their concern is reasonable, but their conclusion is too narrow",
+          "They are dishonest about their motives",
+          "They are right that grades measure everything",
+          "They have no valid argument at all"
+        ],
+        "answer": 0,
+        "evidence": "Defenders of grading answer, reasonably, that the alternative is worse.",
+        "explain": "作者用 reasonably 承认其理由成立，随后指出真正的问题在于“分数已穷尽一切”的假定，即结论过窄。",
+        "whyWrong": [
+          "作者称其回答合理，并未质疑动机。",
+          "作者认为分数狭窄，不同意它能衡量一切。",
+          "作者承认其理由成立，只是结论不足。"
+        ]
+      },
+      {
+        "id": "l3-04-q5",
+        "type": "逻辑推断",
+        "question": "Why does the author mention two students with the same mark?",
+        "options": [
+          "To show that a mark hides very different paths to it",
+          "To argue that talent matters more than effort",
+          "To prove that exams are marked unfairly",
+          "To suggest that students should compare their marks"
+        ],
+        "answer": 0,
+        "evidence": "Two students with the same mark may have arrived by very different routes: one by steady work, the other by talent and a lucky set of questions.",
+        "explain": "作者并列努力与天赋运气两条路径，正是为了说明同一个分数背后可能完全不同，从而证明分数信息量有限。",
+        "whyWrong": [
+          "文中并列天赋与努力，没有排出高低。",
+          "文中未说评分不公。",
+          "作者用意在说明分数的局限，不是鼓励比较。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l3-05",
+    "title": "Cheap Is Not the Same as Economical",
+    "titleZh": "便宜不等于划算",
+    "level": 3,
+    "category": "经济",
+    "tags": [
+      "消费",
+      "价格",
+      "耐用性"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "A pair of shoes priced at a fifth of another pair looks like a bargain, and for a few months it is.",
+            "zh": "一双价格只有另一双五分之一的鞋看起来是笔划算的买卖，而且在最初几个月里确实是。"
+          },
+          {
+            "en": "Then the sole separates, the money saved is spent a second time, and the bargain turns out to have been a loan.",
+            "zh": "然后鞋底开胶，省下的钱又被花了一次，那笔划算的买卖原来是一笔贷款。"
+          },
+          {
+            "en": "The arithmetic of cost per use is simple, yet it is almost never the arithmetic we perform in the shop.",
+            "zh": "按使用次数计算成本的算术很简单，却几乎从不是我们在店里做的那道算术。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Economists describe this as a problem of information.",
+            "zh": "经济学家把这描述为一个信息问题。"
+          },
+          {
+            "en": "A buyer cannot easily see how long a product will last, and a seller has little reason to advertise durability when a cheaper rival is on the next shelf.",
+            "zh": "买家很难看出一个产品能用多久，而当隔壁货架上就摆着更便宜的同类商品时，卖家也没有多少理由去宣传耐用性。"
+          },
+          {
+            "en": "Where a cheaper substitute exists, the market tends to reward the price that is visible over the quality that is not.",
+            "zh": "只要存在更便宜的替代品，市场往往就会奖励看得见的价格，而不是看不见的质量。"
+          },
+          {
+            "en": "Manufacturers learn the same lesson from the other side: a shorter life can be profitable, provided the failure arrives after the warranty has expired.",
+            "zh": "制造商从另一面学到同样的道理：只要故障出现在保修期结束之后，更短的使用寿命也可以是有利可图的。"
+          },
+          {
+            "en": "The result is a market that quietly punishes the careful buyer.",
+            "zh": "结果就是一个悄悄惩罚谨慎买家的市场。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "This is not an argument that expensive goods are always better.",
+            "zh": "这并不是说贵的东西总是更好。"
+          },
+          {
+            "en": "Price is a noisy signal, reflecting brand, marketing and scarcity as much as material, and plenty of costly products fail early.",
+            "zh": "价格是一个嘈杂的信号，它既反映材料，也同样反映品牌、营销和稀缺程度，而且许多昂贵的产品很早就坏了。"
+          },
+          {
+            "en": "Nor can every household afford the durable version today; for a family short of cash, the cheap pair is not foolish but necessary.",
+            "zh": "也不是每个家庭今天都买得起耐用的那一款；对一个现金紧张的家庭来说，买便宜的那双不是愚蠢，而是必需。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The useful conclusion is narrower than the advice to buy well.",
+            "zh": "有用的结论比“买好的”这句建议要窄。"
+          },
+          {
+            "en": "Where a purchase will be used often and for years, it pays to calculate the cost per use rather than the cost at the till.",
+            "zh": "如果一件东西会被频繁使用很多年，那么计算每次使用的成本就比计算收银台前的价格更划算。"
+          },
+          {
+            "en": "Where it will not, the cheap option is often the rational one.",
+            "zh": "如果不是这样，便宜的选择往往是理性的。"
+          },
+          {
+            "en": "Frugality, properly understood, is not a habit of spending little; it is a habit of counting what a thing will cost over its whole life.",
+            "zh": "恰当地理解，节俭并不是少花钱的习惯，而是把一件东西一生的花费都算清楚的习惯。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "durability",
+        "pos": "n.",
+        "gloss": "耐用性；耐久度",
+        "note": "不可数名词，与 advertise、quality 等词常同现"
+      },
+      {
+        "word": "substitute",
+        "pos": "n.",
+        "gloss": "替代品",
+        "note": "a cheaper substitute 指价格更低的替代商品"
+      },
+      {
+        "word": "scarcity",
+        "pos": "n.",
+        "gloss": "稀缺；稀缺性",
+        "note": "经济学基本概念，指供给有限"
+      },
+      {
+        "word": "frugality",
+        "pos": "n.",
+        "gloss": "节俭",
+        "note": "作者重新定义：不是少花钱，而是算总账"
+      },
+      {
+        "word": "rational",
+        "pos": "adj.",
+        "gloss": "理性的；合理的",
+        "note": "the rational one 指“合乎理性的选择”"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "A buyer cannot easily see how long a product will last, and a seller has little reason to advertise durability when a cheaper rival is on the next shelf.",
+        "main": "A buyer cannot see ..., and a seller has little reason",
+        "subject": "A buyer / a seller",
+        "predicate": "cannot see / has",
+        "object": "how long 引导的宾语从句 / little reason",
+        "modifiers": "how long a product will last 是宾语从句；to advertise durability 是不定式作后置定语修饰 reason；when 引导时间状语从句",
+        "logic": "and 并列买卖双方的处境，说明信息不对称不是某一方的问题，而是结构性结果",
+        "zh": "买家很难看出产品能用多久，而当隔壁货架上就有更便宜的同类商品时，卖家也几乎没有理由宣传耐用性。"
+      },
+      {
+        "en": "Manufacturers learn the same lesson from the other side: a shorter life can be profitable, provided the failure arrives after the warranty has expired.",
+        "main": "Manufacturers learn the same lesson",
+        "subject": "Manufacturers",
+        "predicate": "learn",
+        "object": "the same lesson",
+        "modifiers": "from the other side 是方式状语；冒号后是 lesson 的具体内容；provided 引导条件状语从句，相当于 if",
+        "logic": "冒号把抽象结论具体化，provided 设定限制条件，使论断不至于绝对化",
+        "zh": "制造商从另一面学到同样的道理：只要故障发生在保修期结束之后，更短的寿命也能带来利润。"
+      },
+      {
+        "en": "Where a purchase will be used often and for years, it pays to calculate the cost per use rather than the cost at the till.",
+        "main": "it pays to calculate the cost per use",
+        "subject": "it（形式主语，真正主语是后面的不定式）",
+        "predicate": "pays",
+        "object": "to calculate the cost per use（真正主语）",
+        "modifiers": "Where 引导条件状语从句，限定适用范围；rather than 连接两个被比较的宾语",
+        "logic": "条件从句先划定边界，rather than 明确比较对象，使建议带有前提而非口号式断言",
+        "zh": "如果一件东西会被长期频繁使用，那么算每次使用的成本，比算收银台前的价格更值。"
+      }
+    ],
+    "glossary": {
+      "priced": "adj. 定价为……的",
+      "bargain": "n. 划算的买卖",
+      "sole": "n. 鞋底",
+      "separate": "v. 分离；开胶",
+      "loan": "n. 贷款",
+      "arithmetic": "n. 算术；计算",
+      "perform": "v. 进行；执行",
+      "economist": "n. 经济学家",
+      "information": "n. 信息",
+      "buyer": "n. 买家",
+      "seller": "n. 卖家",
+      "advertise": "v. 宣传",
+      "durability": "n. 耐用性",
+      "rival": "n. 竞争对手；同类商品",
+      "shelf": "n. 货架",
+      "substitute": "n. 替代品",
+      "reward": "v. 奖励；回报",
+      "visible": "adj. 可见的",
+      "quality": "n. 质量",
+      "manufacturer": "n. 制造商",
+      "profitable": "adj. 有利可图的",
+      "provided": "conj. 只要",
+      "failure": "n. 故障",
+      "warranty": "n. 保修",
+      "expire": "v. 到期",
+      "noisy": "adj. 嘈杂的；不可靠的",
+      "signal": "n. 信号",
+      "reflect": "v. 反映",
+      "brand": "n. 品牌",
+      "marketing": "n. 营销",
+      "scarcity": "n. 稀缺",
+      "material": "n. 材料",
+      "costly": "adj. 昂贵的",
+      "household": "n. 家庭",
+      "afford": "v. 买得起",
+      "durable": "adj. 耐用的",
+      "foolish": "adj. 愚蠢的",
+      "necessary": "adj. 必需的",
+      "conclusion": "n. 结论",
+      "purchase": "n. 购买",
+      "calculate": "v. 计算",
+      "till": "n. 收银台",
+      "rational": "adj. 理性的",
+      "frugality": "n. 节俭",
+      "properly": "adv. 恰当地",
+      "count": "v. 计算；算清",
+      "whole": "adj. 全部的"
+    },
+    "quiz": [
+      {
+        "id": "l3-05-q1",
+        "type": "主旨大意",
+        "question": "What is the passage mainly about?",
+        "options": [
+          "Why low prices can cost more in the long run, and when they do not",
+          "How to bargain with shop assistants",
+          "Why manufacturers should extend warranties",
+          "How brands create a sense of luxury"
+        ],
+        "answer": 0,
+        "evidence": "The arithmetic of cost per use is simple, yet it is almost never the arithmetic we perform in the shop.",
+        "explain": "全文以“每次使用成本”为主线，说明便宜货长期可能更贵，同时承认现金紧张时买便宜货是理性的，故主旨包含条件。",
+        "whyWrong": [
+          "文章不涉及讨价还价。",
+          "保修期只是解释短寿命如何获利的一个细节。",
+          "品牌只是价格信号的一部分。"
+        ]
+      },
+      {
+        "id": "l3-05-q2",
+        "type": "词义推断",
+        "question": "What does the author mean by saying the bargain 'turns out to have been a loan'?",
+        "options": [
+          "The money saved has to be paid again when the product fails",
+          "The buyer must repay the shop in monthly instalments",
+          "The product was borrowed rather than bought",
+          "The shop lent the shoes to the buyer before payment"
+        ],
+        "answer": 0,
+        "evidence": "Then the sole separates, the money saved is spent a second time, and the bargain turns out to have been a loan.",
+        "explain": "前一分句说“省下的钱又被花了一次”，因此 loan 是比喻：省下的钱并非真正省下，只是延后支付。",
+        "whyWrong": [
+          "文中没有分期付款的情节。",
+          "商品是买下的，比喻的是后续支出。",
+          "并非先借后买的交易方式。"
+        ]
+      },
+      {
+        "id": "l3-05-q3",
+        "type": "细节理解",
+        "question": "Why might manufacturers benefit from a shorter product life?",
+        "options": [
+          "Because failure after the warranty period costs them nothing",
+          "Because short-lived products are cheaper to design",
+          "Because customers prefer to replace things often",
+          "Because longer life requires rarer materials"
+        ],
+        "answer": 0,
+        "evidence": "Manufacturers learn the same lesson from the other side: a shorter life can be profitable, provided the failure arrives after the warranty has expired.",
+        "explain": "provided 从句给出关键条件：只要故障发生在保修期之后，厂商就不必承担维修成本，短寿命因而有利可图。",
+        "whyWrong": [
+          "文中说的是故障时点，不是设计成本。",
+          "文中未说消费者喜欢频繁更换。",
+          "稀有材料不是文中给出的原因。"
+        ]
+      },
+      {
+        "id": "l3-05-q4",
+        "type": "作者观点",
+        "question": "What is the author's attitude towards expensive products?",
+        "options": [
+          "Cautious: price is an unreliable sign of quality",
+          "Confident that higher prices always mean better quality",
+          "Dismissive: expensive goods are simply a waste of money",
+          "Indifferent: price has no relation to durability at all"
+        ],
+        "answer": 0,
+        "evidence": "Price is a noisy signal, reflecting brand, marketing and scarcity as much as material, and plenty of costly products fail early.",
+        "explain": "noisy signal 与 plenty of costly products fail early 表明作者认为高价不能可靠地代表高质量，态度审慎。",
+        "whyWrong": [
+          "作者明确否认价格总能代表质量。",
+          "作者也承认耐用品在长期更划算。",
+          "作者认为价格与耐用性有关，只是信号嘈杂。"
+        ]
+      },
+      {
+        "id": "l3-05-q5",
+        "type": "逻辑推断",
+        "question": "Why does the author say the cheap pair may be necessary for some families?",
+        "options": [
+          "Because they cannot afford the durable version at present",
+          "Because cheap shoes are more comfortable to wear",
+          "Because durable goods are usually badly made",
+          "Because they replace their shoes very rarely"
+        ],
+        "answer": 0,
+        "evidence": "Nor can every household afford the durable version today; for a family short of cash, the cheap pair is not foolish but necessary.",
+        "explain": "原文用 short of cash 与 afford 说明限制在于当下的支付能力，因此便宜的选择是现实约束下的必需。",
+        "whyWrong": [
+          "文中未讨论舒适度。",
+          "作者认为耐用品可能更划算，未说做工差。",
+          "文中说的是现金紧张，不是更换频率低。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l3-06",
+    "title": "The River That Came Back",
+    "titleZh": "重新活过来的河",
+    "level": 3,
+    "category": "环境",
+    "tags": [
+      "生态修复",
+      "城市",
+      "成本"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "For most of the last century, the river running through the industrial quarter was treated as a drain.",
+            "zh": "在上个世纪的大部分时间里，流经工业区的那条河被当作一条排水沟。"
+          },
+          {
+            "en": "Concrete banks were built to move water away as quickly as possible, and the water arrived downstream carrying whatever the factories had finished with.",
+            "zh": "人们修筑混凝土河岸，让水尽快排走，而水流到下游时，带着工厂用剩的一切。"
+          },
+          {
+            "en": "Fish disappeared, and the children who played beside it were told to stay away.",
+            "zh": "鱼消失了，在河边玩耍的孩子也被叮嘱要离远一些。"
+          },
+          {
+            "en": "When the city voted to reverse this in the 1990s, many treated the decision as sentimental.",
+            "zh": "当这座城市在二十世纪九十年代决定扭转这一做法时，许多人认为这个决定是感情用事。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The engineers who argued for restoration made a practical case rather than a romantic one.",
+            "zh": "主张修复的工程师提出的是务实的理由，而非浪漫的理由。"
+          },
+          {
+            "en": "A river with a wetland edge absorbs floodwater that a concrete channel can only hurry along.",
+            "zh": "带有湿地边缘的河流能吸收洪水，而混凝土渠道只会让洪水更快地流走。"
+          },
+          {
+            "en": "Shade from replanted banks lowers the water temperature, which allows fish to return; the returning fish, in turn, feed the birds that had left.",
+            "zh": "重新栽种的河岸投下的阴凉降低了水温，使鱼类得以回归；而回归的鱼又反过来喂养了那些曾经离开的鸟。"
+          },
+          {
+            "en": "Within a decade the measured cost of flood damage along the lower reach had fallen, and the argument stopped being about beauty.",
+            "zh": "十年之内，下游河段洪水损失的可测算成本下降了，争论也不再围绕美观展开。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Restoration is not free, and it is not always right.",
+            "zh": "修复并非免费，也并非总是正确。"
+          },
+          {
+            "en": "Land beside a river is expensive, and in a dense city the space given to a wetland is space taken from housing.",
+            "zh": "河边的土地很贵，在人口密集的城市里，给湿地的空间就是从住房那里拿走的空间。"
+          },
+          {
+            "en": "Where a channel protects thousands of homes from a real and frequent threat, the honest answer may be to keep the concrete and improve it.",
+            "zh": "当一条渠道保护着成千上万的住宅免受真实而频繁的威胁时，诚实的答案也许是保留混凝土并加以改进。"
+          },
+          {
+            "en": "The choice depends on what the river is being asked to do.",
+            "zh": "如何选择，取决于人们要这条河承担什么。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The lesson of the river is therefore about how environmental arguments are won.",
+            "zh": "因此，这条河带来的启示在于环境方面的论证是如何获胜的。"
+          },
+          {
+            "en": "Appeals to beauty persuade those who are already convinced; appeals to cost, risk and function persuade everyone else.",
+            "zh": "对美的诉求只能说服那些已经被说服的人；而对成本、风险和功能的诉求才能说服其他人。"
+          },
+          {
+            "en": "Nature, presented as a service rather than a sentiment, turns out to be a far more effective negotiator.",
+            "zh": "当自然被呈现为一种服务而非一种情感时，它原来是远为有效的谈判者。"
+          },
+          {
+            "en": "That is a lesson with uses far beyond one river in one city, and it is not a comfortable one.",
+            "zh": "这个启示的用处远远超出某座城市的某条河，而它并不让人舒服。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "restoration",
+        "pos": "n.",
+        "gloss": "修复；恢复",
+        "note": "生态语境中指让河流恢复自然状态"
+      },
+      {
+        "word": "wetland",
+        "pos": "n.",
+        "gloss": "湿地",
+        "note": "能蓄洪、净水的自然系统"
+      },
+      {
+        "word": "absorb",
+        "pos": "v.",
+        "gloss": "吸收",
+        "note": "absorb floodwater 指吸纳洪水、减缓流速"
+      },
+      {
+        "word": "sentimental",
+        "pos": "adj.",
+        "gloss": "感情用事的；感伤的",
+        "note": "常含贬义，指凭情感而非理性作判断"
+      },
+      {
+        "word": "negotiator",
+        "pos": "n.",
+        "gloss": "谈判者",
+        "note": "此处把自然拟人化，指其在政策博弈中的说服力"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "Concrete banks were built to move water away as quickly as possible, and the water arrived downstream carrying whatever the factories had finished with.",
+        "main": "Concrete banks were built ..., and the water arrived downstream",
+        "subject": "Concrete banks / the water",
+        "predicate": "were built / arrived",
+        "object": "无（第一分句为被动，第二分句无宾语）",
+        "modifiers": "to move water away 是目的状语；as quickly as possible 是程度状语；carrying ... 是现在分词短语作伴随状语；whatever the factories had finished with 是 carrying 的宾语从句",
+        "logic": "and 并列工程措施与其后果，分词状语补充说明后果的具体形态，暗示设计目标与实际问题之间的落差",
+        "zh": "人们修建混凝土河岸以尽快排走河水，而水到达下游时，带走了工厂用剩的一切。"
+      },
+      {
+        "en": "Shade from replanted banks lowers the water temperature, which allows fish to return; the returning fish, in turn, feed the birds that had left.",
+        "main": "Shade lowers the water temperature; the fish feed the birds",
+        "subject": "Shade / the fish",
+        "predicate": "lowers / feed",
+        "object": "the water temperature / the birds",
+        "modifiers": "from replanted banks 是介词短语修饰 Shade；which 引导非限制性定语从句，指代前面整件事；that had left 是定语从句修饰 birds",
+        "logic": "分号连接生态链条的相邻两环，in turn 标示因果继续传递，which 从句把单一变化扩展为连锁效应",
+        "zh": "重新栽种的河岸带来的阴凉降低了水温，这使鱼得以回归；而回归的鱼又反过来喂养了曾经离开的鸟。"
+      },
+      {
+        "en": "Land beside a river is expensive, and in a dense city the space given to a wetland is space taken from housing.",
+        "main": "Land is expensive, and the space is space",
+        "subject": "Land / the space",
+        "predicate": "is / is",
+        "object": "expensive / space（均为表语）",
+        "modifiers": "beside a river 修饰 Land；given to a wetland 与 taken from housing 都是过去分词短语作后置定语，形成对称",
+        "logic": "and 并列两重代价，第二个分句用对称结构把生态空间与住房供给直接对立，强化“零和”意味",
+        "zh": "河边的土地很贵，而在密集的城市里，给湿地的空间就是从住房中拿走的。"
+      }
+    ],
+    "glossary": {
+      "century": "n. 世纪",
+      "industrial": "adj. 工业的",
+      "quarter": "n. 区域；片区",
+      "drain": "n. 排水沟",
+      "concrete": "n./adj. 混凝土；混凝土的",
+      "bank": "n. 河岸",
+      "downstream": "adv. 在下游",
+      "river": "n. 河流",
+      "disappear": "v. 消失",
+      "vote": "v. 表决；投票决定",
+      "reverse": "v. 扭转",
+      "sentimental": "adj. 感情用事的",
+      "engineer": "n. 工程师",
+      "restoration": "n. 修复",
+      "practical": "adj. 务实的",
+      "romantic": "adj. 浪漫的",
+      "wetland": "n. 湿地",
+      "edge": "n. 边缘",
+      "absorb": "v. 吸收",
+      "floodwater": "n. 洪水",
+      "channel": "n. 渠道",
+      "hurry": "v. 催促；使加快",
+      "shade": "n. 阴凉",
+      "replant": "v. 重新栽种",
+      "temperature": "n. 温度",
+      "allow": "v. 使能够",
+      "return": "v. 回归",
+      "feed": "v. 喂养",
+      "measure": "v. 测量",
+      "damage": "n. 损害",
+      "reach": "n. 河段",
+      "beauty": "n. 美",
+      "expensive": "adj. 昂贵的",
+      "dense": "adj. 密集的",
+      "housing": "n. 住房",
+      "protect": "v. 保护",
+      "threat": "n. 威胁",
+      "honest": "adj. 诚实的",
+      "improve": "v. 改进",
+      "choice": "n. 选择",
+      "environmental": "adj. 环境的",
+      "appeal": "n. 诉求；呼吁",
+      "persuade": "v. 说服",
+      "convince": "v. 使信服",
+      "risk": "n. 风险",
+      "function": "n. 功能",
+      "nature": "n. 自然",
+      "service": "n. 服务",
+      "sentiment": "n. 情感",
+      "effective": "adj. 有效的",
+      "negotiator": "n. 谈判者"
+    },
+    "quiz": [
+      {
+        "id": "l3-06-q1",
+        "type": "主旨大意",
+        "question": "What is the passage mainly about?",
+        "options": [
+          "How a river was restored, and why practical arguments won the case",
+          "Why concrete channels are always the best form of flood defence",
+          "How to design a city park that attracts tourists",
+          "Why factories should be moved out of cities"
+        ],
+        "answer": 0,
+        "evidence": "The lesson of the river is therefore about how environmental arguments are won.",
+        "explain": "文章讲述河流从被当作排水沟到被修复的过程，并指出获胜的关键是把自然论证为一项服务，故主旨是过程加论证方式。",
+        "whyWrong": [
+          "作者承认渠道在特定情形下应保留，但未说它总是最好。",
+          "公园设计不是主题。",
+          "工厂搬迁未被讨论。"
+        ]
+      },
+      {
+        "id": "l3-06-q2",
+        "type": "词义推断",
+        "question": "What does the author mean by presenting nature as 'a service'?",
+        "options": [
+          "Nature understood through the benefits it provides to people",
+          "Nature managed by private companies for profit",
+          "Nature protected only for its beauty",
+          "Nature treated as a public utility owned by the city"
+        ],
+        "answer": 0,
+        "evidence": "Nature, presented as a service rather than a sentiment, turns out to be a far more effective negotiator.",
+        "explain": "service 与 sentiment 对举，指把自然表述为蓄洪、降温等实际功能，而非仅供观赏的情感对象。",
+        "whyWrong": [
+          "文中谈的是论证方式，不是商业化经营。",
+          "作者恰恰说单靠美观说服力有限。",
+          "文中未涉及产权归属。"
+        ]
+      },
+      {
+        "id": "l3-06-q3",
+        "type": "细节理解",
+        "question": "What effect does shade from replanted banks have?",
+        "options": [
+          "It lowers water temperature and allows fish to return",
+          "It reduces the amount of floodwater reaching the city",
+          "It prevents factories from dumping waste into the river",
+          "It makes the river cheaper to maintain"
+        ],
+        "answer": 0,
+        "evidence": "Shade from replanted banks lowers the water temperature, which allows fish to return; the returning fish, in turn, feed the birds that had left.",
+        "explain": "原文明确：阴凉降低水温，进而使鱼回归，并继续带来鸟类回归的连锁效应。",
+        "whyWrong": [
+          "吸收洪水是湿地边缘的作用。",
+          "文中未说植树能阻止排污。",
+          "文中未讨论维护费用下降。"
+        ]
+      },
+      {
+        "id": "l3-06-q4",
+        "type": "作者观点",
+        "question": "What does the author think of keeping concrete channels in some places?",
+        "options": [
+          "It may be the honest choice where the flood threat is real and frequent",
+          "It is never acceptable under any circumstances",
+          "It is always better than restoring a wetland",
+          "It is a decision that should not be debated publicly"
+        ],
+        "answer": 0,
+        "evidence": "Where a channel protects thousands of homes from a real and frequent threat, the honest answer may be to keep the concrete and improve it.",
+        "explain": "作者用 the honest answer may be 表明在真实且频繁的洪水威胁下，保留并改进渠道是务实的选择。",
+        "whyWrong": [
+          "作者承认这种情形，因此不是绝不可接受。",
+          "作者同时认为下游损失成本下降，说明并非处处渠道更好。",
+          "全文正是在公开讨论这一选择。"
+        ]
+      },
+      {
+        "id": "l3-06-q5",
+        "type": "逻辑推断",
+        "question": "Why did the argument stop being about beauty?",
+        "options": [
+          "Because measurable costs fell, giving a practical reason to continue",
+          "Because residents no longer cared about the view",
+          "Because the wetland was hidden from public view",
+          "Because engineers disliked discussing aesthetics"
+        ],
+        "answer": 0,
+        "evidence": "Within a decade the measured cost of flood damage along the lower reach had fallen, and the argument stopped being about beauty.",
+        "explain": "前半句给出可测算的成本下降，说明争论的支点从审美转向了实效，这正是后半句的原因。",
+        "whyWrong": [
+          "文中未说居民不再在意景观。",
+          "湿地并未被隐藏。",
+          "工程师只是选择了更有效的论据。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l3-07",
+    "title": "The Map That Ended a Theory",
+    "titleZh": "终结一种理论的地图",
+    "level": 3,
+    "category": "历史",
+    "tags": [
+      "科学史",
+      "证据",
+      "方法论"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "In the summer of 1854, a disease swept through a crowded district of London, killing hundreds of people in a few weeks.",
+            "zh": "1854年夏天，一种疾病席卷了伦敦一个拥挤的街区，几周内夺去数百人的生命。"
+          },
+          {
+            "en": "The accepted explanation was that the illness travelled through the air, carried by the smell of decay.",
+            "zh": "当时公认的解释是，这种病通过空气传播，由腐烂的气味携带。"
+          },
+          {
+            "en": "A physician who had been studying the outbreak doubted this, and he did something unusual: he drew a map.",
+            "zh": "一位一直在研究这次疫情的医生对此表示怀疑，而他做了一件不寻常的事：他画了一张地图。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The map marked every death with a small dash and every public water pump with a circle.",
+            "zh": "地图上用一个小短横标记每一例死亡，用一个圆圈标记每一个公共水泵。"
+          },
+          {
+            "en": "The dashes clustered around one pump in Broad Street, and the clustering was far too tight to be an accident.",
+            "zh": "这些短横聚集在宽街的一台水泵周围，聚集得如此紧密，绝不可能是巧合。"
+          },
+          {
+            "en": "Deaths were concentrated among those who drew water there, and the pattern held even where the smell was worst elsewhere.",
+            "zh": "死亡集中在那些在那里取水的人当中，即使在其他地方气味最难闻的区域，这一模式依然成立。"
+          },
+          {
+            "en": "One brewery nearby, whose workers drank beer instead of water, was almost untouched, a detail that a theory of bad air could not explain.",
+            "zh": "附近的一家啤酒厂几乎未受影响，因为那里的工人喝啤酒而不喝水——这个细节是“污浊空气”致病说无法解释的。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The map did not convince everyone at once, and it did not settle the question by itself.",
+            "zh": "这张地图并没有立刻说服所有人，也没有单独解决这个问题。"
+          },
+          {
+            "en": "The physician had no instrument capable of showing the organism, so his argument rested on pattern rather than mechanism.",
+            "zh": "这位医生没有能显示病原体的仪器，因此他的论证依靠的是模式，而不是机理。"
+          },
+          {
+            "en": "Officials removed the handle from the pump, the outbreak faded, and the fading was read as proof by some and as coincidence by others.",
+            "zh": "官员拆掉了水泵的把手，疫情逐渐消退，而这种消退被一些人视为证据，被另一些人视为巧合。"
+          },
+          {
+            "en": "Acceptance came only when the waterborne theory was supported by work that could identify the cause directly.",
+            "zh": "直到“水源传播”说得到能够直接识别病因的研究支持，这一理论才被接受。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The episode is often told as a story about a hero and a discovery, which flatters both the hero and the discovery.",
+            "zh": "这件事常被讲成一个关于英雄与发现的故事，而这种讲法既美化了英雄，也美化了发现。"
+          },
+          {
+            "en": "It is more useful as a story about method: a theory that explained everything explained nothing in particular, and a simple map made a specific claim that could be checked.",
+            "zh": "把它当作一个关于方法的故事更有用：一个能解释一切的理论其实什么也没具体解释，而一张简单的地图提出了一个可以被检验的具体主张。"
+          },
+          {
+            "en": "Evidence rarely kills an idea with a single blow; it makes the idea expensive to keep.",
+            "zh": "证据很少能一击杀死一个观念；它只是让坚持这个观念变得代价高昂。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "outbreak",
+        "pos": "n.",
+        "gloss": "爆发；疫情",
+        "note": "常与 disease 等词搭配，指疾病的突然扩散"
+      },
+      {
+        "word": "physician",
+        "pos": "n.",
+        "gloss": "内科医生；医师",
+        "note": "比 doctor 正式，常见于历史与医学文本"
+      },
+      {
+        "word": "cluster",
+        "pos": "v.",
+        "gloss": "聚集；成簇分布",
+        "note": "描述数据或病例在空间上密集出现"
+      },
+      {
+        "word": "mechanism",
+        "pos": "n.",
+        "gloss": "机理；机制",
+        "note": "此处指疾病传播的具体作用方式"
+      },
+      {
+        "word": "coincidence",
+        "pos": "n.",
+        "gloss": "巧合",
+        "note": "把结果解释为偶然，是拒绝接受因果论证的常见方式"
+      },
+      {
+        "word": "flatter",
+        "pos": "v.",
+        "gloss": "使显得更美好；美化",
+        "note": "此处不是“奉承某人”，而是“使叙述显得更好看”"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "A physician who had been studying the outbreak doubted this, and he did something unusual: he drew a map.",
+        "main": "A physician doubted this, and he did something unusual",
+        "subject": "A physician / he",
+        "predicate": "doubted / did",
+        "object": "this / something unusual",
+        "modifiers": "who had been studying the outbreak 是定语从句修饰 physician，用过去完成进行时表示“在此之前一直持续”的动作；冒号后的分句解释 something unusual 的具体内容",
+        "logic": "and 推进叙事，冒号把抽象说法落实为具体行动，形成“怀疑—行动”的紧凑节奏",
+        "zh": "一位一直在研究这次疫情的医生对此表示怀疑，而他做了一件不寻常的事：他画了一张地图。"
+      },
+      {
+        "en": "One brewery nearby, whose workers drank beer instead of water, was almost untouched, a detail that a theory of bad air could not explain.",
+        "main": "One brewery was almost untouched",
+        "subject": "One brewery",
+        "predicate": "was",
+        "object": "almost untouched（表语）",
+        "modifiers": "whose workers drank beer instead of water 是非限制性定语从句，补充说明该厂未受影响的原因；a detail that ... 是同位语，其中 that 从句修饰 detail",
+        "logic": "主句陈述事实，同位语随即评价该事实的证据价值，构成“事实—意义”的两步推进",
+        "zh": "附近一家啤酒厂的工人喝啤酒而不喝水，因此几乎未受影响，而这个细节是污浊空气说无法解释的。"
+      },
+      {
+        "en": "It is more useful as a story about method: a theory that explained everything explained nothing in particular, and a simple map made a specific claim that could be checked.",
+        "main": "It is more useful as a story about method",
+        "subject": "It",
+        "predicate": "is",
+        "object": "more useful（表语）",
+        "modifiers": "冒号后两个并列分句解释 method 的内涵；that explained everything 修饰 theory；that could be checked 修饰 claim",
+        "logic": "冒号引出解释，两个分句用 explained everything 与 nothing in particular 的反差支撑“方法比英雄更重要”的判断",
+        "zh": "把它当作关于方法的故事更有用：一个能解释一切的理论其实什么也没具体解释，而一张简单的地图提出了可被检验的具体主张。"
+      }
+    ],
+    "glossary": {
+      "disease": "n. 疾病",
+      "crowded": "adj. 拥挤的",
+      "district": "n. 街区；地区",
+      "accepted": "adj. 公认的",
+      "explanation": "n. 解释",
+      "illness": "n. 疾病",
+      "travel": "v. 传播；行进",
+      "decay": "n. 腐烂",
+      "physician": "n. 医师",
+      "outbreak": "n. 疫情爆发",
+      "doubt": "v. 怀疑",
+      "unusual": "adj. 不寻常的",
+      "mark": "v. 标记",
+      "death": "n. 死亡",
+      "dash": "n. 短横线",
+      "pump": "n. 水泵",
+      "cluster": "v. 聚集",
+      "tight": "adj. 紧密的",
+      "accident": "n. 偶然的事",
+      "concentrate": "v. 集中",
+      "pattern": "n. 模式",
+      "brewery": "n. 啤酒厂",
+      "instead": "adv. 代替",
+      "untouched": "adj. 未受影响的",
+      "detail": "n. 细节",
+      "convince": "v. 说服",
+      "settle": "v. 解决；平息",
+      "instrument": "n. 仪器",
+      "organism": "n. 病原体；生物体",
+      "argument": "n. 论证",
+      "mechanism": "n. 机理",
+      "official": "n. 官员",
+      "handle": "n. 把手",
+      "fade": "v. 消退",
+      "proof": "n. 证据",
+      "coincidence": "n. 巧合",
+      "acceptance": "n. 接受；认可",
+      "waterborne": "adj. 经水传播的",
+      "identify": "v. 识别",
+      "directly": "adv. 直接地",
+      "episode": "n. 事件；插曲",
+      "hero": "n. 英雄",
+      "discovery": "n. 发现",
+      "flatter": "v. 美化",
+      "method": "n. 方法",
+      "particular": "adj. 具体的",
+      "claim": "n. 主张",
+      "check": "v. 检验",
+      "evidence": "n. 证据",
+      "blow": "n. 打击",
+      "expensive": "adj. 代价高昂的"
+    },
+    "quiz": [
+      {
+        "id": "l3-07-q1",
+        "type": "主旨大意",
+        "question": "What is the passage mainly about?",
+        "options": [
+          "How a map challenged an accepted explanation, and what that shows about evidence",
+          "How London rebuilt its water supply in the nineteenth century",
+          "Why beer was safer than water in the nineteenth century",
+          "How a physician became famous almost by accident"
+        ],
+        "answer": 0,
+        "evidence": "It is more useful as a story about method: a theory that explained everything explained nothing in particular, and a simple map made a specific claim that could be checked.",
+        "explain": "文章叙述地图如何反驳空气传播说，并在结尾把这件事提升为关于方法的讨论，故主旨包含史实与启示两层。",
+        "whyWrong": [
+          "供水系统改造不是主题。",
+          "啤酒厂只是作为反例细节出现。",
+          "作者恰恰反对把此事讲成英雄故事。"
+        ]
+      },
+      {
+        "id": "l3-07-q2",
+        "type": "词义推断",
+        "question": "What does the author mean by saying evidence 'makes the idea expensive to keep'?",
+        "options": [
+          "It raises the cost of continuing to believe something",
+          "It forces researchers to spend more money on instruments",
+          "It makes a theory costly to publish in journals",
+          "It turns a belief into a financial burden for the city"
+        ],
+        "answer": 0,
+        "evidence": "Evidence rarely kills an idea with a single blow; it makes the idea expensive to keep.",
+        "explain": "与前半句“很少一击致命”呼应，expensive 是比喻：继续坚持该观念要付出越来越高的解释代价。",
+        "whyWrong": [
+          "文中说的是观念的成本，不是研究经费。",
+          "发表费用未被提及。",
+          "此处是比喻，不涉及实际财政负担。"
+        ]
+      },
+      {
+        "id": "l3-07-q3",
+        "type": "细节理解",
+        "question": "Why was the brewery almost untouched?",
+        "options": [
+          "Because its workers drank beer rather than water",
+          "Because it stood far away from Broad Street",
+          "Because its owner had closed it for the summer",
+          "Because all beer was boiled before it was sold"
+        ],
+        "answer": 0,
+        "evidence": "One brewery nearby, whose workers drank beer instead of water, was almost untouched, a detail that a theory of bad air could not explain.",
+        "explain": "定语从句直接给出原因：工人喝啤酒而不喝水，因此没有接触被污染的水源。",
+        "whyWrong": [
+          "原文用 nearby 说明距离很近。",
+          "未提及停产。",
+          "文中只说了工人喝啤酒，未提煮沸工序。"
+        ]
+      },
+      {
+        "id": "l3-07-q4",
+        "type": "作者观点",
+        "question": "How does the author regard the familiar story of a hero and a discovery?",
+        "options": [
+          "It is flattering but less instructive than a story about method",
+          "It is the most accurate account available",
+          "It is entirely false and should be forgotten",
+          "It is useful mainly for remembering dates"
+        ],
+        "answer": 0,
+        "evidence": "The episode is often told as a story about a hero and a discovery, which flatters both the hero and the discovery.",
+        "explain": "flatters 含批评意味，随后作者提出“关于方法的故事更有用”，说明他认为英雄叙事不够有教益。",
+        "whyWrong": [
+          "作者说这种讲法美化了双方，并非最准确。",
+          "作者未说它完全虚假，只说不够有用。",
+          "文中未讨论年代记忆。"
+        ]
+      },
+      {
+        "id": "l3-07-q5",
+        "type": "逻辑推断",
+        "question": "Why did some people treat the fading of the outbreak as coincidence?",
+        "options": [
+          "Because the link between water and illness had not been shown directly",
+          "Because the pump handle was never actually removed",
+          "Because the outbreak had already ended before the map was drawn",
+          "Because the physician refused to publish his findings"
+        ],
+        "answer": 0,
+        "evidence": "Acceptance came only when the waterborne theory was supported by work that could identify the cause directly.",
+        "explain": "既然接受要等到能直接识别病因的研究出现，可见此前只有模式证据，反对者便可把消退解释为巧合。",
+        "whyWrong": [
+          "文中明确说把手被拆掉了。",
+          "文中未说疫情在画图前已自行结束。",
+          "文中未说医生拒绝公布发现。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l3-08",
+    "title": "The Words We Borrow",
+    "titleZh": "我们借来的词",
+    "level": 3,
+    "category": "文化",
+    "tags": [
+      "语言",
+      "借词",
+      "文化变迁"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "English contains an extraordinary number of words taken from other languages, and its speakers rarely notice.",
+            "zh": "英语中含有大量取自其他语言的词，而说英语的人很少注意到这一点。"
+          },
+          {
+            "en": "Sugar, algebra, tea, piano and typhoon all arrived from elsewhere, and each arrived together with the thing it named.",
+            "zh": "sugar、algebra、tea、piano 和 typhoon 都来自别处，而且每一个都是和它所命名的事物一起来的。"
+          },
+          {
+            "en": "Borrowing is usually described as a sign of vitality, and it is also a reminder that the border between a language and its neighbours has always been porous.",
+            "zh": "借用通常被描述为活力的标志，它也提醒我们：一种语言与其邻近语言之间的边界从来都是可以渗透的。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Borrowing happens for practical reasons long before it happens for prestige.",
+            "zh": "借用的发生，出于实用原因远早于出于声望考虑。"
+          },
+          {
+            "en": "A language that meets a new object, a new food or a new technique needs a name, and inventing one is harder than accepting the one that arrives with the object.",
+            "zh": "一种语言遇到新物品、新食物或新技术时需要一个名称，而发明一个名称比接受随物品一起来的那个名称要难。"
+          },
+          {
+            "en": "The borrowed word carries a little of the journey with it, which is part of its appeal.",
+            "zh": "借来的词身上带着一点它的旅程，而这正是它吸引力的一部分。"
+          },
+          {
+            "en": "When the borrowed word survives alongside a native one, the two usually drift apart: the borrowed term begins to sound technical or official, while the native word stays familiar.",
+            "zh": "当借词与本土词并存时，两者通常会分化：借来的词开始显得专业或正式，而本土词则保持亲切。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Concern about borrowing is not new, and it is not foolish.",
+            "zh": "对借用的担忧并不新鲜，也并不愚蠢。"
+          },
+          {
+            "en": "If a language loses the words for its own institutions, something is lost with them, and that loss is hard to reverse.",
+            "zh": "如果一种语言失去了指称自身制度的词语，那么有些东西也随之失去，而这种失去很难逆转。"
+          },
+          {
+            "en": "Yet the history of purist campaigns is largely a history of failure: languages that tried to seal their borders produced awkward replacements that nobody used, while the words they resisted settled in for good.",
+            "zh": "然而，纯粹主义运动的历史在很大程度上是一部失败史：试图封锁边界的语言造出了没人使用的生硬替代词，而它们所抵制的那些词却永久地留了下来。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "What survives is not purity but proportion.",
+            "zh": "留存下来的不是纯粹，而是比例。"
+          },
+          {
+            "en": "A healthy language borrows freely and still makes new words of its own; it takes what it needs and reshapes it until the shape fits.",
+            "zh": "健康的语言自由地借用，同时仍然自己造新词；它取用所需，并重塑它，直到形状合适。"
+          },
+          {
+            "en": "A language that borrows nothing is usually a language that has stopped meeting anything new.",
+            "zh": "一种什么也不借的语言，通常是一种不再遇见任何新事物的语言。"
+          },
+          {
+            "en": "English is not endangered by the words it has absorbed.",
+            "zh": "英语并没有因为吸收了这些词而受到威胁。"
+          },
+          {
+            "en": "It is defined by them.",
+            "zh": "它恰恰是由这些词所定义的。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "vitality",
+        "pos": "n.",
+        "gloss": "活力；生命力",
+        "note": "不可数名词，a sign of vitality 表示活力的标志"
+      },
+      {
+        "word": "porous",
+        "pos": "adj.",
+        "gloss": "可渗透的；多孔的",
+        "note": "此处为比喻，指语言边界容易被穿越"
+      },
+      {
+        "word": "prestige",
+        "pos": "n.",
+        "gloss": "声望；威望",
+        "note": "与 practical reasons 对照，指为显得体面而借用"
+      },
+      {
+        "word": "purist",
+        "pos": "n./adj.",
+        "gloss": "纯粹主义者；纯化的",
+        "note": "purist campaigns 指主张清除外来词的运动"
+      },
+      {
+        "word": "proportion",
+        "pos": "n.",
+        "gloss": "比例；均衡",
+        "note": "此处指借用与自造之间的恰当配比"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "A language that meets a new object, a new food or a new technique needs a name, and inventing one is harder than accepting the one that arrives with the object.",
+        "main": "A language needs a name, and inventing one is harder",
+        "subject": "A language / inventing one（动名词短语作主语）",
+        "predicate": "needs / is",
+        "object": "a name / harder（表语）",
+        "modifiers": "that meets a new object, a new food or a new technique 是定语从句修饰 language；than accepting the one that arrives with the object 是比较状语，其中 that 从句修饰 the one",
+        "logic": "and 并列“需求”与“困难”，比较结构解释为什么借用比造词更常发生",
+        "zh": "一种语言遇到新物品、新食物或新技术时需要名称，而造一个名称比接受随物品而来的那个名称更难。"
+      },
+      {
+        "en": "When the borrowed word survives alongside a native one, the two usually drift apart: the borrowed term begins to sound technical or official, while the native word stays familiar.",
+        "main": "the two drift apart",
+        "subject": "the two",
+        "predicate": "drift",
+        "object": "apart（状语，无宾语）",
+        "modifiers": "When 引导时间状语从句；冒号后两个分句具体说明 drift apart 的表现；while 引导对比状语从句",
+        "logic": "时间从句设定条件，冒号展开结果，while 把两种语感并置，形成清晰对照",
+        "zh": "当借词与本土词并存时，两者通常会分化：借词开始显得专业或正式，而本土词仍保持亲切。"
+      },
+      {
+        "en": "Yet the history of purist campaigns is largely a history of failure: languages that tried to seal their borders produced awkward replacements that nobody used, while the words they resisted settled in for good.",
+        "main": "the history is largely a history of failure",
+        "subject": "the history of purist campaigns",
+        "predicate": "is",
+        "object": "a history of failure（表语）",
+        "modifiers": "冒号后是解释；that tried to seal their borders 修饰 languages；that nobody used 修饰 replacements；they resisted 是省略关系词的定语从句修饰 the words；while 引导对比状语从句",
+        "logic": "Yet 转折后给出判断，冒号用两个对照事实支撑，while 把“造词失败”与“借词留存”并置",
+        "zh": "然而纯粹主义运动的历史基本是失败史：试图封锁边界的语言造出没人用的生硬替代词，而它们抵制的词却永久留存。"
+      }
+    ],
+    "glossary": {
+      "extraordinary": "adj. 异常的；大量的",
+      "contain": "v. 包含",
+      "notice": "v. 注意到",
+      "elsewhere": "adv. 在别处",
+      "vitality": "n. 活力",
+      "reminder": "n. 提醒",
+      "border": "n. 边界",
+      "porous": "adj. 可渗透的",
+      "practical": "adj. 实用的",
+      "prestige": "n. 声望",
+      "object": "n. 物品",
+      "technique": "n. 技术",
+      "invent": "v. 发明",
+      "accept": "v. 接受",
+      "journey": "n. 旅程",
+      "appeal": "n. 吸引力",
+      "survive": "v. 存留",
+      "native": "adj. 本地的；本土的",
+      "drift": "v. 分化；偏移",
+      "term": "n. 词语；术语",
+      "technical": "adj. 专业的；技术的",
+      "official": "adj. 正式的",
+      "familiar": "adj. 亲切的；熟悉的",
+      "concern": "n. 担忧",
+      "foolish": "adj. 愚蠢的",
+      "institution": "n. 制度；机构",
+      "reverse": "v. 逆转",
+      "purist": "n. 纯粹主义者",
+      "campaign": "n. 运动",
+      "failure": "n. 失败",
+      "seal": "v. 封闭",
+      "produce": "v. 产生",
+      "awkward": "adj. 生硬的；别扭的",
+      "replacement": "n. 替代词",
+      "resist": "v. 抵制",
+      "settle": "v. 定居；固定下来",
+      "purity": "n. 纯粹",
+      "proportion": "n. 比例",
+      "healthy": "adj. 健康的",
+      "freely": "adv. 自由地",
+      "reshape": "v. 重塑",
+      "shape": "n. 形状",
+      "fit": "v. 适合",
+      "endangered": "adj. 濒危的",
+      "absorb": "v. 吸收",
+      "define": "v. 定义"
+    },
+    "quiz": [
+      {
+        "id": "l3-08-q1",
+        "type": "主旨大意",
+        "question": "What is the passage mainly about?",
+        "options": [
+          "Why languages borrow words and why purist resistance usually fails",
+          "How to learn English vocabulary more quickly",
+          "Why English is easier to learn than other languages",
+          "How dictionaries decide which words to include"
+        ],
+        "answer": 0,
+        "evidence": "What survives is not purity but proportion.",
+        "explain": "文章说明借用的实用动因与语体分化，再论证纯粹主义运动的失败，最后落到“比例而非纯粹”，故主旨是借用机制与抵制之无效。",
+        "whyWrong": [
+          "文章不提供学习方法。",
+          "文中未比较语言难易。",
+          "词典编纂未被讨论。"
+        ]
+      },
+      {
+        "id": "l3-08-q2",
+        "type": "词义推断",
+        "question": "What does the author mean by saying the border has always been 'porous'?",
+        "options": [
+          "Words have always passed across it easily",
+          "The border has been strictly protected by law",
+          "The border has only recently become weaker",
+          "The border cannot be located on any map"
+        ],
+        "answer": 0,
+        "evidence": "Borrowing is usually described as a sign of vitality, and it is also a reminder that the border between a language and its neighbours has always been porous.",
+        "explain": "porous 意为“可渗透的”，与前半句“借用”相呼应，说明词语一直可以自由穿越语言边界。",
+        "whyWrong": [
+          "porous 意为可渗透，与“受严格保护”相反。",
+          "原文用 has always been，强调一直如此，不是近年才变弱。",
+          "此处是比喻，不涉及地理边界。"
+        ]
+      },
+      {
+        "id": "l3-08-q3",
+        "type": "细节理解",
+        "question": "Why does borrowing usually begin, according to the passage?",
+        "options": [
+          "Because a new object or technique needs a name",
+          "Because borrowed words sound more beautiful",
+          "Because governments require official terms",
+          "Because children prefer foreign words"
+        ],
+        "answer": 0,
+        "evidence": "A language that meets a new object, a new food or a new technique needs a name, and inventing one is harder than accepting the one that arrives with the object.",
+        "explain": "原文说借用先出于 practical reasons，即新事物需要名称，而造词比接受现成名称更难。",
+        "whyWrong": [
+          "文中说借用先出于实用，而非美感。",
+          "文中未提及政府要求。",
+          "文中未讨论儿童偏好。"
+        ]
+      },
+      {
+        "id": "l3-08-q4",
+        "type": "作者观点",
+        "question": "What is the author's view of purist campaigns?",
+        "options": [
+          "They are understandable but have generally failed",
+          "They have successfully protected many languages",
+          "They are foolish and deserve no sympathy at all",
+          "They are the only way to keep a language alive"
+        ],
+        "answer": 0,
+        "evidence": "Yet the history of purist campaigns is largely a history of failure: languages that tried to seal their borders produced awkward replacements that nobody used, while the words they resisted settled in for good.",
+        "explain": "作者先说这种担忧“并不愚蠢”，随后用 Yet 指出其历史基本是失败史，因此态度是理解而否定其成效。",
+        "whyWrong": [
+          "文中说这类运动的历史基本是失败史。",
+          "作者明确说这种担忧并不愚蠢。",
+          "作者认为健康的语言靠借用与自造的比例。"
+        ]
+      },
+      {
+        "id": "l3-08-q5",
+        "type": "逻辑推断",
+        "question": "Why does the author mention sugar, algebra, tea, piano and typhoon?",
+        "options": [
+          "To show that borrowed words arrived together with the things they named",
+          "To prove that English has more words than other languages",
+          "To list the words that learners find hardest",
+          "To argue that these words should be replaced"
+        ],
+        "answer": 0,
+        "evidence": "Sugar, algebra, tea, piano and typhoon all arrived from elsewhere, and each arrived together with the thing it named.",
+        "explain": "作者用这几个词证明“词随物来”，为下一段“借用出于实用需要”的论点提供例证。",
+        "whyWrong": [
+          "举例是为了说明来源方式，不是比较词汇总量。",
+          "文中未讨论难度。",
+          "作者反对替换借词的做法。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  }
+]

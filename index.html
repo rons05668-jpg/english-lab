@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="English Lab — 沉浸式英语阅读与词汇学习平台" />
+    <title>English Lab</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23007AFF'/%3E%3Ctext x='50' y='68' font-size='54' font-family='-apple-system,Helvetica' font-weight='600' fill='white' text-anchor='middle'%3EE%3C/text%3E%3C/svg%3E" />
+    <script>
+      // 首屏前同步应用主题，避免闪白
+      (function () {
+        try {
+          var raw = localStorage.getItem('english-lab:settings');
+          var mode = raw ? (JSON.parse(raw).theme || 'system') : 'system';
+          var dark = mode === 'dark' || (mode === 'system' && matchMedia('(prefers-color-scheme: dark)').matches);
+          document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

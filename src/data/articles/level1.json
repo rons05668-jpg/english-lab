@@ -1,0 +1,1362 @@
+[
+  {
+    "id": "l1-01",
+    "title": "A Small Change in the Morning",
+    "titleZh": "清晨的一个小改变",
+    "level": 1,
+    "category": "生活",
+    "tags": ["习惯", "早餐", "时间管理"],
+    "paragraphs": [
+      {
+        "sentences": [
+          { "en": "Lily used to wake up at eight and rush to class without breakfast.", "zh": "莉莉过去常常八点起床，不吃早饭就赶去上课。" },
+          { "en": "Last month she started a new plan.", "zh": "上个月她开始了一个新计划。" },
+          { "en": "Now she gets up at seven and eats a simple meal at home.", "zh": "现在她七点起床，在家吃一顿简单的饭。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "The meal is easy to make.", "zh": "这顿饭做起来很容易。" },
+          { "en": "She cooks an egg, washes an apple, and drinks a glass of warm water.", "zh": "她煎一个鸡蛋，洗一个苹果，再喝一杯温水。" },
+          { "en": "It takes her only ten minutes.", "zh": "这只需要她十分钟。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "At first, the early hour felt hard.", "zh": "一开始，那么早起床让她觉得很难受。" },
+          { "en": "She set two alarms on her phone.", "zh": "她在手机上设了两个闹钟。" },
+          { "en": "After a week, her body got used to the new time.", "zh": "一周之后，她的身体习惯了这个新时间。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "Now Lily feels more awake in her first class.", "zh": "现在莉莉在第一节课上清醒多了。" },
+          { "en": "She also saves money because she no longer buys food on the way.", "zh": "她也省了钱，因为她不再在路上买吃的。" },
+          { "en": "She says the small change was worth the effort.", "zh": "她说这个小小的改变值得付出。" }
+        ]
+      }
+    ],
+    "keyVocab": [
+      { "word": "rush", "pos": "v.", "gloss": "匆忙赶往", "note": "rush to + 地点，表示赶着去某处" },
+      { "word": "simple", "pos": "adj.", "gloss": "简单的", "note": "常修饰 meal、plan、idea 等" },
+      { "word": "alarm", "pos": "n.", "gloss": "闹钟；警报", "note": "set an alarm 表示设定闹钟" },
+      { "word": "awake", "pos": "adj.", "gloss": "清醒的", "note": "feel awake 表示感觉清醒" },
+      { "word": "worth", "pos": "adj.", "gloss": "值得的", "note": "be worth + 名词，表示值得某事" }
+    ],
+    "grammar": [
+      {
+        "en": "She cooks an egg, washes an apple, and drinks a glass of warm water.",
+        "main": "She cooks an egg, washes an apple, and drinks a glass of water",
+        "subject": "She",
+        "predicate": "cooks / washes / drinks",
+        "object": "an egg / an apple / a glass of water",
+        "modifiers": "warm 是形容词，修饰 water；a glass of 表示数量",
+        "logic": "三个动词用逗号和 and 并列，按时间顺序说明做早餐的三个动作",
+        "zh": "她煎一个鸡蛋，洗一个苹果，再喝一杯温水。"
+      },
+      {
+        "en": "She also saves money because she no longer buys food on the way.",
+        "main": "She saves money",
+        "subject": "She",
+        "predicate": "saves",
+        "object": "money",
+        "modifiers": "because 引导原因状语从句；on the way 是介词短语，表示在路上",
+        "logic": "先说结果（省钱），再说原因（不再在路上买吃的）",
+        "zh": "她也省了钱，因为她不再在路上买吃的。"
+      },
+      {
+        "en": "After a week, her body got used to the new time.",
+        "main": "her body got used to the new time",
+        "subject": "her body",
+        "predicate": "got used to",
+        "object": "the new time",
+        "modifiers": "After a week 是介词短语，作时间状语，放在句首",
+        "logic": "时间状语放句首，先交代时间，再说身体适应了新作息",
+        "zh": "一周之后，她的身体习惯了这个新时间。"
+      }
+    ],
+    "glossary": {
+      "rush": "v. 匆忙赶往",
+      "breakfast": "n. 早餐",
+      "plan": "n. 计划",
+      "simple": "adj. 简单的",
+      "meal": "n. 一餐；饭",
+      "cook": "v. 烹饪；做饭",
+      "wash": "v. 洗",
+      "glass": "n. 玻璃杯",
+      "warm": "adj. 温热的",
+      "minute": "n. 分钟",
+      "early": "adj. 早的",
+      "hour": "n. 小时",
+      "alarm": "n. 闹钟",
+      "phone": "n. 手机",
+      "body": "n. 身体",
+      "awake": "adj. 清醒的",
+      "save": "v. 节省；省下",
+      "money": "n. 钱",
+      "buy": "v. 买",
+      "food": "n. 食物",
+      "change": "n. 改变",
+      "worth": "adj. 值得的",
+      "effort": "n. 努力",
+      "class": "n. 课；班级",
+      "month": "n. 月份",
+      "start": "v. 开始",
+      "week": "n. 星期；周",
+      "first": "adj. 最初的；第一的"
+    },
+    "quiz": [
+      {
+        "id": "l1-01-q1",
+        "type": "主旨大意",
+        "question": "What is the passage mainly about?",
+        "options": ["A student's new morning habit", "A cooking class for beginners", "A way to make money fast", "A trip to the supermarket"],
+        "answer": 0,
+        "evidence": "Now she gets up at seven and eats a simple meal at home.",
+        "explain": "全文都在讲莉莉如何改变早晨的安排，以及这个改变带来的好处，所以主旨是她的晨间新习惯。",
+        "whyWrong": [
+          "文中没有任何烹饪课的内容。",
+          "省钱只是附带的好处，文章重点不是赚钱。",
+          "文中没有写到去超市买东西的经历。"
+        ]
+      },
+      {
+        "id": "l1-01-q2",
+        "type": "细节理解",
+        "question": "How long does it take Lily to make her breakfast?",
+        "options": ["Five minutes", "Ten minutes", "Twenty minutes", "Half an hour"],
+        "answer": 1,
+        "evidence": "It takes her only ten minutes.",
+        "explain": "原文直接给出时间：做这顿早餐只花她十分钟。",
+        "whyWrong": [
+          "五分钟比原文说的时间短。",
+          "二十分钟比原文说的时间长。",
+          "半小时远远超过文中提到的时间。"
+        ]
+      },
+      {
+        "id": "l1-01-q3",
+        "type": "词义推断",
+        "question": "What does the word 'rush' in paragraph 1 most probably mean?",
+        "options": ["Move quickly", "Eat slowly", "Sleep late", "Study hard"],
+        "answer": 0,
+        "evidence": "Lily used to wake up at eight and rush to class without breakfast.",
+        "explain": "八点才起床又要赶去上课，还要不吃早饭，说明动作很急，rush 指匆忙快步走。",
+        "whyWrong": [
+          "慢慢吃与赶时间的语境相反。",
+          "睡到很晚是她过去的状态，不能解释 rush 的意思。",
+          "rush 描述的是走路的样子，与学习努力无关。"
+        ]
+      },
+      {
+        "id": "l1-01-q4",
+        "type": "逻辑推断",
+        "question": "Why does Lily save money now?",
+        "options": ["She cooks at home instead of buying food outside.", "She walks to class every day.", "She gets money from her parents.", "She eats much less than before."],
+        "answer": 0,
+        "evidence": "She also saves money because she no longer buys food on the way.",
+        "explain": "原文说省下的原因是她不再在路上买吃的，也就是改成在家做饭。",
+        "whyWrong": [
+          "文中没有提到她每天步行去上课。",
+          "父母给钱这件事在文中完全没有出现。",
+          "她并没有少吃，只是换了吃饭的地方。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l1-02",
+    "title": "Ten Thousand Steps",
+    "titleZh": "一万步",
+    "level": 1,
+    "category": "健康与运动",
+    "tags": ["运动", "走路", "健康误区"],
+    "paragraphs": [
+      {
+        "sentences": [
+          { "en": "Many people in China wear a small band on their wrist that counts steps.", "zh": "中国很多人手腕上戴着一个小手环，用来计步。" },
+          { "en": "They check the number on their phone every evening.", "zh": "他们每天晚上在手机上查看这个数字。" },
+          { "en": "Ten thousand steps a day has become a popular goal.", "zh": "每天一万步已经成为一个流行的目标。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "Walking is easy and safe for most people.", "zh": "对大多数人来说，走路既简单又安全。" },
+          { "en": "You do not need a gym or special clothes.", "zh": "你不需要健身房，也不需要专门的服装。" },
+          { "en": "A quick walk after dinner can also help you sleep better.", "zh": "晚饭后快走一会儿还能帮你睡得更好。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "However, ten thousand is not a magic number.", "zh": "不过，一万并不是一个神奇的数字。" },
+          { "en": "It came from an old advertisement in Japan, not from medical research.", "zh": "它来自日本的一则旧广告，而不是医学研究。" },
+          { "en": "For older people, six thousand steps may be enough.", "zh": "对年纪大的人来说，六千步也许就够了。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "Doctors say the best plan is the one you can keep.", "zh": "医生说，最好的计划是你能坚持下来的那个。" },
+          { "en": "Walking to the bus stop or climbing the stairs still counts.", "zh": "走到公交站或者爬楼梯，同样算数。" },
+          { "en": "The goal is to move a little more than last week.", "zh": "目标是比上周多动一点。" }
+        ]
+      }
+    ],
+    "keyVocab": [
+      { "word": "count", "pos": "v.", "gloss": "计数；算数", "note": "此处既指计步，也指算作有效运动" },
+      { "word": "goal", "pos": "n.", "gloss": "目标", "note": "set a goal 表示设定目标" },
+      { "word": "gym", "pos": "n.", "gloss": "健身房", "note": "go to the gym 表示去健身" },
+      { "word": "advertisement", "pos": "n.", "gloss": "广告", "note": "常缩写为 ad" },
+      { "word": "medical", "pos": "adj.", "gloss": "医学的", "note": "medical research 医学研究" },
+      { "word": "stairs", "pos": "n.", "gloss": "楼梯", "note": "常用复数，climb the stairs 爬楼梯" }
+    ],
+    "grammar": [
+      {
+        "en": "They check the number on their phone every evening.",
+        "main": "They check the number",
+        "subject": "They",
+        "predicate": "check",
+        "object": "the number",
+        "modifiers": "on their phone 是介词短语，说明在哪里看；every evening 是时间状语",
+        "logic": "先说做什么，再补地点和时间，这是英语最常见的语序",
+        "zh": "他们每天晚上在手机上查看这个数字。"
+      },
+      {
+        "en": "It came from an old advertisement in Japan, not from medical research.",
+        "main": "It came from an old advertisement",
+        "subject": "It",
+        "predicate": "came from",
+        "object": "an old advertisement",
+        "modifiers": "in Japan 是介词短语，修饰 advertisement；not from medical research 是对前一半的否定补充",
+        "logic": "先用肯定说明来源，再用 not 否定另一个来源，纠正读者的想当然",
+        "zh": "它来自日本的一则旧广告，而不是医学研究。"
+      },
+      {
+        "en": "Walking to the bus stop or climbing the stairs still counts.",
+        "main": "Walking to the bus stop or climbing the stairs counts",
+        "subject": "Walking to the bus stop or climbing the stairs",
+        "predicate": "counts",
+        "object": "无宾语（counts 在这里是不及物动词，意为算数）",
+        "modifiers": "to the bus stop 是介词短语，修饰 walking",
+        "logic": "动名词短语作主语，or 连接两种日常活动，说明它们都有效",
+        "zh": "走到公交站或者爬楼梯，同样算数。"
+      }
+    ],
+    "glossary": {
+      "wrist": "n. 手腕",
+      "band": "n. 手环；带子",
+      "count": "v. 计数；算数",
+      "step": "n. 步",
+      "check": "v. 查看；检查",
+      "number": "n. 数字",
+      "popular": "adj. 流行的",
+      "goal": "n. 目标",
+      "safe": "adj. 安全的",
+      "gym": "n. 健身房",
+      "special": "adj. 特别的；专门的",
+      "quick": "adj. 快速的",
+      "sleep": "v. 睡觉",
+      "magic": "adj. 神奇的",
+      "advertisement": "n. 广告",
+      "medical": "adj. 医学的",
+      "research": "n. 研究",
+      "enough": "adj. 足够的",
+      "doctor": "n. 医生",
+      "keep": "v. 保持；坚持",
+      "bus": "n. 公交车",
+      "climb": "v. 爬",
+      "stairs": "n. 楼梯",
+      "move": "v. 移动；活动",
+      "however": "adv. 然而",
+      "better": "adv. 更好地",
+      "older": "adj. 年纪较大的",
+      "dinner": "n. 晚餐",
+      "evening": "n. 晚上",
+      "easy": "adj. 容易的"
+    },
+    "quiz": [
+      {
+        "id": "l1-02-q1",
+        "type": "细节理解",
+        "question": "Where did the goal of ten thousand steps come from?",
+        "options": ["Medical research", "An old advertisement", "A running race", "A school rule"],
+        "answer": 1,
+        "evidence": "It came from an old advertisement in Japan, not from medical research.",
+        "explain": "原文明确指出这个数字来自日本的一则旧广告，并且特别否定了医学研究这一来源。",
+        "whyWrong": [
+          "原文用 not 明确排除了医学研究。",
+          "文中没有提到任何跑步比赛。",
+          "学校规定与这个数字的来源无关。"
+        ]
+      },
+      {
+        "id": "l1-02-q2",
+        "type": "词义推断",
+        "question": "What does the word 'magic' mean in paragraph 3?",
+        "options": ["A number that works for everyone", "A number used in card games", "A number shown by a phone app", "A number that changes every day"],
+        "answer": 0,
+        "evidence": "However, ten thousand is not a magic number.",
+        "explain": "后文说老人六千步就够，说明作者想表达一万并非对所有人都适用的万能数字。",
+        "whyWrong": [
+          "文中谈的是运动量，不是纸牌游戏。",
+          "手机应用只是记录工具，与 magic 的含义无关。",
+          "这个数字是固定的，不会每天变化。"
+        ]
+      },
+      {
+        "id": "l1-02-q3",
+        "type": "作者观点",
+        "question": "What does the writer think about the ten thousand step goal?",
+        "options": ["It is the only way to stay healthy.", "It is useful but not right for everyone.", "It is a complete waste of time.", "It should be raised to twenty thousand."],
+        "answer": 1,
+        "evidence": "Doctors say the best plan is the one you can keep.",
+        "explain": "作者先肯定走路的好处，再指出一万步并非人人适用，最后强调能坚持的计划才是最好的。",
+        "whyWrong": [
+          "作者说老人六千步就够，可见并非唯一标准。",
+          "作者认为走路很有用，并没有否定这项运动。",
+          "文中从未提出要提高步数目标。"
+        ]
+      },
+      {
+        "id": "l1-02-q4",
+        "type": "逻辑推断",
+        "question": "Why does the writer mention walking to the bus stop?",
+        "options": ["To show that small daily walks also count.", "To explain how to take a bus.", "To compare buses with cars.", "To say that walking outside is dangerous."],
+        "answer": 0,
+        "evidence": "Walking to the bus stop or climbing the stairs still counts.",
+        "explain": "作者举出生活中不起眼的走路机会，是为了说明不必刻意凑步数，日常活动同样有效。",
+        "whyWrong": [
+          "文章不是交通指南，没有讲怎么坐公交。",
+          "文中没有把公交和汽车作比较。",
+          "作者认为走路安全，并未说危险。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l1-03",
+    "title": "The Library After Class",
+    "titleZh": "下课后的图书馆",
+    "level": 1,
+    "category": "教育",
+    "tags": ["图书馆", "自习", "校园生活"],
+    "paragraphs": [
+      {
+        "sentences": [
+          { "en": "Our school library opens until nine in the evening.", "zh": "我们学校的图书馆开到晚上九点。" },
+          { "en": "Many students go there after their last class.", "zh": "很多学生在最后一节课后去那里。" },
+          { "en": "The reading room is quiet, and the seats near the window fill up first.", "zh": "阅览室很安静，靠窗的座位最先坐满。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "Zhang Wei goes there three times a week.", "zh": "张伟每周去那里三次。" },
+          { "en": "He does not read novels.", "zh": "他并不是去读小说。" },
+          { "en": "He works on his math homework because his roommates talk a lot in the dormitory.", "zh": "他去做数学作业，因为室友在宿舍里说话很多。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "The library also offers free help.", "zh": "图书馆还提供免费帮助。" },
+          { "en": "Every Tuesday, a teacher sits at a small desk and answers questions about writing.", "zh": "每周二，一位老师坐在一张小桌子旁，回答关于写作的问题。" },
+          { "en": "Students can bring one page and get advice in fifteen minutes.", "zh": "学生可以带一页纸来，十五分钟内得到建议。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "For Zhang Wei, the library is not just a place for books.", "zh": "对张伟来说，图书馆不只是一个放书的地方。" },
+          { "en": "It is a quiet place to think.", "zh": "它是一个可以安静思考的地方。" },
+          { "en": "He says his grades are better this term.", "zh": "他说这学期他的成绩更好了。" }
+        ]
+      }
+    ],
+    "keyVocab": [
+      { "word": "quiet", "pos": "adj.", "gloss": "安静的", "note": "keep quiet 表示保持安静" },
+      { "word": "fill", "pos": "v.", "gloss": "填满；坐满", "note": "fill up 表示装满、坐满" },
+      { "word": "dormitory", "pos": "n.", "gloss": "宿舍", "note": "常缩写为 dorm" },
+      { "word": "advice", "pos": "n.", "gloss": "建议", "note": "不可数名词，不说 an advice" },
+      { "word": "grade", "pos": "n.", "gloss": "成绩；年级", "note": "常用复数 grades 表示各科成绩" }
+    ],
+    "grammar": [
+      {
+        "en": "Many students go there after their last class.",
+        "main": "Many students go there",
+        "subject": "Many students",
+        "predicate": "go",
+        "object": "无宾语（there 是副词，作地点状语）",
+        "modifiers": "after their last class 是介词短语，作时间状语",
+        "logic": "先给主句，再用介词短语交代时间，顺序与中文一致",
+        "zh": "很多学生在最后一节课后去那里。"
+      },
+      {
+        "en": "The reading room is quiet, and the seats near the window fill up first.",
+        "main": "The reading room is quiet, and the seats fill up first",
+        "subject": "The reading room / the seats",
+        "predicate": "is / fill up",
+        "object": "无宾语（is 后是表语 quiet；fill up 此处不及物）",
+        "modifiers": "near the window 是介词短语，放在名词后修饰 the seats",
+        "logic": "and 连接两个地位平等的分句，第二个分句补充具体细节",
+        "zh": "阅览室很安静，靠窗的座位最先坐满。"
+      },
+      {
+        "en": "He works on his math homework because his roommates talk a lot in the dormitory.",
+        "main": "He works on his math homework",
+        "subject": "He",
+        "predicate": "works on",
+        "object": "his math homework",
+        "modifiers": "because 引导原因状语从句；in the dormitory 是地点状语",
+        "logic": "主句说做法，because 从句解释原因",
+        "zh": "他做数学作业，因为室友在宿舍里说话很多。"
+      }
+    ],
+    "glossary": {
+      "library": "n. 图书馆",
+      "quiet": "adj. 安静的",
+      "seat": "n. 座位",
+      "window": "n. 窗户",
+      "fill": "v. 填满；坐满",
+      "novel": "n. 小说",
+      "roommate": "n. 室友",
+      "dormitory": "n. 宿舍",
+      "offer": "v. 提供",
+      "free": "adj. 免费的",
+      "answer": "v. 回答",
+      "question": "n. 问题",
+      "writing": "n. 写作",
+      "advice": "n. 建议",
+      "page": "n. 页",
+      "grade": "n. 成绩",
+      "term": "n. 学期",
+      "homework": "n. 家庭作业",
+      "math": "n. 数学",
+      "open": "v. 开放",
+      "evening": "n. 晚上",
+      "teacher": "n. 老师",
+      "desk": "n. 书桌",
+      "minute": "n. 分钟",
+      "place": "n. 地方",
+      "better": "adj. 更好的",
+      "think": "v. 思考",
+      "reading": "n. 阅读",
+      "room": "n. 房间",
+      "until": "prep. 直到"
+    },
+    "quiz": [
+      {
+        "id": "l1-03-q1",
+        "type": "细节理解",
+        "question": "How often does Zhang Wei go to the library?",
+        "options": ["Every day", "Three times a week", "Once a month", "Only on Tuesday"],
+        "answer": 1,
+        "evidence": "Zhang Wei goes there three times a week.",
+        "explain": "原文直接说明他每周去三次，这是一个明确的频度细节。",
+        "whyWrong": [
+          "文中说的是每周三次，不是每天。",
+          "每月一次比原文的频度低得多。",
+          "周二只是老师答疑的日子，不是他去的次数。"
+        ]
+      },
+      {
+        "id": "l1-03-q2",
+        "type": "逻辑推断",
+        "question": "Why does Zhang Wei study in the library instead of his room?",
+        "options": ["His room is too small.", "His roommates are noisy.", "The library has free coffee.", "He has no desk at home."],
+        "answer": 1,
+        "evidence": "He works on his math homework because his roommates talk a lot in the dormitory.",
+        "explain": "原文用 because 说明原因：室友在宿舍里说话很多，所以他需要换个安静的地方。",
+        "whyWrong": [
+          "文中没有提到宿舍房间的大小。",
+          "图书馆有免费咖啡这一点完全没有出现。",
+          "文中说的是室友吵，不是没有书桌。"
+        ]
+      },
+      {
+        "id": "l1-03-q3",
+        "type": "主旨大意",
+        "question": "What is the passage mainly about?",
+        "options": ["A library that helps students after class", "The history of a school building", "How to write a good essay", "A teacher's busy Tuesday"],
+        "answer": 0,
+        "evidence": "Our school library opens until nine in the evening.",
+        "explain": "全文介绍图书馆的开放时间、学生的使用情况和免费的写作答疑，主题是课后帮助学生的地方。",
+        "whyWrong": [
+          "文中没有任何关于建筑历史的内容。",
+          "写作只是答疑的一个话题，文章并不教写作方法。",
+          "老师只在文中出现一次，不是全文主题。"
+        ]
+      },
+      {
+        "id": "l1-03-q4",
+        "type": "词义推断",
+        "question": "What does the phrase 'fill up' mean in paragraph 1?",
+        "options": ["Become full", "Get cleaned", "Break down", "Move away"],
+        "answer": 0,
+        "evidence": "The reading room is quiet, and the seats near the window fill up first.",
+        "explain": "座位先 fill up，意思是先被坐满，所以这个词组表示变满。",
+        "whyWrong": [
+          "打扫与座位被占满的意思无关。",
+          "坏掉不符合座位受欢迎这一语境。",
+          "移开与读者抢座的情形相反。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l1-04",
+    "title": "Tea in Two Countries",
+    "titleZh": "两个国家的茶",
+    "level": 1,
+    "category": "文化",
+    "tags": ["饮食文化", "中英对比", "生活习惯"],
+    "paragraphs": [
+      {
+        "sentences": [
+          { "en": "My British teacher once made tea for our class.", "zh": "我的英国老师曾给我们班泡过一次茶。" },
+          { "en": "She put a tea bag in a cup, added hot water, and then poured in milk.", "zh": "她把茶包放进杯子，倒热水，然后加牛奶。" },
+          { "en": "Some students were surprised, because we never put milk in tea at home.", "zh": "有些学生很惊讶，因为我们在家从来不往茶里加牛奶。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "In China, tea is usually drunk plain.", "zh": "在中国，茶通常是清饮的。" },
+          { "en": "People care about the smell and the colour of the water.", "zh": "人们在意味道和茶汤的颜色。" },
+          { "en": "A small cup is filled again and again during a talk.", "zh": "聊天时，一个小杯子会被一次次斟满。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "In Britain, tea is often a short break.", "zh": "在英国，茶常常意味着一次短暂的休息。" },
+          { "en": "People drink it with milk, sugar, or biscuits.", "zh": "人们会配着牛奶、糖或者饼干喝茶。" },
+          { "en": "The drink is less about the tea leaf and more about the rest.", "zh": "这杯饮料与其说关乎茶叶，不如说关乎休息。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "Both habits show the same idea.", "zh": "两种习惯体现了同一个想法。" },
+          { "en": "A cup of tea gives people a reason to stop and sit together.", "zh": "一杯茶给了人们一个停下来、坐在一起的理由。" },
+          { "en": "The taste is different, but the feeling is close.", "zh": "味道不同，感受却很接近。" }
+        ]
+      }
+    ],
+    "keyVocab": [
+      { "word": "plain", "pos": "adj.", "gloss": "不加东西的；清淡的", "note": "drink tea plain 表示清饮，不加奶糖" },
+      { "word": "pour", "pos": "v.", "gloss": "倒（液体）", "note": "pour in 表示倒入" },
+      { "word": "colour", "pos": "n.", "gloss": "颜色", "note": "英式拼写，美式写作 color" },
+      { "word": "biscuit", "pos": "n.", "gloss": "饼干", "note": "英式说法，美式常用 cookie" },
+      { "word": "leaf", "pos": "n.", "gloss": "叶子", "note": "复数为 leaves，tea leaves 指茶叶" }
+    ],
+    "grammar": [
+      {
+        "en": "She put a tea bag in a cup, added hot water, and then poured in milk.",
+        "main": "She put a tea bag in a cup, added hot water, and poured in milk",
+        "subject": "She",
+        "predicate": "put / added / poured",
+        "object": "a tea bag / hot water / milk",
+        "modifiers": "in a cup 是介词短语，表示位置；then 表示动作的先后",
+        "logic": "三个过去式动词并列，按实际动作顺序排列",
+        "zh": "她把茶包放进杯子，倒热水，然后加牛奶。"
+      },
+      {
+        "en": "Some students were surprised, because we never put milk in tea at home.",
+        "main": "Some students were surprised",
+        "subject": "Some students",
+        "predicate": "were",
+        "object": "无宾语（were surprised 是系表结构）",
+        "modifiers": "because 引导原因状语从句；at home 是地点状语",
+        "logic": "先说反应，再解释为什么会有这种反应",
+        "zh": "有些学生很惊讶，因为我们在家从来不往茶里加牛奶。"
+      },
+      {
+        "en": "A cup of tea gives people a reason to stop and sit together.",
+        "main": "A cup of tea gives people a reason",
+        "subject": "A cup of tea",
+        "predicate": "gives",
+        "object": "people / a reason（双宾语）",
+        "modifiers": "to stop and sit together 是不定式，放在 reason 后面修饰它",
+        "logic": "give sb sth 的双宾语结构，说明茶给了人们什么",
+        "zh": "一杯茶给了人们一个停下来、坐在一起的理由。"
+      }
+    ],
+    "glossary": {
+      "british": "adj. 英国的",
+      "tea": "n. 茶",
+      "bag": "n. 袋子；茶包",
+      "cup": "n. 杯子",
+      "add": "v. 添加",
+      "hot": "adj. 热的",
+      "pour": "v. 倒（液体）",
+      "milk": "n. 牛奶",
+      "surprised": "adj. 惊讶的",
+      "plain": "adj. 不加东西的",
+      "smell": "n. 气味",
+      "colour": "n. 颜色",
+      "fill": "v. 倒满；装满",
+      "again": "adv. 再一次",
+      "break": "n. 休息",
+      "sugar": "n. 糖",
+      "biscuit": "n. 饼干",
+      "drink": "v. 喝；n. 饮料",
+      "leaf": "n. 叶子",
+      "rest": "n. 休息",
+      "habit": "n. 习惯",
+      "idea": "n. 想法",
+      "reason": "n. 理由",
+      "stop": "v. 停下来",
+      "together": "adv. 一起",
+      "taste": "n. 味道",
+      "different": "adj. 不同的",
+      "feeling": "n. 感受",
+      "close": "adj. 接近的",
+      "class": "n. 班级",
+      "water": "n. 水"
+    },
+    "quiz": [
+      {
+        "id": "l1-04-q1",
+        "type": "细节理解",
+        "question": "What did the teacher add to the tea?",
+        "options": ["Milk", "Lemon", "Honey", "Salt"],
+        "answer": 0,
+        "evidence": "She put a tea bag in a cup, added hot water, and then poured in milk.",
+        "explain": "原文按顺序写了三个动作，最后加入的是牛奶。",
+        "whyWrong": [
+          "文中没有出现柠檬。",
+          "蜂蜜在文中完全没有提到。",
+          "盐与泡茶的过程无关。"
+        ]
+      },
+      {
+        "id": "l1-04-q2",
+        "type": "词义推断",
+        "question": "What does the word 'plain' mean in paragraph 2?",
+        "options": ["With nothing added", "Very sweet", "Very hot", "In a large cup"],
+        "answer": 0,
+        "evidence": "In China, tea is usually drunk plain.",
+        "explain": "这一段紧接着上文加牛奶的对比，说中国人喝茶不加别的东西，所以 plain 指清饮、不添加。",
+        "whyWrong": [
+          "很甜与清饮的意思正好相反。",
+          "很烫说的是温度，不是加不加东西。",
+          "下文说的是小杯子，与 plain 的含义无关。"
+        ]
+      },
+      {
+        "id": "l1-04-q3",
+        "type": "逻辑推断",
+        "question": "Why were some students surprised?",
+        "options": ["The teacher used cold water.", "They never put milk in tea at home.", "The cup was too small.", "The tea was too expensive."],
+        "answer": 1,
+        "evidence": "Some students were surprised, because we never put milk in tea at home.",
+        "explain": "原文用 because 说明惊讶的来源：学生们在自己家里从没这样喝过茶。",
+        "whyWrong": [
+          "原文用的是热水，不是冷水。",
+          "杯子的确是小杯，但这是后文的内容，不是惊讶的原因。",
+          "文中没有提到茶的价格。"
+        ]
+      },
+      {
+        "id": "l1-04-q4",
+        "type": "作者观点",
+        "question": "What does the writer want to say in the last paragraph?",
+        "options": ["Tea habits in the two countries share a similar meaning.", "British tea is better than Chinese tea.", "People should stop drinking tea.", "Milk tea is a new fashion."],
+        "answer": 0,
+        "evidence": "The taste is different, but the feeling is close.",
+        "explain": "作者说味道不同但感受接近，强调两种喝茶方式背后的共同点。",
+        "whyWrong": [
+          "作者只做对比，没有评判哪种更好。",
+          "作者显然欣赏喝茶，不会劝人放弃。",
+          "奶茶不是本文讨论的对象。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l1-05",
+    "title": "One Bag, Many Times",
+    "titleZh": "一个袋子，用很多次",
+    "level": 1,
+    "category": "环境",
+    "tags": ["塑料污染", "环保", "日常选择"],
+    "paragraphs": [
+      {
+        "sentences": [
+          { "en": "Every time you buy a drink, the shop gives you a plastic bag.", "zh": "每次你买饮料，商店都会给你一个塑料袋。" },
+          { "en": "Most of these bags are used for about twenty minutes.", "zh": "这些袋子大多只被用上二十分钟左右。" },
+          { "en": "Then they become rubbish.", "zh": "然后它们就变成了垃圾。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "A plastic bag does not disappear quickly.", "zh": "塑料袋不会很快消失。" },
+          { "en": "It can stay in the soil for hundreds of years.", "zh": "它能在土壤里留存几百年。" },
+          { "en": "Birds and fish sometimes eat small pieces and become sick.", "zh": "鸟和鱼有时会吃下小碎片，然后生病。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "Last year, a supermarket in my city decided to try something new.", "zh": "去年，我所在城市的一家超市决定尝试一个新办法。" },
+          { "en": "Customers could bring their own cloth bags and get five points.", "zh": "顾客可以带自己的布袋，从而得到五个积分。" },
+          { "en": "In three months, the shop used thirty percent fewer plastic bags.", "zh": "三个月内，这家店少用了百分之三十的塑料袋。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "A cloth bag is not perfect either.", "zh": "布袋也不是完美的。" },
+          { "en": "You need to use it many times before it helps the environment.", "zh": "你需要用很多次，它才能真正对环境有帮助。" },
+          { "en": "The real answer is simple: use less, and use it longer.", "zh": "真正的答案很简单：少用一点，用久一点。" }
+        ]
+      }
+    ],
+    "keyVocab": [
+      { "word": "rubbish", "pos": "n.", "gloss": "垃圾", "note": "英式说法，美式常用 garbage 或 trash" },
+      { "word": "disappear", "pos": "v.", "gloss": "消失", "note": "由 appear 加否定前缀 dis- 构成" },
+      { "word": "soil", "pos": "n.", "gloss": "土壤", "note": "比 earth 更强调可种植的表层土" },
+      { "word": "percent", "pos": "n.", "gloss": "百分比", "note": "thirty percent 百分之三十" },
+      { "word": "environment", "pos": "n.", "gloss": "环境", "note": "protect the environment 保护环境" }
+    ],
+    "grammar": [
+      {
+        "en": "It can stay in the soil for hundreds of years.",
+        "main": "It can stay in the soil",
+        "subject": "It",
+        "predicate": "can stay",
+        "object": "无宾语（stay 是不及物动词）",
+        "modifiers": "in the soil 是地点状语；for hundreds of years 是介词短语，表示持续时间",
+        "logic": "情态动词 can 加动词原形，表示一种可能性",
+        "zh": "它能在土壤里留存几百年。"
+      },
+      {
+        "en": "Customers could bring their own cloth bags and get five points.",
+        "main": "Customers could bring their own cloth bags and get five points",
+        "subject": "Customers",
+        "predicate": "could bring / get",
+        "object": "their own cloth bags / five points",
+        "modifiers": "their own 强调是顾客自己的袋子，与店里提供的形成对比",
+        "logic": "and 连接两个并列谓语，前一个动作带来后一个结果",
+        "zh": "顾客可以带自己的布袋，从而得到五个积分。"
+      },
+      {
+        "en": "You need to use it many times before it helps the environment.",
+        "main": "You need to use it many times",
+        "subject": "You",
+        "predicate": "need",
+        "object": "to use it many times（不定式作宾语）",
+        "modifiers": "before 引导时间状语从句，表示在……之前",
+        "logic": "before 从句实际上提出了条件：先多次使用，才谈得上环保",
+        "zh": "你需要用很多次，它才能真正对环境有帮助。"
+      }
+    ],
+    "glossary": {
+      "plastic": "adj. 塑料的",
+      "bag": "n. 袋子",
+      "shop": "n. 商店",
+      "drink": "n. 饮料",
+      "rubbish": "n. 垃圾",
+      "disappear": "v. 消失",
+      "soil": "n. 土壤",
+      "hundred": "num. 百",
+      "bird": "n. 鸟",
+      "fish": "n. 鱼",
+      "sick": "adj. 生病的",
+      "supermarket": "n. 超市",
+      "customer": "n. 顾客",
+      "cloth": "n. 布",
+      "point": "n. 积分；分数",
+      "percent": "n. 百分比",
+      "perfect": "adj. 完美的",
+      "environment": "n. 环境",
+      "simple": "adj. 简单的",
+      "own": "adj. 自己的",
+      "bring": "v. 带来",
+      "piece": "n. 碎片；块",
+      "year": "n. 年",
+      "minute": "n. 分钟",
+      "time": "n. 次；时间",
+      "use": "v. 使用",
+      "try": "v. 尝试",
+      "real": "adj. 真正的",
+      "answer": "n. 答案",
+      "stay": "v. 停留；留存"
+    },
+    "quiz": [
+      {
+        "id": "l1-05-q1",
+        "type": "主旨大意",
+        "question": "What is the passage mainly about?",
+        "options": ["Why plastic bags are a problem and what can help", "How to make cloth bags at home", "The history of a supermarket", "How birds find food in cities"],
+        "answer": 0,
+        "evidence": "The real answer is simple: use less, and use it longer.",
+        "explain": "文章先说塑料袋使用时间短却污染久，再讲超市的尝试，最后给出减少使用的结论，主题是问题与对策。",
+        "whyWrong": [
+          "文中没有教人怎么制作布袋。",
+          "超市只是举例，不是文章的历史主题。",
+          "鸟吃塑料只是说明危害的一个例子。"
+        ]
+      },
+      {
+        "id": "l1-05-q2",
+        "type": "细节理解",
+        "question": "What did customers get if they brought their own bags?",
+        "options": ["Five points", "A free drink", "Ten yuan", "A new cloth bag"],
+        "answer": 0,
+        "evidence": "Customers could bring their own cloth bags and get five points.",
+        "explain": "原文明确说带自己的布袋可以得到五个积分。",
+        "whyWrong": [
+          "文中没有提到赠送饮料。",
+          "给的是积分，不是十元钱。",
+          "布袋是顾客自己带来的，不是店里发的。"
+        ]
+      },
+      {
+        "id": "l1-05-q3",
+        "type": "逻辑推断",
+        "question": "Why is a cloth bag not always better?",
+        "options": ["It costs too much money.", "It only helps after it is used many times.", "It is hard to carry.", "It cannot hold heavy things."],
+        "answer": 1,
+        "evidence": "You need to use it many times before it helps the environment.",
+        "explain": "布袋在生产时也有消耗，所以原文强调要用很多次，它的环保效果才体现出来。",
+        "whyWrong": [
+          "文中没有讨论布袋的价格。",
+          "文中没有说布袋不好携带。",
+          "承重问题在文中完全没有提到。"
+        ]
+      },
+      {
+        "id": "l1-05-q4",
+        "type": "词义推断",
+        "question": "What does the word 'rubbish' mean in paragraph 1?",
+        "options": ["Waste that people throw away", "Something to sell", "A kind of food", "A small animal"],
+        "answer": 0,
+        "evidence": "Then they become rubbish.",
+        "explain": "袋子只用二十分钟就被丢弃，接下来自然变成没人要的垃圾，所以 rubbish 指废弃物。",
+        "whyWrong": [
+          "用过的袋子不会再拿去卖。",
+          "塑料袋不是食物。",
+          "上下文与动物无关。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l1-06",
+    "title": "The Two Minute Rule",
+    "titleZh": "两分钟法则",
+    "level": 1,
+    "category": "心理",
+    "tags": ["拖延", "习惯养成", "学习方法"],
+    "paragraphs": [
+      {
+        "sentences": [
+          { "en": "I often plan to study at seven, but I start at nine.", "zh": "我常常计划七点学习，结果九点才开始。" },
+          { "en": "The problem is not time.", "zh": "问题不在于时间。" },
+          { "en": "The problem is the first step.", "zh": "问题在于第一步。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "Last week I read about a small trick.", "zh": "上周我读到一个小的窍门。" },
+          { "en": "It is called the two minute rule.", "zh": "它叫做两分钟法则。" },
+          { "en": "You promise yourself to do the task for only two minutes.", "zh": "你向自己承诺，只做这件事两分钟。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "On Monday I decided to try it with my English words.", "zh": "周一我决定用英语单词试一试。" },
+          { "en": "I told myself, just open the book and read for two minutes.", "zh": "我对自己说，就打开书读两分钟。" },
+          { "en": "After two minutes, I did not want to stop, and I studied for forty.", "zh": "两分钟之后，我不想停了，结果我学了四十分钟。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "The rule works because starting is harder than continuing.", "zh": "这个法则有效，因为开始比坚持更难。" },
+          { "en": "A small promise is easy to keep.", "zh": "一个小小的承诺很容易守住。" },
+          { "en": "Once you begin, your mind stays with the work.", "zh": "一旦你开始了，心思就会留在工作上。" },
+          { "en": "It is a small key, but it opens a heavy door.", "zh": "它是一把小钥匙，却能打开一扇沉重的门。" }
+        ]
+      }
+    ],
+    "keyVocab": [
+      { "word": "trick", "pos": "n.", "gloss": "窍门；技巧", "note": "a small trick 表示一个小办法" },
+      { "word": "promise", "pos": "v.", "gloss": "承诺", "note": "promise yourself 向自己保证" },
+      { "word": "task", "pos": "n.", "gloss": "任务", "note": "finish a task 完成任务" },
+      { "word": "continue", "pos": "v.", "gloss": "继续", "note": "后接动名词或不定式均可" },
+      { "word": "once", "pos": "conj.", "gloss": "一旦", "note": "引导时间状语从句，表示条件" }
+    ],
+    "grammar": [
+      {
+        "en": "The rule works because starting is harder than continuing.",
+        "main": "The rule works",
+        "subject": "The rule",
+        "predicate": "works",
+        "object": "无宾语（works 在此不及物）",
+        "modifiers": "because 引导原因状语从句；than continuing 是比较结构",
+        "logic": "主句给结论，从句给原因，比较结构点出难在哪里",
+        "zh": "这个法则有效，因为开始比坚持更难。"
+      },
+      {
+        "en": "After two minutes, I did not want to stop, and I studied for forty.",
+        "main": "I did not want to stop, and I studied for forty",
+        "subject": "I / I",
+        "predicate": "did not want / studied",
+        "object": "to stop / 无宾语（for forty 后省略了 minutes）",
+        "modifiers": "After two minutes 是时间状语；for forty 表示持续四十分钟",
+        "logic": "and 连接两个并列分句，第二个分句是第一个的结果",
+        "zh": "两分钟之后，我不想停了，结果我学了四十分钟。"
+      },
+      {
+        "en": "A small promise is easy to keep.",
+        "main": "A small promise is easy to keep",
+        "subject": "A small promise",
+        "predicate": "is",
+        "object": "无宾语（is easy 是系表结构）",
+        "modifiers": "to keep 是不定式，放在形容词后面补充说明在哪方面容易",
+        "logic": "主语加系动词加形容词，再用不定式把意思补完整",
+        "zh": "一个小小的承诺很容易守住。"
+      }
+    ],
+    "glossary": {
+      "plan": "v. 计划",
+      "study": "v. 学习",
+      "problem": "n. 问题",
+      "step": "n. 步骤",
+      "trick": "n. 窍门",
+      "rule": "n. 法则；规则",
+      "promise": "v. 承诺",
+      "task": "n. 任务",
+      "minute": "n. 分钟",
+      "try": "v. 尝试",
+      "word": "n. 单词",
+      "book": "n. 书",
+      "open": "v. 打开",
+      "want": "v. 想要",
+      "stop": "v. 停止",
+      "start": "v. 开始",
+      "hard": "adj. 困难的",
+      "easy": "adj. 容易的",
+      "keep": "v. 遵守；保持",
+      "mind": "n. 心思；头脑",
+      "stay": "v. 停留",
+      "begin": "v. 开始",
+      "once": "conj. 一旦",
+      "read": "v. 读",
+      "myself": "pron. 我自己",
+      "week": "n. 周",
+      "small": "adj. 小的",
+      "key": "n. 钥匙",
+      "door": "n. 门",
+      "heavy": "adj. 沉重的"
+    },
+    "quiz": [
+      {
+        "id": "l1-06-q1",
+        "type": "主旨大意",
+        "question": "What is the passage mainly about?",
+        "options": ["A small method that helps people start studying", "How to make a weekly study plan", "Why English words are hard to remember", "A book about time management"],
+        "answer": 0,
+        "evidence": "It is called the two minute rule.",
+        "explain": "文章介绍两分钟法则，并用自己背单词的经历说明它如何解决难以开始的问题。",
+        "whyWrong": [
+          "文中没有教人做周计划。",
+          "英语单词只是作者试验的对象，不是主题。",
+          "作者只是读到一个小方法，并没有介绍某本书。"
+        ]
+      },
+      {
+        "id": "l1-06-q2",
+        "type": "细节理解",
+        "question": "How long did the writer study on Monday?",
+        "options": ["Two minutes", "Ten minutes", "Forty minutes", "Two hours"],
+        "answer": 2,
+        "evidence": "After two minutes, I did not want to stop, and I studied for forty.",
+        "explain": "原文说他原本只打算读两分钟，结果一直学了四十分钟。",
+        "whyWrong": [
+          "两分钟只是最初的承诺，不是实际时长。",
+          "十分钟在文中没有出现。",
+          "两小时远远超过实际时间。"
+        ]
+      },
+      {
+        "id": "l1-06-q3",
+        "type": "逻辑推断",
+        "question": "Why does the two minute rule work?",
+        "options": ["Because starting is the hardest part.", "Because two minutes is enough to learn.", "Because it saves paper.", "Because teachers ask students to use it."],
+        "answer": 0,
+        "evidence": "The rule works because starting is harder than continuing.",
+        "explain": "原文解释了原理：难的是开始，一旦开始，人往往愿意继续下去。",
+        "whyWrong": [
+          "两分钟学不到多少东西，作者自己也学成了四十分钟。",
+          "省纸与这个方法毫无关系。",
+          "文中没有提到老师的要求。"
+        ]
+      },
+      {
+        "id": "l1-06-q4",
+        "type": "词义推断",
+        "question": "What does the word 'trick' mean in paragraph 2?",
+        "options": ["A clever way to do something", "A joke played on someone", "A difficult question", "A kind of card game"],
+        "answer": 0,
+        "evidence": "Last week I read about a small trick.",
+        "explain": "下文介绍的是一个解决拖延的小办法，所以 trick 指巧妙的做法，而不是玩笑。",
+        "whyWrong": [
+          "这里没有捉弄人的意思。",
+          "后文给出的不是难题，而是办法。",
+          "文章与纸牌游戏无关。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l1-07",
+    "title": "A Map in Your Pocket",
+    "titleZh": "口袋里的地图",
+    "level": 1,
+    "category": "科技",
+    "tags": ["手机应用", "导航", "隐私"],
+    "paragraphs": [
+      {
+        "sentences": [
+          { "en": "Twenty years ago, my father used a paper map in the car.", "zh": "二十年前，我父亲在车里用一张纸质地图。" },
+          { "en": "The map was big and hard to fold.", "zh": "那张地图很大，也很难折起来。" },
+          { "en": "He stopped at a gas station to ask the way.", "zh": "他在加油站停下来问路。" },
+          { "en": "Today I open a map app, and a voice tells me where to turn.", "zh": "现在我打开地图应用，一个声音会告诉我该在哪里转弯。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "The app knows where I am because my phone talks to satellites.", "zh": "这个应用知道我在哪里，因为我的手机在和卫星通信。" },
+          { "en": "It also collects reports from other drivers.", "zh": "它还会收集其他司机提供的报告。" },
+          { "en": "When many phones move slowly on one road, the app shows a traffic jam.", "zh": "当很多手机在同一条路上移动缓慢时，应用就会显示堵车。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "This is useful, but it has a cost.", "zh": "这很有用，但也有代价。" },
+          { "en": "The app needs my location all the time.", "zh": "这个应用一直需要我的位置。" },
+          { "en": "Some people feel uncomfortable when a company knows every place they visit.", "zh": "当一家公司知道他们去过的每个地方时，有些人会感到不舒服。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "I still use the app every day.", "zh": "我仍然每天使用这个应用。" },
+          { "en": "But I turn off the location service when I do not need it.", "zh": "但在不需要的时候，我会关掉定位服务。" },
+          { "en": "A good tool should help us, not watch us.", "zh": "好的工具应该帮助我们，而不是监视我们。" }
+        ]
+      }
+    ],
+    "keyVocab": [
+      { "word": "fold", "pos": "v.", "gloss": "折叠", "note": "fold a map 把地图折起来" },
+      { "word": "satellite", "pos": "n.", "gloss": "卫星", "note": "手机定位依靠卫星信号" },
+      { "word": "collect", "pos": "v.", "gloss": "收集", "note": "collect data 收集数据" },
+      { "word": "location", "pos": "n.", "gloss": "位置", "note": "location service 定位服务" },
+      { "word": "uncomfortable", "pos": "adj.", "gloss": "不舒服的；不安的", "note": "由 comfortable 加 un- 构成" }
+    ],
+    "grammar": [
+      {
+        "en": "He stopped at a gas station to ask the way.",
+        "main": "He stopped at a gas station",
+        "subject": "He",
+        "predicate": "stopped",
+        "object": "无宾语（stopped 在此不及物）",
+        "modifiers": "at a gas station 是地点状语；to ask the way 是不定式，表示目的",
+        "logic": "先说动作，再用不定式说明目的，回答为什么停下来",
+        "zh": "他在加油站停下来问路。"
+      },
+      {
+        "en": "The app knows where I am because my phone talks to satellites.",
+        "main": "The app knows where I am",
+        "subject": "The app",
+        "predicate": "knows",
+        "object": "where I am（宾语从句）",
+        "modifiers": "because 引导原因状语从句，解释应用为什么知道位置",
+        "logic": "主句说结果，because 从句说原因，因果顺序清楚",
+        "zh": "这个应用知道我在哪里，因为我的手机在和卫星通信。"
+      },
+      {
+        "en": "When many phones move slowly on one road, the app shows a traffic jam.",
+        "main": "the app shows a traffic jam",
+        "subject": "the app",
+        "predicate": "shows",
+        "object": "a traffic jam",
+        "modifiers": "When 引导时间状语从句，放在句首；on one road 是地点状语",
+        "logic": "先给条件，再给结果，这是英语说明原理时常用的顺序",
+        "zh": "当很多手机在同一条路上移动缓慢时，应用就会显示堵车。"
+      }
+    ],
+    "glossary": {
+      "map": "n. 地图",
+      "paper": "n. 纸",
+      "gas": "n. 汽油",
+      "station": "n. 站",
+      "way": "n. 路；方向",
+      "app": "n. 应用程序",
+      "voice": "n. 声音",
+      "satellite": "n. 卫星",
+      "collect": "v. 收集",
+      "report": "n. 报告",
+      "driver": "n. 司机",
+      "move": "v. 移动",
+      "slowly": "adv. 缓慢地",
+      "road": "n. 道路",
+      "traffic": "n. 交通",
+      "jam": "n. 堵塞",
+      "useful": "adj. 有用的",
+      "cost": "n. 代价；费用",
+      "location": "n. 位置",
+      "uncomfortable": "adj. 不安的；不舒服的",
+      "company": "n. 公司",
+      "visit": "v. 访问；去",
+      "tool": "n. 工具",
+      "watch": "v. 监视；观看",
+      "fold": "v. 折叠",
+      "hard": "adj. 困难的",
+      "open": "v. 打开",
+      "turn": "v. 转弯",
+      "place": "n. 地方",
+      "service": "n. 服务"
+    },
+    "quiz": [
+      {
+        "id": "l1-07-q1",
+        "type": "细节理解",
+        "question": "How does the app know where the driver is?",
+        "options": ["The phone talks to satellites.", "The driver types the address first.", "A paper map is scanned by the phone.", "The car has a small camera."],
+        "answer": 0,
+        "evidence": "The app knows where I am because my phone talks to satellites.",
+        "explain": "原文用 because 说明定位的原理：手机与卫星通信。",
+        "whyWrong": [
+          "输入地址是查路线，不是确定当前位置的方法。",
+          "文中没有扫描纸质地图的说法。",
+          "车载摄像头在文中没有出现。"
+        ]
+      },
+      {
+        "id": "l1-07-q2",
+        "type": "逻辑推断",
+        "question": "How does the app learn about a traffic jam?",
+        "options": ["Many phones on one road move slowly.", "The police call the company.", "Drivers send letters to the app.", "The app reads the morning news."],
+        "answer": 0,
+        "evidence": "When many phones move slowly on one road, the app shows a traffic jam.",
+        "explain": "应用通过大量手机在同一路段移动缓慢这一现象，判断那里发生了堵车。",
+        "whyWrong": [
+          "文中没有提到警察打电话。",
+          "司机寄信这种说法完全不符合语境。",
+          "应用靠手机数据，不靠读新闻。"
+        ]
+      },
+      {
+        "id": "l1-07-q3",
+        "type": "作者观点",
+        "question": "What is the writer's idea about map apps?",
+        "options": ["They are helpful but should be used with care.", "They should be stopped completely.", "They are better than building new roads.", "They cost too much for most people."],
+        "answer": 0,
+        "evidence": "A good tool should help us, not watch us.",
+        "explain": "作者一边每天使用应用，一边关掉不必要的定位，态度是接受但要留心。",
+        "whyWrong": [
+          "作者自己每天都在用，并没有主张停用。",
+          "文中没有把应用和修路作比较。",
+          "文章说的 cost 指隐私代价，不是使用费用。"
+        ]
+      },
+      {
+        "id": "l1-07-q4",
+        "type": "词义推断",
+        "question": "What does the word 'cost' mean in paragraph 3?",
+        "options": ["A price you pay, here not in money", "A short rest on the road", "A kind of paper map", "A loud sound from the phone"],
+        "answer": 0,
+        "evidence": "This is useful, but it has a cost.",
+        "explain": "后文讲的是位置被一直获取、公司知道你去过哪里，可见这里的代价指隐私上的付出，而不是钱。",
+        "whyWrong": [
+          "本段没有提到在路边休息。",
+          "纸质地图是上一段的内容，与 cost 无关。",
+          "手机的声音不是这句话要表达的意思。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l1-08",
+    "title": "The Bench at the Gate",
+    "titleZh": "门口的长椅",
+    "level": 1,
+    "category": "社会",
+    "tags": ["社区", "邻里关系", "公共空间"],
+    "paragraphs": [
+      {
+        "sentences": [
+          { "en": "At the gate of our neighbourhood, there is an old wooden bench.", "zh": "在我们小区门口，有一条旧木长椅。" },
+          { "en": "Nobody knows who put it there.", "zh": "没人知道是谁把它放在那里的。" },
+          { "en": "For many years, it was only a place to wait for a bus.", "zh": "很多年里，它只是一个等公交车的地方。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "Two summers ago, an old man began to sit there every afternoon.", "zh": "两年前的夏天，一位老人开始每天下午坐在那里。" },
+          { "en": "He brought a thermos of tea and a small radio.", "zh": "他带来一壶茶和一个小收音机。" },
+          { "en": "Soon other people stopped to talk with him.", "zh": "很快，其他人也停下来和他聊天。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "Now the bench is busy.", "zh": "现在这条长椅很热闹。" },
+          { "en": "Children do homework on one end, and neighbours share vegetables at the other.", "zh": "孩子们在一头写作业，邻居们在另一头分菜。" },
+          { "en": "Someone even fixed the broken leg last month.", "zh": "上个月甚至有人把坏掉的椅腿修好了。" }
+        ]
+      },
+      {
+        "sentences": [
+          { "en": "The city builds parks and squares, and they are important.", "zh": "城市建设公园和广场，这些很重要。" },
+          { "en": "But a bench costs almost nothing.", "zh": "但一条长椅几乎不花什么钱。" },
+          { "en": "Sometimes a small place is enough to turn strangers into friends.", "zh": "有时候，一个小地方就足以让陌生人变成朋友。" }
+        ]
+      }
+    ],
+    "keyVocab": [
+      { "word": "neighbourhood", "pos": "n.", "gloss": "社区；街区", "note": "英式拼写，美式写作 neighborhood" },
+      { "word": "thermos", "pos": "n.", "gloss": "保温瓶", "note": "a thermos of tea 一壶茶" },
+      { "word": "bench", "pos": "n.", "gloss": "长椅", "note": "公园或路边供人坐的长凳" },
+      { "word": "share", "pos": "v.", "gloss": "分享；分给", "note": "share sth with sb 与某人分享" },
+      { "word": "stranger", "pos": "n.", "gloss": "陌生人", "note": "由 strange 加 -er 构成" }
+    ],
+    "grammar": [
+      {
+        "en": "At the gate of our neighbourhood, there is an old wooden bench.",
+        "main": "there is an old wooden bench",
+        "subject": "there（引导词，真正的主语是 an old wooden bench）",
+        "predicate": "is",
+        "object": "无宾语（there be 句型表示存在）",
+        "modifiers": "At the gate of our neighbourhood 是介词短语，作地点状语，放在句首",
+        "logic": "there be 句型先说地点，再说那里存在什么，常用于描写场景",
+        "zh": "在我们小区门口，有一条旧木长椅。"
+      },
+      {
+        "en": "Children do homework on one end, and neighbours share vegetables at the other.",
+        "main": "Children do homework, and neighbours share vegetables",
+        "subject": "Children / neighbours",
+        "predicate": "do / share",
+        "object": "homework / vegetables",
+        "modifiers": "on one end 和 at the other 是介词短语，表示位置上的对比",
+        "logic": "and 连接两个并列分句，一头一尾形成对照，画面感很强",
+        "zh": "孩子们在一头写作业，邻居们在另一头分菜。"
+      },
+      {
+        "en": "Someone even fixed the broken leg last month.",
+        "main": "Someone fixed the broken leg",
+        "subject": "Someone",
+        "predicate": "fixed",
+        "object": "the broken leg",
+        "modifiers": "even 加强语气；last month 是时间状语",
+        "logic": "简单的主谓宾结构，一般过去时说明这件事已经发生",
+        "zh": "上个月甚至有人把坏掉的椅腿修好了。"
+      }
+    ],
+    "glossary": {
+      "gate": "n. 大门",
+      "neighbourhood": "n. 社区；街区",
+      "wooden": "adj. 木制的",
+      "bench": "n. 长椅",
+      "wait": "v. 等待",
+      "bus": "n. 公交车",
+      "summer": "n. 夏天",
+      "old": "adj. 年老的；旧的",
+      "sit": "v. 坐",
+      "thermos": "n. 保温瓶",
+      "radio": "n. 收音机",
+      "soon": "adv. 很快",
+      "stop": "v. 停下来",
+      "busy": "adj. 忙碌的；热闹的",
+      "children": "n. 孩子们",
+      "homework": "n. 作业",
+      "end": "n. 一端；尽头",
+      "neighbour": "n. 邻居",
+      "share": "v. 分享",
+      "vegetable": "n. 蔬菜",
+      "other": "pron. 另一个",
+      "fix": "v. 修理",
+      "broken": "adj. 坏了的",
+      "leg": "n. 腿",
+      "month": "n. 月份",
+      "city": "n. 城市",
+      "park": "n. 公园",
+      "square": "n. 广场",
+      "important": "adj. 重要的",
+      "cost": "v. 花费",
+      "nothing": "pron. 没有什么",
+      "place": "n. 地方",
+      "enough": "adj. 足够的",
+      "stranger": "n. 陌生人",
+      "friend": "n. 朋友",
+      "almost": "adv. 几乎"
+    },
+    "quiz": [
+      {
+        "id": "l1-08-q1",
+        "type": "主旨大意",
+        "question": "What is the passage mainly about?",
+        "options": ["How an old bench became a meeting place", "How to build a park in a neighbourhood", "The daily life of an old man", "A busy bus stop in a big city"],
+        "answer": 0,
+        "evidence": "Sometimes a small place is enough to turn strangers into friends.",
+        "explain": "文章从一条无人注意的长椅写起，讲它如何因为一位老人而变成邻里相聚的地方。",
+        "whyWrong": [
+          "文中提到公园只是用来对比，并没有讲怎么建公园。",
+          "老人只是变化的起点，全文重点在长椅和邻里。",
+          "公交站只是长椅最初的用途。"
+        ]
+      },
+      {
+        "id": "l1-08-q2",
+        "type": "细节理解",
+        "question": "What did the old man bring to the bench?",
+        "options": ["A thermos of tea and a radio", "A newspaper and a chair", "Bread and milk", "A dog and a ball"],
+        "answer": 0,
+        "evidence": "He brought a thermos of tea and a small radio.",
+        "explain": "原文明确写出他带来一壶茶和一个小收音机。",
+        "whyWrong": [
+          "文中没有报纸和椅子。",
+          "面包和牛奶在文中没有出现。",
+          "狗和球是干扰项，文中未提。"
+        ]
+      },
+      {
+        "id": "l1-08-q3",
+        "type": "逻辑推断",
+        "question": "Why is the bench busy now?",
+        "options": ["People like to meet and talk there.", "The city pays people to sit there.", "It is next to a new school.", "The bus comes more often than before."],
+        "answer": 0,
+        "evidence": "Soon other people stopped to talk with him.",
+        "explain": "老人每天坐在那里，别人停下来和他聊天，长椅因此慢慢成了聚人的地方。",
+        "whyWrong": [
+          "文中没有提到任何补贴。",
+          "附近新建学校这一信息不存在。",
+          "公交班次的变化在文中没有提及。"
+        ]
+      },
+      {
+        "id": "l1-08-q4",
+        "type": "作者观点",
+        "question": "What does the writer believe?",
+        "options": ["Small shared places matter a lot.", "Parks are a waste of public money.", "Cities should remove old benches.", "Neighbours should not talk to strangers."],
+        "answer": 0,
+        "evidence": "But a bench costs almost nothing.",
+        "explain": "作者承认公园重要，但强调一条几乎不花钱的长椅也能改变邻里关系，可见他看重小型公共空间。",
+        "whyWrong": [
+          "作者明确说公园很重要。",
+          "作者在赞美这条旧长椅，不会主张拆掉。",
+          "文章正是在讲邻居从陌生变熟悉。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创内容",
+    "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  }
+]
