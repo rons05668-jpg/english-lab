@@ -13,6 +13,7 @@ import { IRREGULAR_NOUNS, IRREGULAR_VERBS } from '../data/irregular';
 import type { Article, DictionarySense, LexiconCollocation, LexiconEntry } from '../data/types';
 import { ARTICLES } from '../data/articles';
 import { lemmatize, normalizeWord, setKnownWords } from './lemma';
+import { lookupOffline } from './offline-dictionary';
 
 export type ContextBasis = 'article-glossary' | 'collocation' | 'pos-match' | 'none';
 
@@ -27,7 +28,7 @@ export interface LookupResult {
   family: string[];
   semanticNote?: string;
   synonyms: { word: string; distinction: string }[];
-  source: 'lexicon' | 'glossary' | 'online' | 'none';
+  source: 'lexicon' | 'glossary' | 'ecdict' | 'online' | 'none';
   /** 词典未收录，释义待补充 */
   pending: boolean;
   /** 词形存在多种还原可能（如 leaves → leaf / leave） */
@@ -343,7 +344,7 @@ export async function lookupWord(rawSurface: string, opts: LookupOptions = {}): 
   const colloHit = opts.sentence ? matchCollocation(opts.sentence, collocations) : null;
 
   let contextual: LookupResult['contextual'] = null;
-  if (glossaryHit) {
+  if (glossaryHit && glossaryHit.articleId === opts.articleId) {
     contextual = { text: glossaryHit.gloss, basis: 'article-glossary', confidence: 'medium' };
   } else if (colloHit) {
     contextual = { text: colloHit.cn, basis: 'collocation', confidence: 'high' };
@@ -355,6 +356,16 @@ export async function lookupWord(rawSurface: string, opts: LookupOptions = {}): 
   let source: LookupResult['source'] = entry ? 'lexicon' : glossaryHit ? 'glossary' : 'none';
   let phonetic: { uk?: string; us?: string } = { uk: entry?.uk, us: entry?.us };
   let finalSenses = senses;
+
+  if (!entry) {
+    const offline = await lookupOffline([resolvedLemma, surface, ...candidates]).catch(() => null);
+    if (offline) {
+      resolvedLemma = offline.lemma;
+      finalSenses = offline.senses;
+      phonetic = offline.phonetic;
+      source = 'ecdict';
+    }
+  }
 
   if (!finalSenses.length && opts.online) {
     const online = await fetchOnline(resolvedLemma || surface);
@@ -369,7 +380,7 @@ export async function lookupWord(rawSurface: string, opts: LookupOptions = {}): 
     surface,
     lemma: resolvedLemma || surface,
     phonetic,
-    pos: entry?.pos || glossaryHit?.pos || posGuess || '',
+    pos: entry?.pos || glossaryHit?.pos || finalSenses[0]?.pos || posGuess || '',
     senses: finalSenses,
     contextual,
     collocations,

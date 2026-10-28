@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { LookupResult } from '../lib/dict';
-import { lookupWord } from '../lib/dict';
+import { dictionaryService } from '../lib/dictionary-service';
 import { addWord, markMastered, unmarkMastered, updateEntry } from '../lib/db';
 import { getData, setData } from '../lib/store';
 import { hasVoiceFor, speakWord } from '../lib/speech';
@@ -32,6 +32,7 @@ export function WordPopover({
   const [result, setResult] = useState<LookupResult | null>(null);
   const [entry, setEntry] = useState<VocabularyEntry | null>(null);
   const [created, setCreated] = useState(false);
+  const [saveState, setSaveState] = useState<'saving' | 'saved' | 'failed'>('saving');
   const [loading, setLoading] = useState(true);
   const [onlineState, setOnlineState] = useState<'idle' | 'loading' | 'failed'>('idle');
 
@@ -53,7 +54,8 @@ export function WordPopover({
         articleTitle,
         now: Date.now(),
       });
-      setData(out.data);
+      const saved = setData(out.data, true);
+      setSaveState(saved ? 'saved' : 'failed');
       setEntry(out.entry);
       setCreated(isCreated && out.created);
     },
@@ -63,7 +65,8 @@ export function WordPopover({
   useEffect(() => {
     let alive = true;
     setLoading(true);
-    lookupWord(surface, { sentence, articleId, online: false })
+    setSaveState('saving');
+    dictionaryService.lookup(surface, { sentence, articleId, online: false })
       .then((res) => {
         if (!alive) return;
         setResult(res);
@@ -74,6 +77,7 @@ export function WordPopover({
       .catch(() => {
         if (!alive) return;
         setLoading(false);
+        setSaveState('failed');
       });
     return () => {
       alive = false;
@@ -83,7 +87,7 @@ export function WordPopover({
 
   const tryOnline = async (lemma: string) => {
     setOnlineState('loading');
-    const res = await lookupWord(lemma, { sentence, articleId, online: true });
+    const res = await dictionaryService.lookup(lemma, { sentence, articleId, online: true });
     if (res.senses.length) {
       setResult(res);
       const cur = getData().vocabEntries.find((e) => e.lemma === res.lemma);
@@ -140,7 +144,7 @@ export function WordPopover({
           <div className="vp-phon-row">
             {result?.phonetic.uk ? (
               <span className="vp-pair">
-                <span className="vocab-card__phon">英 {result.phonetic.uk}</span>
+                <span className="vocab-card__phon">{result.source === 'ecdict' ? '词库音标' : '英'} {result.phonetic.uk}</span>
                 <button
                   className="vp-speak"
                   aria-label="朗读英式发音"
@@ -176,11 +180,13 @@ export function WordPopover({
         <div className="vp-status">
           <span className={`badge badge--${created ? 'green' : 'accent'}`}>
             <Icon name={created ? 'check' : 'bookmark'} size={11} />
-            {created ? '已加入生词本' : '已在生词本'}
+            {saveState === 'saving' ? '正在保存…' : saveState === 'failed' ? '保存失败' : created ? '已加入生词本' : '已在生词本'}
           </span>
           {occurrenceCount > 1 ? <span className="hint">这是第 {occurrenceCount} 处上下文</span> : null}
           {entry?.masteryStatus === 'mastered' ? <span className="badge badge--purple">已掌握</span> : null}
         </div>
+
+        {saveState === 'failed' ? <div className="callout callout--warn" role="alert">记录尚未成功保存。请检查浏览器存储权限或空间。<Button size="sm" onClick={() => { if (result) persist(result, false); }}>重试保存</Button></div> : null}
 
         {loading ? (
           <div className="skeleton skeleton--line" style={{ height: 44 }} />
@@ -234,7 +240,7 @@ export function WordPopover({
             {result?.senses.length ? (
               <div className="wd__section" style={{ marginTop: 14 }}>
                 <div className="section-title" style={{ margin: '0 0 8px' }}>
-                  词典释义
+                  词典释义{result.source === 'ecdict' ? ' · ECDICT' : ''}
                 </div>
                 {result.senses.slice(0, 4).map((s, i) => (
                   <div className="sense" key={i}>
@@ -319,6 +325,7 @@ export function WordPopover({
                 释义来自本文词汇标注，尚未进入核心词典。
               </p>
             ) : null}
+            {result?.source === 'ecdict' ? <p className="hint">来源：<a href="https://github.com/skywind3000/ECDICT" target="_blank" rel="noreferrer">ECDICT</a>（MIT）。以下为词典常见义，未经逐条人工校订；当前语境请优先参考本文标注。<a href="/licenses/ECDICT-LICENSE.txt">许可说明</a></p> : null}
           </>
         )}
       </div>

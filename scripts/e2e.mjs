@@ -158,7 +158,6 @@ check('复习页显示待复习统计', (await page.locator('.rv-stat').count())
 await page.locator('button', { hasText: '混合复习' }).first().click();
 await page.waitForSelector('.rv-card', { timeout: 5000 });
 check('进入复习卡片', await page.locator('.rv-card').isVisible());
-const wordBefore = await page.locator('.rv-card__word').innerText();
 await page.locator('button', { hasText: '显示答案' }).first().click();
 await settle(300);
 check('显示答案后出现释义', (await page.locator('.rv-card__answer').count()) > 0);
@@ -285,10 +284,56 @@ const dur = await page.evaluate(() => {
 check('尊重 prefers-reduced-motion', parseFloat(dur) < 0.01, `transition-duration=${dur}`);
 await page.emulateMedia({ reducedMotion: 'no-preference' });
 
+/* ------------------------------ 第一阶段回归 ------------------------------ */
+console.log('\n第一阶段回归：键盘、即时保存、失败与重试');
+await open('/read/l1-01');
+const keyboardWord = page.locator('.reader__article .w').first();
+await keyboardWord.press('Enter');
+await page.waitForSelector('.popover .vocab-card');
+await page.getByText(/已加入生词本|已在生词本/).first().waitFor();
+check('键盘能打开单词释义', await page.locator('.popover').isVisible());
+check('浮层获得键盘焦点', await page.locator('.popover').evaluate((el) => el === document.activeElement));
+check('显示保存成功时记录已落盘', (await data()).vocabEntries.length > 0);
+await page.keyboard.press('Escape');
+check('关闭浮层后焦点返回单词', await keyboardWord.evaluate((el) => el === document.activeElement));
+
+// 在隔离测试上下文中模拟配额错误，不触碰真实学习数据。
+await page.evaluate(() => {
+  window.__originalSetItem = Storage.prototype.setItem;
+  Storage.prototype.setItem = function () { throw new DOMException('Full', 'QuotaExceededError'); };
+});
+await keyboardWord.click();
+await page.getByText('保存失败', { exact: true }).waitFor();
+check('保存失败不会冒充已收藏', await page.getByText('保存失败', { exact: true }).isVisible());
+await page.evaluate(() => { Storage.prototype.setItem = window.__originalSetItem; });
+await page.locator('.vocab-card').getByRole('button', { name: '重试保存' }).click();
+check('恢复存储后可重试保存', await page.getByText('已在生词本', { exact: true }).isVisible());
+await page.keyboard.press('Escape');
+
+// 快速滚动末尾后刷新，覆盖旧节流代码漏掉尾次更新的情况。
+await page.locator('.reader__scroll').evaluate((el) => { el.scrollTop = el.scrollHeight; });
+await settle(100);
+await page.reload();
+await page.waitForSelector('.reader__stage');
+check('快速滚动后刷新保留末次进度', (await data()).progress['l1-01'].sentenceIndex > 0);
+
+await page.setViewportSize({ width: 390, height: 844 });
+await open('/read/l1-01');
+await clickWord('water');
+const mobilePopover = await page.locator('.popover').boundingBox();
+check('手机单词浮层位于视口内', mobilePopover && mobilePopover.x >= 0 && mobilePopover.y >= 0 && mobilePopover.x + mobilePopover.width <= 391 && mobilePopover.y + mobilePopover.height <= 845);
+await page.screenshot({ path: `${OUT}/iphone-popover.png` });
+await page.keyboard.press('Escape');
+
+const savedScale = (await data()).settings.fontScale;
+await page.reload();
+await page.waitForSelector('.reader__article');
+check('阅读字号偏好刷新后保留', (await data()).settings.fontScale === savedScale);
+
 /* ------------------------------ 汇总 ------------------------------ */
-const failed = results.filter((r) => !r.pass);
 const consoleOk = consoleErrors.filter((e) => !/favicon|Download the React DevTools/i.test(e));
 check('浏览器控制台无报错', consoleOk.length === 0, consoleOk.slice(0, 3).join(' | '));
+const failed = results.filter((r) => !r.pass);
 
 console.log(`\n结果：${results.length - failed.length}/${results.length} 通过`);
 if (failed.length) console.log('失败项：\n' + failed.map((f) => `  - ${f.name} ${f.detail}`).join('\n'));

@@ -446,6 +446,16 @@ export function Popover({
   }, [anchor, width]);
 
   useEffect(() => {
+    const previousFocus = document.activeElement as HTMLElement | null;
+    return () => previousFocus?.focus({ preventScroll: true });
+  }, []);
+
+  const positioned = pos !== null;
+  useEffect(() => {
+    if (positioned) ref.current?.focus({ preventScroll: true });
+  }, [positioned]);
+
+  useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose();
     };
@@ -466,6 +476,7 @@ export function Popover({
     <div
       ref={ref}
       className="popover"
+      tabIndex={-1}
       role="dialog"
       aria-label={ariaLabel}
       style={{

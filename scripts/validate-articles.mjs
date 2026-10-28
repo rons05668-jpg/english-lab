@@ -16,7 +16,11 @@ const CATEGORIES = ['生活', '教育', '科技', '经济', '商业', '心理', 
 const QUIZ_TYPES = ['主旨大意', '细节理解', '词义推断', '作者观点', '逻辑推断'];
 const LEVEL_RANGE = { 1: [90, 175], 2: [140, 275], 3: [230, 430], 4: [280, 480] };
 const FILE_LEVEL = { 'level1.json': 1, 'level2.json': 2, 'level3.json': 3, 'level4.json': 4 };
-const EXPECTED_COUNT = { 'level1.json': 8, 'level2.json': 8, 'level3.json': 8, 'level4.json': 6 };
+const EXPECTED_COUNT = { 'level1.json': 11, 'level2.json': 11, 'level3.json': 11, 'level4.json': 9 };
+const dictionaryDir = join(ROOT, 'src/data/ecdict');
+const inflections = Object.assign({}, ...readdirSync(dictionaryDir)
+  .filter((file) => file.endsWith('.json'))
+  .map((file) => JSON.parse(readFileSync(join(dictionaryDir, file), 'utf8')).forms));
 
 const errors = [];
 const warns = [];
@@ -110,7 +114,8 @@ function validateArticle(a, file, idx) {
     if (k !== k.toLowerCase()) err(file, idx, `glossary 键必须小写：${k}`);
     if (typeof v !== 'string' || !/[\u4e00-\u9fa5]/.test(v)) err(file, idx, `glossary["${k}"] 缺少中文释义`);
     if (/\s/.test(k)) err(file, idx, `glossary 键不应包含空格（词组除外请用单个空格并确保是固定搭配）：${k}`);
-    if (k.split(' ').length === 1 && k.length > 2 && !norm(text).includes(stem(k))) {
+    const inflectedMatch = norm(text).split(' ').some((word) => (inflections[word] || []).includes(k));
+    if (k.split(' ').length === 1 && k.length > 2 && !norm(text).includes(stem(k)) && !inflectedMatch) {
       warn(file, idx, `glossary 键 "${k}" 疑似未在正文出现`);
     }
   }

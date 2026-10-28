@@ -3,6 +3,7 @@ import { useData, getData, setData } from '../lib/store';
 import { clearAll, exportJSON, importJSON, storageUsage } from '../lib/storage';
 import { updateSettings } from '../lib/db';
 import { lexiconSize, glossarySize } from '../lib/dict';
+import offlineMeta from '../data/ecdict-meta.json';
 import { ARTICLES, TOTAL_WORDS } from '../data/articles';
 import { accentLabel, hasVoiceFor, speak, speechSupported } from '../lib/speech';
 import { Badge, Button, Card, Segmented, Switch, toast, useConfirm } from '../components/ui';
@@ -333,7 +334,7 @@ export function Settings() {
           </div>
           <div className="set-row__control">
             <span className="mono hint">
-              {lexiconSize()} 条核心 / {glossarySize()} 条索引
+              {lexiconSize()} 条精讲 / {offlineMeta.entries.toLocaleString()} 条扩展 / {glossarySize()} 条文章索引
             </span>
           </div>
         </div>
@@ -411,7 +412,7 @@ export function Settings() {
           <div className="set-row__label">
             词典数据
             <div className="set-row__desc">
-              核心词条为人工校订；文章释义由内容作者为本文标注；在线查询使用 dictionaryapi.dev（Wiktionary，CC BY-SA）。
+              保留原有核心词典，新增 ECDICT 开源英汉词库 {offlineMeta.entries.toLocaleString()} 词条（MIT，非出版社权威词典，未经逐条人工校订）。文章释义由内容作者标注；可选在线查询使用 dictionaryapi.dev。
               音标缺失时显示「未收录」，不做猜测。
             </div>
           </div>

@@ -1943,5 +1943,687 @@
     ],
     "source": "English Lab 原创内容",
     "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l4-07",
+    "title": "When a Target Becomes the Task",
+    "titleZh": "当指标变成任务",
+    "level": 4,
+    "category": "商业",
+    "tags": [
+      "扩充阅读",
+      "原创"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "A customer service team was asked to reduce the average length of its telephone calls, a target intended to help more customers receive assistance without waiting.",
+            "zh": "一个客服团队被要求缩短电话的平均通话时长，原意是让更多顾客无需等待便能得到帮助。"
+          },
+          {
+            "en": "Managers could measure the figure easily, compare it across weeks, and display progress in a simple chart that seemed to make performance transparent.",
+            "zh": "管理者很容易衡量这个数字，逐周比较，再用简洁图表展示进展，绩效似乎由此变得透明。"
+          },
+          {
+            "en": "Within a month, calls became shorter, but some customers began calling again because their original questions had not been resolved.",
+            "zh": "一个月内通话缩短了，但有些顾客因为原先的问题尚未解决，开始再次来电。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The result illustrates a familiar difficulty in managing complex work: an indicator can represent a goal without capturing everything that makes the goal valuable.",
+            "zh": "这一结果说明管理复杂工作时一种常见困难：指标能够代表目标，却无法涵盖目标之所以有价值的全部方面。"
+          },
+          {
+            "en": "Shorter conversations may reflect clearer explanations, yet they may also reflect pressure to end a conversation before the customer understands the answer.",
+            "zh": "对话变短可能反映解释更清楚，也可能反映客服承受着在顾客理解前就结束通话的压力。"
+          },
+          {
+            "en": "If only the duration is rewarded, employees receive a strong signal about which part of their work matters to the organisation.",
+            "zh": "如果只奖励时长，员工就会清楚感受到组织认为工作中的哪一部分重要。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Abandoning measurement altogether would not solve the problem, since managers still need ways to identify delays, distribute resources, and notice failures.",
+            "zh": "完全放弃衡量也无法解决问题，因为管理者仍需识别延误、分配资源并发现失败的方法。"
+          },
+          {
+            "en": "A more useful response would combine the original measure with information about repeat calls and whether the customer's problem was actually solved.",
+            "zh": "更有用的做法是把原指标与重复来电情况、顾客问题是否真正解决等信息结合起来。"
+          },
+          {
+            "en": "Listening to a small sample of calls could also reveal difficulties that a numerical summary would otherwise conceal.",
+            "zh": "听取少量通话样本，也可能揭示数字概况原本会掩盖的困难。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Such an approach requires judgement rather than the automatic assumption that an improving number must mean an improving service.",
+            "zh": "这种方法需要判断力，而不是自动认定数字改善就必然意味着服务改善。"
+          },
+          {
+            "en": "It also requires explaining to employees why the measures exist, so that a temporary target does not quietly replace the broader purpose of helping people.",
+            "zh": "它还需要向员工解释衡量指标存在的原因，以免临时指标悄悄取代帮助顾客这一更广泛的目的。"
+          },
+          {
+            "en": "The most informative question is therefore not simply whether a target has been reached, but what changed in the process of reaching it and who experienced those changes.",
+            "zh": "因此，最有信息价值的问题不只是是否达标，而是达标过程中改变了什么，以及谁经历了这些变化。"
+          },
+          {
+            "en": "In the team's next discussion, a longer conversation with a confused customer might be examined as a necessary investment rather than an automatic failure.",
+            "zh": "在团队下一次讨论中，与困惑顾客进行较长对话，就可以被视为必要投入，而非自动判定为失败。"
+          },
+          {
+            "en": "This would not excuse avoidable delays; it would distinguish time spent usefully from time that could genuinely be saved.",
+            "zh": "这并不是为可以避免的延误开脱，而是区分有用的时间投入与确实可以节省的时间。"
+          },
+          {
+            "en": "The distinction matters because a measure is most helpful when it supports better questions about work, instead of ending the discussion as soon as the number looks right.",
+            "zh": "这种区分很重要，因为指标最有帮助的用法是促进对工作的深入追问，而非数字一旦好看就结束讨论。"
+          },
+          {
+            "en": "Managers can then discuss the reasons behind an improvement before deciding whether to repeat the change.",
+            "zh": "管理者由此可以先讨论改善背后的原因，再决定是否继续采用这种变化。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "target",
+        "pos": "n.",
+        "gloss": "指标"
+      },
+      {
+        "word": "assistance",
+        "pos": "n.",
+        "gloss": "帮助"
+      },
+      {
+        "word": "figure",
+        "pos": "n.",
+        "gloss": "数字"
+      },
+      {
+        "word": "transparent",
+        "pos": "adj.",
+        "gloss": "透明的"
+      },
+      {
+        "word": "resolve",
+        "pos": "v.",
+        "gloss": "解决"
+      }
+    ],
+    "glossary": {
+      "target": "n. 指标",
+      "assistance": "n. 帮助",
+      "figure": "n. 数字",
+      "transparent": "adj. 透明的",
+      "resolve": "v. 解决",
+      "illustrate": "v. 说明",
+      "indicator": "n. 指标",
+      "represent": "v. 代表",
+      "capture": "v. 涵盖",
+      "reflect": "v. 反映",
+      "pressure": "n. 压力",
+      "duration": "n. 持续时间",
+      "reward": "v. 奖励",
+      "employee": "n. 员工",
+      "organisation": "n. 组织",
+      "abandon": "v. 放弃",
+      "measurement": "n. 衡量",
+      "identify": "v. 识别",
+      "distribute": "v. 分配",
+      "resource": "n. 资源",
+      "combine": "v. 结合",
+      "numerical": "adj. 数字的",
+      "conceal": "v. 掩盖",
+      "judgement": "n. 判断力",
+      "temporary": "adj. 临时的"
+    },
+    "grammar": [
+      {
+        "en": "Shorter conversations may reflect clearer explanations, yet they may also reflect pressure to end a conversation before the customer understands the answer.",
+        "zh": "对话变短可能反映解释更清楚，也可能反映客服承受着在顾客理解前就结束通话的压力。",
+        "main": "Shorter conversations may reflect explanations",
+        "subject": "Shorter conversations",
+        "predicate": "may reflect",
+        "object": "clearer explanations / pressure",
+        "modifiers": "yet 引出转折；before 引导时间状语从句。",
+        "logic": "相同的表面指标变化可能对应完全不同的原因。"
+      },
+      {
+        "en": "It also requires explaining to employees why the measures exist, so that a temporary target does not quietly replace the broader purpose of helping people.",
+        "zh": "它还需要向员工解释衡量指标存在的原因，以免临时指标悄悄取代帮助顾客这一更广泛的目的。",
+        "main": "It also requires explaining why the measures exist",
+        "subject": "It",
+        "predicate": "requires",
+        "object": "explaining to employees why the measures exist",
+        "modifiers": "so that 引导目的状语从句；why 引导 explaining 的宾语从句。",
+        "logic": "说明指标的用意，是为了防止手段取代服务目标。"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "l4-07-q1",
+        "type": "主旨大意",
+        "question": "What is the writer's main argument about targets?",
+        "options": [
+          "Employees should never know how performance is measured",
+          "Measures need to be interpreted alongside the purpose of the work",
+          "All numerical targets should immediately be removed",
+          "Short calls always prove excellent customer service"
+        ],
+        "answer": 1,
+        "evidence": "Such an approach requires judgement rather than the automatic assumption that an improving number must mean an improving service.",
+        "explain": "全文通过通话时长的例子主张综合判断指标与服务目标之间的关系。",
+        "whyWrong": [
+          "作者主张向员工解释衡量目的。",
+          "作者明确说完全放弃衡量不能解决问题。",
+          "短通话也可能源于未解决问题便结束。"
+        ]
+      },
+      {
+        "id": "l4-07-q2",
+        "type": "细节理解",
+        "question": "Why did some customers call a second time?",
+        "options": [
+          "Their original problems remained unresolved",
+          "They could not read the progress chart",
+          "Managers required two calls from everyone",
+          "The team had stopped answering calls"
+        ],
+        "answer": 0,
+        "evidence": "Within a month, calls became shorter, but some customers began calling again because their original questions had not been resolved.",
+        "explain": "第三句明确用 because 指出问题未得到解决。",
+        "whyWrong": [
+          "图表主要用于管理，没有顾客读图的情节。",
+          "文中不存在每人必须拨两次的规定。",
+          "团队缩短通话，并未停止接听。"
+        ]
+      },
+      {
+        "id": "l4-07-q3",
+        "type": "作者观点",
+        "question": "How does the writer view listening to a sample of calls?",
+        "options": [
+          "It makes every other measure unnecessary",
+          "It guarantees that every customer is satisfied",
+          "It should replace all employee explanations",
+          "It can uncover problems hidden by a summary figure"
+        ],
+        "answer": 3,
+        "evidence": "Listening to a small sample of calls could also reveal difficulties that a numerical summary would otherwise conceal.",
+        "explain": "听样本可补充数字概况遗漏的信息，但文章未声称它能替代全部措施。",
+        "whyWrong": [
+          "作者建议结合多种信息。",
+          "少量样本不能保证所有顾客满意。",
+          "向员工解释指标的目的仍被强调。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创教学短文；人物及情境为虚构示例，不代表真实研究或新闻报道",
+    "license": "English Lab original educational content"
+  },
+  {
+    "id": "l4-08",
+    "title": "The Value of an Unchosen Book",
+    "titleZh": "未被选中的书",
+    "level": 4,
+    "category": "科技",
+    "tags": [
+      "扩充阅读",
+      "原创"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "An online bookshop learns what a reader enjoys by recording the titles they buy, the pages they visit, and the recommendations they choose to open.",
+            "zh": "一家网上书店通过记录读者买的书、访问的页面以及点开的推荐，了解其阅读喜好。"
+          },
+          {
+            "en": "Used carefully, this information can make a large collection less overwhelming and introduce readers to authors they would otherwise struggle to discover.",
+            "zh": "谨慎使用这些信息，可以让庞大的藏书不那么令人无从下手，也能把原本难以发现的作者介绍给读者。"
+          },
+          {
+            "en": "The convenience is real, but the evidence available to the system is narrower than the reader's interests might initially suggest.",
+            "zh": "便利确实存在，但系统掌握的证据可能比读者的实际兴趣狭窄得多。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "A purchase may be a gift, a visit may be accidental, and a book left unopened may simply have appeared when the reader was too busy.",
+            "zh": "一次购买可能是送礼，一次浏览可能是误点，而一本未被打开的书可能只是出现在读者太忙的时候。"
+          },
+          {
+            "en": "Moreover, the system cannot easily observe an interest that its own earlier recommendations never gave the reader an opportunity to express.",
+            "zh": "此外，对于此前的推荐从未给读者机会表达的兴趣，系统很难观察到。"
+          },
+          {
+            "en": "If similar books are repeatedly displayed because they attracted attention before, a pattern can strengthen even when it reflects limited exposure rather than a fixed preference.",
+            "zh": "如果类似的书因为过去曾吸引注意而不断被展示，一种模式就可能增强，即使它反映的是接触有限而非偏好固定。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "This does not mean that personalised suggestions inevitably trap every reader in a narrow world, or that a completely random shelf would serve them better.",
+            "zh": "这并不意味着个性化推荐必然把每个读者困在狭窄世界里，也不意味着完全随机的书架会提供更好服务。"
+          },
+          {
+            "en": "It means that successful recommendations should leave room for discovery as well as repeat what already appears familiar.",
+            "zh": "它意味着成功的推荐除了重复看起来熟悉的内容，也应为发现新事物留出空间。"
+          },
+          {
+            "en": "A reader might be allowed to explore an unfamiliar subject, explain that a purchase was a gift, or reset a pattern that no longer matches their aims.",
+            "zh": "读者可以获准探索陌生主题、说明某次购买是礼物，或重置已不符合其目标的推荐模式。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "For designers, the difficult question is how to recognise the value of such exploration when a quick click is easier to measure than a slowly developing interest.",
+            "zh": "对设计者来说，难题是在快速点击比逐渐形成的兴趣更易衡量时，如何识别探索的价值。"
+          },
+          {
+            "en": "A recommendation that is ignored today might still introduce a subject that becomes meaningful months later, although that possibility should not be confused with proven success.",
+            "zh": "今天被忽略的推荐，仍可能引入一个数月后变得重要的主题，不过不能把这种可能性混同于已证实的成功。"
+          },
+          {
+            "en": "Treating the reader as someone whose interests can change, rather than as a stable collection of past clicks, offers a more generous starting point.",
+            "zh": "把读者视为兴趣能够变化的人，而非过去点击记录的固定集合，是一个更为开阔的出发点。"
+          },
+          {
+            "en": "One practical option is to explain why a title appears and offer a separate route to subjects outside the usual pattern, without forcing the reader to abandon useful personal recommendations.",
+            "zh": "一个实用选择是解释某本书为何出现，同时提供通向惯常模式之外主题的独立入口，而不强迫读者放弃有用的个性化推荐。"
+          },
+          {
+            "en": "Designers would then need to study whether people can actually find and understand those controls, rather than assuming that the mere presence of a button gives them meaningful choice.",
+            "zh": "设计者随后还需研究人们能否真正找到并理解这些控制选项，而不是假定只要有一个按钮，人们就获得了有意义的选择。"
+          },
+          {
+            "en": "An understandable explanation can support that choice without requiring technical knowledge of the recommendation system.",
+            "zh": "清楚易懂的解释能帮助读者作出选择，无需他们掌握推荐系统的技术知识。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "recommendation",
+        "pos": "n.",
+        "gloss": "推荐"
+      },
+      {
+        "word": "collection",
+        "pos": "n.",
+        "gloss": "集合"
+      },
+      {
+        "word": "overwhelming",
+        "pos": "adj.",
+        "gloss": "令人无从应对的"
+      },
+      {
+        "word": "otherwise",
+        "pos": "adv.",
+        "gloss": "否则"
+      },
+      {
+        "word": "convenience",
+        "pos": "n.",
+        "gloss": "便利"
+      }
+    ],
+    "glossary": {
+      "recommendation": "n. 推荐",
+      "collection": "n. 集合",
+      "overwhelming": "adj. 令人无从应对的",
+      "otherwise": "adv. 否则",
+      "convenience": "n. 便利",
+      "evidence": "n. 证据",
+      "initially": "adv. 最初",
+      "purchase": "n. 购买",
+      "accidental": "adj. 偶然的",
+      "observe": "v. 观察",
+      "opportunity": "n. 机会",
+      "express": "v. 表达",
+      "repeatedly": "adv. 反复地",
+      "exposure": "n. 接触",
+      "preference": "n. 偏好",
+      "personalised": "adj. 个性化的",
+      "inevitably": "adv. 不可避免地",
+      "random": "adj. 随机的",
+      "discovery": "n. 发现",
+      "unfamiliar": "adj. 不熟悉的",
+      "recognise": "v. 识别",
+      "exploration": "n. 探索",
+      "meaningful": "adj. 有意义的",
+      "stable": "adj. 稳定的",
+      "generous": "adj. 宽广包容的"
+    },
+    "grammar": [
+      {
+        "en": "If similar books are repeatedly displayed because they attracted attention before, a pattern can strengthen even when it reflects limited exposure rather than a fixed preference.",
+        "zh": "如果类似的书因为过去曾吸引注意而不断被展示，一种模式就可能增强，即使它反映的是接触有限而非偏好固定。",
+        "main": "a pattern can strengthen",
+        "subject": "a pattern",
+        "predicate": "can strengthen",
+        "object": "无直接宾语",
+        "modifiers": "If 为条件从句，even when 为让步状语从句；because 说明展示原因。",
+        "logic": "多个从句嵌套，主干仍是推荐模式可能自我强化。"
+      },
+      {
+        "en": "Treating the reader as someone whose interests can change, rather than as a stable collection of past clicks, offers a more generous starting point.",
+        "zh": "把读者视为兴趣能够变化的人，而非过去点击记录的固定集合，是一个更为开阔的出发点。",
+        "main": "Treating the reader as someone offers a starting point",
+        "subject": "Treating the reader as someone whose interests can change",
+        "predicate": "offers",
+        "object": "a more generous starting point",
+        "modifiers": "whose 引导定语从句；rather than 引出对照。",
+        "logic": "动名词短语作主语，对比可变化的人与固定点击集合。"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "l4-08-q1",
+        "type": "主旨大意",
+        "question": "What principle does the writer propose for book recommendations?",
+        "options": [
+          "Allow interests to develop beyond past behaviour",
+          "Use only random books for every reader",
+          "Treat every purchase as a permanent preference",
+          "Remove all recommendations from bookshops"
+        ],
+        "answer": 0,
+        "evidence": "Treating the reader as someone whose interests can change, rather than as a stable collection of past clicks, offers a more generous starting point.",
+        "explain": "结尾强调兴趣能够变化，推荐需要给探索留出空间。",
+        "whyWrong": [
+          "作者明确不主张完全随机的书架更好。",
+          "购买可能是礼物，不等于永久偏好。",
+          "作者承认推荐的实际便利，并未要求取消。"
+        ]
+      },
+      {
+        "id": "l4-08-q2",
+        "type": "细节理解",
+        "question": "Why might a purchase misrepresent a reader's taste?",
+        "options": [
+          "The bookshop records no purchases",
+          "The reader is unable to visit any pages",
+          "Every purchased book is immediately returned",
+          "The book may be a gift for someone else"
+        ],
+        "answer": 3,
+        "evidence": "A purchase may be a gift, a visit may be accidental, and a book left unopened may simply have appeared when the reader was too busy.",
+        "explain": "第四句直接给出购买礼物的可能性。",
+        "whyWrong": [
+          "系统正是通过购买记录了解读者。",
+          "页面访问也在系统记录之列。",
+          "文章没有提到全部图书都被退回。"
+        ]
+      },
+      {
+        "id": "l4-08-q3",
+        "type": "作者观点",
+        "question": "How does the writer describe an ignored recommendation?",
+        "options": [
+          "It guarantees a new interest within a month",
+          "It should be counted as an immediate successful sale",
+          "It may have later value, but that value is not yet proved",
+          "It always proves that the system has failed"
+        ],
+        "answer": 2,
+        "evidence": "A recommendation that is ignored today might still introduce a subject that becomes meaningful months later, although that possibility should not be confused with proven success.",
+        "explain": "作者同时保留潜在价值与证据边界，不能把可能成功算成已成功。",
+        "whyWrong": [
+          "may 和 might 都不构成时间保证。",
+          "未点击或未购买不能算即时销售。",
+          "作者提出被忽略也可能产生较晚价值。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创教学短文；人物及情境为虚构示例，不代表真实研究或新闻报道",
+    "license": "English Lab original educational content"
+  },
+  {
+    "id": "l4-09",
+    "title": "Whose Time Does Flexibility Save?",
+    "titleZh": "弹性安排节省了谁的时间",
+    "level": 4,
+    "category": "经济",
+    "tags": [
+      "扩充阅读",
+      "原创"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "Flexible working arrangements are often described as a simple exchange: employees gain control over their schedules, while organisations gain a more satisfied workforce.",
+            "zh": "弹性工作安排常被描述为一种简单交换：员工获得对日程的控制，组织则拥有更满意的员工队伍。"
+          },
+          {
+            "en": "For a worker who can avoid a crowded commute or collect a child before returning to a task, the benefits can be substantial.",
+            "zh": "对能够避开拥挤通勤，或先接孩子再回去处理任务的员工而言，好处可能很大。"
+          },
+          {
+            "en": "However, the word flexibility can describe very different relationships between the person doing the work and the person deciding when it must be done.",
+            "zh": "不过，弹性一词可能描述劳动者与工作时间决定者之间截然不同的关系。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "In one arrangement, a team agrees on the hours when everyone needs to be available and allows individuals to organise the remaining work around their responsibilities.",
+            "zh": "一种安排是团队商定所有人需要在线的时段，让个人围绕其他责任安排剩余工作。"
+          },
+          {
+            "en": "In another, workers receive their schedules at short notice and must remain prepared for changes that they have little power to refuse.",
+            "zh": "另一种安排中，员工临时才收到排班通知，还必须随时准备应对自己几乎无权拒绝的变动。"
+          },
+          {
+            "en": "Both arrangements may be called flexible, yet only the first clearly gives employees greater ability to plan their own time.",
+            "zh": "两种安排都可能被称为弹性，但只有第一种明显让员工更有能力规划自己的时间。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The difference becomes especially important when work intersects with care, education, or a second job.",
+            "zh": "当工作与照护、教育或第二份工作交织时，这一区别尤为重要。"
+          },
+          {
+            "en": "A last-minute change may appear minor to a manager looking at a staffing table, but it can force a worker to rearrange childcare or lose a place in a class.",
+            "zh": "在查看人员配置表的经理眼里，临时调整似乎无关紧要，却可能迫使员工重新安排托育或错过课程。"
+          },
+          {
+            "en": "An apparent efficiency for the organisation may therefore involve costs that have simply moved outside its own accounts.",
+            "zh": "因此，组织表面上效率提高，可能只是把成本转移到了自身账目之外。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Evaluating flexible work requires asking who controls the changes, how much warning is provided, and whether declining an unsuitable shift carries a penalty.",
+            "zh": "评价弹性工作，需要问谁控制变动、提前多久通知，以及拒绝不合适的班次是否会受罚。"
+          },
+          {
+            "en": "Clear expectations about response times can matter as much as permission to work away from an office, particularly if messages otherwise extend the working day into the evening.",
+            "zh": "对于回复时限的明确约定，可能与获准远程办公同样重要，尤其是在消息会把工作日延伸到夜晚的情况下。"
+          },
+          {
+            "en": "The aim should be an arrangement that creates usable freedom, rather than a convenient label that leaves uncertainty with those least able to absorb it.",
+            "zh": "目标应是创造可实际运用的自由，而不是使用一个方便的标签，把不确定性留给最难承受的人。"
+          },
+          {
+            "en": "For example, publishing a schedule earlier may have little effect on the total hours worked while greatly improving someone's ability to arrange transport and care.",
+            "zh": "例如，提前发布排班，可能几乎不影响总工时，却显著改善一个人安排交通与照护的能力。"
+          },
+          {
+            "en": "Such benefits are easy to overlook if evaluation focuses only on how quickly an organisation can adjust its staffing, rather than on whether the people affected can make reliable plans of their own.",
+            "zh": "如果评价只关注组织多快能调整人员配备，而不关注受到影响的人能否可靠地安排生活，这些好处就很容易被忽略。"
+          },
+          {
+            "en": "What looks flexible on paper should therefore be tested against the daily experience of the people expected to live with it.",
+            "zh": "因此，纸面上看似灵活的安排，应当对照实际承受它的人们的日常体验来检验。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "flexible",
+        "pos": "adj.",
+        "gloss": "灵活的"
+      },
+      {
+        "word": "arrangement",
+        "pos": "n.",
+        "gloss": "安排"
+      },
+      {
+        "word": "employee",
+        "pos": "n.",
+        "gloss": "员工"
+      },
+      {
+        "word": "schedule",
+        "pos": "n.",
+        "gloss": "日程"
+      },
+      {
+        "word": "organisation",
+        "pos": "n.",
+        "gloss": "组织"
+      }
+    ],
+    "glossary": {
+      "flexible": "adj. 灵活的",
+      "arrangement": "n. 安排",
+      "employee": "n. 员工",
+      "schedule": "n. 日程",
+      "organisation": "n. 组织",
+      "workforce": "n. 员工队伍",
+      "commute": "n. 通勤",
+      "substantial": "adj. 很大的",
+      "relationship": "n. 关系",
+      "available": "adj. 可联系到的",
+      "individual": "n. 个人",
+      "responsibility": "n. 责任",
+      "refuse": "v. 拒绝",
+      "intersect": "v. 交织",
+      "care": "n. 照护",
+      "minor": "adj. 较小的",
+      "staffing": "n. 人员配备",
+      "rearrange": "v. 重新安排",
+      "apparent": "adj. 表面上的",
+      "efficiency": "n. 效率",
+      "evaluate": "v. 评价",
+      "shift": "n. 班次",
+      "penalty": "n. 处罚",
+      "expectation": "n. 预期",
+      "uncertainty": "n. 不确定性"
+    },
+    "grammar": [
+      {
+        "en": "A last-minute change may appear minor to a manager looking at a staffing table, but it can force a worker to rearrange childcare or lose a place in a class.",
+        "zh": "在查看人员配置表的经理眼里，临时调整似乎无关紧要，却可能迫使员工重新安排托育或错过课程。",
+        "main": "A last-minute change may appear minor but it can force a worker",
+        "subject": "A last-minute change / it",
+        "predicate": "may appear / can force",
+        "object": "minor（表语）/ a worker",
+        "modifiers": "looking at a staffing table 修饰 manager；to rearrange…or lose… 是宾语补足语。",
+        "logic": "but 对比经理看到的小调整与劳动者实际承担的后果。"
+      },
+      {
+        "en": "Evaluating flexible work requires asking who controls the changes, how much warning is provided, and whether declining an unsuitable shift carries a penalty.",
+        "zh": "评价弹性工作，需要问谁控制变动、提前多久通知，以及拒绝不合适的班次是否会受罚。",
+        "main": "Evaluating flexible work requires asking questions",
+        "subject": "Evaluating flexible work",
+        "predicate": "requires",
+        "object": "asking who controls the changes, how much warning is provided, and whether…",
+        "modifiers": "who、how much、whether 引导三个并列的间接疑问结构。",
+        "logic": "动名词作主语，通过三个问题给出评价弹性安排的维度。"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "l4-09-q1",
+        "type": "主旨大意",
+        "question": "What distinction is central to the article?",
+        "options": [
+          "Whether offices have modern furniture",
+          "Whether every employee works the same hours",
+          "Whether messages can replace all meetings",
+          "Whether workers actually control their time"
+        ],
+        "answer": 3,
+        "evidence": "Both arrangements may be called flexible, yet only the first clearly gives employees greater ability to plan their own time.",
+        "explain": "两种同名安排的差别在于员工能否掌控并规划自己的时间。",
+        "whyWrong": [
+          "办公家具未进入文章论证。",
+          "作者允许个人安排，不主张时间完全相同。",
+          "消息仅用于说明回复边界，不是会议替代论。"
+        ]
+      },
+      {
+        "id": "l4-09-q2",
+        "type": "细节理解",
+        "question": "What can a last-minute schedule change force a worker to do?",
+        "options": [
+          "Give up every future job",
+          "Move the office to another city",
+          "Rearrange childcare or miss a class",
+          "Create a new staffing table for the manager"
+        ],
+        "answer": 2,
+        "evidence": "A last-minute change may appear minor to a manager looking at a staffing table, but it can force a worker to rearrange childcare or lose a place in a class.",
+        "explain": "第八句明确举出重新安排托育或错过课程的代价。",
+        "whyWrong": [
+          "文章没有把后果扩大为放弃所有工作。",
+          "办公室搬迁并非文中后果。",
+          "配置表由经理查看，非劳动者被迫制作。"
+        ]
+      },
+      {
+        "id": "l4-09-q3",
+        "type": "作者观点",
+        "question": "What does the writer suggest when judging flexibility?",
+        "options": [
+          "Assume working away from an office solves every problem",
+          "Examine control, notice, and the consequences of refusal",
+          "Accept the label without asking further questions",
+          "Count only the organisation's recorded expenses"
+        ],
+        "answer": 1,
+        "evidence": "Evaluating flexible work requires asking who controls the changes, how much warning is provided, and whether declining an unsuitable shift carries a penalty.",
+        "explain": "作者给出控制权、通知时间、拒绝后果三项具体评价问题。",
+        "whyWrong": [
+          "回复边界说明远程办公仍可能拉长工时。",
+          "全文反对只看弹性这个标签。",
+          "转移到账外的成本正是需要关注的。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创教学短文；人物及情境为虚构示例，不代表真实研究或新闻报道",
+    "license": "English Lab original educational content"
   }
 ]

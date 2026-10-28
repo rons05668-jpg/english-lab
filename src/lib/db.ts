@@ -316,7 +316,7 @@ export function recordReview(
     reviewedAt: params.now,
   };
 
-  let next: VocabularyEntry = {
+  const next: VocabularyEntry = {
     ...prev,
     masteryStatus: params.masteryStatus,
     lastReviewedAt: params.now,

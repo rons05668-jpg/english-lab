@@ -1,5 +1,5 @@
 {
-  "total": 55,
+  "total": 64,
   "failed": 0,
   "results": [
     {
@@ -271,6 +271,51 @@
       "name": "尊重 prefers-reduced-motion",
       "pass": true,
       "detail": "transition-duration=1e-06s"
+    },
+    {
+      "name": "键盘能打开单词释义",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "浮层获得键盘焦点",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "显示保存成功时记录已落盘",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "关闭浮层后焦点返回单词",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "保存失败不会冒充已收藏",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "恢复存储后可重试保存",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "快速滚动后刷新保留末次进度",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "手机单词浮层位于视口内",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "阅读字号偏好刷新后保留",
+      "pass": true,
+      "detail": ""
     },
     {
       "name": "浏览器控制台无报错",

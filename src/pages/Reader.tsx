@@ -4,7 +4,7 @@ import { articleMinutes, articleSentences, articleWords, getArticle, LEVELS } fr
 import { lemmatize, normalizeWord } from '../lib/lemma';
 import { quickGloss } from '../lib/dict';
 import { markCompleted, saveProgress } from '../lib/db';
-import { getData, setData, useData } from '../lib/store';
+import { getData, setData, useData, flush } from '../lib/store';
 import { navigate } from '../lib/router';
 import { hasVoiceFor, speak, stopSpeaking } from '../lib/speech';
 import { tokenize } from '../lib/text';
@@ -30,7 +30,7 @@ export function Reader({ id }: { id: string }) {
       </div>
     );
   }
-  return <ReaderInner article={article} />;
+  return <ReaderInner key={article.id} article={article} />;
 }
 
 function ReaderInner({ article }: { article: Article }) {
@@ -46,6 +46,12 @@ function ReaderInner({ article }: { article: Article }) {
   const [lookupOpen, setLookupOpen] = useState(false);
   const [lookupText, setLookupText] = useState('');
   const [hoverTip, setHoverTip] = useState<{ text: string; x: number; y: number } | null>(null);
+
+  useEffect(() => {
+    const closeOnSmallScreen = () => { if (window.innerWidth <= 1180) setPanelOpen(false); };
+    window.addEventListener('resize', closeOnSmallScreen);
+    return () => window.removeEventListener('resize', closeOnSmallScreen);
+  }, []);
 
   const flat = useMemo(() => articleSentences(article), [article]);
   const cumWords = useMemo(() => {
@@ -70,7 +76,7 @@ function ReaderInner({ article }: { article: Article }) {
   }, [flat]);
 
   const vocabIndex = useMemo(() => {
-    const map = new Map<string, (typeof data.vocabEntries)[number]>();
+    const map = new Map<string, import('../data/types').VocabularyEntry>();
     for (const e of data.vocabEntries) map.set(e.lemma, e);
     return map;
   }, [data.vocabEntries]);
@@ -80,26 +86,24 @@ function ReaderInner({ article }: { article: Article }) {
 
   /* ---------------- 阅读进度 ---------------- */
   const lastIdx = useRef<number>(-1);
-  const lastWrite = useRef<number>(0);
 
   const commitProgress = useCallback(
     (idx: number) => {
       const now = Date.now();
-      if (now - lastWrite.current < 900) return;
-      lastWrite.current = now;
+      const previous = getData().progress[article.id];
       const words = cumWords[Math.min(idx, cumWords.length - 1)] ?? 0;
       const next = saveProgress(getData(), {
         articleId: article.id,
         sentenceIndex: idx,
         ratio: Math.min(1, (idx + 1) / flat.length),
         wordsRead: words,
-        startedAt: saved?.startedAt ?? now,
+        startedAt: previous?.startedAt ?? now,
         updatedAt: now,
-        completedAt: saved?.completedAt,
+        completedAt: previous?.completedAt,
       });
       setData(next);
     },
-    [article.id, cumWords, flat.length, saved?.completedAt, saved?.startedAt],
+    [article.id, cumWords, flat.length],
   );
 
   useEffect(() => {
@@ -123,7 +127,17 @@ function ReaderInner({ article }: { article: Article }) {
       });
     };
     el.addEventListener('scroll', onScroll, { passive: true });
-    return () => el.removeEventListener('scroll', onScroll);
+    const onHide = () => {
+      if (lastIdx.current >= 0) commitProgress(lastIdx.current);
+      flush();
+    };
+    window.addEventListener('pagehide', onHide);
+    return () => {
+      cancelAnimationFrame(raf);
+      el.removeEventListener('scroll', onScroll);
+      window.removeEventListener('pagehide', onHide);
+      onHide();
+    };
   }, [commitProgress]);
 
   // 恢复阅读位置
@@ -131,7 +145,8 @@ function ReaderInner({ article }: { article: Article }) {
     if (!saved || saved.sentenceIndex <= 0) return;
     const el = stageRef.current?.querySelector<HTMLElement>(`[data-sent="${saved.sentenceIndex}"]`);
     if (el && stageRef.current) {
-      const top = el.offsetTop - stageRef.current.clientHeight * 0.3;
+      const stage = stageRef.current;
+      const top = stage.scrollTop + el.getBoundingClientRect().top - stage.getBoundingClientRect().top - stage.clientHeight * 0.72;
       stageRef.current.scrollTo({ top: Math.max(0, top), behavior: 'auto' });
     }
     // 只在首次挂载时恢复
@@ -148,7 +163,7 @@ function ReaderInner({ article }: { article: Article }) {
   useEffect(() => () => stopSpeaking(), []);
 
   /* ---------------- 交互 ---------------- */
-  const openWord = (e: React.MouseEvent, surface: string, sentence: string) => {
+  const openWord = (e: React.SyntheticEvent, surface: string, sentence: string) => {
     const sel = window.getSelection();
     if (sel && sel.toString().trim().length > 0) return; // 用户正在选择文本，不打断
     const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
@@ -321,7 +336,15 @@ function ReaderInner({ article }: { article: Article }) {
                               key={ti}
                               className={wordClass(t.text)}
                               role="button"
-                              tabIndex={-1}
+                              tabIndex={0}
+                              aria-label={`查询单词 ${t.text}`}
+                              onKeyDown={(e) => {
+                                if (e.key === 'Enter' || e.key === ' ') {
+                                  e.preventDefault();
+                                  e.stopPropagation();
+                                  openWord(e, t.text, s.en);
+                                }
+                              }}
                               onClick={(e) => {
                                 e.stopPropagation();
                                 openWord(e, t.text, s.en);

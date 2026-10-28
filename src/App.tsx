@@ -1,6 +1,6 @@
 import { useEffect, useMemo } from 'react';
 import { useRoute } from './lib/router';
-import { useData } from './lib/store';
+import { useData, usePersistenceError, flush } from './lib/store';
 import { Sidebar, Tabbar, Topbar } from './components/Shell';
 import { Button, Empty, Toaster } from './components/ui';
 import { Home } from './pages/Home';
@@ -16,6 +16,11 @@ import { ContinueReading } from './pages/ContinueReading';
 import { navigate } from './lib/router';
 
 const TITLES: Record<string, string> = {};
+
+function PersistenceNotice() {
+  const failed = usePersistenceError();
+  return failed ? <div className="persistence-notice" role="alert">学习记录保存失败。请释放浏览器存储空间或允许本站存储，恢复后重试。<button onClick={flush}>重试保存</button></div> : null;
+}
 
 export default function App() {
   const route = useRoute();
@@ -92,6 +97,7 @@ export default function App() {
           <Reader id={route.id ?? ''} />
         </main>
         <Toaster />
+        <PersistenceNotice />
       </div>
     );
   }
@@ -105,6 +111,7 @@ export default function App() {
       </main>
       <Tabbar route={route} />
       <Toaster />
+      <PersistenceNotice />
     </div>
   );
 }

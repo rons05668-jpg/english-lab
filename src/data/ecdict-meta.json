@@ -1,0 +1,12 @@
+{
+  "name": "ECDICT",
+  "upstream": "https://github.com/skywind3000/ECDICT",
+  "download": "https://raw.githubusercontent.com/skywind3000/ECDICT/master/ecdict.csv",
+  "license": "MIT",
+  "sourceSha256": "d1ecbdf9ee2b920afb6f430ca6b6bb9f559588cf0dff86e04bd255f9390843cc",
+  "selection": "All upstream rows with a searchable Latin headword and a Chinese definition; partitioned by two-character prefix",
+  "entries": 399200,
+  "inflectedForms": 56615,
+  "shards": 740,
+  "notice": "General dictionary definitions, not contextual translations. Imported data has not been individually reviewed."
+}

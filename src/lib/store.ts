@@ -4,15 +4,29 @@ import { loadData, saveData, saveSettings } from './storage';
 
 let state: AppData = loadData();
 const listeners = new Set<() => void>();
+let persistenceError = false;
+const persistenceListeners = new Set<() => void>();
+
+export function usePersistenceError(): boolean {
+  return useSyncExternalStore(
+    (listener) => { persistenceListeners.add(listener); return () => { persistenceListeners.delete(listener); }; },
+    () => persistenceError,
+    () => false,
+  );
+}
 let timer: ReturnType<typeof setTimeout> | null = null;
 
 function emit(): void {
   listeners.forEach((l) => l());
 }
 
-function persistNow(): void {
-  saveData(state);
-  saveSettings(state.settings);
+function persistNow(): boolean {
+  const saved = saveData(state);
+  // AppData 已包含设置；独立设置键是兼容缓存，不决定主数据的保存结果。
+  if (saved) saveSettings(state.settings);
+  persistenceError = !saved;
+  persistenceListeners.forEach((listener) => listener());
+  return saved;
 }
 
 function schedule(): void {
@@ -34,11 +48,12 @@ export function subscribe(listener: () => void): () => void {
   };
 }
 
-export function setData(next: AppData, immediate = false): void {
+export function setData(next: AppData, immediate = false): boolean {
   state = next;
   emit();
-  if (immediate) persistNow();
-  else schedule();
+  if (immediate) return persistNow();
+  schedule();
+  return false; // 已安排写入，不等于已落盘。
 }
 
 /** 以纯函数方式更新：mutator 返回新的 AppData */

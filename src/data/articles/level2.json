@@ -2118,5 +2118,611 @@
     ],
     "source": "English Lab 原创内容",
     "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l2-09",
+    "title": "A Better Way to Practise",
+    "titleZh": "更有效的练习方式",
+    "level": 2,
+    "category": "教育",
+    "tags": [
+      "扩充阅读",
+      "原创"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "When Nina began learning English, she copied a list of twenty words every evening.",
+            "zh": "妮娜开始学英语时，每晚抄写一张包含二十个单词的词表。"
+          },
+          {
+            "en": "The pages looked neat, but she often forgot the words when she needed them in conversation.",
+            "zh": "笔记看起来很整齐，但她在对话中需要用这些词时常常想不起来。"
+          },
+          {
+            "en": "She decided to change the way she practised rather than simply spend more time at her desk.",
+            "zh": "她决定改变练习方式，而不是一味延长坐在书桌前的时间。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "First, she chose five useful words from a short article that she could mostly understand.",
+            "zh": "首先，她从一篇基本能读懂的短文中挑出五个实用词。"
+          },
+          {
+            "en": "For each word, she wrote a sentence about her own day and read it aloud.",
+            "zh": "她用每个词写一句与自己当天生活有关的话，并大声读出来。"
+          },
+          {
+            "en": "The next morning, she covered the notes and tried to remember the sentences before checking them.",
+            "zh": "第二天早上，她盖住笔记，先尝试回忆这些句子，再核对。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Some words were still difficult, so she reviewed them again after a few days.",
+            "zh": "有些词仍然很难，她便过几天再次复习。"
+          },
+          {
+            "en": "She also kept reading, which gave familiar words new situations and made their meanings clearer.",
+            "zh": "她也坚持阅读，让熟悉的词出现在新情境中，使词义更加清晰。"
+          },
+          {
+            "en": "Her progress was gradual, but now her notebook supported real use instead of becoming a collection of copied pages.",
+            "zh": "她的进步是逐渐发生的，但现在笔记本帮助她实际运用语言，而不再只是一叠抄写页。"
+          },
+          {
+            "en": "When a word returned in another article, she could connect the two examples and notice a difference.",
+            "zh": "当一个词在另一篇文章中再次出现时，她能联系两条例句，留意其中的差别。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "practise",
+        "pos": "v.",
+        "gloss": "练习"
+      },
+      {
+        "word": "copy",
+        "pos": "v.",
+        "gloss": "抄写"
+      },
+      {
+        "word": "list",
+        "pos": "n.",
+        "gloss": "列表"
+      },
+      {
+        "word": "neat",
+        "pos": "adj.",
+        "gloss": "整洁的"
+      },
+      {
+        "word": "forget",
+        "pos": "v.",
+        "gloss": "忘记"
+      }
+    ],
+    "glossary": {
+      "practise": "v. 练习",
+      "copy": "v. 抄写",
+      "list": "n. 列表",
+      "neat": "adj. 整洁的",
+      "forget": "v. 忘记",
+      "conversation": "n. 对话",
+      "decide": "v. 决定",
+      "change": "v. 改变",
+      "simply": "adv. 仅仅",
+      "useful": "adj. 实用的",
+      "article": "n. 文章",
+      "mostly": "adv. 大部分地",
+      "understand": "v. 理解",
+      "sentence": "n. 句子",
+      "aloud": "adv. 出声地",
+      "cover": "v. 盖住",
+      "note": "n. 笔记",
+      "remember": "v. 记住",
+      "check": "v. 核对",
+      "difficult": "adj. 困难的",
+      "review": "v. 复习",
+      "familiar": "adj. 熟悉的",
+      "situation": "n. 情境",
+      "gradual": "adj. 逐步的",
+      "support": "v. 帮助"
+    },
+    "grammar": [
+      {
+        "en": "She decided to change the way she practised rather than simply spend more time at her desk.",
+        "zh": "她决定改变练习方式，而不是一味延长坐在书桌前的时间。",
+        "main": "She decided to change the way",
+        "subject": "She",
+        "predicate": "decided",
+        "object": "to change the way she practised",
+        "modifiers": "she practised 修饰 way；rather than 对比两种选择。",
+        "logic": "改变方法与单纯增加时长形成对照。"
+      },
+      {
+        "en": "She also kept reading, which gave familiar words new situations and made their meanings clearer.",
+        "zh": "她也坚持阅读，让熟悉的词出现在新情境中，使词义更加清晰。",
+        "main": "She also kept reading",
+        "subject": "She",
+        "predicate": "kept",
+        "object": "reading",
+        "modifiers": "which 引导非限制性定语从句，概括继续阅读的效果。",
+        "logic": "which 从句中的 gave 和 made 并列，说明阅读的两方面帮助。"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "l2-09-q1",
+        "type": "主旨大意",
+        "question": "What change improves Nina's learning?",
+        "options": [
+          "Copying longer lists more neatly",
+          "Avoiding all difficult words",
+          "Reading only her own notes",
+          "Using and recalling words in meaningful sentences"
+        ],
+        "answer": 3,
+        "evidence": "The next morning, she covered the notes and tried to remember the sentences before checking them.",
+        "explain": "她加入个人例句、主动回忆和持续阅读，使学习服务于实际使用。",
+        "whyWrong": [
+          "笔记整齐却不会用正是原来的问题。",
+          "难词并未被放弃，而是再次复习。",
+          "她仍然阅读文章以获得新语境。"
+        ]
+      },
+      {
+        "id": "l2-09-q2",
+        "type": "细节理解",
+        "question": "What does Nina do before checking her notes?",
+        "options": [
+          "She asks a friend for the answers",
+          "She stops reading for a week",
+          "She tries to remember her sentences",
+          "She copies twenty new words"
+        ],
+        "answer": 2,
+        "evidence": "The next morning, she covered the notes and tried to remember the sentences before checking them.",
+        "explain": "她先盖住笔记回忆，随后核对。",
+        "whyWrong": [
+          "文中没有朋友提供答案。",
+          "文章强调她保持阅读。",
+          "二十词抄写是此前采用的方法。"
+        ]
+      },
+      {
+        "id": "l2-09-q3",
+        "type": "逻辑推断",
+        "question": "What does the writer suggest about progress?",
+        "options": [
+          "It requires forgetting old words",
+          "It may be slow while still being useful",
+          "It must appear after one evening",
+          "It depends on a neat notebook alone"
+        ],
+        "answer": 1,
+        "evidence": "Her progress was gradual, but now her notebook supported real use instead of becoming a collection of copied pages.",
+        "explain": "gradual 表明进步并非立刻发生，但已经提升真实使用能力。",
+        "whyWrong": [
+          "复习的目标是记住而非遗忘旧词。",
+          "末句明确说进步是渐进的。",
+          "整洁笔记本并不足以让她会运用。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创教学短文；人物及情境为虚构示例，不代表真实研究或新闻报道",
+    "license": "English Lab original educational content"
+  },
+  {
+    "id": "l2-10",
+    "title": "Before You Share the Story",
+    "titleZh": "转发之前",
+    "level": 2,
+    "category": "社会",
+    "tags": [
+      "扩充阅读",
+      "原创"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "An exciting headline appeared in a student group one afternoon, claiming that the college library would close for a whole year.",
+            "zh": "一天下午，学生群里出现一条引人注意的标题，声称学校图书馆将关闭整整一年。"
+          },
+          {
+            "en": "Several people immediately shared it with friends, and others complained without opening the link.",
+            "zh": "几个人立刻转发给朋友，另一些人还没打开链接就开始抱怨。"
+          },
+          {
+            "en": "Jia was worried too, but she wanted to find the original notice before passing the message on.",
+            "zh": "佳也很担心，但她想先找到原始通知，再传播这条消息。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The article was two years old and described a different college with a similar name.",
+            "zh": "这篇文章是两年前的，讲的是另一所名字相似的学校。"
+          },
+          {
+            "en": "When Jia checked her own library's website, she found only a plan to repair one reading room during the summer.",
+            "zh": "佳查看自己学校图书馆的网站后，只找到一项暑期维修一间阅览室的计划。"
+          },
+          {
+            "en": "She posted the correct notice in the group and explained where the confusion had started.",
+            "zh": "她把正确通知发到群里，并解释误解从何而来。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The incident did not mean that every surprising story was false.",
+            "zh": "这件事并不意味着所有令人惊讶的消息都是假的。"
+          },
+          {
+            "en": "It showed why dates, places, and original sources matter, especially when a headline makes us angry or afraid.",
+            "zh": "它说明日期、地点和原始来源为何重要，尤其是在标题引起愤怒或恐惧时。"
+          },
+          {
+            "en": "A short pause before sharing can save many people from an unnecessary worry.",
+            "zh": "转发前稍作停顿，可能让许多人免去不必要的担忧。"
+          },
+          {
+            "en": "Jia now asks who published a message and when, even if it comes from someone she trusts.",
+            "zh": "现在即使消息来自信任的人，佳也会问是谁发布的、何时发布的。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "headline",
+        "pos": "n.",
+        "gloss": "新闻标题"
+      },
+      {
+        "word": "appear",
+        "pos": "v.",
+        "gloss": "出现"
+      },
+      {
+        "word": "claim",
+        "pos": "v.",
+        "gloss": "声称"
+      },
+      {
+        "word": "college",
+        "pos": "n.",
+        "gloss": "学院"
+      },
+      {
+        "word": "library",
+        "pos": "n.",
+        "gloss": "图书馆"
+      }
+    ],
+    "glossary": {
+      "headline": "n. 新闻标题",
+      "appear": "v. 出现",
+      "claim": "v. 声称",
+      "college": "n. 学院",
+      "library": "n. 图书馆",
+      "close": "v. 关闭",
+      "whole": "adj. 整个的",
+      "immediately": "adv. 立刻",
+      "share": "v. 分享",
+      "complain": "v. 抱怨",
+      "original": "adj. 原始的",
+      "notice": "n. 通知",
+      "message": "n. 消息",
+      "describe": "v. 描述",
+      "similar": "adj. 相似的",
+      "website": "n. 网站",
+      "repair": "v. 维修",
+      "correct": "adj. 正确的",
+      "confusion": "n. 混淆",
+      "incident": "n. 事件",
+      "false": "adj. 错误的",
+      "source": "n. 来源",
+      "especially": "adv. 尤其",
+      "pause": "n. 停顿",
+      "unnecessary": "adj. 不必要的"
+    },
+    "grammar": [
+      {
+        "en": "Jia was worried too, but she wanted to find the original notice before passing the message on.",
+        "zh": "佳也很担心，但她想先找到原始通知，再传播这条消息。",
+        "main": "she wanted to find the original notice",
+        "subject": "she",
+        "predicate": "wanted",
+        "object": "to find the original notice",
+        "modifiers": "before passing the message on 是介词加动名词结构，表示转发前。",
+        "logic": "but 表示她虽然担忧，仍选择先核实。"
+      },
+      {
+        "en": "It showed why dates, places, and original sources matter, especially when a headline makes us angry or afraid.",
+        "zh": "它说明日期、地点和原始来源为何重要，尤其是在标题引起愤怒或恐惧时。",
+        "main": "It showed why sources matter",
+        "subject": "It",
+        "predicate": "showed",
+        "object": "why 引导的宾语从句",
+        "modifiers": "especially 引出强调；when 引导时间状语从句。",
+        "logic": "why 从句解释核实信息的重要性，而非说明所有报道都不可信。"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "l2-10-q1",
+        "type": "主旨大意",
+        "question": "What is the main purpose of the article?",
+        "options": [
+          "To warn students against reading news",
+          "To announce a year-long library closure",
+          "To encourage checking information before sharing",
+          "To prove that libraries are disappearing"
+        ],
+        "answer": 2,
+        "evidence": "A short pause before sharing can save many people from an unnecessary worry.",
+        "explain": "全文围绕一次误传展开，落点是转发前核对来源、日期和地点。",
+        "whyWrong": [
+          "作者鼓励核实，不是拒绝新闻。",
+          "关闭一年的消息正是误传内容。",
+          "文中并未讨论图书馆整体消失。"
+        ]
+      },
+      {
+        "id": "l2-10-q2",
+        "type": "细节理解",
+        "question": "What was actually planned at Jia's college?",
+        "options": [
+          "The removal of all books",
+          "Repairs to one reading room",
+          "A complete closure for a year",
+          "A move to another city"
+        ],
+        "answer": 1,
+        "evidence": "When Jia checked her own library's website, she found only a plan to repair one reading room during the summer.",
+        "explain": "官方网站只有暑期修缮一间阅览室的计划。",
+        "whyWrong": [
+          "文中没有移走所有图书的安排。",
+          "整年关闭属于另一所学校的旧消息。",
+          "文中没有迁往另一城市。"
+        ]
+      },
+      {
+        "id": "l2-10-q3",
+        "type": "逻辑推断",
+        "question": "Why can an emotional headline require extra care?",
+        "options": [
+          "It may encourage people to react before checking",
+          "It always identifies the correct place",
+          "It proves that the story is false",
+          "It makes the publication date irrelevant"
+        ],
+        "answer": 0,
+        "evidence": "It showed why dates, places, and original sources matter, especially when a headline makes us angry or afraid.",
+        "explain": "同学们未打开链接便转发或抱怨，体现情绪可能催促未经核实的反应。",
+        "whyWrong": [
+          "相似校名恰恰导致地点误认。",
+          "作者没有把情绪性标题等同于假消息。",
+          "日期正是本次核实的重要依据。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创教学短文；人物及情境为虚构示例，不代表真实研究或新闻报道",
+    "license": "English Lab original educational content"
+  },
+  {
+    "id": "l2-11",
+    "title": "Shade on the Walk Home",
+    "titleZh": "回家路上的树荫",
+    "level": 2,
+    "category": "环境",
+    "tags": [
+      "扩充阅读",
+      "原创"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "During a hot week, Rui noticed that one street felt more comfortable than the others on his walk home.",
+            "zh": "在炎热的一周里，瑞发现回家路上有一条街比其他街道更舒适。"
+          },
+          {
+            "en": "It was lined with trees, whose branches shaded much of the pavement in the afternoon.",
+            "zh": "街道两旁种着树，午后枝叶遮住了大部分人行道。"
+          },
+          {
+            "en": "The next street had wider roads and newer buildings, but very little shade.",
+            "zh": "下一条街的道路更宽，建筑更新，却几乎没有树荫。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Rui's class decided to study the difference with their teacher instead of relying only on how the streets felt.",
+            "zh": "瑞的班级决定与老师一起研究这种差异，而非仅凭对街道的感受下结论。"
+          },
+          {
+            "en": "They measured temperatures in shaded and sunny places at the same time on several afternoons.",
+            "zh": "他们在几个下午的同一时刻，测量阴凉处和日晒处的温度。"
+          },
+          {
+            "en": "They also recorded traffic and wind, because these conditions could affect the results.",
+            "zh": "他们还记录交通和风的情况，因为这些条件可能影响结果。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Their small project could not explain every difference between the streets, yet it helped them ask better questions.",
+            "zh": "这个小项目不能解释街道间的所有差异，却帮助他们提出了更好的问题。"
+          },
+          {
+            "en": "Where could new trees grow without blocking a crossing, and who would water them in dry weather?",
+            "zh": "哪些地方能在不挡住路口的情况下种树，干燥天气里又由谁浇水呢？"
+          },
+          {
+            "en": "The students learned that making a cooler neighbourhood involves both good ideas and long-term care.",
+            "zh": "学生们明白了，让社区更凉爽既需要好主意，也需要长期养护。"
+          },
+          {
+            "en": "They presented their notes to the school, including the questions that their measurements had not yet answered.",
+            "zh": "他们向学校展示了笔记，包括那些测量尚未解答的问题。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "shade",
+        "pos": "n.",
+        "gloss": "阴凉处"
+      },
+      {
+        "word": "comfortable",
+        "pos": "adj.",
+        "gloss": "舒适的"
+      },
+      {
+        "word": "branch",
+        "pos": "n.",
+        "gloss": "树枝"
+      },
+      {
+        "word": "pavement",
+        "pos": "n.",
+        "gloss": "人行道"
+      },
+      {
+        "word": "afternoon",
+        "pos": "n.",
+        "gloss": "下午"
+      }
+    ],
+    "glossary": {
+      "shade": "n. 阴凉处",
+      "comfortable": "adj. 舒适的",
+      "branch": "n. 树枝",
+      "pavement": "n. 人行道",
+      "afternoon": "n. 下午",
+      "wide": "adj. 宽的",
+      "building": "n. 建筑物",
+      "decide": "v. 决定",
+      "study": "v. 研究",
+      "difference": "n. 差异",
+      "teacher": "n. 老师",
+      "rely": "v. 依赖",
+      "measure": "v. 测量",
+      "temperature": "n. 温度",
+      "sunny": "adj. 阳光充足的",
+      "record": "v. 记录",
+      "traffic": "n. 交通",
+      "wind": "n. 风",
+      "condition": "n. 条件",
+      "affect": "v. 影响",
+      "result": "n. 结果",
+      "project": "n. 项目",
+      "explain": "v. 解释",
+      "crossing": "n. 路口",
+      "care": "n. 养护"
+    },
+    "grammar": [
+      {
+        "en": "It was lined with trees, whose branches shaded much of the pavement in the afternoon.",
+        "zh": "街道两旁种着树，午后枝叶遮住了大部分人行道。",
+        "main": "It was lined with trees",
+        "subject": "It",
+        "predicate": "was lined",
+        "object": "无直接宾语（被动语态）",
+        "modifiers": "with trees 表示排列的事物；whose branches 引导非限制性定语从句。",
+        "logic": "whose 表所属关系，把树与枝叶提供树荫联系起来。"
+      },
+      {
+        "en": "They also recorded traffic and wind, because these conditions could affect the results.",
+        "zh": "他们还记录交通和风的情况，因为这些条件可能影响结果。",
+        "main": "They also recorded traffic and wind",
+        "subject": "They",
+        "predicate": "recorded",
+        "object": "traffic and wind",
+        "modifiers": "because 引导原因状语从句，解释记录其他条件的理由。",
+        "logic": "结果可能受多种条件影响，因此需要一并记录。"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "l2-11-q1",
+        "type": "主旨大意",
+        "question": "What does the class project help the students understand?",
+        "options": [
+          "Trees need no attention after planting",
+          "A cooler neighbourhood needs investigation and continuing care",
+          "New buildings always lower street temperatures",
+          "Measuring once settles every question"
+        ],
+        "answer": 1,
+        "evidence": "The students learned that making a cooler neighbourhood involves both good ideas and long-term care.",
+        "explain": "调查后的问题涉及种在哪里和谁来浇水，末句强调想法与长期照料。",
+        "whyWrong": [
+          "谁负责浇水是文中明确提出的问题。",
+          "新建筑所在街道反而少有树荫。",
+          "学生多次测量，且承认项目有局限。"
+        ]
+      },
+      {
+        "id": "l2-11-q2",
+        "type": "细节理解",
+        "question": "Why did the class record traffic and wind?",
+        "options": [
+          "These conditions might influence the results",
+          "They wanted to design a new bus",
+          "Their teacher had lost a traffic map",
+          "They were counting sunny days"
+        ],
+        "answer": 0,
+        "evidence": "They also recorded traffic and wind, because these conditions could affect the results.",
+        "explain": "because 从句直接说明这些条件可能影响结果。",
+        "whyWrong": [
+          "文中没有设计公交车的计划。",
+          "老师丢地图并非文章情节。",
+          "记录对象不仅是晴天数量。"
+        ]
+      },
+      {
+        "id": "l2-11-q3",
+        "type": "逻辑推断",
+        "question": "How does the writer view the small project?",
+        "options": [
+          "A final answer to every heat problem",
+          "A waste because it was small",
+          "A replacement for watering trees",
+          "Useful despite its limits"
+        ],
+        "answer": 3,
+        "evidence": "Their small project could not explain every difference between the streets, yet it helped them ask better questions.",
+        "explain": "could not explain every difference 与 helped them ask better questions 表明其有限但有用。",
+        "whyWrong": [
+          "作者明确承认它不能解释所有差异。",
+          "项目帮助提出问题，并非浪费。",
+          "测量无法替代后续的实际养护。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创教学短文；人物及情境为虚构示例，不代表真实研究或新闻报道",
+    "license": "English Lab original educational content"
   }
 ]

@@ -64,7 +64,7 @@ export function applyReview(
   const easeBefore = round2(clamp(prev.ease, MIN_EASE, MAX_EASE));
   const prevInterval = Math.max(0, Math.round(prev.intervalDays));
 
-  let reps = prev.reps + 1;
+  const reps = prev.reps + 1;
   let streak = prev.streak;
   let lapses = prev.lapses;
   let ease = easeBefore;

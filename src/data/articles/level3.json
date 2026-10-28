@@ -2449,5 +2449,655 @@
     ],
     "source": "English Lab 原创内容",
     "license": "CC BY-NC 4.0（本项目原创，可自由用于个人学习）"
+  },
+  {
+    "id": "l3-09",
+    "title": "The Repair Table",
+    "titleZh": "维修桌旁",
+    "level": 3,
+    "category": "环境",
+    "tags": [
+      "扩充阅读",
+      "原创"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "On the first Saturday of each month, a community centre places a long table near its entrance and invites residents to bring broken household objects.",
+            "zh": "每月第一个周六，一家社区中心会在入口附近摆一张长桌，邀请居民带来损坏的家居物品。"
+          },
+          {
+            "en": "Volunteer repairers work beside the owners, explaining each step rather than taking the objects away and returning them without discussion.",
+            "zh": "志愿维修人员和物主一起动手，解释每个步骤，而非把东西拿走、不加说明地修好送回。"
+          },
+          {
+            "en": "The aim is to share practical knowledge as well as extend the life of useful products.",
+            "zh": "目的既是延长实用物品的寿命，也是分享实用知识。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "For many visitors, the surprising part is discovering how small the original problem was.",
+            "zh": "对许多来访者来说，令人意外的是发现最初的问题竟那么小。"
+          },
+          {
+            "en": "A loose connection or a damaged switch may make an entire lamp appear useless, even though most of its parts still work.",
+            "zh": "连接松动或开关损坏，可能让整盏灯看起来毫无用处，即使大部分零件仍能工作。"
+          },
+          {
+            "en": "Seeing the repair changes the owner's understanding of what has been thrown away and what might be saved next time.",
+            "zh": "目睹维修过程改变了物主对已丢弃物品以及下次可能保留物品的看法。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "However, the volunteers do not promise to fix everything, and they leave dangerous electrical work to qualified professionals.",
+            "zh": "不过，志愿者并不承诺修好所有东西，危险的电气维修交由合格专业人士处理。"
+          },
+          {
+            "en": "Some products are sealed so tightly that opening them would cause further damage, while replacement parts for others are difficult to obtain.",
+            "zh": "有些产品封得过于严密，打开便会造成更多损坏；另一些产品则难以获取替换零件。"
+          },
+          {
+            "en": "These limits reveal that the ability to repair depends partly on decisions made long before a customer buys the product.",
+            "zh": "这些限制表明，可维修性部分取决于顾客购买产品很久以前就已作出的设计决策。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The repair table therefore raises a wider question about design, alongside its immediate benefits for individual households.",
+            "zh": "因此，维修桌除了直接帮助家庭，也提出了更广泛的设计问题。"
+          },
+          {
+            "en": "If manufacturers provide clear instructions and affordable spare parts, keeping a product in use may become a realistic choice rather than a specialist hobby.",
+            "zh": "如果制造商提供清晰说明和价格合理的备件，继续使用产品就可能成为可行选择，而不只是专业爱好。"
+          },
+          {
+            "en": "Visitors leave with different outcomes: some carry a working object, while others carry a better explanation of why their object cannot safely be repaired.",
+            "zh": "来访者的收获各不相同：有人带走恢复工作的物品，有人则更清楚地知道自己的物品为什么不能安全维修。"
+          },
+          {
+            "en": "Both outcomes can support a more informed decision when another product eventually needs replacing.",
+            "zh": "当另一件产品最终需要更换时，两种收获都有助于作出更明智的决定。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "repair",
+        "pos": "n.",
+        "gloss": "维修"
+      },
+      {
+        "word": "community",
+        "pos": "n.",
+        "gloss": "社区"
+      },
+      {
+        "word": "resident",
+        "pos": "n.",
+        "gloss": "居民"
+      },
+      {
+        "word": "household",
+        "pos": "adj.",
+        "gloss": "家用的"
+      },
+      {
+        "word": "volunteer",
+        "pos": "n.",
+        "gloss": "志愿者"
+      }
+    ],
+    "glossary": {
+      "repair": "n. 维修",
+      "community": "n. 社区",
+      "resident": "n. 居民",
+      "household": "adj. 家用的",
+      "volunteer": "n. 志愿者",
+      "owner": "n. 物主",
+      "practical": "adj. 实用的",
+      "extend": "v. 延长",
+      "product": "n. 产品",
+      "loose": "adj. 松动的",
+      "connection": "n. 连接",
+      "damaged": "adj. 损坏的",
+      "switch": "n. 开关",
+      "entire": "adj. 整个的",
+      "useless": "adj. 无用的",
+      "qualified": "adj. 合格的",
+      "professional": "n. 专业人士",
+      "seal": "v. 密封",
+      "replacement": "n. 替换",
+      "obtain": "v. 获得",
+      "reveal": "v. 揭示",
+      "ability": "n. 能力",
+      "manufacturer": "n. 制造商",
+      "affordable": "adj. 价格合理的",
+      "realistic": "adj. 切实可行的"
+    },
+    "grammar": [
+      {
+        "en": "Some products are sealed so tightly that opening them would cause further damage, while replacement parts for others are difficult to obtain.",
+        "zh": "有些产品封得过于严密，打开便会造成更多损坏；另一些产品则难以获取替换零件。",
+        "main": "Some products are sealed so tightly",
+        "subject": "Some products",
+        "predicate": "are sealed",
+        "object": "无直接宾语（被动语态）",
+        "modifiers": "so…that… 引出结果；while 连接对比的情况。",
+        "logic": "一个句子并列说明无法维修的两类原因：难以打开和缺少备件。"
+      },
+      {
+        "en": "If manufacturers provide clear instructions and affordable spare parts, keeping a product in use may become a realistic choice rather than a specialist hobby.",
+        "zh": "如果制造商提供清晰说明和价格合理的备件，继续使用产品就可能成为可行选择，而不只是专业爱好。",
+        "main": "keeping a product in use may become a choice",
+        "subject": "keeping a product in use",
+        "predicate": "may become",
+        "object": "a realistic choice（表语）",
+        "modifiers": "If 引导条件状语从句；rather than 对比现实选择与专业爱好。",
+        "logic": "动名词短语作主语，说明制造商的支持会改变维修的可行性。"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "l3-09-q1",
+        "type": "主旨大意",
+        "question": "What is the central message of the article?",
+        "options": [
+          "Every object can be repaired by volunteers",
+          "Replacing products is always cheaper",
+          "Repair events should avoid teaching owners",
+          "Repair skills and repairable design both matter"
+        ],
+        "answer": 3,
+        "evidence": "These limits reveal that the ability to repair depends partly on decisions made long before a customer buys the product.",
+        "explain": "前文讲技能分享，后文转向产品设计和备件，强调两者共同决定维修可能性。",
+        "whyWrong": [
+          "志愿者明确不保证修好一切。",
+          "文章没有对所有产品比较价格。",
+          "解释步骤恰好是活动的教学目标。"
+        ]
+      },
+      {
+        "id": "l3-09-q2",
+        "type": "细节理解",
+        "question": "Why do some products remain difficult to repair?",
+        "options": [
+          "Volunteers remove every working part",
+          "Community centres forbid lamps",
+          "Opening their sealed cases may damage them",
+          "Their owners refuse all instructions"
+        ],
+        "answer": 2,
+        "evidence": "Some products are sealed so tightly that opening them would cause further damage, while replacement parts for others are difficult to obtain.",
+        "explain": "正文直接说密封过紧的产品在打开时可能进一步损坏。",
+        "whyWrong": [
+          "志愿者不会无故拆除所有好零件。",
+          "台灯是维修例子，未被禁止。",
+          "并非所有物主拒绝学习。"
+        ]
+      },
+      {
+        "id": "l3-09-q3",
+        "type": "作者观点",
+        "question": "How does the writer regard manufacturers' involvement?",
+        "options": [
+          "It matters only to professional hobbyists",
+          "It can help make repair a practical option",
+          "It makes volunteer knowledge irrelevant",
+          "It guarantees that nothing will break"
+        ],
+        "answer": 1,
+        "evidence": "If manufacturers provide clear instructions and affordable spare parts, keeping a product in use may become a realistic choice rather than a specialist hobby.",
+        "explain": "结尾用条件句提出制造商可通过说明和备件降低维修门槛。",
+        "whyWrong": [
+          "作者希望维修成为更普遍的选择。",
+          "产品设计支持与志愿技能可以互补。",
+          "可维修性并不意味着永不损坏。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创教学短文；人物及情境为虚构示例，不代表真实研究或新闻报道",
+    "license": "English Lab original educational content"
+  },
+  {
+    "id": "l3-10",
+    "title": "The Quiet Cost of Switching Tasks",
+    "titleZh": "切换任务的隐性代价",
+    "level": 3,
+    "category": "心理",
+    "tags": [
+      "扩充阅读",
+      "原创"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "At the end of a busy afternoon, Chen could name many things he had started, yet very few he had actually finished.",
+            "zh": "忙碌的一下午结束时，陈能列出许多已开始的事，却几乎说不出真正做完了什么。"
+          },
+          {
+            "en": "He had switched repeatedly between an assignment, messages from classmates, a shopping page, and a video that promised advice on studying efficiently.",
+            "zh": "他不断在作业、同学消息、购物页面和一段号称教授高效学习方法的视频之间切换。"
+          },
+          {
+            "en": "Each change seemed brief enough to ignore, but returning to the assignment meant finding his place and rebuilding the argument in his head.",
+            "zh": "每次切换似乎短得可以忽略，但回到作业时，他都得重新定位进度，在脑中重建论证。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Chen decided to try a modest experiment rather than blame himself for lacking determination.",
+            "zh": "陈决定做一个小实验，而不是责怪自己缺乏毅力。"
+          },
+          {
+            "en": "For the next three afternoons, he left his phone in a drawer and worked on one clearly defined part of the assignment before taking a break.",
+            "zh": "接下来的三个下午，他把手机放进抽屉，先完成作业中一个明确划定的部分，再休息。"
+          },
+          {
+            "en": "He kept a sheet of paper nearby to note unrelated ideas, so that remembering an errand would not require immediately opening another application.",
+            "zh": "他在旁边放了一张纸记录无关的想法，这样想起一件杂事时就不必立刻打开另一个应用。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The arrangement did not remove every distraction, and one afternoon a necessary call interrupted his work.",
+            "zh": "这种安排并未消除所有干扰，其中一个下午，一通必要的电话打断了他的工作。"
+          },
+          {
+            "en": "Nevertheless, finishing a small section gave him a clearer sense of progress than spending the same time surrounded by several unfinished tasks.",
+            "zh": "尽管如此，完成一小节，比用同样时间处理好几项未完任务更能让他感到进展。"
+          },
+          {
+            "en": "He also found it easier to decide what to do next when the current step had a visible ending.",
+            "zh": "当眼下的步骤有明确终点时，他也更容易决定下一步做什么。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "His experience does not establish a universal rule about concentration, but it points to a useful question for anyone who feels constantly busy.",
+            "zh": "他的经历不能确立一条普遍适用的专注规律，却为总觉得忙碌的人提供了一个有用问题。"
+          },
+          {
+            "en": "Instead of asking only how long we worked, we might ask how often we had to start the same work again.",
+            "zh": "除了问自己工作了多久，我们还可以问，同一项工作究竟被迫重新开始了多少次。"
+          },
+          {
+            "en": "That question can help us design a working environment in which returning to a task is less frequently necessary and progress is easier to recognise.",
+            "zh": "这个问题有助于设计一种工作环境，减少反复返回任务的必要，也让进展更容易辨认。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "switch",
+        "pos": "v.",
+        "gloss": "切换"
+      },
+      {
+        "word": "task",
+        "pos": "n.",
+        "gloss": "任务"
+      },
+      {
+        "word": "assignment",
+        "pos": "n.",
+        "gloss": "作业"
+      },
+      {
+        "word": "repeatedly",
+        "pos": "adv.",
+        "gloss": "反复地"
+      },
+      {
+        "word": "efficiently",
+        "pos": "adv.",
+        "gloss": "高效地"
+      }
+    ],
+    "glossary": {
+      "switch": "v. 切换",
+      "task": "n. 任务",
+      "assignment": "n. 作业",
+      "repeatedly": "adv. 反复地",
+      "efficiently": "adv. 高效地",
+      "ignore": "v. 忽略",
+      "argument": "n. 论证",
+      "modest": "adj. 规模不大的",
+      "experiment": "n. 实验",
+      "determination": "n. 毅力",
+      "drawer": "n. 抽屉",
+      "define": "v. 明确界定",
+      "section": "n. 部分",
+      "unrelated": "adj. 无关的",
+      "errand": "n. 杂事",
+      "application": "n. 应用程序",
+      "arrangement": "n. 安排",
+      "distraction": "n. 干扰",
+      "necessary": "adj. 必要的",
+      "interrupt": "v. 打断",
+      "nevertheless": "adv. 尽管如此",
+      "visible": "adj. 明显的",
+      "establish": "v. 确立",
+      "universal": "adj. 普遍适用的",
+      "concentration": "n. 专注"
+    },
+    "grammar": [
+      {
+        "en": "He kept a sheet of paper nearby to note unrelated ideas, so that remembering an errand would not require immediately opening another application.",
+        "zh": "他在旁边放了一张纸记录无关的想法，这样想起一件杂事时就不必立刻打开另一个应用。",
+        "main": "He kept a sheet of paper nearby",
+        "subject": "He",
+        "predicate": "kept",
+        "object": "a sheet of paper",
+        "modifiers": "to note unrelated ideas 表示目的；so that 引导目的状语从句。",
+        "logic": "记在纸上是为了不因想到杂事而立即切换应用。"
+      },
+      {
+        "en": "His experience does not establish a universal rule about concentration, but it points to a useful question for anyone who feels constantly busy.",
+        "zh": "他的经历不能确立一条普遍适用的专注规律，却为总觉得忙碌的人提供了一个有用问题。",
+        "main": "His experience does not establish a rule",
+        "subject": "His experience",
+        "predicate": "does not establish / points",
+        "object": "a universal rule / to a useful question",
+        "modifiers": "who feels constantly busy 修饰 anyone。",
+        "logic": "but 连接局限与启发，避免把个人体验夸大为普遍结论。"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "l3-10-q1",
+        "type": "主旨大意",
+        "question": "What does the article invite readers to reconsider?",
+        "options": [
+          "How to keep every application open",
+          "Whether assignments should be cancelled",
+          "How often they restart work after switching tasks",
+          "Whether all phone calls should be banned"
+        ],
+        "answer": 2,
+        "evidence": "Instead of asking only how long we worked, we might ask how often we had to start the same work again.",
+        "explain": "结尾将注意力从工作总时长转向重复进入同一任务的次数。",
+        "whyWrong": [
+          "同时打开多个应用是切换背景，不是建议。",
+          "文章探讨完成方法，而非取消作业。",
+          "必要电话的存在说明作者并未主张禁掉一切来电。"
+        ]
+      },
+      {
+        "id": "l3-10-q2",
+        "type": "细节理解",
+        "question": "Why did Chen keep paper beside him?",
+        "options": [
+          "To measure the length of a phone call",
+          "To record unrelated ideas without opening an application",
+          "To copy all his messages",
+          "To draw a plan of his drawer"
+        ],
+        "answer": 1,
+        "evidence": "He kept a sheet of paper nearby to note unrelated ideas, so that remembering an errand would not require immediately opening another application.",
+        "explain": "纸张用来暂记杂事，减少立即切换应用的需求。",
+        "whyWrong": [
+          "没有用纸测量通话时间。",
+          "他没有抄写全部消息。",
+          "抽屉只用于存放手机。"
+        ]
+      },
+      {
+        "id": "l3-10-q3",
+        "type": "作者观点",
+        "question": "How does the writer present Chen's experiment?",
+        "options": [
+          "As a limited personal experience with a useful lesson",
+          "As proof of a rule that applies to everyone",
+          "As a failure because one call occurred",
+          "As a comparison of different phone brands"
+        ],
+        "answer": 0,
+        "evidence": "His experience does not establish a universal rule about concentration, but it points to a useful question for anyone who feels constantly busy.",
+        "explain": "作者明确否认个人体验能确立普遍规律，同时指出它能引出有用问题。",
+        "whyWrong": [
+          "universal rule 被明确否定。",
+          "一次中断不抹去完成小节的积极体验。",
+          "文中没有比较手机品牌。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创教学短文；人物及情境为虚构示例，不代表真实研究或新闻报道",
+    "license": "English Lab original educational content"
+  },
+  {
+    "id": "l3-11",
+    "title": "A Bus That People Can Trust",
+    "titleZh": "值得信赖的公交车",
+    "level": 3,
+    "category": "社会",
+    "tags": [
+      "扩充阅读",
+      "原创"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "When a town asks why residents prefer driving to taking the bus, the first answer is often that the journey takes too long.",
+            "zh": "当一个城镇询问居民为什么宁愿开车而不乘公交时，最常见的回答是行程太久。"
+          },
+          {
+            "en": "Yet a closer conversation may reveal that the uncertain waiting time matters as much as the time spent moving.",
+            "zh": "但深入交谈可能发现，不确定的候车时间与行车时间同样重要。"
+          },
+          {
+            "en": "A passenger who cannot predict whether a bus will arrive in two minutes or twenty must allow extra time for the entire trip.",
+            "zh": "如果乘客无法预测公交车会在两分钟还是二十分钟后到达，就必须为整段行程预留额外时间。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Consider two routes with the same average journey time but very different patterns of arrival.",
+            "zh": "设想两条平均行程时间相同、到站规律却截然不同的路线。"
+          },
+          {
+            "en": "On one route, buses arrive at regular intervals; on the other, several may appear together after a long gap.",
+            "zh": "一条路线的公交车按固定间隔到达；另一条则可能久等之后几辆车一起来。"
+          },
+          {
+            "en": "For someone travelling to an examination or collecting a child, the second pattern creates a risk that the average does not describe.",
+            "zh": "对赶考或接孩子的人来说，后一种模式带来的风险无法由平均数体现。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Improving the experience therefore involves more than adding a faster vehicle to an unreliable service.",
+            "zh": "因此，改善乘车体验不只是为不可靠的服务添上一辆速度更快的车。"
+          },
+          {
+            "en": "Clear information about delays can help, but it cannot replace timetables that can usually be followed in ordinary traffic.",
+            "zh": "清晰的延误信息有所帮助，却不能替代在正常交通条件下通常能遵守的时刻表。"
+          },
+          {
+            "en": "Planners may also need to examine junctions where buses repeatedly lose time and stops where boarding becomes unnecessarily slow.",
+            "zh": "规划者还可能需要研究公交车经常耽搁的路口，以及上车过程不必要地缓慢的站点。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "No single change will make public transport suitable for every journey, especially in places where homes and workplaces are far apart.",
+            "zh": "没有哪项单一变化能让公共交通适合所有行程，尤其是在居住地与工作地相距甚远的地方。"
+          },
+          {
+            "en": "Nevertheless, treating reliability as a central feature rather than a minor bonus gives planners a more accurate picture of what passengers need.",
+            "zh": "尽管如此，把可靠性视为核心特征而非附加好处，能让规划者更准确地了解乘客需求。"
+          },
+          {
+            "en": "Asking passengers how early they leave home for an important appointment may reveal a hidden part of the journey that a timetable alone would miss.",
+            "zh": "询问乘客为了重要约会会提前多久出门，可能揭示单靠时刻表无法看到的隐性出行时间。"
+          },
+          {
+            "en": "Reducing that burden could make an ordinary bus trip feel considerably more manageable.",
+            "zh": "减轻这种负担，可能让普通公交行程更容易安排。"
+          }
+        ]
+      }
+    ],
+    "keyVocab": [
+      {
+        "word": "resident",
+        "pos": "n.",
+        "gloss": "居民"
+      },
+      {
+        "word": "prefer",
+        "pos": "v.",
+        "gloss": "更喜欢"
+      },
+      {
+        "word": "journey",
+        "pos": "n.",
+        "gloss": "行程"
+      },
+      {
+        "word": "uncertain",
+        "pos": "adj.",
+        "gloss": "不确定的"
+      },
+      {
+        "word": "passenger",
+        "pos": "n.",
+        "gloss": "乘客"
+      }
+    ],
+    "glossary": {
+      "resident": "n. 居民",
+      "prefer": "v. 更喜欢",
+      "journey": "n. 行程",
+      "uncertain": "adj. 不确定的",
+      "passenger": "n. 乘客",
+      "predict": "v. 预测",
+      "allow": "v. 预留",
+      "entire": "adj. 整个的",
+      "average": "adj. 平均的",
+      "pattern": "n. 模式",
+      "regular": "adj. 规律的",
+      "interval": "n. 间隔",
+      "gap": "n. 空档",
+      "risk": "n. 风险",
+      "unreliable": "adj. 不可靠的",
+      "vehicle": "n. 车辆",
+      "delay": "n. 延误",
+      "replace": "v. 替代",
+      "timetable": "n. 时刻表",
+      "ordinary": "adj. 普通的",
+      "junction": "n. 路口",
+      "boarding": "n. 上车",
+      "suitable": "adj. 合适的",
+      "reliability": "n. 可靠性",
+      "accurate": "adj. 准确的"
+    },
+    "grammar": [
+      {
+        "en": "A passenger who cannot predict whether a bus will arrive in two minutes or twenty must allow extra time for the entire trip.",
+        "zh": "如果乘客无法预测公交车会在两分钟还是二十分钟后到达，就必须为整段行程预留额外时间。",
+        "main": "A passenger must allow extra time",
+        "subject": "A passenger",
+        "predicate": "must allow",
+        "object": "extra time",
+        "modifiers": "who 引导定语从句；whether…or… 引出两个可能到站时间。",
+        "logic": "主干说明必须预留时间，定语从句交代乘客面临的不确定性。"
+      },
+      {
+        "en": "Nevertheless, treating reliability as a central feature rather than a minor bonus gives planners a more accurate picture of what passengers need.",
+        "zh": "尽管如此，把可靠性视为核心特征而非附加好处，能让规划者更准确地了解乘客需求。",
+        "main": "treating reliability as a central feature gives planners a picture",
+        "subject": "treating reliability as a central feature rather than a minor bonus",
+        "predicate": "gives",
+        "object": "planners / a more accurate picture",
+        "modifiers": "of what passengers need 补充 picture 的内容。",
+        "logic": "动名词短语作主语，give 后接间接宾语与直接宾语。"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "l3-11-q1",
+        "type": "主旨大意",
+        "question": "What feature of bus services does the writer emphasise?",
+        "options": [
+          "The same route for every passenger",
+          "Predictable and reliable arrival",
+          "The colour of vehicles",
+          "The complete removal of bus stops"
+        ],
+        "answer": 1,
+        "evidence": "Nevertheless, treating reliability as a central feature rather than a minor bonus gives planners a more accurate picture of what passengers need.",
+        "explain": "文章重点是可靠性，末句明确将其定位为核心特征。",
+        "whyWrong": [
+          "作者承认不同出行有不同需要。",
+          "车辆颜色与文章论点无关。",
+          "作者建议研究站点效率，而非取消所有站点。"
+        ]
+      },
+      {
+        "id": "l3-11-q2",
+        "type": "细节理解",
+        "question": "What can the average journey time fail to show?",
+        "options": [
+          "The risk created by irregular arrivals",
+          "The exact colour of the bus",
+          "Whether a town has any schools",
+          "The total population of a country"
+        ],
+        "answer": 0,
+        "evidence": "For someone travelling to an examination or collecting a child, the second pattern creates a risk that the average does not describe.",
+        "explain": "平均耗时相同仍可能有规律与扎堆到达的差异，影响赶时间的人。",
+        "whyWrong": [
+          "文章并未讨论车身颜色。",
+          "学校存在与否不是均值的讨论对象。",
+          "全国人口并非本文指标。"
+        ]
+      },
+      {
+        "id": "l3-11-q3",
+        "type": "作者观点",
+        "question": "What does the writer think about delay information?",
+        "options": [
+          "It removes the need to improve service",
+          "It is useless in every situation",
+          "It makes all journeys equally suitable for buses",
+          "It helps but cannot replace a dependable timetable"
+        ],
+        "answer": 3,
+        "evidence": "Clear information about delays can help, but it cannot replace timetables that can usually be followed in ordinary traffic.",
+        "explain": "can help 与 cannot replace 同时承认信息价值和其局限。",
+        "whyWrong": [
+          "信息不能取代实际服务可靠性。",
+          "作者明确说信息可以有所帮助。",
+          "最后一段否认单一措施适合所有行程。"
+        ]
+      }
+    ],
+    "source": "English Lab 原创教学短文；人物及情境为虚构示例，不代表真实研究或新闻报道",
+    "license": "English Lab original educational content"
   }
 ]

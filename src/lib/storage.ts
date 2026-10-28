@@ -483,6 +483,11 @@ export function loadData(): AppData {
 }
 
 export function saveData(data: AppData): boolean {
+  // 内存降级仅用于保持界面可用，不能把它报告为持久化成功。
+  if (!overrideActive) {
+    if (!detectedStorage) detectedStorage = detectStorage();
+    if (!detectedStorage) return false;
+  }
   try {
     getStore().setItem(DATA_KEY, JSON.stringify(data));
     return true;
@@ -503,6 +508,10 @@ export function loadSettings(): UserSettings {
 }
 
 export function saveSettings(settings: UserSettings): boolean {
+  if (!overrideActive) {
+    if (!detectedStorage) detectedStorage = detectStorage();
+    if (!detectedStorage) return false;
+  }
   try {
     getStore().setItem(SETTINGS_KEY, JSON.stringify(sanitizeSettings(settings)));
     return true;

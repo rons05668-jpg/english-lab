@@ -75,7 +75,7 @@ export function WordDetail({ lemma }: { lemma: string }) {
           <div>
             <h1 className="wd__title">{result?.lemma ?? key}</h1>
             <div className="wd__phon">
-              {result?.phonetic.uk ? <span>英 {result.phonetic.uk}</span> : null}
+              {result?.phonetic.uk ? <span>{result.source === 'ecdict' ? '词库音标' : '英'} {result.phonetic.uk}</span> : null}
               {result?.phonetic.us ? <span>美 {result.phonetic.us}</span> : null}
               {!result?.phonetic.uk && !result?.phonetic.us ? <span className="hint">音标未收录</span> : null}
               <IconButton icon="volume" label="朗读英式" size={15} disabled={!voiceOk} onClick={() => speakWord(key, 'uk', 0.85)} />
@@ -92,6 +92,8 @@ export function WordDetail({ lemma }: { lemma: string }) {
                 <span className="hint">
                   {result.source === 'lexicon'
                     ? '核心词典'
+                    : result.source === 'ecdict'
+                      ? 'ECDICT 开源英汉词库 · 常见义（MIT）'
                     : result.source === 'glossary'
                       ? '文章标注释义'
                       : result.source === 'online'
