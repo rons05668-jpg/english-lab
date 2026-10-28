@@ -15,6 +15,7 @@ export function WordDetail({ lemma }: { lemma: string }) {
   const data = useData();
   const [result, setResult] = useState<LookupResult | null>(null);
   const [loading, setLoading] = useState(true);
+  const [lookupAttempt, setLookupAttempt] = useState(0);
   const [added, setAdded] = useState(false);
   const key = normalizeWord(lemma);
 
@@ -31,7 +32,7 @@ export function WordDetail({ lemma }: { lemma: string }) {
     return () => {
       alive = false;
     };
-  }, [key]);
+  }, [key, lookupAttempt]);
 
   const entry = data.vocabEntries.find((e) => e.lemma === (result?.lemma ?? key));
   const occ = entry ? data.occurrences.filter((o) => o.vocabularyEntryId === entry.id) : [];
@@ -66,6 +67,7 @@ export function WordDetail({ lemma }: { lemma: string }) {
 
   return (
     <div className="page">
+      {result?.dictionaryUnavailable ? <div className="callout callout--warn" role="alert">词典数据暂时无法加载。 <Button size="sm" onClick={() => setLookupAttempt((n) => n + 1)}>重试查词</Button></div> : null}
       <button className="link-btn" onClick={() => navigate('/notebook')} style={{ marginBottom: 12 }}>
         <Icon name="left" size={12} /> 返回生词本
       </button>
@@ -123,7 +125,7 @@ export function WordDetail({ lemma }: { lemma: string }) {
         ) : result?.pending ? (
           <Card>
             <div className="callout callout--warn">
-              词典暂未收录该词，也不会编造释义。
+              {result.dictionaryUnavailable ? '暂时无法确认词典是否收录该词。' : '词典暂未收录该词，也不会编造释义。'}
               {getData().settings.onlineDictionary ? '可稍后重试，或在设置中确认在线词典是否可用。' : '可在设置中开启在线词典补充查询。'}
             </div>
           </Card>

@@ -31,6 +31,8 @@ export interface LookupResult {
   source: 'lexicon' | 'glossary' | 'ecdict' | 'online' | 'none';
   /** 词典未收录，释义待补充 */
   pending: boolean;
+  /** 扩展词库加载失败，可稍后重试 */
+  dictionaryUnavailable?: boolean;
   /** 词形存在多种还原可能（如 leaves → leaf / leave） */
   ambiguous: string[];
   /** 该词所在句子中匹配到的固定搭配 */
@@ -357,8 +359,12 @@ export async function lookupWord(rawSurface: string, opts: LookupOptions = {}): 
   let phonetic: { uk?: string; us?: string } = { uk: entry?.uk, us: entry?.us };
   let finalSenses = senses;
 
+  let dictionaryUnavailable = false;
   if (!entry) {
-    const offline = await lookupOffline([resolvedLemma, surface, ...candidates]).catch(() => null);
+    const offline = await lookupOffline([resolvedLemma, surface, ...candidates]).catch(() => {
+      dictionaryUnavailable = true;
+      return null;
+    });
     if (offline) {
       resolvedLemma = offline.lemma;
       finalSenses = offline.senses;
@@ -389,6 +395,7 @@ export async function lookupWord(rawSurface: string, opts: LookupOptions = {}): 
     synonyms: entry?.synonyms ?? [],
     source,
     pending: finalSenses.length === 0,
+    dictionaryUnavailable,
     ambiguous: lem.confident ? [] : candidates.filter((c) => c !== resolvedLemma).slice(0, 3),
     phraseHits,
   };

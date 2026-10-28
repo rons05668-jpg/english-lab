@@ -15,6 +15,9 @@ export function Settings() {
   const { confirm, dialog } = useConfirm();
   const fileRef = useRef<HTMLInputElement>(null);
   const [usage, setUsage] = useState(() => storageUsage());
+  const [lastBackup, setLastBackup] = useState(() => {
+    try { return Number(localStorage.getItem('english-lab-last-backup') || 0); } catch { return 0; }
+  });
 
   const patch = (p: Partial<typeof s>) => {
     setData(updateSettings(getData(), p), true);
@@ -30,6 +33,9 @@ export function Settings() {
     a.download = `english-lab-backup-${new Date().toISOString().slice(0, 10)}.json`;
     a.click();
     URL.revokeObjectURL(url);
+    const now = Date.now();
+    try { localStorage.setItem('english-lab-last-backup', String(now)); } catch { /* 导出仍可使用 */ }
+    setLastBackup(now);
     toast('已导出学习数据', 'success');
   };
 
@@ -47,7 +53,10 @@ export function Settings() {
       danger: true,
     });
     if (!ok) return;
-    setData(res.data, true);
+    if (!setData(res.data, true)) {
+      toast('导入未能保存，请检查存储权限和可用空间', 'error');
+      return;
+    }
     setUsage(storageUsage());
     toast('导入完成', 'success');
   };
@@ -344,7 +353,7 @@ export function Settings() {
         <div className="set-group__title">数据</div>
         <div className="set-row">
           <div className="set-row__label">
-            本地存储占用
+            本地存储占用（估算）
             <div className="set-row__desc">
               {(usage.bytes / 1024).toFixed(1)} KB / {(usage.limitBytes / 1024 / 1024).toFixed(0)} MB（
               {Math.round(usage.ratio * 100)}%）
@@ -354,6 +363,14 @@ export function Settings() {
             <Button size="sm" variant="ghost" icon="refresh" onClick={() => setUsage(storageUsage())}>
               刷新
             </Button>
+          </div>
+        </div>
+        {usage.ratio >= 0.8 ? <div className="callout callout--warn" role="alert">学习数据接近参考存储上限，请及时导出备份。实际容量因浏览器而异。</div> : null}
+        {(data.vocabEntries.length > 0 && (!lastBackup || Date.now() - lastBackup > 30 * 86400000)) ? <div className="callout">建议定期导出学习记录，避免清理浏览器数据后丢失。 <Button size="sm" onClick={doExport}>导出备份</Button></div> : null}
+        <div className="set-row">
+          <div className="set-row__label">
+            离线使用
+            <div className="set-row__desc">联网打开过的页面和查询过的词典数据会尽可能缓存在本设备；未加载过的词条仍需要网络。浏览器可能清理缓存。</div>
           </div>
         </div>
         <div className="set-row">

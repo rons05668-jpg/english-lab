@@ -16,7 +16,10 @@ export function loadOfflineDictionary(prefix?: string): Promise<OfflineData> {
   let pending = loaded.get(key);
   if (!pending) {
     const loader = shardLoaders[`../data/ecdict/${key}.json`];
-    pending = loader ? loader().then((module) => module.default) : Promise.resolve({ entries: {}, forms: {} });
+    pending = loader ? loader().then((module) => module.default).catch((error: unknown) => {
+      loaded.delete(key);
+      throw error;
+    }) : Promise.resolve({ entries: {}, forms: {} });
     loaded.set(key, pending);
   }
   return pending;

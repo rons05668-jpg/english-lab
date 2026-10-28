@@ -34,6 +34,7 @@ export function WordPopover({
   const [created, setCreated] = useState(false);
   const [saveState, setSaveState] = useState<'saving' | 'saved' | 'failed'>('saving');
   const [loading, setLoading] = useState(true);
+  const [lookupAttempt, setLookupAttempt] = useState(0);
   const [onlineState, setOnlineState] = useState<'idle' | 'loading' | 'failed'>('idle');
 
   const settings = getData().settings;
@@ -72,7 +73,7 @@ export function WordPopover({
         setResult(res);
         persist(res, true);
         setLoading(false);
-        if (res.pending && settings.onlineDictionary) void tryOnline(res.lemma);
+        if (res.pending && !res.dictionaryUnavailable && settings.onlineDictionary) void tryOnline(res.lemma);
       })
       .catch(() => {
         if (!alive) return;
@@ -83,7 +84,7 @@ export function WordPopover({
       alive = false;
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [surface, sentence, articleId]);
+  }, [surface, sentence, articleId, lookupAttempt]);
 
   const tryOnline = async (lemma: string) => {
     setOnlineState('loading');
@@ -188,11 +189,13 @@ export function WordPopover({
 
         {saveState === 'failed' ? <div className="callout callout--warn" role="alert">记录尚未成功保存。请检查浏览器存储权限或空间。<Button size="sm" onClick={() => { if (result) persist(result, false); }}>重试保存</Button></div> : null}
 
+        {!loading && result?.dictionaryUnavailable ? <div className="callout callout--warn" role="alert">词典数据暂时无法加载，请检查网络后重试。 <Button size="sm" onClick={() => setLookupAttempt((n) => n + 1)}>重试查词</Button></div> : null}
+
         {loading ? (
           <div className="skeleton skeleton--line" style={{ height: 44 }} />
         ) : result?.pending ? (
           <div className="callout callout--warn" style={{ marginBottom: 12 }}>
-            <strong>词典暂未收录该词。</strong>
+            <strong>{result.dictionaryUnavailable ? '暂时无法确认词典是否收录。' : '词典暂未收录该词。'}</strong>
             <div className="hint" style={{ marginTop: 4 }}>
               已先存入生词本并标记为「释义待补充」，不会编造释义。
               {settings.onlineDictionary ? null : '可在设置中开启在线词典查询。'}

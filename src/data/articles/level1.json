@@ -2097,7 +2097,7 @@
         "sentences": [
           {
             "en": "They talked for a few minutes and found that they lived on the same street.",
-            "zh": "她们聊了几分钟，发现彼此住在同一条街上。"
+            "zh": "两人聊了几分钟，发现彼此住在同一条街上。"
           },
           {
             "en": "Before leaving, Mia borrowed the book and checked the date of the next reading group.",
@@ -2181,7 +2181,7 @@
       },
       {
         "en": "They talked for a few minutes and found that they lived on the same street.",
-        "zh": "她们聊了几分钟，发现彼此住在同一条街上。",
+        "zh": "两人聊了几分钟，发现彼此住在同一条街上。",
         "main": "They talked and found something",
         "subject": "They",
         "predicate": "talked / found",
@@ -2203,7 +2203,7 @@
         ],
         "answer": 3,
         "evidence": "The town still felt new, but it no longer felt quite so lonely.",
-        "explain": "末句的孤独感减轻呼应图书馆里的交流，说明她开始融入新地方。",
+        "explain": "孤独感减轻呼应图书馆里的交流，说明她开始融入新地方。",
         "whyWrong": [
           "公交车站只是地点信息，并非旅程。",
           "文中没有购房计划。",
@@ -2232,7 +2232,7 @@
       {
         "id": "l1-09-q3",
         "type": "逻辑推断",
-        "question": "What may Mia do on another weekend?",
+        "question": "What might Mia do in the future?",
         "options": [
           "Move to the bus stop",
           "Attend a reading group",

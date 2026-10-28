@@ -78,18 +78,6 @@ export function Home() {
         </div>
       </div>
 
-      <div className="stat-strip">
-        <StatCard label="今日阅读" value={stats.todayArticles} hint="篇（今日完成）" tone="accent" />
-        <StatCard label="今日待复习" value={stats.dueToday} hint="词" tone="orange" onClick={() => navigate('/review')} />
-        <StatCard label="生词本" value={stats.vocabTotal} hint={`已掌握 ${stats.vocabMastered}`} tone="purple" onClick={() => navigate('/notebook')} />
-        <StatCard
-          label="理解正确率"
-          value={stats.quizQuestionTotal ? `${Math.round(stats.quizAccuracy * 100)}%` : '—'}
-          hint={`${stats.quizAttempts} 次测试`}
-          tone="green"
-        />
-      </div>
-
       <div className="home-grid">
         <Card className="hero-card">
           <div className="hero-card__text">
@@ -161,6 +149,18 @@ export function Home() {
             进入复习
           </Button>
         </Card>
+      </div>
+
+      <div className="stat-strip">
+        <StatCard label="今日阅读" value={stats.todayArticles} hint="篇（今日完成）" tone="accent" />
+        <StatCard label="今日待复习" value={stats.dueToday} hint="词" tone="orange" onClick={() => navigate('/review')} />
+        <StatCard label="生词本" value={stats.vocabTotal} hint={`已掌握 ${stats.vocabMastered}`} tone="purple" onClick={() => navigate('/notebook')} />
+        <StatCard
+          label="理解正确率"
+          value={stats.quizQuestionTotal ? `${Math.round(stats.quizAccuracy * 100)}%` : '—'}
+          hint={`${stats.quizAttempts} 次测试`}
+          tone="green"
+        />
       </div>
 
       <div className="section-title">
