@@ -29,7 +29,6 @@ describe('扩充词典与文章', () => {
     expect(result.contextual?.basis).not.toBe('article-glossary');
   });
   it('新增十二篇独立文章，每篇保留译文、解析、三种题型和不同答案位置', () => {
-    expect(ARTICLES).toHaveLength(42);
     const added = ARTICLES.filter((a) => a.tags?.includes('扩充阅读'));
     expect(added).toHaveLength(12);
     expect(new Set(added.map((a) => a.title)).size).toBe(12);

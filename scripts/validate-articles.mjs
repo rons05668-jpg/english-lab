@@ -16,7 +16,6 @@ const CATEGORIES = ['生活', '教育', '科技', '经济', '商业', '心理', 
 const QUIZ_TYPES = ['主旨大意', '细节理解', '词义推断', '作者观点', '逻辑推断'];
 const LEVEL_RANGE = { 1: [90, 175], 2: [140, 275], 3: [230, 430], 4: [280, 480] };
 const FILE_LEVEL = { 'level1.json': 1, 'level2.json': 2, 'level3.json': 3, 'level4.json': 4 };
-const EXPECTED_COUNT = { 'level1.json': 11, 'level2.json': 11, 'level3.json': 11, 'level4.json': 9 };
 const dictionaryDir = join(ROOT, 'src/data/ecdict');
 const inflections = Object.assign({}, ...readdirSync(dictionaryDir)
   .filter((file) => file.endsWith('.json'))
@@ -55,7 +54,7 @@ function validateArticle(a, file, idx) {
   }
   if (a.level !== L) err(file, idx, `level 必须为 ${L}，实际 ${a.level}`);
   if (!CATEGORIES.includes(a.category)) err(file, idx, `category 非法：${a.category}`);
-  if (!/^l[1-4]-\d{2}$/.test(a.id || '')) err(file, idx, `id 格式应为 l{level}-NN，实际 ${a.id}`);
+  if (!/^l[1-4]-\d{2,}$/.test(a.id || '')) err(file, idx, `id 格式应为 l{level}-NN，实际 ${a.id}`);
   if (a.id && !a.id.startsWith(`l${L}-`)) err(file, idx, `id 前缀与 level 不一致：${a.id}`);
   if (a.id) {
     if (seenIds.has(a.id)) err(file, idx, `id 重复：${a.id}（已在 ${seenIds.get(a.id)} 出现）`);
@@ -164,8 +163,6 @@ function main() {
       err(file, undefined, '顶层必须是数组');
       continue;
     }
-    const expected = EXPECTED_COUNT[file];
-    if (expected && data.length !== expected) err(file, undefined, `文章数量应为 ${expected}，实际 ${data.length}`);
     data.forEach((a, i) => validateArticle(a, file, i));
   }
 

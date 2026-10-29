@@ -2655,5 +2655,417 @@
     ],
     "source": "English Lab 原创教学短文；人物及情境为虚构示例，不代表真实研究或新闻报道",
     "license": "English Lab original educational content"
+  },
+  {
+    "id": "l1-12",
+    "title": "A Pool Visit",
+    "titleZh": "去游泳馆",
+    "category": "健康与运动",
+    "tags": [
+      "游泳",
+      "校园生活"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "Chen arrives at the university sports center with his swimming bag.",
+            "zh": "陈带着游泳包来到大学体育中心。"
+          },
+          {
+            "en": "He usually swims on Tuesday mornings, but today the pool door is closed.",
+            "zh": "他通常周二上午游泳，但今天泳池的门关着。"
+          },
+          {
+            "en": "At the front desk, a woman is answering the phone.",
+            "zh": "服务台前，一位女士正在接电话。"
+          },
+          {
+            "en": "Chen waits until she finishes, then asks if the pool is open.",
+            "zh": "陈等她接完电话，然后问泳池是否开放。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The woman explains that a class is using it until ten.",
+            "zh": "女士解释说，有一个班要使用泳池到十点。"
+          },
+          {
+            "en": "Chen looks at his watch; it is half past nine.",
+            "zh": "陈看了看手表，现在是九点半。"
+          },
+          {
+            "en": "He does not want to go home and come back half an hour later.",
+            "zh": "他不想回家，半小时后再回来。"
+          },
+          {
+            "en": "Instead, he asks where he can wait.",
+            "zh": "于是，他问可以在哪里等候。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "The woman points to chairs near the window.",
+            "zh": "女士指了指窗边的椅子。"
+          },
+          {
+            "en": "Chen sits down and reads a few pages of his book.",
+            "zh": "陈坐下来读了几页书。"
+          },
+          {
+            "en": "At ten, he puts the book away and walks to the changing room.",
+            "zh": "十点时，他把书收好，走向更衣室。"
+          }
+        ]
+      }
+    ],
+    "glossary": {
+      "arrive": "v. 到达",
+      "university": "n. 大学",
+      "sports": "n. 体育活动",
+      "center": "n. 中心",
+      "swimming": "n. 游泳",
+      "bag": "n. 包",
+      "usually": "adv. 通常",
+      "pool": "n. 泳池",
+      "door": "n. 门",
+      "closed": "adj. 关闭的",
+      "front": "adj. 前面的",
+      "desk": "n. 服务台",
+      "answer": "v. 接听",
+      "phone": "n. 电话",
+      "wait": "v. 等待",
+      "finish": "v. 完成",
+      "ask": "v. 询问",
+      "open": "adj. 开放的",
+      "explain": "v. 解释",
+      "class": "n. 班级",
+      "watch": "n. 手表",
+      "instead": "adv. 而是",
+      "point": "v. 指",
+      "chair": "n. 椅子",
+      "window": "n. 窗户",
+      "page": "n. 页",
+      "book": "n. 书",
+      "changing": "adj. 更衣用的",
+      "room": "n. 房间"
+    },
+    "keyVocab": [
+      {
+        "word": "pool",
+        "pos": "n.",
+        "gloss": "泳池"
+      },
+      {
+        "word": "explain",
+        "pos": "v.",
+        "gloss": "解释"
+      },
+      {
+        "word": "instead",
+        "pos": "adv.",
+        "gloss": "而是；作为替代"
+      },
+      {
+        "word": "point",
+        "pos": "v.",
+        "gloss": "指向"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "He usually swims on Tuesday mornings, but today the pool door is closed.",
+        "zh": "他通常周二上午游泳，但今天泳池的门关着。",
+        "main": "He usually swims; the pool door is closed",
+        "subject": "He；the pool door",
+        "predicate": "swims；is closed",
+        "object": "无；closed 为表语",
+        "modifiers": "on Tuesday mornings 表示通常的时间；today 表示今天。",
+        "logic": "but 连接平时的习惯与今天的情况。"
+      },
+      {
+        "en": "Chen waits until she finishes, then asks if the pool is open.",
+        "zh": "陈等她接完电话，然后问泳池是否开放。",
+        "main": "Chen waits, then asks",
+        "subject": "Chen",
+        "predicate": "waits；asks",
+        "object": "if the pool is open 是 asks 的内容",
+        "modifiers": "until she finishes 表示等待持续到她完成为止。",
+        "logic": "先等待，再询问；if 引出是否开放的问题。"
+      }
+    ],
+    "quiz": [
+      {
+        "type": "主旨大意",
+        "question": "What is the story mainly about?",
+        "options": [
+          "Chen waits for the pool to become available",
+          "Chen teaches a swimming class",
+          "The sports center closes for a week",
+          "Chen buys a new watch"
+        ],
+        "answer": 0,
+        "evidence": "The woman explains that a class is using it until ten.",
+        "explain": "陈得知泳池被班级使用后，在馆内等到十点。",
+        "whyWrong": [
+          "他没有教游泳课。",
+          "文中只是暂时有班级使用泳池。",
+          "手表用来看时间，并非购买对象。"
+        ],
+        "id": "l1-12-q1"
+      },
+      {
+        "type": "细节理解",
+        "question": "How long does Chen need to wait?",
+        "options": [
+          "Ten minutes",
+          "Half an hour",
+          "One hour",
+          "Two hours"
+        ],
+        "answer": 1,
+        "evidence": "Chen looks at his watch; it is half past nine.",
+        "explain": "当前九点半，泳池十点可用，因此需要等半小时。",
+        "whyWrong": [
+          "九点半到十点不是十分钟。",
+          "从九点半到十点不到一小时。",
+          "从九点半到十点不是两小时。"
+        ],
+        "id": "l1-12-q2"
+      },
+      {
+        "type": "逻辑推断",
+        "question": "Why does Chen read near the window?",
+        "options": [
+          "He wants to teach the class",
+          "He is waiting inside the center",
+          "He has lost his swimming bag",
+          "He is looking for his watch"
+        ],
+        "answer": 1,
+        "evidence": "The woman points to chairs near the window.",
+        "explain": "他不想往返家中，便在服务台建议的窗边座位等候。",
+        "whyWrong": [
+          "文中没有他教学的计划。",
+          "他带着游泳包到达，没有提到丢失。",
+          "他已经用手表看过时间。"
+        ],
+        "id": "l1-12-q3"
+      }
+    ],
+    "level": 1,
+    "source": "English Lab 原创教学短文；人物及情境为虚构示例",
+    "license": "English Lab original educational content"
+  },
+  {
+    "id": "l1-13",
+    "title": "A Better Reading App",
+    "titleZh": "让阅读应用更好用",
+    "category": "科技",
+    "tags": [
+      "阅读",
+      "应用设计"
+    ],
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "en": "Nora is trying a reading app that her friend Dan made for a class project.",
+            "zh": "诺拉正在试用朋友丹为课堂项目制作的阅读应用。"
+          },
+          {
+            "en": "The app shows short English stories and lets readers save new words.",
+            "zh": "应用展示英语短篇故事，也让读者保存生词。"
+          },
+          {
+            "en": "Nora opens a story and starts reading on her tablet.",
+            "zh": "诺拉在平板电脑上打开一篇故事，开始阅读。"
+          },
+          {
+            "en": "When she taps an unfamiliar word, nothing happens.",
+            "zh": "当她轻点一个不认识的词时，什么也没有发生。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Dan shows her a button that opens a dictionary on another page.",
+            "zh": "丹向她展示了一个按钮，点击后会在另一页打开词典。"
+          },
+          {
+            "en": "Nora finds the meaning, but she loses her place in the story.",
+            "zh": "诺拉找到了释义，却忘记了故事读到哪里。"
+          },
+          {
+            "en": "Dan watches her and writes down what happened.",
+            "zh": "丹观察着她，记下了发生的情况。"
+          },
+          {
+            "en": "He asks what would make reading easier.",
+            "zh": "他问怎样才能让阅读更方便。"
+          }
+        ]
+      },
+      {
+        "sentences": [
+          {
+            "en": "Nora says she wants to see the meaning without leaving the text.",
+            "zh": "诺拉说她想在不离开正文的情况下查看释义。"
+          },
+          {
+            "en": "Dan plans to show a small explanation beside the word.",
+            "zh": "丹计划在单词旁边显示简短解释。"
+          },
+          {
+            "en": "He will ask Nora to try the new version before making further changes.",
+            "zh": "在做进一步修改之前，他会请诺拉试用新版本。"
+          }
+        ]
+      }
+    ],
+    "glossary": {
+      "try": "v. 试用",
+      "reading": "n. 阅读",
+      "app": "n. 应用程序",
+      "friend": "n. 朋友",
+      "make": "v. 制作",
+      "class": "n. 课堂",
+      "project": "n. 项目",
+      "show": "v. 展示",
+      "short": "adj. 短的",
+      "story": "n. 故事",
+      "reader": "n. 读者",
+      "save": "v. 保存",
+      "word": "n. 单词",
+      "open": "v. 打开",
+      "tablet": "n. 平板电脑",
+      "tap": "v. 轻点",
+      "unfamiliar": "adj. 不熟悉的",
+      "happen": "v. 发生",
+      "button": "n. 按钮",
+      "dictionary": "n. 词典",
+      "page": "n. 页面",
+      "meaning": "n. 含义",
+      "lose": "v. 失去",
+      "place": "n. 位置",
+      "watch": "v. 观察",
+      "write": "v. 写",
+      "ask": "v. 询问",
+      "text": "n. 正文",
+      "explanation": "n. 解释",
+      "version": "n. 版本",
+      "change": "n. 改动"
+    },
+    "keyVocab": [
+      {
+        "word": "unfamiliar",
+        "pos": "adj.",
+        "gloss": "不熟悉的"
+      },
+      {
+        "word": "meaning",
+        "pos": "n.",
+        "gloss": "含义"
+      },
+      {
+        "word": "explanation",
+        "pos": "n.",
+        "gloss": "解释"
+      },
+      {
+        "word": "version",
+        "pos": "n.",
+        "gloss": "版本"
+      }
+    ],
+    "grammar": [
+      {
+        "en": "When she taps an unfamiliar word, nothing happens.",
+        "zh": "当她轻点一个不认识的词时，什么也没有发生。",
+        "main": "nothing happens",
+        "subject": "nothing",
+        "predicate": "happens",
+        "object": "无",
+        "modifiers": "when 引导时间状语从句；unfamiliar 修饰 word。",
+        "logic": "先交代轻点单词的动作，再说明其结果。"
+      },
+      {
+        "en": "Nora says she wants to see the meaning without leaving the text.",
+        "zh": "诺拉说她想在不离开正文的情况下查看释义。",
+        "main": "Nora says (that) she wants to see the meaning",
+        "subject": "Nora；从句主语 she",
+        "predicate": "says；从句谓语 wants",
+        "object": "省略 that 的宾语从句；the meaning 是 see 的宾语",
+        "modifiers": "without leaving the text 表示不离开正文；without 后接动词 ing 形式。",
+        "logic": "主句引出诺拉的想法，从句说明她的需求。"
+      }
+    ],
+    "quiz": [
+      {
+        "type": "主旨大意",
+        "question": "What is the main idea of the story?",
+        "options": [
+          "A reader helps improve an app",
+          "Dan closes his project",
+          "Nora writes a dictionary",
+          "A tablet stops working"
+        ],
+        "answer": 0,
+        "evidence": "Dan plans to show a small explanation beside the word.",
+        "explain": "诺拉试用并提出需求，丹据此计划改进查词体验。",
+        "whyWrong": [
+          "丹计划继续改进项目。",
+          "诺拉使用词典，没有编写词典。",
+          "问题是查词需要离开正文，不是设备故障。"
+        ],
+        "id": "l1-13-q1"
+      },
+      {
+        "type": "细节理解",
+        "question": "What happens when Nora taps an unfamiliar word?",
+        "options": [
+          "The word is saved automatically",
+          "A translation appears",
+          "Nothing happens",
+          "The tablet turns off"
+        ],
+        "answer": 2,
+        "evidence": "When she taps an unfamiliar word, nothing happens.",
+        "explain": "正文直接说明轻点单词后没有反应。",
+        "whyWrong": [
+          "此处没有说点击后自动保存。",
+          "点击时没有出现翻译。",
+          "平板没有因此关机。"
+        ],
+        "id": "l1-13-q2"
+      },
+      {
+        "type": "逻辑推断",
+        "question": "Why does Dan plan to show an explanation beside the word?",
+        "options": [
+          "To help Nora stay with the text",
+          "To make the story longer",
+          "To remove all English words",
+          "To stop readers using tablets"
+        ],
+        "answer": 0,
+        "evidence": "Nora says she wants to see the meaning without leaving the text.",
+        "explain": "诺拉希望查词时不离开正文，旁边显示解释回应了这个需求。",
+        "whyWrong": [
+          "改动针对查词过程，不是增加篇幅。",
+          "他没有计划删除英文单词。",
+          "他没有提出限制平板使用。"
+        ],
+        "id": "l1-13-q3"
+      }
+    ],
+    "level": 1,
+    "source": "English Lab 原创教学短文；人物及情境为虚构示例",
+    "license": "English Lab original educational content"
   }
 ]
