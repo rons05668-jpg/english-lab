@@ -2,39 +2,6 @@
    Extra — 组件层未覆盖的补充样式（加载顺序最后，用于兜底与覆盖）
    ========================================================================== */
 
-/* 浮层：正文之上必须保证对比度，玻璃只作视觉点缀。
-   不使用 backdrop-filter —— 该属性叠加动画层时在部分环境（无 GPU 合成）会导致背景丢失。 */
-.popover {
-  background: var(--surface);
-  overflow: hidden;
-}
-
-.popover__head {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 10px;
-  padding: 14px 16px 10px;
-  border-bottom: 1px solid var(--separator);
-}
-
-.popover__body {
-  padding: 12px 16px 14px;
-  overflow-y: auto;
-  overscroll-behavior: contain;
-  flex: 1 1 auto;
-  min-height: 0;
-}
-
-.popover__foot {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 12px;
-  border-top: 1px solid var(--separator);
-  background: var(--surface-2);
-}
-
 .vp-head__main {
   min-width: 0;
   flex: 1;
@@ -67,8 +34,8 @@
 }
 
 .vp-speak {
-  width: 22px;
-  height: 22px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   display: grid;
   place-items: center;
@@ -110,16 +77,6 @@
   white-space: nowrap;
 }
 
-/* 顶栏保持轻量，不重复页面标题 */
-.topbar {
-  height: 46px;
-  border-bottom: 1px solid var(--separator);
-}
-
-.topbar--sticky {
-  border-bottom-color: var(--separator);
-}
-
 .link-btn {
   display: inline-flex;
   align-items: center;
@@ -128,7 +85,7 @@
   font-size: var(--fs-12);
   font-weight: 500;
   padding: 2px 4px;
-  border-radius: var(--r-xs);
+  border-radius: var(--r-full);
   margin-left: auto;
   transition: background var(--dur-1);
 }
@@ -143,8 +100,8 @@
   align-items: center;
   gap: 8px;
   padding: 0 10px;
-  height: 34px;
-  border-radius: var(--r-sm);
+  height: 42px;
+  border-radius: var(--r-full);
   background: var(--surface);
   border: 1px solid var(--separator);
   color: var(--text-3);
@@ -180,35 +137,6 @@
   align-self: center;
 }
 
-.para-translate {
-  display: inline-block;
-  margin-left: 0.5em;
-  padding: 1px 7px;
-  border-radius: var(--r-full);
-  font-family: var(--font-ui);
-  font-size: 0.44em;
-  letter-spacing: 0.02em;
-  line-height: 1.6;
-  color: var(--reader-text-soft);
-  background: color-mix(in srgb, var(--reader-text) 7%, transparent);
-  vertical-align: middle;
-  opacity: 0.55;
-  transition: opacity var(--dur-1), background var(--dur-1), color var(--dur-1);
-}
-
-.para-translate:hover,
-.para-translate:focus-visible {
-  opacity: 1;
-  background: var(--accent-soft);
-  color: var(--accent);
-}
-
-@media (max-width: 860px) {
-  .para-translate {
-    opacity: 0.9;
-    font-size: 0.42em;
-  }
-}
 
 mark {
   background: var(--accent-soft-2);
@@ -699,9 +627,6 @@ mark {
 .stat-strip { margin: 20px 0 8px; gap: 1px; overflow: hidden; border: 1px solid var(--separator); border-radius: var(--r-lg); background: var(--separator); }
 .stat-strip .stat-card { border: 0; border-radius: 0; box-shadow: none; padding: 18px 20px; }
 .stat-strip .stat-card__value { color: var(--text-1); font-size: 25px; }
-.nav-item[aria-current='page'] { color: var(--accent); background: var(--accent-soft); box-shadow: none; }
-.nav-item[aria-current='page'] .nav-item__badge { color: var(--text-inverse); background: var(--red); }
-.sidebar__logo { background: var(--accent); box-shadow: none; }
 .card { box-shadow: none; }
 @media (max-width: 640px) {
   .hero-card { min-height: 220px; padding: 24px; }

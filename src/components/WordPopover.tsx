@@ -29,6 +29,7 @@ export function WordPopover({
   articleTitle: string;
   onClose: () => void;
 }) {
+  const [expanded, setExpanded] = useState(false);
   const [result, setResult] = useState<LookupResult | null>(null);
   const [entry, setEntry] = useState<VocabularyEntry | null>(null);
   const [created, setCreated] = useState(false);
@@ -66,6 +67,7 @@ export function WordPopover({
   useEffect(() => {
     let alive = true;
     setLoading(true);
+    setExpanded(false);
     setSaveState('saving');
     dictionaryService.lookup(surface, { sentence, articleId, online: false })
       .then((res) => {
@@ -230,16 +232,19 @@ export function WordPopover({
                   ) : null}
                 </div>
                 <div style={{ fontSize: 15, lineHeight: 1.55 }}>{result.contextual.text}</div>
-                <div className="hint" style={{ marginTop: 6, fontStyle: 'italic' }}>
-                  “{sentence.length > 96 ? sentence.slice(0, 96) + '…' : sentence}”
-                </div>
               </div>
             ) : (
               <div className="callout callout--info" style={{ marginBottom: 12 }}>
-                无法从上下文可靠判断具体含义，下面是词典常见义项。
+                无法从上下文可靠判断具体含义，可展开查看词典常见义项。
               </div>
             )}
 
+            <button className="vp-disclosure" aria-expanded={expanded} aria-controls="word-popover-details" onClick={() => setExpanded(value => !value)}>
+              <span>{expanded ? '收起释义' : '更多释义'}</span>
+              <Icon name={expanded ? 'up' : 'down'} size={16} />
+            </button>
+            {expanded ? <div className="vp-details" id="word-popover-details">
+            <p className="hint" style={{ marginBottom: 12, fontStyle: 'italic' }}>“{sentence}”</p>
             {result?.senses.length ? (
               <div className="wd__section" style={{ marginTop: 14 }}>
                 <div className="section-title" style={{ margin: '0 0 8px' }}>
@@ -329,11 +334,12 @@ export function WordPopover({
               </p>
             ) : null}
             {result?.source === 'ecdict' ? <p className="hint">来源：<a href="https://github.com/skywind3000/ECDICT" target="_blank" rel="noreferrer">ECDICT</a>（MIT）。以下为词典常见义，未经逐条人工校订；当前语境请优先参考本文标注。<a href="/licenses/ECDICT-LICENSE.txt">许可说明</a></p> : null}
+            </div> : null}
           </>
         )}
       </div>
 
-      <div className="popover__foot">
+      {expanded ? <div className="popover__foot">
         <Button
           size="sm"
           variant="ghost"
@@ -355,7 +361,7 @@ export function WordPopover({
         >
           详细解析
         </Button>
-      </div>
+      </div> : null}
     </div>
   );
 }

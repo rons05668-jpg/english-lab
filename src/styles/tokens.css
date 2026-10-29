@@ -45,6 +45,8 @@
   --r-lg: 16px;
   --r-xl: 20px;
   --r-2xl: 26px;
+  --r-panel: 32px;
+  --r-control: 999px;
   --r-full: 999px;
 
   /* 动效 */
@@ -56,22 +58,23 @@
   --dur-4: 380ms;
 
   /* 布局 */
-  --sidebar-w: 236px;
-  --sidebar-w-collapsed: 72px;
+  --sidebar-w: 260px;
+  --sidebar-w-collapsed: 76px;
+  --shell-inset: 16px;
   --panel-w: 340px;
   --content-max: 940px;
   --reading-max: 35em;
-  --topbar-h: 56px;
+  --topbar-h: 72px;
 
   /* ---- 浅色主题 ---- */
-  --bg: #f5f5f7;
+  --bg: #faf8f3;
   --bg-elevated: #ffffff;
   --surface: #ffffff;
   --surface-2: #fbfbfd;
   --surface-3: #f0f0f3;
   --text-1: #1d1d1f;
-  --text-2: #6e6e73;
-  --text-3: #86868b;
+  --text-2: #63656c;
+  --text-3: #74767d;
   --text-inverse: #ffffff;
   --accent: #007aff;
   --accent-hover: #0071e3;
@@ -82,10 +85,23 @@
   --fill-quaternary: rgba(120, 120, 128, 0.08);
   --fill-tertiary: rgba(120, 120, 128, 0.12);
   --fill-secondary: rgba(120, 120, 128, 0.16);
-  --glass-bg: rgba(255, 255, 255, 0.72);
-  --glass-solid: rgba(255, 255, 255, 0.965);
-  --glass-border: rgba(255, 255, 255, 0.6);
-  --glass-blur: saturate(180%) blur(22px);
+  /* Glass is reserved for navigation, floating controls, and transient panels. */
+  --glass-navigation: rgba(235, 241, 244, 0.64);
+  --glass-control: rgba(255, 255, 255, 0.76);
+  --glass-panel: rgba(255, 255, 255, 0.9);
+  --glass-bg: var(--glass-control);
+  --glass-solid: rgba(255, 255, 255, 0.98);
+  --glass-border: rgba(255, 255, 255, 0.88);
+  --glass-edge: rgba(255, 255, 255, 0.95);
+  --glass-blur: saturate(155%) blur(24px);
+  --glass-shadow: 0 12px 32px rgba(48, 58, 76, 0.08), inset 0 1px 1px var(--glass-edge), inset 0 0 0 1px rgba(255, 255, 255, 0.42);
+  --glass-selection: rgba(210, 230, 255, 0.66);
+  --glass-selection-edge: rgba(255, 255, 255, 0.88);
+  --z-navigation: 30;
+  --z-toolbar: 36;
+  --z-inspector: 46;
+  --z-popover: 50;
+  --z-dialog: 55;
 
   /* 语义色 */
   --green: #34c759;
@@ -108,18 +124,18 @@
   --shadow-inset: inset 0 0 0 0.5px rgba(0, 0, 0, 0.06);
 
   /* 阅读区（默认纸张） */
-  --reader-bg: #fdfcfa;
+  --reader-bg: #faf8f3;
   --reader-text: #1f1f21;
   --reader-text-soft: #6b6b70;
   --reader-accent: #007aff;
-  --reader-size: 19px;
+  --reader-size: 22px;
   --reader-lh: 1.78;
   --reader-font: var(--font-reading);
   --reader-measure: 34em;
 }
 
 [data-theme='dark'] {
-  --bg: #1c1c1e;
+  --bg: #1c1d20;
   --bg-elevated: #242426;
   --surface: #242426;
   --surface-2: #2c2c2e;
@@ -137,9 +153,15 @@
   --fill-quaternary: rgba(120, 120, 128, 0.14);
   --fill-tertiary: rgba(120, 120, 128, 0.2);
   --fill-secondary: rgba(120, 120, 128, 0.28);
-  --glass-bg: rgba(36, 36, 38, 0.72);
-  --glass-solid: rgba(38, 38, 40, 0.97);
-  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-navigation: rgba(43, 49, 58, 0.72);
+  --glass-control: rgba(48, 50, 56, 0.78);
+  --glass-panel: rgba(40, 42, 47, 0.94);
+  --glass-solid: rgba(38, 40, 45, 0.99);
+  --glass-border: rgba(255, 255, 255, 0.14);
+  --glass-edge: rgba(255, 255, 255, 0.18);
+  --glass-shadow: 0 14px 36px rgba(0, 0, 0, 0.25), inset 0 1px 1px var(--glass-edge), inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+  --glass-selection: rgba(38, 90, 159, 0.4);
+  --glass-selection-edge: rgba(130, 183, 255, 0.2);
 
   --green: #30d158;
   --green-soft: rgba(48, 209, 88, 0.16);
@@ -165,7 +187,7 @@
 
 /* 阅读主题（覆盖阅读区局部变量） */
 .reader[data-reader-theme='paper'] {
-  --reader-bg: #fdfcfa;
+  --reader-bg: #faf8f3;
   --reader-text: #1f1f21;
   --reader-text-soft: #6b6b70;
 }
@@ -194,4 +216,56 @@
   --reader-bg: #26221c;
   --reader-text: #e8e0d2;
   --reader-text-soft: #a99e8b;
+}
+
+/* Accessible materials share the same geometry without depending on blur. */
+@media (prefers-reduced-transparency: reduce) {
+  :root {
+    --glass-navigation: #edf1f3;
+    --glass-control: #fdfdfd;
+    --glass-panel: #ffffff;
+    --glass-blur: none;
+    --glass-selection: #dcecff;
+  }
+  [data-theme='dark'] {
+    --glass-navigation: #292f37;
+    --glass-control: #303238;
+    --glass-panel: #282a2f;
+    --glass-selection: #203e64;
+  }
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    --text-2: #41434a;
+    --text-3: #52545b;
+    --separator: #a5a7ae;
+    --glass-border: #9da2ab;
+    --glass-blur: none;
+    --glass-navigation: #edf1f3;
+    --glass-control: #ffffff;
+    --glass-panel: #ffffff;
+  }
+  [data-theme='dark'] {
+    --text-2: #e1e3e8;
+    --text-3: #c8cbd3;
+    --separator: #757b86;
+    --glass-border: #9298a3;
+    --glass-navigation: #292f37;
+    --glass-control: #303238;
+    --glass-panel: #282a2f;
+  }
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  :root {
+    --glass-navigation: #edf1f3;
+    --glass-control: #fdfdfd;
+    --glass-panel: #ffffff;
+  }
+  [data-theme='dark'] {
+    --glass-navigation: #292f37;
+    --glass-control: #303238;
+    --glass-panel: #282a2f;
+  }
 }

@@ -424,10 +424,9 @@ export function Popover({
       const h = el.offsetHeight;
       const w = Math.min(width, window.innerWidth - 16);
       const margin = 10;
-      const spaceBelow = window.innerHeight - anchor.bottom;
       const spaceAbove = anchor.top;
       const placement: 'top' | 'bottom' =
-        spaceBelow >= h + margin || spaceBelow >= spaceAbove ? 'bottom' : 'top';
+        spaceAbove >= h + margin ? 'top' : 'bottom';
       const rawTop = placement === 'bottom' ? anchor.bottom + margin : Math.max(8, anchor.top - h - margin);
       // 内容异步加载后高度会变化，这里每次重新收敛到视口内
       const top = Math.max(8, Math.min(rawTop, window.innerHeight - h - 8));

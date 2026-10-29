@@ -10,6 +10,12 @@ import { todayKey } from '../lib/text';
 
 const UI_KEY = 'english-lab:ui';
 
+function navigationSection(route: Route): Route['name'] {
+  if (route.name === 'reader' || route.name === 'quiz') return 'library';
+  if (route.name === 'word') return 'notebook';
+  return route.name;
+}
+
 function readCollapsed(): boolean {
   try {
     return localStorage.getItem(UI_KEY) === 'collapsed';
@@ -57,17 +63,18 @@ export function Sidebar({ route }: { route: Route }) {
 
       <nav aria-label="页面导航">
         {NAV_ITEMS.map((item) => {
-          const active = route.name === item.name;
+          const active = navigationSection(route) === item.name;
           return (
             <a
               key={item.name}
               href={href(item.path)}
               className="nav-item"
               aria-current={active ? 'page' : undefined}
+              aria-label={item.label}
               title={collapsed ? item.label : undefined}
             >
               <span className="nav-item__icon">
-                <Icon name={item.icon} size={18} />
+                <Icon name={item.icon} size={22} />
               </span>
               {!collapsed && <span>{item.label}</span>}
               {!collapsed && item.name === 'review' && due > 0 ? (
@@ -85,7 +92,7 @@ export function Sidebar({ route }: { route: Route }) {
               <Icon name="flame" size={15} />
               <span>连续学习 {streak} 天</span>
             </div>
-            <div className="sidebar__streak" style={{ background: 'var(--fill-quaternary)' }}>
+            <div className="sidebar__streak">
               <Icon name="notebook" size={15} />
               <span>生词本 {total} 词</span>
             </div>
@@ -160,7 +167,7 @@ export function Tabbar({ route }: { route: Route }) {
           key={item.name}
           href={href(item.path)}
           className="tabbar__item"
-          aria-current={route.name === item.name ? 'page' : undefined}
+          aria-current={navigationSection(route) === item.name ? 'page' : undefined}
         >
           <Icon name={item.icon} size={20} />
           <span>{item.label.replace('我的', '')}</span>

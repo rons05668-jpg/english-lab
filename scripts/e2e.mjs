@@ -88,7 +88,14 @@ const hasPhonetic = await page.locator('.vocab-card__phon').count();
 check('显示音标', hasPhonetic > 0, `${hasPhonetic} 条音标`);
 const ctxText = await page.locator('.vocab-card__ctx').first().innerText().catch(() => '');
 check('显示当前语境释义', ctxText.length > 4, ctxText.replace(/\n/g, ' ').slice(0, 40));
-check('显示固定搭配', (await page.locator('.vocab-card .chip').count()) > 0);
+const detailsToggle = page.locator('.vocab-card').getByRole('button', { name: '更多释义', exact: true });
+check('单词浮层默认收起扩展释义', (await detailsToggle.getAttribute('aria-expanded')) === 'false' && (await page.locator('.vocab-card .vp-details').count()) === 0);
+await detailsToggle.click();
+await page.locator('.vocab-card .vp-details').waitFor({ state: 'visible' });
+check('展开更多释义后显示词典义项', await page.locator('.vocab-card .vp-details .sense').first().isVisible());
+check('展开更多释义后显示固定搭配', (await page.locator('.vocab-card .vp-details .chip').count()) > 0);
+await page.locator('.vocab-card').getByRole('button', { name: '收起释义', exact: true }).click();
+check('扩展释义可以再次收起', (await page.locator('.vocab-card .vp-details').count()) === 0);
 
 await page.keyboard.press('Escape');
 await settle(500);
@@ -255,18 +262,53 @@ await page.locator('.para-translate').first().click();
 await settle(300);
 const afterZh = await page.locator('.sent-zh').count();
 check('段落译文开关展开译文', afterZh > beforeZh, `${beforeZh} → ${afterZh}`);
-await page.locator('.reader__sentence').nth(0).click({ position: { x: 2, y: 2 } }).catch(() => {});
-await settle(200);
-// 字号调整
+const sentenceZhBefore = await page.locator('.sent-zh').count();
+await page.locator('.reader__sentence').first().press('Enter');
+check('回车可收起已展开的句子译文', (await page.locator('.sent-zh').count()) === sentenceZhBefore - 1);
+// 字号与行距在字体设置浮层中调整。
 const sizeBefore = await page.evaluate(() => getComputedStyle(document.querySelector('.reader__article')).fontSize);
-await page.locator('.tool-btn[aria-label="增大字号"]').click();
+await page.getByRole('button', { name: '字体设置', exact: true }).click();
+await page.locator('.reader-settings').waitFor({ state: 'visible' });
+check('字体设置浮层可打开', await page.locator('.reader-settings').isVisible());
+await page.locator('.reader-settings').getByRole('button', { name: '增大字号', exact: true }).click();
 await settle(250);
 const sizeAfter = await page.evaluate(() => getComputedStyle(document.querySelector('.reader__article')).fontSize);
 check('字号可调', parseFloat(sizeAfter) > parseFloat(sizeBefore), `${sizeBefore} → ${sizeAfter}`);
-// 侧边面板
+const lineHeightBefore = (await data()).settings.lineHeight;
+await page.locator('.reader-settings').getByRole('button', { name: '增大行距', exact: true }).click();
+check('行距可调并保存', (await data()).settings.lineHeight > lineHeightBefore);
+await page.getByRole('button', { name: '关闭阅读设置', exact: true }).click();
+await page.locator('.reader-settings').waitFor({ state: 'hidden' });
+check('字体设置浮层可关闭', !(await page.locator('.reader-settings').isVisible()));
+// 主题设置浮层保留四种阅读主题及生词标记控制。
+const originalReadingTheme = (await data()).settings.readingTheme;
+await page.getByRole('button', { name: '阅读主题设置', exact: true }).click();
+await page.locator('.reader-settings').waitFor({ state: 'visible' });
+check('阅读主题提供四个选项', (await page.locator('.reader-theme-option').count()) === 4);
+await page.getByRole('button', { name: '阅读主题 night', exact: true }).click();
+check('夜间阅读主题生效并保存', (await page.locator('.reader').getAttribute('data-reader-theme')) === 'night' && (await data()).settings.readingTheme === 'night');
+await page.getByRole('button', { name: `阅读主题 ${originalReadingTheme}`, exact: true }).click();
+const marksBefore = (await data()).settings.showVocabMarks;
+await page.getByRole('button', { name: '切换标记显示', exact: true }).click();
+check('生词标记开关保存偏好', (await data()).settings.showVocabMarks === !marksBefore);
+await page.getByRole('button', { name: '切换标记显示', exact: true }).click();
+await page.getByRole('button', { name: '关闭阅读设置', exact: true }).click();
+await page.locator('.reader-settings').waitFor({ state: 'hidden' });
+const sentenceCount = await page.locator('.reader__sentence').count();
+await page.getByRole('button', { name: '切换全文译文', exact: true }).click();
+check('工具栏可展开全文译文', (await page.locator('.sent-zh').count()) === sentenceCount && (await data()).settings.translationMode === 'always');
+await page.getByRole('button', { name: '切换全文译文', exact: true }).click();
+check('工具栏可收起全文译文', (await page.locator('.sent-zh').count()) === 0 && (await data()).settings.translationMode === 'hidden');
+// 侧边面板默认收起，按需打开后仍可访问语法解析。
+check('阅读器侧边面板默认收起', !(await page.locator('.reader__panel').isVisible()));
+await page.getByRole('button', { name: '打开侧边面板', exact: true }).click();
+await page.locator('.reader__panel').waitFor({ state: 'visible' });
 await page.locator('.reader__panel-head .segmented__item', { hasText: '语法' }).click();
-await settle(200);
 check('语法面板可展开', (await page.locator('.grammar-card').count()) > 0);
+await page.locator('.grammar-card summary').first().click();
+check('语法解析内容可以展开', await page.locator('.grammar-card[open] dd').first().isVisible());
+await page.getByRole('button', { name: '关闭面板', exact: true }).click();
+check('侧边面板可以再次收起', !(await page.locator('.reader__panel').isVisible()));
 // 键盘可访问：句子可 Tab 聚焦并用回车展开
 const focusable = await page.evaluate(() => {
   const el = document.querySelector('.reader__sentence');

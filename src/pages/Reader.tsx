@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import type { Article } from '../data/types';
-import { articleMinutes, articleSentences, articleWords, getArticle, LEVELS } from '../data/articles';
+import type { Article, UserSettings } from '../data/types';
+import { articleSentences, articleWords, getArticle, LEVELS } from '../data/articles';
 import { lemmatize, normalizeWord } from '../lib/lemma';
 import { quickGloss } from '../lib/dict';
 import { markCompleted, saveProgress } from '../lib/db';
@@ -8,7 +8,7 @@ import { getData, setData, useData, flush } from '../lib/store';
 import { navigate } from '../lib/router';
 import { hasVoiceFor, speak, stopSpeaking } from '../lib/speech';
 import { tokenize } from '../lib/text';
-import { Badge, Button, Chip, Dialog, Empty, IconButton, Popover, Progress, Segmented, toast } from '../components/ui';
+import { Badge, Button, Dialog, Empty, IconButton, Popover, Progress, Segmented, toast } from '../components/ui';
 import { WordPopover } from '../components/WordPopover';
 import { Icon } from '../components/icons';
 
@@ -38,8 +38,9 @@ function ReaderInner({ article }: { article: Article }) {
   const settings = data.settings;
   const stageRef = useRef<HTMLDivElement>(null);
   const [activeWord, setActiveWord] = useState<{ surface: string; sentence: string; rect: DOMRect } | null>(null);
-  const [expanded, setExpanded] = useState<Set<number>>(new Set());
-  const [panelOpen, setPanelOpen] = useState(() => (typeof window === 'undefined' ? true : window.innerWidth > 1180));
+  const [expanded, setExpanded] = useState<Set<number>>(() => settings.translationMode === 'always' ? new Set(articleSentences(article).map((s) => s.globalIndex)) : new Set());
+  const [panelOpen, setPanelOpen] = useState(false);
+  const [toolMenu, setToolMenu] = useState<{ kind: 'font' | 'theme'; rect: DOMRect } | null>(null);
   const [panelTab, setPanelTab] = useState<PanelTab>('outline');
   const [focus, setFocus] = useState(settings.focusMode);
   const [speaking, setSpeaking] = useState(false);
@@ -59,7 +60,6 @@ function ReaderInner({ article }: { article: Article }) {
     return flat.map((s) => (acc += wc(s.en)));
   }, [flat]);
   const totalWords = useMemo(() => articleWords(article), [article]);
-  const minutes = useMemo(() => articleMinutes(article), [article]);
 
   const lemmaMap = useMemo(() => {
     const map = new Map<string, string>();
@@ -192,6 +192,21 @@ function ReaderInner({ article }: { article: Article }) {
     });
   };
 
+  const updateReadingSettings = (patch: Partial<UserSettings>) => {
+    const current = getData();
+    setData({ ...current, settings: { ...current.settings, ...patch } }, true);
+  };
+
+  const openToolMenu = (kind: 'font' | 'theme', e: React.MouseEvent<HTMLButtonElement>) => {
+    setToolMenu({ kind, rect: e.currentTarget.getBoundingClientRect() });
+  };
+
+  const allTranslated = expanded.size === flat.length;
+  const toggleAllTranslations = () => {
+    setExpanded(allTranslated ? new Set() : new Set(flat.map((s) => s.globalIndex)));
+    updateReadingSettings({ translationMode: allTranslated ? 'hidden' : 'always' });
+  };
+
   const toggleSpeak = () => {
     if (speaking) {
       stopSpeaking();
@@ -265,7 +280,7 @@ function ReaderInner({ article }: { article: Article }) {
       data-reader-theme={settings.readingTheme}
       style={
         {
-          '--reader-size': `${19 * settings.fontScale}px`,
+          '--reader-size': `${32 * settings.fontScale}px`,
           '--reader-lh': String(settings.lineHeight),
           '--reader-font': settings.readingFont === 'serif' ? 'var(--font-reading)' : 'var(--font-reading-sans)',
         } as React.CSSProperties
@@ -273,32 +288,23 @@ function ReaderInner({ article }: { article: Article }) {
     >
       <header className="reader__top">
         <IconButton icon="left" label="返回文章库" onClick={() => navigate('/library')} />
-        <div style={{ minWidth: 0, flex: 1 }}>
-          <div className="reader__title" title={article.title}>
-            {article.title}
-          </div>
-          <div className="reader__meta">
-            <Chip level={article.level} small>
-              Level {article.level} · {levelMeta?.name}
-            </Chip>
-            <span>{article.category}</span>
-            <span>{totalWords} 词</span>
-            <span>约 {minutes} 分钟</span>
-            {bestScore !== null ? <Badge tone={bestScore >= 80 ? 'green' : 'orange'}>理解 {bestScore}%</Badge> : null}
-          </div>
-        </div>
         <div className="reader__top-progress" title={`阅读进度 ${Math.round(progressRatio * 100)}%`}>
-          <Progress value={progressRatio} thin label="阅读进度" />
+          <Progress value={progressRatio} label="阅读进度" />
           <span className="mono">{Math.round(progressRatio * 100)}%</span>
         </div>
-        <IconButton icon="search" label="查词" onClick={() => setLookupOpen(true)} />
-        <IconButton
-          icon="panel"
-          label={panelOpen ? '收起侧边面板' : '打开侧边面板'}
-          active={panelOpen}
-          onClick={() => setPanelOpen((v) => !v)}
-        />
-        <IconButton icon={focus ? 'eye' : 'eyeOff'} label={focus ? '退出专注模式' : '专注模式'} onClick={() => setFocus((v) => !v)} />
+        <div className="reader__top-actions">
+          <IconButton icon="search" label="查词" onClick={() => setLookupOpen(true)} />
+          <IconButton
+            icon="panel"
+            label={panelOpen ? '收起侧边面板' : '打开侧边面板'}
+            active={panelOpen}
+            onClick={() => setPanelOpen((v) => !v)}
+          />
+          <IconButton icon={focus ? 'eye' : 'eyeOff'} label={focus ? '退出专注模式' : '专注模式'} onClick={() => setFocus((v) => !v)} />
+          <Button className="reader__complete" variant="primary" iconRight="arrowRight" onClick={finishReading}>
+            完成阅读
+          </Button>
+        </div>
       </header>
 
       <div className="reader__stage">
@@ -306,7 +312,8 @@ function ReaderInner({ article }: { article: Article }) {
           <article className="reader__article" lang="en">
             <h1 className="reader__headline">{article.title}</h1>
             <p className="reader__subhead">
-              {article.titleZh} · {article.category} · Level {article.level}
+              {article.titleZh} · {levelMeta?.name} · {totalWords} 词
+              {bestScore !== null ? <Badge tone={bestScore >= 80 ? 'green' : 'orange'}>理解 {bestScore}%</Badge> : null}
             </p>
 
             {article.paragraphs.map((p, pi) => (
@@ -374,7 +381,7 @@ function ReaderInner({ article }: { article: Article }) {
                 >
                   {flat.filter((f) => f.paraIndex === pi).every((f) => expanded.has(f.globalIndex))
                     ? '收起译文'
-                    : '全段译文'}
+                    : '译文'}
                 </button>
               </div>
             ))}
@@ -506,92 +513,76 @@ function ReaderInner({ article }: { article: Article }) {
         </aside>
       </div>
 
-      {/* 浮动阅读工具栏 */}
+      {/* Keep common reading controls together; detailed settings appear on demand. */}
       <div className="reader__toolbar" role="toolbar" aria-label="阅读设置">
-        <div className="tool-group">
-          <button
-            className="tool-btn"
-            aria-label="减小字号"
-            onClick={() => setData({ ...getData(), settings: { ...settings, fontScale: Math.max(0.85, +(settings.fontScale - 0.05).toFixed(2)) } }, true)}
-          >
-            A<span className="tool-btn__sign">−</span>
-          </button>
-          <span className="tool-label mono">{Math.round(settings.fontScale * 100)}%</span>
-          <button
-            className="tool-btn"
-            aria-label="增大字号"
-            onClick={() => setData({ ...getData(), settings: { ...settings, fontScale: Math.min(1.5, +(settings.fontScale + 0.05).toFixed(2)) } }, true)}
-          >
-            A<span className="tool-btn__sign">+</span>
-          </button>
-        </div>
-        <div className="tool-sep tool-sep--lines" />
-        <div className="tool-group tool-group--lines">
-          <button
-            className="tool-btn"
-            aria-label="减小行距"
-            onClick={() => setData({ ...getData(), settings: { ...settings, lineHeight: Math.max(1.4, +(settings.lineHeight - 0.1).toFixed(2)) } }, true)}
-          >
-            <Icon name="list" size={15} />
-          </button>
-          <span className="tool-label mono">{settings.lineHeight.toFixed(1)}</span>
-          <button
-            className="tool-btn"
-            aria-label="增大行距"
-            onClick={() => setData({ ...getData(), settings: { ...settings, lineHeight: Math.min(2.2, +(settings.lineHeight + 0.1).toFixed(2)) } }, true)}
-          >
-            <Icon name="sliders" size={15} />
-          </button>
-        </div>
-        <div className="tool-sep tool-sep--theme" />
-        <div className="tool-group tool-group--theme" role="group" aria-label="阅读主题">
-          {(['paper', 'plain', 'sepia', 'night'] as const).map((t) => (
-            <button
-              key={t}
-              className={`tool-swatch tool-swatch--${t}`}
-              aria-label={`阅读主题 ${t}`}
-              aria-pressed={settings.readingTheme === t}
-              onClick={() => setData({ ...getData(), settings: { ...settings, readingTheme: t } }, true)}
-            />
-          ))}
-        </div>
+        <button className="reading-tool" aria-label="字体设置" aria-haspopup="dialog" aria-expanded={toolMenu?.kind === 'font'} onClick={(e) => openToolMenu('font', e)}>
+          <Icon name="type" size={25} />
+          <span>字体</span>
+        </button>
         <div className="tool-sep" />
-        <button
-          className="tool-btn"
-          aria-label={speaking ? '停止朗读' : '朗读全文'}
-          aria-pressed={speaking}
-          onClick={toggleSpeak}
-        >
-          <Icon name={speaking ? 'close' : 'headphones'} size={16} />
+        <button className="reading-tool" aria-label="阅读主题设置" aria-haspopup="dialog" aria-expanded={toolMenu?.kind === 'theme'} onClick={(e) => openToolMenu('theme', e)}>
+          <Icon name="monitor" size={25} />
+          <span>主题</span>
         </button>
-        <button
-          className="tool-btn"
-          aria-label="切换标记显示"
-          aria-pressed={settings.showVocabMarks}
-          onClick={() => setData({ ...getData(), settings: { ...settings, showVocabMarks: !settings.showVocabMarks } }, true)}
-        >
-          <Icon name={settings.showVocabMarks ? 'eye' : 'eyeOff'} size={16} />
+        <div className="tool-sep" />
+        <button className="reading-tool" aria-label={speaking ? '停止朗读' : '朗读全文'} aria-pressed={speaking} onClick={toggleSpeak}>
+          <Icon name={speaking ? 'close' : 'headphones'} size={25} />
+          <span>{speaking ? '停止' : '朗读'}</span>
         </button>
-        <button
-          className="tool-btn"
-          aria-label="切换译文显示方式"
-          onClick={() =>
-            setData(
-              {
-                ...getData(),
-                settings: {
-                  ...settings,
-                  translationMode: settings.translationMode === 'hidden' ? 'tap' : 'hidden',
-                },
-              },
-              true,
-            )
-          }
-          title={settings.translationMode === 'hidden' ? '点击句子显示译文' : '译文已关闭'}
-        >
-          <Icon name="quote" size={16} />
+        <div className="tool-sep" />
+        <button className="reading-tool" aria-label="切换全文译文" aria-pressed={allTranslated} onClick={toggleAllTranslations}>
+          <Icon name="quote" size={25} />
+          <span>翻译</span>
         </button>
       </div>
+
+      {toolMenu ? (
+        <Popover anchor={toolMenu.rect} onClose={() => setToolMenu(null)} width={320} ariaLabel={toolMenu.kind === 'font' ? '字体设置' : '阅读主题设置'}>
+          <div className="reader-settings">
+            <div className="reader-settings__head">
+              <strong>{toolMenu.kind === 'font' ? '字体与排版' : '阅读主题'}</strong>
+              <IconButton icon="close" label="关闭阅读设置" onClick={() => setToolMenu(null)} />
+            </div>
+            {toolMenu.kind === 'font' ? (
+              <>
+                <div className="reader-settings__row">
+                  <span>字号</span>
+                  <div className="tool-group">
+                    <IconButton icon="minus" label="减小字号" onClick={() => updateReadingSettings({ fontScale: Math.max(0.85, +(settings.fontScale - 0.05).toFixed(2)) })} />
+                    <span className="tool-label mono">{Math.round(settings.fontScale * 100)}%</span>
+                    <IconButton icon="plus" label="增大字号" onClick={() => updateReadingSettings({ fontScale: Math.min(1.5, +(settings.fontScale + 0.05).toFixed(2)) })} />
+                  </div>
+                </div>
+                <div className="reader-settings__row">
+                  <span>行距</span>
+                  <div className="tool-group">
+                    <IconButton icon="minus" label="减小行距" onClick={() => updateReadingSettings({ lineHeight: Math.max(1.4, +(settings.lineHeight - 0.1).toFixed(2)) })} />
+                    <span className="tool-label mono">{settings.lineHeight.toFixed(1)}</span>
+                    <IconButton icon="plus" label="增大行距" onClick={() => updateReadingSettings({ lineHeight: Math.min(2.2, +(settings.lineHeight + 0.1).toFixed(2)) })} />
+                  </div>
+                </div>
+                <Segmented ariaLabel="正文字体" value={settings.readingFont} onChange={(readingFont) => updateReadingSettings({ readingFont })} options={[{ value: 'serif', label: '衬线字体' }, { value: 'sans', label: '无衬线字体' }]} />
+              </>
+            ) : (
+              <>
+                <div className="reader-theme-options" role="group" aria-label="阅读主题">
+                  {([{ key: 'paper', label: '纸张' }, { key: 'plain', label: '纯白' }, { key: 'sepia', label: '暖色' }, { key: 'night', label: '夜间' }] as const).map((theme) => (
+                    <button key={theme.key} className={`reader-theme-option tool-swatch--${theme.key}`} aria-label={`阅读主题 ${theme.key}`} aria-pressed={settings.readingTheme === theme.key} onClick={() => updateReadingSettings({ readingTheme: theme.key })}>
+                      <span>{theme.label}</span>
+                      {settings.readingTheme === theme.key ? <Icon name="check" size={16} /> : null}
+                    </button>
+                  ))}
+                </div>
+                <button className="reader-settings__toggle" aria-label="切换标记显示" aria-pressed={settings.showVocabMarks} onClick={() => updateReadingSettings({ showVocabMarks: !settings.showVocabMarks })}>
+                  <Icon name={settings.showVocabMarks ? 'eye' : 'eyeOff'} size={18} />
+                  <span>显示生词标记</span>
+                  <span>{settings.showVocabMarks ? '已开启' : '已关闭'}</span>
+                </button>
+              </>
+            )}
+          </div>
+        </Popover>
+      ) : null}
 
       {activeWord ? (
         <Popover anchor={activeWord.rect} onClose={() => setActiveWord(null)} ariaLabel={`${activeWord.surface} 的释义`}>
@@ -605,7 +596,7 @@ function ReaderInner({ article }: { article: Article }) {
         </Popover>
       ) : null}
 
-      {hoverTip ? (
+      {hoverTip && !activeWord ? (
         <div className="w-tip" style={{ left: hoverTip.x, top: hoverTip.y - 8 }} role="tooltip">
           {hoverTip.text}
         </div>
