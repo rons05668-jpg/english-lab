@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { ARTICLES, articleMinutes, articleWords, getArticle } from '../data/articles';
+import { ARTICLE_BRIEF, getBrief } from '../data/articles/brief';
 import { useData } from '../lib/store';
 import { navigate } from '../lib/router';
 import { Badge, Button, Card, Chip, Empty, Progress } from '../components/ui';
@@ -15,7 +15,7 @@ export function ContinueReading() {
       Object.values(data.progress)
         .filter((p) => !p.completedAt && p.ratio > 0)
         .sort((a, b) => b.updatedAt - a.updatedAt)
-        .map((p) => ({ progress: p, article: getArticle(p.articleId) }))
+        .map((p) => ({ progress: p, article: getBrief(p.articleId) }))
         .filter((x) => x.article),
     [data.progress],
   );
@@ -26,7 +26,7 @@ export function ContinueReading() {
         .filter((p) => p.completedAt)
         .sort((a, b) => (b.completedAt ?? 0) - (a.completedAt ?? 0))
         .slice(0, 10)
-        .map((p) => ({ progress: p, article: getArticle(p.articleId) }))
+        .map((p) => ({ progress: p, article: getBrief(p.articleId) }))
         .filter((x) => x.article),
     [data.progress],
   );
@@ -62,9 +62,9 @@ export function ContinueReading() {
                   </Chip>
                   <span className="hint">{article!.category}</span>
                   <span className="hint">·</span>
-                  <span className="hint">{articleWords(article!)} 词</span>
+                  <span className="hint">{article!.wordCount} 词</span>
                   <span className="hint">·</span>
-                  <span className="hint">约 {articleMinutes(article!)} 分钟</span>
+                  <span className="hint">约 {article!.minutes} 分钟</span>
                 </div>
                 <div style={{ fontSize: 17, fontWeight: 600, letterSpacing: '-0.02em' }}>{article!.title}</div>
                 <div className="hint" style={{ marginTop: 2 }}>
@@ -107,7 +107,7 @@ export function ContinueReading() {
           </ul>
         ) : (
           <p className="hint" style={{ padding: 8 }}>
-            还没有读完的文章。共 {ARTICLES.length} 篇待读。
+            还没有读完的文章。共 {ARTICLE_BRIEF.length} 篇待读。
           </p>
         )}
       </Card>

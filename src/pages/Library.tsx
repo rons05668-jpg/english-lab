@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
-import { ARTICLES, LEVELS, articleMinutes, articleWords } from '../data/articles';
-import type { Article } from '../data/types';
+import { ARTICLE_BRIEF, LEVELS } from '../data/articles/brief';
+import type { ArticleBrief } from '../data/articles/brief';
 import { useData } from '../lib/store';
 import { navigate } from '../lib/router';
 import { toggleFavorite } from '../lib/db';
@@ -20,11 +20,11 @@ export function Library() {
   const [sort, setSort] = useState<SortKey>('level');
   const [favOnly, setFavOnly] = useState(false);
 
-  const categories = useMemo(() => Array.from(new Set(ARTICLES.map((a) => a.category))).sort(), []);
+  const categories = useMemo(() => Array.from(new Set(ARTICLE_BRIEF.map((a) => a.category))).sort(), []);
 
   const list = useMemo(() => {
     const keyword = q.trim().toLowerCase();
-    let out = ARTICLES.filter((a) => {
+    let out = ARTICLE_BRIEF.filter((a) => {
       if (level !== null && a.level !== level) return false;
       if (category !== 'all' && a.category !== category) return false;
       if (favOnly && !data.favorites.includes(a.id)) return false;
@@ -33,13 +33,13 @@ export function Library() {
       if (status === 'reading' && (!p || p.ratio === 0 || p.completedAt)) return false;
       if (status === 'done' && !p?.completedAt) return false;
       if (keyword) {
-        const hay = `${a.title} ${a.titleZh} ${a.category} ${(a.tags ?? []).join(' ')} ${a.keyVocab.map((v) => v.word).join(' ')}`.toLowerCase();
+        const hay = `${a.title} ${a.titleZh} ${a.category} ${(a.tags ?? []).join(' ')} ${a.vocabWords.join(' ')}`.toLowerCase();
         if (!hay.includes(keyword)) return false;
       }
       return true;
     });
     out = [...out].sort((a, b) => {
-      if (sort === 'words') return articleWords(a) - articleWords(b);
+      if (sort === 'words') return a.wordCount - b.wordCount;
       if (sort === 'recent') {
         const ta = data.progress[a.id]?.updatedAt ?? 0;
         const tb = data.progress[b.id]?.updatedAt ?? 0;
@@ -55,7 +55,7 @@ export function Library() {
       <div className="page__head">
         <h1 className="page__title">文章库</h1>
         <p className="page__desc">
-          四个阶段共 {ARTICLES.length} 篇原创短文。分级是产品内部的教学分层，不等于 CEFR 或任何官方等级。
+          四个阶段共 {ARTICLE_BRIEF.length} 篇原创短文。分级是产品内部的教学分层，不等于 CEFR 或任何官方等级。
         </p>
       </div>
 
@@ -146,12 +146,12 @@ export function Library() {
   );
 }
 
-function ArticleCard({ article }: { article: Article }) {
+function ArticleCard({ article }: { article: ArticleBrief }) {
   const data = useData();
   const p = data.progress[article.id];
   const fav = data.favorites.includes(article.id);
-  const excerpt = article.paragraphs[0]?.sentences[0]?.en ?? '';
-  const vocabCount = article.keyVocab.length;
+  const excerpt = article.excerpt;
+  const vocabCount = article.vocabCount;
 
   return (
     <Card as="article" className={`article-card${p?.completedAt ? ' article-card--done' : ''}`}>
@@ -176,10 +176,10 @@ function ArticleCard({ article }: { article: Article }) {
       <p className="article-card__excerpt">{excerpt}</p>
       <div className="article-card__foot">
         <span className="article-card__stat">
-          <Icon name="type" size={12} /> {articleWords(article)} 词
+          <Icon name="type" size={12} /> {article.wordCount} 词
         </span>
         <span className="article-card__stat">
-          <Icon name="clock" size={12} /> {articleMinutes(article)} 分钟
+          <Icon name="clock" size={12} /> {article.minutes} 分钟
         </span>
         <span className="article-card__stat">
           <Icon name="graduation" size={12} /> {vocabCount} 重点词

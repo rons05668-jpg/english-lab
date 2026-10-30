@@ -27,12 +27,7 @@ export function articlesByLevel(level: Level): Article[] {
   return ARTICLES.filter((a) => a.level === level);
 }
 
-export const LEVELS: { level: Level; name: string; desc: string; range: string }[] = [
-  { level: 1, name: '基础阅读', desc: '高频生活词汇与简单句，先把阅读习惯建立起来', range: '100–150 词' },
-  { level: 2, name: '四级基础', desc: '四级高频词与常见从句，打牢句子结构', range: '150–250 词' },
-  { level: 3, name: '四级进阶', desc: '复杂句法与观点论证，开始做词义推断', range: '250–400 词' },
-  { level: 4, name: '考研过渡', desc: '接近英语二风格，训练长难句与作者态度', range: '350–450 词' },
-];
+export { LEVELS } from './levels';
 
 const wordCache = new Map<string, number>();
 const minuteCache = new Map<string, number>();

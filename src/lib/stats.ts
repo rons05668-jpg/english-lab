@@ -161,9 +161,21 @@ export function recentQuizTrend(
   return max === 0 ? [] : rows.slice(Math.max(0, rows.length - max));
 }
 
-export function computeDashboard(data: AppData, articles: Article[], now: number): DashboardStats {
+/**
+ * 统计只需要文章的 id / 分级 / 分类，不碰正文。
+ * 用结构类型接收，让首屏可以直接传轻量索引（ArticleBrief），不必加载全文。
+ */
+export interface ArticleLike {
+  id: string;
+  level: Level;
+  category: Article['category'];
+  /** 预计算词数。轻量索引直接带上，完整 Article 则回退到遍历正文 */
+  wordCount?: number;
+}
+
+export function computeDashboard(data: AppData, articles: ArticleLike[], now: number): DashboardStats {
   const today = todayKey(now);
-  const byId = new Map<string, Article>();
+  const byId = new Map<string, ArticleLike>();
   for (const article of articles) byId.set(article.id, article);
 
   const progressList = Object.values(data.progress);
@@ -176,7 +188,11 @@ export function computeDashboard(data: AppData, articles: Article[], now: number
 
   for (const progress of progressList) {
     const article = byId.get(progress.articleId);
-    const fullWords = article ? articleWordCount(article) : 0;
+    const fullWords = article
+      ? typeof article.wordCount === 'number'
+        ? article.wordCount
+        : articleWordCount(article as Article)
+      : 0;
     const readWords = progress.wordsRead > 0 ? progress.wordsRead : 0;
 
     wordsReadActual += readWords;

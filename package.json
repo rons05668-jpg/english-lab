@@ -6,7 +6,8 @@
   "description": "English Lab — Apple 风格智能英语阅读学习平台",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "npm run build:brief && tsc -b && vite build",
+    "build:brief": "node scripts/build-article-brief.mjs",
     "preview": "vite preview --port 4173",
     "validate:content": "node scripts/validate-articles.mjs",
     "build:dict": "node scripts/build-dict-shards.mjs",

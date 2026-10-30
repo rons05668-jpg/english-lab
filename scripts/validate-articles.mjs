@@ -143,7 +143,7 @@ function validateArticle(a, file, idx) {
 function main() {
   const only = process.argv[2];
   const files = existsSync(DIR)
-    ? readdirSync(DIR).filter((f) => f.endsWith('.json')).sort()
+    ? readdirSync(DIR).filter((f) => f in FILE_LEVEL).sort()
     : [];
   if (!files.length) {
     console.error('未找到任何文章 JSON');

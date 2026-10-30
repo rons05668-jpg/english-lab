@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { ARTICLES, LEVELS, articleMinutes, articleWords, getArticle } from '../data/articles';
+import { ARTICLE_BRIEF, LEVELS, getBrief } from '../data/articles/brief';
 import { computeDashboard } from '../lib/stats';
 import { useData } from '../lib/store';
 import { navigate } from '../lib/router';
@@ -19,14 +19,14 @@ function greeting(hour: number): string {
 export function Home() {
   const data = useData();
   const now = Date.now();
-  const stats = useMemo(() => computeDashboard(data, ARTICLES, now), [data, now]);
+  const stats = useMemo(() => computeDashboard(data, ARTICLE_BRIEF, now), [data, now]);
 
   const continueTarget = useMemo(() => {
     const started = Object.values(data.progress)
       .filter((p) => !p.completedAt && p.ratio > 0)
       .sort((a, b) => b.updatedAt - a.updatedAt);
-    if (started.length) return { article: getArticle(started[0].articleId), progress: started[0] };
-    const recent = data.recent.map((id) => getArticle(id)).find(Boolean);
+    if (started.length) return { article: getBrief(started[0].articleId), progress: started[0] };
+    const recent = data.recent.map((id) => getBrief(id)).find(Boolean);
     if (recent) return { article: recent, progress: data.progress[recent.id] };
     return null;
   }, [data.progress, data.recent]);
@@ -34,15 +34,15 @@ export function Home() {
   const recommended = useMemo(() => {
     const completed = new Set(Object.values(data.progress).filter((p) => p.completedAt).map((p) => p.articleId));
     const levels = [1, 2, 3, 4] as const;
-    const currentLevel = levels.find((l) => ARTICLES.filter((a) => a.level === l).some((a) => !completed.has(a.id))) ?? 1;
-    const pool = ARTICLES.filter((a) => a.level === currentLevel && !completed.has(a.id));
-    return pool[0] ?? ARTICLES.find((a) => !completed.has(a.id)) ?? ARTICLES[0];
+    const currentLevel = levels.find((l) => ARTICLE_BRIEF.filter((a) => a.level === l).some((a) => !completed.has(a.id))) ?? 1;
+    const pool = ARTICLE_BRIEF.filter((a) => a.level === currentLevel && !completed.has(a.id));
+    return pool[0] ?? ARTICLE_BRIEF.find((a) => !completed.has(a.id)) ?? ARTICLE_BRIEF[0];
   }, [data.progress]);
 
   const recentList = useMemo(
     () =>
       data.recent
-        .map((id) => ({ article: getArticle(id), progress: data.progress[id] }))
+        .map((id) => ({ article: getBrief(id), progress: data.progress[id] }))
         .filter((x) => x.article)
         .slice(0, 4),
     [data.recent, data.progress],
@@ -89,7 +89,7 @@ export function Home() {
                 <h2 className="hero-title">{continueTarget.article.title}</h2>
                 <p className="hero-card__meta">
                   {continueTarget.article.titleZh} · Level {continueTarget.article.level} ·{' '}
-                  {articleWords(continueTarget.article)} 词
+                  {continueTarget.article.wordCount} 词
                 </p>
                 <div style={{ margin: '14px 0 12px', maxWidth: 320 }}>
                   <Progress
@@ -113,7 +113,7 @@ export function Home() {
               <>
                 <h2 className="hero-title">{recommended.title}</h2>
                 <p className="hero-card__meta">
-                  {recommended.titleZh} · Level {recommended.level} · 约 {articleMinutes(recommended)} 分钟
+                  {recommended.titleZh} · Level {recommended.level} · 约 {recommended.minutes} 分钟
                 </p>
                 <p className="hint" style={{ margin: '10px 0 14px', maxWidth: 420 }}>
                   还没有阅读记录。从这篇开始，遇到不认识的词直接点它，会自动进生词本。
