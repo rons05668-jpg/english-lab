@@ -3,6 +3,7 @@ import type { Article, UserSettings } from '../data/types';
 import { articleSentences, articleWords, getArticle, LEVELS } from '../data/articles';
 import { lemmatize, normalizeWord } from '../lib/lemma';
 import { quickGloss } from '../lib/dict';
+import { warmOfflineDictionary } from '../lib/offline-dictionary';
 import { markCompleted, saveProgress } from '../lib/db';
 import { getData, setData, useData, flush } from '../lib/store';
 import { navigate } from '../lib/router';
@@ -47,6 +48,11 @@ function ReaderInner({ article }: { article: Article }) {
   const [lookupOpen, setLookupOpen] = useState(false);
   const [lookupText, setLookupText] = useState('');
   const [hoverTip, setHoverTip] = useState<{ text: string; x: number; y: number } | null>(null);
+
+  // 进入阅读器就预热词典分片清单，让第一次点词少一次往返
+  useEffect(() => {
+    warmOfflineDictionary();
+  }, []);
 
   useEffect(() => {
     const closeOnSmallScreen = () => { if (window.innerWidth <= 1180) setPanelOpen(false); };

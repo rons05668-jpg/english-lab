@@ -1,19 +1,32 @@
-import { useEffect, useMemo } from 'react';
+import { Suspense, lazy, useEffect, useMemo } from 'react';
 import { useRoute } from './lib/router';
 import { useData, usePersistenceError, flush } from './lib/store';
 import { Sidebar, Tabbar, Topbar } from './components/Shell';
 import { Button, Empty, Toaster } from './components/ui';
-import { Home } from './pages/Home';
-import { Library } from './pages/Library';
-import { Reader } from './pages/Reader';
-import { Notebook } from './pages/Notebook';
-import { Review } from './pages/Review';
-import { Stats } from './pages/Stats';
-import { Settings } from './pages/Settings';
-import { WordDetail } from './pages/WordDetail';
-import { Quiz } from './pages/Quiz';
-import { ContinueReading } from './pages/ContinueReading';
 import { navigate } from './lib/router';
+
+// 页面按需加载：低带宽下首屏只需主包，进入具体页面时才拉对应 chunk
+const Home = lazy(() => import('./pages/Home').then((m) => ({ default: m.Home })));
+const Library = lazy(() => import('./pages/Library').then((m) => ({ default: m.Library })));
+const Reader = lazy(() => import('./pages/Reader').then((m) => ({ default: m.Reader })));
+const Notebook = lazy(() => import('./pages/Notebook').then((m) => ({ default: m.Notebook })));
+const Review = lazy(() => import('./pages/Review').then((m) => ({ default: m.Review })));
+const Stats = lazy(() => import('./pages/Stats').then((m) => ({ default: m.Stats })));
+const Settings = lazy(() => import('./pages/Settings').then((m) => ({ default: m.Settings })));
+const WordDetail = lazy(() => import('./pages/WordDetail').then((m) => ({ default: m.WordDetail })));
+const Quiz = lazy(() => import('./pages/Quiz').then((m) => ({ default: m.Quiz })));
+const ContinueReading = lazy(() => import('./pages/ContinueReading').then((m) => ({ default: m.ContinueReading })));
+
+/** 页面切换时的占位，避免低带宽下长时间空白 */
+function PageFallback() {
+  return (
+    <div className="page" aria-busy="true">
+      <div className="skeleton skeleton--line" style={{ height: 28, width: '38%', marginBottom: 16 }} />
+      <div className="skeleton skeleton--line" style={{ height: 14, width: '72%', marginBottom: 8 }} />
+      <div className="skeleton skeleton--line" style={{ height: 14, width: '64%' }} />
+    </div>
+  );
+}
 
 const TITLES: Record<string, string> = {};
 
@@ -94,7 +107,9 @@ export default function App() {
       <div className="app">
         <Sidebar route={route} />
         <main className="main">
-          <Reader id={route.id ?? ''} />
+          <Suspense fallback={<PageFallback />}>
+            <Reader id={route.id ?? ''} />
+          </Suspense>
         </main>
         <Toaster />
         <PersistenceNotice />
@@ -107,7 +122,9 @@ export default function App() {
       <Sidebar route={route} />
       <main className="main">
         <Topbar title={TITLES[route.name]} />
-        <div className="scroll-area">{page}</div>
+        <div className="scroll-area">
+          <Suspense fallback={<PageFallback />}>{page}</Suspense>
+        </div>
       </main>
       <Tabbar route={route} />
       <Toaster />
