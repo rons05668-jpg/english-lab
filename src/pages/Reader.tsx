@@ -1,4 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+// 阅读器样式随本组件按需加载：首屏不下载这 14KB
+import '../styles/reader.css';
 import type { Article, UserSettings } from '../data/types';
 import { articleSentences, articleWords, getArticle, LEVELS } from '../data/articles';
 import { lemmatize, normalizeWord } from '../lib/lemma';

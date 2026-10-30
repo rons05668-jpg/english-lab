@@ -41,3 +41,6 @@ playwright-report/
 
 # TypeScript 增量构建缓存
 *.tsbuildinfo
+
+# 词典分片的 gzip 副本：由 build:gz 在构建时生成到 dist/dict，不进仓库
+public/dict/*.gz

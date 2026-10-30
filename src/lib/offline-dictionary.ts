@@ -1,4 +1,5 @@
 import type { DictionarySense } from '../data/types';
+import { fetchJsonMaybeGzip } from './gzip-fetch';
 
 /**
  * 离线词典加载层（按需 fetch）
@@ -78,7 +79,9 @@ export function resolveShardName(word: string, shards: Set<string>): string | nu
 async function loadShardByName(name: string): Promise<OfflineData> {
   let pending = shardCache.get(name);
   if (!pending) {
-    pending = fetchJson<OfflineData>(`${BASE}${name}.json`).catch((error: unknown) => {
+    // 优先取 .json.gz 自解压：分片原始 15MB，压缩后约 6MB，
+    // 在 20–35KB/s 的带宽下能把单次点词的下载量砍掉近六成。
+    pending = fetchJsonMaybeGzip<OfflineData>(`${BASE}${name}.json`, FETCH_TIMEOUT_MS).catch((error: unknown) => {
       shardCache.delete(name);
       throw error;
     });
